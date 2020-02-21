@@ -153,16 +153,16 @@ a img{
 
   .android-drawer .mdl-navigation__link.mdl-navigation__link {
     font-size: 14px;
-    color: #000000;
+    color: #757575;
   }
 
   .android-drawer span.mdl-navigation__link.mdl-navigation__link {
-    color: #000000a;
+    color: #000000;
   }
 
   .android-drawer .mdl-layout-title {
     position: relative;
-    background: #ffffff;
+    background: #000000;
     height: 160px;
   }
 
