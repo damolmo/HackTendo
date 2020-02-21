@@ -236,21 +236,21 @@ a img{
 }
 
 .android-wear {
-  display: inline-block;
-  width: 160px;
-  margin-right: 32px;
+    display: inline-block;
+  width: 300px;
+  margin-right: 80px;
 }
 
   .android-wear .android-screen-image {
-    width: 40%;
+    width: 100%;
     z-index: 1;
   }
 
 
 .android-phone {
-  display: inline-block;
-  width: 64px;
-  margin-right: 48px;
+   display: inline-block;
+  width: 300px;
+  margin-right: 80px;
 }
 
   .android-phone .android-screen-image {
@@ -260,9 +260,9 @@ a img{
 
 
 .android-tablet {
-  display: inline-block;
-  width: 110px;
-  margin-right: 64px;
+   display: inline-block;
+  width: 300px;
+  margin-right: 80px;
 }
 
   .android-tablet .android-screen-image {
@@ -291,7 +291,7 @@ a img{
 .android-auto {
   display: inline-block;
   width: 300px;
-  overflow: hidden;
+  margin-right: 80px;
 }
 
   .android-auto .android-screen-image {
