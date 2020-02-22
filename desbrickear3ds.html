@@ -1,1 +1,395 @@
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+      https://www.apache.org/licenses/LICENSE-2.0
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
 
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Introducing Lollipop, a sweet new take on Android.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Android</title>
+
+    <style>
+body {
+
+  background-color: white;
+  color: black;
+
+}
+ android-header {
+
+  background-color: white;
+  color: black;
+
+}  
+      
+      
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
+    
+    
+    <!-- Page styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style>
+  </head>
+  <body>
+    <script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout__header-row">
+          <span class="android-title mdl-layout-title">
+		  	
+            <img class="android-logo-image" src="images/android-logo.png">
+           
+          </span>
+          <!-- Add spacer, to align navigation to the right in desktop -->
+          <div class="android-header-spacer mdl-layout-spacer"></div>
+          <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+           <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">       
+  <i class="material-icons">search</i>
+            </label>
+            <div class="mdl-textfield__expandable-holder">
+              <input class="mdl-textfield__input" type="text" id="search-field">
+            </div>            
+          </div>
+		
+		
+          <!-- Navigation -->
+          <div class="android-navigation-container">
+            <nav class="android-navigation mdl-navigation">
+             
+            </nav>  
+			
+		  
+          </div>
+	
+          <span class="android-mobile-title mdl-layout-title">
+            <img class="android-logo-image" src="images/android-logo.png">
+          </span>
+		
+		
+		<div>		
+													
+       <img onclick="myFunction()" src="images/dark.png">   
+			
+		
+		</div>
+		
+          <button class="android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
+            <i class="material-icons">more_vert</i>
+
+        	
+          </button>
+          <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
+            <li class="mdl-menu__item">5.0 Lollipop</li>
+            <li class="mdl-menu__item">4.4 KitKat</li>
+            <li disabled class="mdl-menu__item">4.3 Jelly Bean</li>
+            <li class="mdl-menu__item">Android History</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="android-drawer mdl-layout__drawer">
+        <span class="mdl-layout-title">
+          <img class="android-logo-image" src="images/android-logo-white.png">
+        </span>
+        <nav class="mdl-navigation">
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Nintendo 3DS</span>
+          <a class="mdl-navigation__link" href="">Actualizar A9LH a B9S</a>
+          <a class="mdl-navigation__link" href="">Desbrickear 3DS</a>
+          <a class="mdl-navigation__link" href="">Exploit BannerBomb3</a>
+          <a class="mdl-navigation__link" href="">Exploit NtrBootHax</a>
+		<a class="mdl-navigation__link" href="">Guía Rosalina</a>
+          <a class="mdl-navigation__link" href="">Guía VCC</a>
+          <a class="mdl-navigation__link" href="">Nintendo 3DS Kit</a>
+		
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Nintendo Switch</span>
+          <a class="mdl-navigation__link" href="">Acceder RCM</a>
+          <a class="mdl-navigation__link" href="">Actualizar offline</a>
+          <a class="mdl-navigation__link" href="">Android en Switch</a>
+		 <a class="mdl-navigation__link" href="">Backup de la NAND</a>
+          <a class="mdl-navigation__link" href="">Capturadora WiFi/USB</a>
+          <a class="mdl-navigation__link" href="">Android en Switch</a>
+		 <a class="mdl-navigation__link" href="">Ejecutar CFW</a>
+          <a class="mdl-navigation__link" href="">Ejecutar FLOG</a>
+          <a class="mdl-navigation__link" href="">Streaming de Windows</a>
+		
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Nintendo DSi</span>
+          <a class="mdl-navigation__link" href="">Guía TwiLightMenu++</a>
+          <a class="mdl-navigation__link" href="">HiyaCFW (Flipnote)</a>
+          <a class="mdl-navigation__link" href="">HiyaCFW (Camera)</a>
+		<div class="android-drawer-separator"></div>
+		
+          <span class="mdl-navigation__link" href="">Nintendo WiiU</span>
+          <a class="mdl-navigation__link" href="">Ejecutar MochaCFW</a>
+          <a class="mdl-navigation__link" href="">Guía WiiVC Injector</a>
+          <a class="mdl-navigation__link" href="">Historia WiiU</a>
+          <a class="mdl-navigation__link" href="">Instalar Haxchi+CBHC</a>
+          <div class="android-drawer-separator"></div>
+	
+          <span class="mdl-navigation__link" href="">Nintendo Wii Mini</span>
+          <a class="mdl-navigation__link" href="">Ejecutar BlueBomb</a>
+          <div class="android-drawer-separator"></div>
+        </nav>
+      </div>
+
+      <div class="android-content mdl-layout__content">
+        <a name="top"></a>
+        <div class="android-be-together-section mdl-typography--text-center">
+          <div class="logo-font android-slogan">Bienvenido a HackTendo.</div>
+          <div class="logo-font android-sub-slogan">Una página sobre la Scene de consolas de Nintendo.</div>
+  
+		
+		
+			   <br>
+			   <br> 
+			   <br>
+		    <a href="https://t.me/HackTendoNet" target="whatever"><img border="0" src="images/telegram.png"  style=max-width:100%  alt=""></a>
+	
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=ivanmolinamorales@gmail.com&su=Iv%C3%A1n&body=&bcc=" target="whatever"><img border="0" src="images/gmail.png" style=max-width:100%  alt=""></a>
+			   <br> <br>
+			   <br>
+		    <div>
+		   <div>
+		  
+		  
+            <a href=""><img src="images/andy.png"> </a>
+		     <br>
+		    © 2017-2020
+			   
+		 
+          <a href="#screens">
+            
+            </button>
+          </a>
+        </div>
+        <div class="android-screen-section mdl-typography--text-center">
+          <a name="screens"></a>
+          <div class="mdl-typography--display-1-color-contrast">Descarga tu pack de archivos</div>
+          <div class="android-screens">
+            <div class="android-wear android-screen">
+              <a class="android-image-link" href="">
+                <img class="android-screen-image" src="images/3ds.png">
+              </a>
+              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href=""></a>
+            </div>
+            <div class="android-phone android-screen">
+              <a class="android-image-link" href="">
+                <img class="android-screen-image" src="images/switch.png">
+              </a>
+              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href=""></a>
+            </div>
+            <div class="android-tablet android-screen">
+              <a class="android-image-link" href="">
+                <img class="android-screen-image" src="images/wiiu.png">
+              </a>
+              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href=""></a>
+            </div>
+            <div class="android-tv android-screen">
+              <a class="android-image-link" href="">
+                <img class="android-screen-image" src="images/dsi.png">
+              </a>
+              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href=""></a>
+            </div>
+		  
+		  
+		  
+		  
+		  
+		
+		  
+          
+          </div>
+        </div>
+        <div class="android-more-section">
+          <div class="android-section-title mdl-typography--display-1-color-contrast">[GUÍA] Arm9LoaderHax a Boot9Strap 1[GUÍA] Desbrickear cualquier Nintendo 3DS.3</div>
+         
+		
+		
+		
+		
+		
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<h3 style="clear: both; text-align: center;">
+<b><span style="color: #f1c232;">[GUÍA] Desbrickear cualquier Nintendo 3DS</span></b></h3>
+<div style="text-align: center;">
+<div style="text-align: left;">
+<div>
+<b style="text-align: center;">Bricks,</b><span style="text-align: center;">&nbsp;esa&nbsp;</span><b style="text-align: center;">palabra que todo usuario con CFW ha temido alguna vez</b><span style="text-align: center;">. Las instalaciones de un exploit u&nbsp;</span><b style="text-align: center;">cualquier modificación en la consola siempre tienen una tasa de error&nbsp;</b><span style="text-align: center;">y muchas veces hay que</span><b style="text-align: center;">&nbsp;arriesgarse y por consecuencia podemos quedarnos con un bonito ladrillo</b><span style="text-align: center;">&nbsp;que nos puede servir de pisapapeles,&nbsp;</span><br />
+<span style="text-align: center;"><br /></span></div>
+</div>
+<div style="text-align: left;">
+<div style="text-align: center;">
+<img src="https://2.bp.blogspot.com/-udvOy9MCY9o/WZ4GW5GcxHI/AAAAAAAAI9w/nXZXGQcde3wY6QsNpwUa9zo6-Y8HMP7iACLcBGAs/s400/y6.jpg" /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<div style="text-align: left;">
+<b><br /></b></div>
+</div>
+<div style="text-align: center;">
+<div style="text-align: left;">
+<b>UNBRICKED</b> es un script de GodMode9 que te permite <b>desbrickear cualquier Nintendo 3DS por cualquier tipo de brick,</b> incluidos bricks sin respaldo de la NAND, cualquiera.<br />
+<h3 style="text-align: center;">
+<b><br /><div style="text-align: left;">
+<b><span style="color: #f1c232;">¿Bricks que pueden ser reparados?</span></b></div>
+</b></h3>
+<div>
+<div>
+<span style="text-align: center;">Brick por downgrade (9.2.0-20)</span><br />
+<span style="text-align: center;">Brick por downgrade a 2.1</span><br />
+<span style="text-align: center;">Nintendo 2DS pidiendo 3D</span><br />
+<span style="text-align: center;">Brick por actualizar en 2.1</span><br />
+<span style="text-align: center;">Brick por modificar Firm0/Firm1</span><br />
+<span style="text-align: center;">Brick por otp.bin no válido</span><br />
+<span style="text-align: center;">Brick relacionado con Gateway</span><br />
+<span style="text-align: center;">Brick por aplicaciones cómo SysUpdater/FBI/NASA</span><br />
+<span style="text-align: center;">Brick por inyectar una NAND de otra 3DS y no tener respaldo</span></div>
+<div>
+<span style="text-align: center;"><br /></span></div>
+<div>
+<span style="text-align: center;">Puedes ver la lista completa de bricks y causas <b><a href="http://www.hacktendo.net/p/guia-tipos-de-bricks.html"><span style="color: red;">Aquí</span></a></b></span></div>
+<div style="text-align: left;">
+<div style="text-align: center;">
+<br /></div>
+</div>
+</div>
+<div style="text-align: center;">
+<br />
+<h3 style="text-align: left;">
+<b style="text-align: center;"><span style="color: #f1c232; font-size: large;">[PASOS]</span></b></h3>
+<h3 style="text-align: left;">
+<b><span style="background-color: black; color: white; font-size: small;">NOTA: todas las consolas rescatadas con UNBRICKED! deben tener instalado Boot9Strap para siempre, es decir, si alguna vez desinstalas Boot9Strap de la consola, esta quedará brickeada de nuevo.</span></b></h3>
+<div style="text-align: left;">
+<div style="text-align: left;">
+</div>
+</div>
+<div>
+<b><span style="color: blue; font-size: large;"><u><br /></u></span></b></div>
+</div>
+</div>
+</div>
+<div>
+<div style="text-align: center;">
+<div style="text-align: left;">
+<b>0-</b>Descargar los siguientes packs de archivos:<br />
+<br />
+<b>Descarga el pack de archivos del script</b><br />
+<button type="button"><a href="https://sourceforge.net/projects/hacktendo-net-repository/files/Nintendo%203DS/Nintendo%203DS%20Kit/Para%20NtrBootHax/">Para NtrBootHax</a></button><br />
+<b style="color: white;"><br /></b>
+<b>Descarga el pack de archivos segun el modelo de consolas</b><br />
+<button type="button"><a href="https://github.com/YV4N/Nintendo-3DS-Definitive-Kit/releases/download/2018/UN_O3DS_EUR.zip">Pack Archivos Old 3DS</a></button><br />
+<button type="button"><a href="https://github.com/YV4N/Nintendo-3DS-Definitive-Kit/releases/download/2018/UN_N3DS_EUR.zip">Pack Archivos New 3DS</a></button><br />
+<br />
+<b>1-Pon la carpeta <span style="color: #f1c232;">"UNBRICKED"</span> del .zip que has descargado antes en la raíz de la SD</b><br />
+<b><br /></b>
+<b>2-Extrae todo el contenido del .zip&nbsp;<span style="color: #f1c232;">"Para NtrBootHax"</span><span style="color: blue;"> </span>que has descargado antes en la raíz de la SD.</b><br />
+<b><br /></b>
+
+<br />
+<b>3-Enciende la Nintendo 3DS con el imán, flashcart previamente reflasheada pulsando X+Start+Select y abrirá el programa.</b><br />
+<img border="0" height="87" src="https://1.bp.blogspot.com/-g-XUTRvsqt8/WY7tv26AaFI/AAAAAAAAIxc/7jLLGhmZgfsXrGoQJl9kPN8NcVRIv3-mgCLcBGAs/s200/combo.png" width="200" /><b><br /></b><br />
+<br />
+<b>4-Elige la opción <span style="color: #f1c232;">"[2:] Selecciona Script"</span> y elige <span style="color: red;">"UNBRICKED"</span></b><br />
+<b><span style="color: red;"><br /></span></b><b>5-Una vez haya acabado el script, vuelve a&nbsp;</b><b><span style="color: #f1c232;">"[2:] Selecciona Script"</span> y ahora elige&nbsp;</b><b><span style="color: red;">"Clean&amp;Update"</span></b><br />
+<b><span style="color: red;"><br /></span></b><b>6- Una vez termine, selecciona la opción<span style="color: blue;">&nbsp;</span><span style="color: #f1c232;">{Configuracion Nintendo 3DS Kit}</span></b><br />
+<b><span style="color: #f1c232;">&nbsp;y {</span></b><b><span style="color: #f1c232;">Reiniciar Nintendo 3DS}</span>&nbsp;y tu Nintendo 3DS debería abrirse correctamente.</b></div>
+</div>
+</div>
+</div>
+<ul>
+</ul>
+</div>
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+</div>
+            
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://https-ivanillo-github-io-android.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<script id="dsq-count-scr" src="//https-ivanillo-github-io-android.disqus.com/count.js" async></script>
+
+
+              
+      
+      </div>
+    </div>
+   
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	                             
+  </body>
+</html>
