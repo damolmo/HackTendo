@@ -154,7 +154,7 @@ background-color: #000000;
 
   .android-drawer .mdl-navigation__link.mdl-navigation__link {
     font-size: 14px;
-    color: #000000;
+    color: #FFFFFF;
   }
 
   .android-drawer span.mdl-navigation__link.mdl-navigation__link {
@@ -184,7 +184,7 @@ background-color: #000000;
 .logo-font {
   font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
   line-height: 1;
-  color: #000000;
+  color: #767777;
   font-weight: 500;
 }
 
