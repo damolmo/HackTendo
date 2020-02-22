@@ -1,1 +1,597 @@
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+      https://www.apache.org/licenses/LICENSE-2.0
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
 
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Introducing Lollipop, a sweet new take on Android.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Android</title>
+
+    <style>
+body {
+
+  background-color: white;
+  color: black;
+
+}
+ android-header {
+
+  background-color: white;
+  color: black;
+
+}  
+      
+      
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
+    
+    
+    <!-- Page styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style>
+  </head>
+  <body>
+    <script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout__header-row">
+          <span class="android-title mdl-layout-title">
+		  	
+            <img class="android-logo-image" src="images/android-logo.png">
+           
+          </span>
+          <!-- Add spacer, to align navigation to the right in desktop -->
+          <div class="android-header-spacer mdl-layout-spacer"></div>
+          <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+           <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">       
+  <i class="material-icons">search</i>
+            </label>
+            <div class="mdl-textfield__expandable-holder">
+              <input class="mdl-textfield__input" type="text" id="search-field">
+            </div>            
+          </div>
+		
+		
+          <!-- Navigation -->
+          <div class="android-navigation-container">
+            <nav class="android-navigation mdl-navigation">
+             
+            </nav>  
+			
+		  
+          </div>
+	
+          <span class="android-mobile-title mdl-layout-title">
+            <img class="android-logo-image" src="images/android-logo.png">
+          </span>
+		
+		
+		<div>		
+													
+       <img onclick="myFunction()" src="images/dark.png">   
+			
+		
+		</div>
+		
+          <button class="android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
+            <i class="material-icons">more_vert</i>
+
+        	
+          </button>
+          <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
+            <li class="mdl-menu__item">5.0 Lollipop</li>
+            <li class="mdl-menu__item">4.4 KitKat</li>
+            <li disabled class="mdl-menu__item">4.3 Jelly Bean</li>
+            <li class="mdl-menu__item">Android History</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="android-drawer mdl-layout__drawer">
+        <span class="mdl-layout-title">
+          <img class="android-logo-image" src="images/android-logo-white.png">
+        </span>
+        <nav class="mdl-navigation">
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Nintendo 3DS</span>
+          <a class="mdl-navigation__link" href="">Actualizar A9LH a B9S</a>
+          <a class="mdl-navigation__link" href="">Desbrickear 3DS</a>
+          <a class="mdl-navigation__link" href="">Exploit BannerBomb3</a>
+          <a class="mdl-navigation__link" href="">Exploit NtrBootHax</a>
+		<a class="mdl-navigation__link" href="">Guía Rosalina</a>
+          <a class="mdl-navigation__link" href="">Guía VCC</a>
+          <a class="mdl-navigation__link" href="">Nintendo 3DS Kit</a>
+		
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Nintendo Switch</span>
+          <a class="mdl-navigation__link" href="">Acceder RCM</a>
+          <a class="mdl-navigation__link" href="">Actualizar offline</a>
+          <a class="mdl-navigation__link" href="">Android en Switch</a>
+		 <a class="mdl-navigation__link" href="">Backup de la NAND</a>
+          <a class="mdl-navigation__link" href="">Capturadora WiFi/USB</a>
+          <a class="mdl-navigation__link" href="">Android en Switch</a>
+		 <a class="mdl-navigation__link" href="">Ejecutar CFW</a>
+          <a class="mdl-navigation__link" href="">Ejecutar FLOG</a>
+          <a class="mdl-navigation__link" href="">Streaming de Windows</a>
+		
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Nintendo DSi</span>
+          <a class="mdl-navigation__link" href="">Guía TwiLightMenu++</a>
+          <a class="mdl-navigation__link" href="">HiyaCFW (Flipnote)</a>
+          <a class="mdl-navigation__link" href="">HiyaCFW (Camera)</a>
+		<div class="android-drawer-separator"></div>
+		
+          <span class="mdl-navigation__link" href="">Nintendo WiiU</span>
+          <a class="mdl-navigation__link" href="">Ejecutar MochaCFW</a>
+          <a class="mdl-navigation__link" href="">Guía WiiVC Injector</a>
+          <a class="mdl-navigation__link" href="">Historia WiiU</a>
+          <a class="mdl-navigation__link" href="">Instalar Haxchi+CBHC</a>
+          <div class="android-drawer-separator"></div>
+	
+          <span class="mdl-navigation__link" href="">Nintendo Wii Mini</span>
+          <a class="mdl-navigation__link" href="">Ejecutar BlueBomb</a>
+          <div class="android-drawer-separator"></div>
+        </nav>
+      </div>
+
+      <div class="android-content mdl-layout__content">
+        <a name="top"></a>
+        <div class="android-be-together-section mdl-typography--text-center">
+          <div class="logo-font android-slogan">Bienvenido a HackTendo.</div>
+          <div class="logo-font android-sub-slogan">Una página sobre la Scene de consolas de Nintendo.</div>
+  
+		
+		
+			   <br>
+			   <br> 
+			   <br>
+		    <a href="https://t.me/HackTendoNet" target="whatever"><img border="0" src="images/telegram.png"  style=max-width:100%  alt=""></a>
+	
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=ivanmolinamorales@gmail.com&su=Iv%C3%A1n&body=&bcc=" target="whatever"><img border="0" src="images/gmail.png" style=max-width:100%  alt=""></a>
+			   <br> <br>
+			   <br>
+		    <div>
+		   <div>
+		  
+		  
+           
+			   
+		 
+      
+		  
+		  
+		  
+		  
+		  
+		
+		  
+           <div class="android-section-title mdl-typography--display-1-color-contrast">Guía NtrBootHax</div>
+
+<div class="separator" ; border: 0px; box-sizing: border-box; clear: both; color: black; font-family: &quot;Source Sans Pro&quot;, sans-serif; font-size: 14px; margin: 0px; outline: 0px; padding: 0px; text-align: center; vertical-align: baseline;">
+<a href="https://2.bp.blogspot.com/-YB4TnJg0JJA/WZWo13yKMxI/AAAAAAAAI1c/DjaiCBma7LUuXry76VWbrqiIWE-xbQ5wgCEwYBhgL/s1600/pl.png" imageanchor="1" style="background: transparent; border: 0px; box-sizing: border-box; color: black; margin: 0px 1em; outline-offset: -2px; outline: -webkit-focus-ring-color auto 5px; padding: 0px; text-decoration-line: none; vertical-align: baseline;"><img border="0" data-original-height="328" data-original-width="608" src="https://2.bp.blogspot.com/-YB4TnJg0JJA/WZWo13yKMxI/AAAAAAAAI1c/DjaiCBma7LUuXry76VWbrqiIWE-xbQ5wgCEwYBhgL/s1600/pl.png" style="background: 0px 0px; border: none; box-sizing: border-box; height: auto; margin: 0px; max-width: 90%; outline: 0px; padding: 0px; position: relative; vertical-align: middle;" /></a></div>
+<div style=" border: 0px; box-sizing: border-box; color: black; font-family: &quot;Source Sans Pro&quot;, sans-serif; font-size: 14px; margin: 0px; outline: 0px; padding: 0px; text-align: center; vertical-align: baseline;">
+<br style="box-sizing: border-box;" /></div>
+</div>
+<b><u><span style="color: white; font-size: x-large;">REQUISITOS</span></u></b>
+
+</div></div>
+<div class="divspoiler" style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+
+<div class="divspoiler">
+<img src="https://1.bp.blogspot.com/-AjkPynSwBhU/Xhi0tVB8MkI/AAAAAAAAV9w/y3P_o47Gh9cgClBKvb9kBApBPs-wvxivQCLcBGAsYHQ/s1600/oie_transparent.png" onclick="if (this.parentNode.nextSibling.childNodes[0].style.display != '') { this.parentNode.nextSibling.childNodes[0].style.display = ''; } else { this.parentNode.nextSibling.childNodes[0].style.display = 'none';}" />
+</div><div><div class="spoiler" style="display: none;">
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div style="margin-left: 1em; margin-right: 1em;">
+<img border="0" data-original-height="549" data-original-width="588" src="https://3.bp.blogspot.com/-qM0sAwdfIDE/W3B2y8EqKJI/AAAAAAAARIo/4O1O6SYx86ctFXG_4wnaBHtzufLL584DwCLcBGAs/s1600/flashcard.png" /></div>
+
+</div></div>
+
+
+<div class="divspoiler">
+<img src="https://1.bp.blogspot.com/-46s6MgSwxWQ/Xhi2yZNXgkI/AAAAAAAAV98/BaYlWoBbijgpGFKRU0Q0i9523_CySUMgwCLcBGAsYHQ/s1600/oie_transparent%2B%25281%2529.png" onclick="if (this.parentNode.nextSibling.childNodes[0].style.display != '') { this.parentNode.nextSibling.childNodes[0].style.display = ''; } else { this.parentNode.nextSibling.childNodes[0].style.display = 'none';}" />
+</div><div><div class="spoiler" style="display: none;">
+<div style="text-align: center;">
+<span style="font-size: x-large;"><b>Una Nintendo 3DS con CFW&nbsp;</b></span></div>
+<div style="text-align: center;">
+<span style="font-size: small; font-weight: normal; text-align: left;">Una consola de la familia Nintendo 3DS con Boot9Strap o Fastboot3DS, es necesario para ejecutar los payloads en formato .firm.</span><br />
+<span style="font-size: small; font-weight: normal; text-align: left;"><br /></span></div>
+<div class="separator" style="background: 0px 0px; border: 0px; box-sizing: border-box; clear: both; color: #FFFFFF; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<a href="https://3.bp.blogspot.com/-pc1lV4BQc9A/WZYN-O7QI1I/AAAAAAAAI4I/k2MOb6PgBiAQxivaEw7_cknIYV-xF_yAACLcBGAs/s1600/3ds.jpg" imageanchor="1" style="background: transparent; border: 0px; box-sizing: border-box; color: black; display: block; font-size: 20px; font-weight: normal; height: auto; margin: 0px 1em; max-width: 94%; outline: 0px; padding: 0px; text-align: center; vertical-align: baseline; width: auto;"><img border="0" data-original-height="471" data-original-width="471" height="320" src="https://3.bp.blogspot.com/-pc1lV4BQc9A/WZYN-O7QI1I/AAAAAAAAI4I/k2MOb6PgBiAQxivaEw7_cknIYV-xF_yAACLcBGAs/s320/3ds.jpg" style="background: 0px 0px; border-radius: 10px; border: 0px none; box-sizing: border-box; height: auto; margin: 0px; max-width: 94%; outline: 0px; padding: 4px; position: relative; vertical-align: middle; width: auto;" width="320" /></a><a href="https://3.bp.blogspot.com/-pc1lV4BQc9A/WZYN-O7QI1I/AAAAAAAAI4I/k2MOb6PgBiAQxivaEw7_cknIYV-xF_yAACLcBGAs/s1600/3ds.jpg" imageanchor="1" style="background: transparent; border: 0px; box-sizing: border-box; color: black; display: block; font-size: 20px; font-weight: normal; height: auto; margin: 0px 1em; max-width: 94%; outline: 0px; padding: 0px; text-decoration-line: none; vertical-align: baseline; width: auto;"><br /></a></div>
+<span style="color: #FFFFFF; text-align: left;"></span>
+
+<br />
+<div style="text-align: center;">
+<span style="color: #FFFFFF; text-align: left;"><span style="font-size: x-large;"><b>Una Nintendo 3DS o DS(i) virgen</b></span></span></div>
+<div style="text-align: center;">
+Es posible ejecutar el instalador en formato .nds desde cualquier flashcart.</div>
+<div style="text-align: center;">
+Ten en cuenta que algunas flashcart tienen restricciones de firmware en Nintendo DSi y 3DS.</div>
+<div style="text-align: center;">
+<br /></div>
+<div class="separator" style="background: 0px 0px; border: 0px; box-sizing: border-box; clear: both; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<a href="https://1.bp.blogspot.com/-LDx4-LobB20/XO_B28SZUKI/AAAAAAAAT5M/zBL95ZiCPZkpsjrB-BqJYP7wEYym_VHIwCLcBGAs/s1600/s.jpg" imageanchor="1" style="background: transparent; border: 0px; box-sizing: border-box; color: black; display: block; font-size: 20px; font-weight: normal; height: auto; margin: 0px 1em; max-width: 94%; outline: 0px; padding: 0px; text-align: center; vertical-align: baseline; width: auto;"><img border="0" data-original-height="471" data-original-width="471" height="240" src="https://1.bp.blogspot.com/-LDx4-LobB20/XO_B28SZUKI/AAAAAAAAT5M/zBL95ZiCPZkpsjrB-BqJYP7wEYym_VHIwCLcBGAs/s320/s.jpg" style="background: 0px 0px; border-radius: 10px; border: 0px none; box-sizing: border-box; height: auto; margin: 0px; max-width: 94%; outline: 0px; padding: 4px; position: relative; vertical-align: middle; width: auto;" width="320" /></a><a href="https://1.bp.blogspot.com/-LDx4-LobB20/XO_B28SZUKI/AAAAAAAAT5M/zBL95ZiCPZkpsjrB-BqJYP7wEYym_VHIwCLcBGAs/s1600/s.jpg" imageanchor="1" style="background: transparent; border: 0px; box-sizing: border-box; color: black; display: block; font-size: 20px; font-weight: normal; height: auto; margin: 0px 1em; max-width: 94%; outline: 0px; padding: 0px; text-align: center; vertical-align: baseline; width: auto;"><br /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<b style="color: #FFFFFF; text-align: left;"><span style="font-size: x-large;">Una Nintendo DSi con HiyaCFW</span></b></div>
+<div class="separator" style="clear: both; text-align: center;">
+Es posible ejecutar el instalador en .nds desde una Nintendo DSi sin nada adicional siempre que tengas HiyaCFW.</div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="background: 0px 0px; border: 0px; box-sizing: border-box; clear: both; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<a href="https://1.bp.blogspot.com/-TxweFqmFMgE/XO_GSkMEIEI/AAAAAAAAT5Y/2JkPlsvizHQPzM5RNMEcQXUzOiFzE6rXQCLcBGAs/s1600/jj.jpeg" imageanchor="1" style="background: transparent; border: 0px; box-sizing: border-box; color: black; display: block; font-size: 20px; font-weight: normal; height: auto; margin: 0px 1em; max-width: 94%; outline: 0px; padding: 0px; text-align: center; vertical-align: baseline; width: auto;"><img border="0" data-original-height="471" data-original-width="471" height="320" src="https://1.bp.blogspot.com/-TxweFqmFMgE/XO_GSkMEIEI/AAAAAAAAT5Y/2JkPlsvizHQPzM5RNMEcQXUzOiFzE6rXQCLcBGAs/s320/jj.jpeg" style="background: 0px 0px; border-radius: 10px; border: 0px none; box-sizing: border-box; margin: 0px; max-width: 94%; outline: 0px; padding: 4px; position: relative; vertical-align: middle;" width="320" /></a><a href="https://1.bp.blogspot.com/-LDx4-LobB20/XO_B28SZUKI/AAAAAAAAT5M/zBL95ZiCPZkpsjrB-BqJYP7wEYym_VHIwCLcBGAs/s1600/s.jpg" imageanchor="1" style="background: transparent; border: 0px; box-sizing: border-box; color: black; display: block; font-size: 20px; font-weight: normal; height: auto; margin: 0px 1em; max-width: 94%; outline: 0px; padding: 0px; text-align: center; vertical-align: baseline; width: auto;"><br /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+
+
+</div>
+</div>
+
+
+
+<div class="divspoiler">
+<img src="https://1.bp.blogspot.com/-LRmENF0nbgA/Xhi3mlgKcTI/AAAAAAAAV-E/s9dl0joqPVEdqxLDcE8DwjJ7xuLmVykOgCLcBGAsYHQ/s1600/oie_transparent%2B%25282%2529.png" onclick="if (this.parentNode.nextSibling.childNodes[0].style.display != '') { this.parentNode.nextSibling.childNodes[0].style.display = ''; } else { this.parentNode.nextSibling.childNodes[0].style.display = 'none';}" />
+</div><div><div class="spoiler" style="display: none;">
+<div class="separator" style="clear: both; text-align: center;">
+<b><span style="font-size: x-large;">Un imán redondo de pequeñas dimensiones</span></b></div>
+<br />
+<b><span style="color: white;"><span style="background-attachment: initial; background-clip: initial; background-image: initial; background-origin: initial; background-position: 0px 0px; background-repeat: initial; background-size: initial; border: 0px; font-family: &quot;Source Sans Pro&quot;, sans-serif; font-size: 14px; outline: 0px; padding: 0px; vertical-align: baseline;">Es recomendable un imán&nbsp;</span><span style="background-attachment: initial; background-clip: initial; background-image: initial; background-origin: initial; background-position: 0px 0px; background-repeat: initial; background-size: initial; border: 0px; box-sizing: border-box; font-family: &quot;Source Sans Pro&quot;, sans-serif; font-size: 14px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">(no muy grande)</span><span style="background-attachment: initial; background-clip: initial; background-image: initial; background-origin: initial; background-position: 0px 0px; background-repeat: initial; background-size: initial; border: 0px; font-family: &quot;Source Sans Pro&quot;, sans-serif; font-size: 14px; outline: 0px; padding: 0px; vertical-align: baseline;">&nbsp;y de bastante potencia que al ponerlo en una zona concreta de la 3DS&nbsp;</span><span style="background-attachment: initial; background-clip: initial; background-image: initial; background-origin: initial; background-position: 0px 0px; background-repeat: initial; background-size: initial; border: 0px; font-family: &quot;Source Sans Pro&quot;, sans-serif; font-size: 14px; outline: 0px; padding: 0px; vertical-align: baseline;">simule que la consola está cerrada y por tanto la consola entre en "Sleep Mode"</span></span></b>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://1.bp.blogspot.com/-LRmENF0nbgA/Xhi3mlgKcTI/AAAAAAAAV-E/s9dl0joqPVEdqxLDcE8DwjJ7xuLmVykOgCLcBGAsYHQ/s1600/oie_transparent%2B%25282%2529.png" imageanchor="1" style="background: transparent; border: 0px; box-sizing: border-box; color: black; display: block; font-size: 20px; font-weight: normal; height: auto; margin-left: 1em; margin-right: 1em; margin-top: 0px; max-width: 94%; outline: 0px; padding: 0px; text-align: center; vertical-align: baseline; width: auto;"><img border="0" data-original-height="471" data-original-width="471" height="320" src="https://1.bp.blogspot.com/-RyhJRoZArp8/XO_KOtRWPrI/AAAAAAAAT5k/cfXfwvXtmuknXRdV8t9Z3Xgy4BfPT8abACLcBGAs/s320/ddw.jpg" style="background: 0px 0px; border-radius: 10px; border: 0px none; box-sizing: border-box; cursor: move; height: auto; margin: 0px; max-width: 94%; outline: 0px; padding: 4px; position: relative; vertical-align: middle; width: auto;" width="320" /></a></div>
+<b style="background: 0px 0px; border: 0px; box-sizing: border-box; color: #4c1130; margin: 0px; outline: 0px; padding: 0px; text-align: left; vertical-align: baseline;">NOTA: Este imán es necesario en todas las consolas menos en Nintendo 2DS</b></div>
+
+</div>
+</div>
+<br />
+<br />
+<b><u><span style="color: white; font-size: x-large;">METODOS</span></u></b>
+
+
+
+<div class="divspoiler">
+<img src="https://1.bp.blogspot.com/-OA516c81j7M/Xhi_Wkd6WdI/AAAAAAAAV-Q/fC6a6eRz2jsOHIVYrLYJP_FyQVBgYZ8sACLcBGAsYHQ/s1600/oie_transparent%2B%25283%2529.png" onclick="if (this.parentNode.nextSibling.childNodes[0].style.display != '') { this.parentNode.nextSibling.childNodes[0].style.display = ''; } else { this.parentNode.nextSibling.childNodes[0].style.display = 'none';}" />
+</div><div><div class="spoiler" style="display: none;">
+<div style="text-align: center;">
+<b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="background: 0px 0px; border: 0px; font-size: large; outline: 0px; padding: 0px; vertical-align: baseline;">Reflashear En Una Nintendo 3DS Con CFW</span></span></span></b><br />
+<div style="background-attachment: initial; background-clip: initial; background-image: initial; background-origin: initial; background-position: 0px 0px; background-repeat: initial; background-size: initial; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<div style="background-attachment: initial; background-clip: initial; background-image: initial; background-origin: initial; background-position: 0px 0px; background-repeat: initial; background-size: initial; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; text-align: left; vertical-align: baseline;">
+<div style="background-attachment: initial; background-clip: initial; background-image: initial; background-origin: initial; background-position: 0px 0px; background-repeat: initial; background-size: initial; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<div style="background-attachment: initial; background-clip: initial; background-image: initial; background-origin: initial; background-position: 0px 0px; background-repeat: initial; background-size: initial; border: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<div style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<div style="background-attachment: initial; background-clip: initial; background-image: initial; background-origin: initial; background-position: 0px 0px; background-repeat: initial; background-size: initial; border: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<b style="background-attachment: initial; background-clip: initial; background-image: initial; background-origin: initial; background-position: 0px 0px; background-repeat: initial; background-size: initial; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">1</b>.<b style="background-attachment: initial; background-clip: initial; background-image: initial; background-origin: initial; background-position: 0px 0px; background-repeat: initial; background-size: initial; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Descargamos el siguiente archivo</b>&nbsp;y lo extraemos todo en la raíz de la SD</div>
+<button style="-webkit-appearance: none; border-radius: 0px;" type="button"><a href="https://sourceforge.net/projects/hacktendo-net-repository/files/Nintendo%203DS/NtrBootHax%20Files/3DS%20CFW/" style="background: 0px 0px; border: 0px; clear: none; color: #5e26cd; float: none; margin-left: 0px; margin-right: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Descargar</a></button><br />
+<br /></div>
+<b style="background-attachment: initial; background-clip: initial; background-color: black; background-image: initial; background-origin: initial; background-position: 0px 0px; background-repeat: initial; background-size: initial; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: white;"><b style="background-attachment: initial; background-clip: initial; background-image: initial; background-origin: initial; background-position: 0px 0px; background-repeat: initial; background-size: initial; border: 0px; box-sizing: border-box; font-size: 14px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">2</b><span style="font-size: 14px; font-weight: 400;">.Pulsamos el botón&nbsp;</span><b style="background-attachment: initial; background-clip: initial; background-image: initial; background-origin: initial; background-position: 0px 0px; background-repeat: initial; background-size: initial; border: 0px; box-sizing: border-box; font-size: 14px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">(Power)</b><span style="font-size: 14px; font-weight: 400;">&nbsp;y nos cargará&nbsp;</span><i style="background-attachment: initial; background-clip: initial; background-image: initial; background-origin: initial; background-position: 0px 0px; background-repeat: initial; background-size: initial; border: 0px; box-sizing: border-box; font-size: 14px; font-weight: 400; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><b style="background-attachment: initial; background-clip: initial; background-image: initial; background-origin: initial; background-position: 0px 0px; background-repeat: initial; background-size: initial; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">NtrBootFlash</b></i></span></b><br />
+<div style="background-color: initial;">
+<b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><br /></b></div>
+<div style="background-color: initial;">
+<b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">3</b>.Se nos abrirá un programa muy sencillo, en el cual vamos a seguir los siguientes pasos:</div>
+<div style="background: 0px 0px; border: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<a href="https://2.bp.blogspot.com/-zzjvKrikogA/WczAvLgrEbI/AAAAAAAAJ-Y/d4dzaBd6wV0GgY--0Q2MSo7rjzQ4sSoDwCK4BGAYYCw/s1600/10.png" imageanchor="1" style="background: transparent; border: 0px; box-sizing: border-box; clear: none !important; color: #464646; float: none !important; margin: 0px; outline: 0px; padding: 0px; text-decoration-line: none; vertical-align: baseline;"><img border="0" src="https://2.bp.blogspot.com/-zzjvKrikogA/WczAvLgrEbI/AAAAAAAAJ-Y/d4dzaBd6wV0GgY--0Q2MSo7rjzQ4sSoDwCK4BGAYYCw/s1600/10.png" style="background: 0px 0px; border: none; box-sizing: border-box; height: auto; margin: 0px; max-width: 90%; outline: 0px; padding: 0px; position: relative; vertical-align: middle;" /></a></div>
+<div style="background: 0px 0px; border: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<div style="background: 0px 0px; border: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div>
+<div style="background: 0px 0px; border: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">3.0</b>&nbsp;Tras leer la advertencia de uso, pulsamos el botón<b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">&nbsp;(A)</b>&nbsp;para continuar</div>
+</div>
+</div>
+<div style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<div style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<div style="background: 0px 0px; border: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<div style="background: 0px 0px; border: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">3.1</b>&nbsp;Seleccionamos nuestra flashcart con el botón&nbsp;<b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">(A)</b><br />
+<img border="0" data-original-height="411" data-original-width="683" src="https://1.bp.blogspot.com/-4Fnl1XKUzU8/WeJgY45rXkI/AAAAAAAAKN0/j2IQR32kHSwxdzUILDSc0jq2PiDUFY6GwCLcBGAs/s1600/ji.jpg" style="background: 0px 0px; border: none; box-sizing: border-box; height: auto; margin: 0px; max-width: 90%; outline: 0px; padding: 0px; position: relative; vertical-align: middle;" /></div>
+<div class="separator" style="background: 0px 0px; border: 0px; box-sizing: border-box; clear: both; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+</div>
+<div class="separator" style="background: 0px 0px; border: 0px; box-sizing: border-box; clear: both; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+</div>
+<div style="background: 0px 0px; border: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">3.2</b>&nbsp;Seleccionamos&nbsp;<b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><i style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">"Dump Flash"&nbsp;</i></b>con&nbsp;<b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">(A)&nbsp;</b>y creará un backup del flashcart &nbsp;por precaución.</div>
+<div style="background: 0px 0px; border: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<div style="background: 0px 0px; border: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<img border="0" data-original-height="441" data-original-width="692" src="https://2.bp.blogspot.com/-8sBtxA8t7u4/Wa7Z56lOA0I/AAAAAAAAJXI/tl3dZiLRN48MUJmFWVTgXWNgucE1hZo-ACLcBGAs/s1600/dump.jpg" style="background: 0px 0px; border: 0px; box-sizing: border-box; height: auto; margin-top: 0px; max-width: 90%; outline: 0px; padding: 0px; position: relative; vertical-align: middle;" /><span style="background: 0px 0px; border: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><br />
+<span style="background: 0px 0px; border: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><br /></span></div>
+</div>
+<div style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<div style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<div style="background: 0px 0px; border: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">3.3&nbsp;</b>Regresamos al menú anterior pulsando&nbsp;<b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">(A)</b>&nbsp;y seleccionamos&nbsp;<i style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">"Inject Ntrboot</b></i><br />
+<br />
+<img border="0" src="https://1.bp.blogspot.com/-rIe0qjfL6Ik/Wc0qU7limzI/AAAAAAAAJ_g/ST0Gi4z_IYwzhDMY-Q4LvjCGVM5XbRaRgCK4BGAYYCw/s1600/po%2B%25281%2529.jpg" style="background: 0px 0px; border: none; box-sizing: border-box; height: auto; margin-top: 0px; max-width: 90%; outline: 0px; padding: 0px; position: relative; vertical-align: middle;" /><br />
+<br /></div>
+<div style="background: 0px 0px; border: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">3.4</b><span style="background: 0px 0px; border: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">&nbsp;Seleccionamos la primera opción con el botón&nbsp;</span><b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">(A</b></b></div>
+<div style="background: 0px 0px; border: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<div style="background: 0px 0px; border: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<br /></div>
+<div style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<img border="0" data-original-height="447" data-original-width="798" src="https://1.bp.blogspot.com/-UBf5Hfn6VHM/Wa7aVT5XjeI/AAAAAAAAJXM/s40k1c-hqu0q3G5xF2yV0LUdX9wQ8bTOgCLcBGAs/s1600/iny.jpg" style="background: 0px 0px; border: 0px; box-sizing: border-box; height: auto; margin-top: 0px; max-width: 90%; outline: 0px; padding: 0px; position: relative; text-align: center; vertical-align: middle;" /><b left="" style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;" text-align:=""><b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"></b></b></b><br />
+<b left="" style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;" text-align:=""><br /></b><b left="" style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;" text-align:=""><br /></b><b left="" style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;" text-align:=""><b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">3.5</b><span style="background: 0px 0px; border: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">&nbsp;Empezará a escribir en el flashcart y inyectará el exploit con éxito.</span></b></b></div>
+<b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"></b><br />
+<div style="background: 0px 0px; border: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<div class="separator" style="background: 0px 0px; border: 0px; box-sizing: border-box; clear: both; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<img src="https://4.bp.blogspot.com/-g1PFzoBRmlA/Wa7awil9etI/AAAAAAAAJXQ/1dg3lli36LgAmWzndOqEm58ZXcG80n9HwCLcBGAs/s1600/wr.png" style="background: 0px 0px; border: 0px; box-sizing: border-box; height: auto; margin: 0px; max-width: 90%; outline: 0px; padding: 0px; position: relative; vertical-align: middle;" /></div>
+<div class="separator" style="background: 0px 0px; border: 0px; box-sizing: border-box; clear: both; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<br /></div>
+<div class="separator" style="background: 0px 0px; border: 0px; box-sizing: border-box; clear: both; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+</div>
+<div class="separator" style="background: 0px 0px; border: 0px; box-sizing: border-box; clear: both; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<img border="0" data-original-height="405" data-original-width="731" src="https://3.bp.blogspot.com/--hN2-TcODKI/WbriaAkKIqI/AAAAAAAAJwA/JpNahSGXMqkKNjmD_QHW36jezCqEGo7MwCLcBGAs/s1600/14.jpg" style="background: 0px 0px; border: 0px; box-sizing: border-box; height: auto; margin: 0px; max-width: 90%; outline: 0px; padding: 0px; position: relative; vertical-align: middle;" /></div>
+<div class="separator" style="background: 0px 0px; border: 0px; box-sizing: border-box; clear: both; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<br /></div>
+</div>
+</div>
+<div style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<div style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"></b><br />
+<div style="background: 0px 0px; border: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">3.6&nbsp;</b><span style="background: 0px 0px; border: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Pulsa</span><b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">&nbsp;(A)&nbsp;</b><span style="background: 0px 0px; border: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">para volver al menú anterior</span></b></div>
+<div style="background: 0px 0px; border: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">3.7&nbsp;</b><span style="background: 0px 0px; border: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Selecciona&nbsp;</span><b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">(Power)</b><span style="background: 0px 0px; border: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">&nbsp;en el menú para salir de la aplicación</span></b></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div></div>
+
+<div class="divspoiler">
+<img src="https://1.bp.blogspot.com/-2oeTwJr52o4/XhjBXphDPwI/AAAAAAAAV-c/hBPVEdmi5iQ0sm6eYJU3eCac2U6du8zvACLcBGAsYHQ/s1600/oie_transparent%2B%25284%2529.png" onclick="if (this.parentNode.nextSibling.childNodes[0].style.display != '') { this.parentNode.nextSibling.childNodes[0].style.display = ''; } else { this.parentNode.nextSibling.childNodes[0].style.display = 'none';}" />
+</div><div><div class="spoiler" style="display: none;">
+<div style="text-align: center;">
+<span style="font-size: x-large;"><b style="background-attachment: initial; background-clip: initial; background-image: initial; background-origin: initial; background-position: 0px 0px; background-repeat: initial; background-size: initial; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="background-attachment: initial; background-clip: initial; background-image: initial; background-origin: initial; background-position: 0px 0px; background-repeat: initial; background-size: initial; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="background-position: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">Reflashear En Una Nintendo 3DS/DS(i) Virgen</span></span></b>
+</span></div>
+<div style="text-align: center;">
+<span style="background-color: black;"><br /></span>
+<br />
+<div style="text-align: center;">
+<span style="background-color: black; color: white;"><span style="background-color: black;"><b>&nbsp;</b><span style="color: white; font-family: &quot;gafata&quot; , sans-serif;"><b>Si no cuentas con una 3DS con CFW, puedes reflashear tu flashcart en cualquier DS virgen sin ningún problema, siempre que tengas un flashcart...</b> (</span><b style="background-position: 0px 0px; border: 0px; box-sizing: border-box; font-family: gafata, sans-serif; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">echa un vistazo al esquema superior</b><span style="color: white; font-family: &quot;gafata&quot; , sans-serif;">)</span></span><span style="background-color: transparent;">&nbsp;</span></span></div>
+</div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<div style="text-align: center;">
+<b>NOTA:</b> Estos mismos pasos se pueden seguir en una Nintendo DS y una Nintendo DSi con HiyaCFW.&nbsp;</div>
+</div>
+<div style="text-align: left;">
+<span style="background-attachment: initial; background-clip: initial; background-image: initial; background-origin: initial; background-position: 0px 0px; background-repeat: initial; background-size: initial; border: 0px; box-sizing: border-box; font-weight: bold; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><br style="box-sizing: border-box;" /></span></div>
+<div style="border: 0px; box-sizing: border-box; color: #white; font-family: Gafata, sans-serif; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<div style="text-align: left;">
+<span style="background-attachment: initial; background-clip: initial; background-image: initial; background-origin: initial; background-position: 0px 0px; background-repeat: initial; background-size: initial; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">1.Descargamos</b>&nbsp;el siguiente pack de archivos</span><span style="background-attachment: initial; background-clip: initial; background-image: initial; background-origin: initial; background-position: 0px 0px; background-repeat: initial; background-size: initial; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">&nbsp;y lo extraemos&nbsp;</span>en la MicroSD de nuestra flashcart.</div>
+<div style="text-align: left;">
+<br style="box-sizing: border-box;" /></div>
+<div style="text-align: left;">
+<button type="button"><a href="https://sourceforge.net/projects/hacktendo-net-repository/files/Nintendo%203DS/NtrBootHax%20Files/3DS%20Virgen/">3DS/DS</a></button>
+<button type="button"><a href="https://sourceforge.net/projects/hacktendo-net-repository/files/Nintendo%203DS/NtrBootHax%20Files/DSi/">DS(i)</a></button>
+<br />
+<div style="text-align: left;">
+<br /></div>
+</div>
+<div style="border: 0px; box-sizing: border-box; color: #white; font-family: Gafata, sans-serif; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<div style="background-attachment: initial; background-clip: initial; background-image: initial; background-origin: initial; background-position: 0px 0px; background-repeat: initial; background-size: initial; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<div style="text-align: left;">
+<b style="background-attachment: initial; background-clip: initial; background-image: initial; background-origin: initial; background-position: 0px 0px; background-repeat: initial; background-size: initial; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">2.Insertamos&nbsp;</b>de nuevo<b style="background-attachment: initial; background-clip: initial; background-image: initial; background-origin: initial; background-position: 0px 0px; background-repeat: initial; background-size: initial; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">&nbsp;la MicroSD en nuestro flashcart.</b></div>
+</div>
+</div>
+<div style="border: 0px; box-sizing: border-box; color: white; font-family: Gafata, sans-serif; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<div style="background-attachment: initial; background-clip: initial; background-image: initial; background-origin: initial; background-position: 0px 0px; background-repeat: initial; background-size: initial; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<div style="text-align: left;">
+<br style="box-sizing: border-box;" /></div>
+</div>
+</div>
+<div style="border: 0px; box-sizing: border-box; color: white; font-family: Gafata, sans-serif; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<div style="background-attachment: initial; background-clip: initial; background-image: initial; background-origin: initial; background-position: 0px 0px; background-repeat: initial; background-size: initial; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<div style="text-align: left;">
+<img border="0" data-original-height="300" data-original-width="400" height="300" src="https://4.bp.blogspot.com/-efx2lX5wwIA/WZXXGbP9-aI/AAAAAAAAI3k/jTY4gd3SAT0XYepEDNZrBvqhYb_1oqEYACLcBGAs/s400/r4e.gif" style="background-attachment: initial; background-clip: initial; background-image: initial; background-origin: initial; background-position: 0px 0px; background-repeat: initial; background-size: initial; border: 0px; box-sizing: border-box; height: auto; margin: 0px; max-width: 90%; outline: 0px; padding: 0px; text-align: center; vertical-align: middle;" width="400" /></div>
+</div>
+</div>
+<div style="border: 0px; box-sizing: border-box; color: #white; font-family: Gafata, sans-serif; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<div style="background-attachment: initial; background-clip: initial; background-image: initial; background-origin: initial; background-position: 0px 0px; background-repeat: initial; background-size: initial; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<div style="text-align: left;">
+<br style="box-sizing: border-box;" /></div>
+<div style="text-align: left;">
+<br /></div>
+</div>
+</div>
+<div style="border: 0px; box-sizing: border-box; color: #white; font-family: Gafata, sans-serif; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<div style="text-align: left;">
+<span style="background-attachment: initial; background-clip: initial; background-image: initial; background-origin: initial; background-position: 0px 0px; background-repeat: initial; background-size: initial; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">3.&nbsp;</b></span>Insertamos el&nbsp;<b style="background-attachment: initial; background-clip: initial; background-image: initial; background-origin: initial; background-position: 0px 0px; background-repeat: initial; background-size: initial; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><i style="background-attachment: initial; background-clip: initial; background-image: initial; background-origin: initial; background-position: 0px 0px; background-repeat: initial; background-size: initial; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">flashcart compatible</i></b>&nbsp;en nuestra&nbsp;<i style="background-attachment: initial; background-clip: initial; background-image: initial; background-origin: initial; background-position: 0px 0px; background-repeat: initial; background-size: initial; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><b style="background-attachment: initial; background-clip: initial; background-image: initial; background-origin: initial; background-position: 0px 0px; background-repeat: initial; background-size: initial; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">DS</b></i></div>
+</div>
+<div style="border: 0px; box-sizing: border-box; color: #white; font-family: Gafata, sans-serif; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<div style="text-align: left;">
+<br style="box-sizing: border-box;" /></div>
+</div>
+<div style="border: 0px; box-sizing: border-box; color: #white; font-family: Gafata, sans-serif; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<div style="text-align: left;">
+<img border="0" data-original-height="300" data-original-width="400" height="300" src="https://1.bp.blogspot.com/-cW1rOYWae2A/WZXRFEIPcOI/AAAAAAAAI20/sfv7Jmw2adM5k37P4dpfpnSR5osBP00pgCLcBGAs/s400/kl.gif" style="background-attachment: initial; background-clip: initial; background-image: initial; background-origin: initial; background-position: 0px 0px; background-repeat: initial; background-size: initial; border: 0px; box-sizing: border-box; height: auto; margin: 0px; max-width: 90%; outline: 0px; padding: 0px; text-align: center; vertical-align: middle;" width="400" /></div>
+</div>
+<div style="border: 0px; box-sizing: border-box; color: #white; font-family: Gafata, sans-serif; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<div style="text-align: left;">
+<br style="box-sizing: border-box;" /></div>
+<div style="text-align: left;">
+<br /></div>
+</div>
+<div style="border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<div style="background-position: 0px 0px; border: 0px; box-sizing: border-box; font-family: &quot;source sans pro&quot;, sans-serif; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<div style="text-align: left;">
+<span style="color: white;"><b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">4. Encendemos</b>&nbsp;nuestra DS y&nbsp;<b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">abrimos el flashcart</b>.</span></div>
+</div>
+<div style="background-position: 0px 0px; border: 0px; box-sizing: border-box; font-family: &quot;source sans pro&quot;, sans-serif; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<div style="text-align: left;">
+<span style="color: white;"><b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">5.</b>En nuestro flashcart, lanzamos la aplicación&nbsp;<i style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">ds_ntrboot_flasher.nds</b></i></span></div>
+<div style="color: white; text-align: left;">
+<br />
+<img border="0" data-original-height="1600" data-original-width="1200" height="640" src="https://1.bp.blogspot.com/-HAeQcNHFz5A/XO_wmnMu_oI/AAAAAAAAT6Q/6GEY8SFoZgQ8oKN7N5SJqCPjH48hTZQqQCLcBGAs/s640/IMG_20190530_165043.jpg" style="text-align: center;" width="480" /></div>
+<div style="color: white; text-align: left;">
+<br />
+<br /></div>
+</div>
+<div class="" style="background-position: 0px 0px; border: 0px; box-sizing: border-box; clear: both; font-family: &quot;source sans pro&quot;, sans-serif; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<div style="text-align: left;">
+<span style="color: white;"><b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">6.Presionamos el botón</b>&nbsp;(<b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">A) para continuar</b></span></div>
+<div style="text-align: left;">
+<br />
+<div style="color: white;">
+<img border="0" data-original-height="1600" data-original-width="1200" height="640" src="https://1.bp.blogspot.com/-3W9GRxqefFY/XO_w6L53Y7I/AAAAAAAAT6c/20R-9GasAg8UIITKP9sv_vnxRKjbETknQCLcBGAs/s640/IMG_20190530_165103.jpg" style="text-align: center;" width="480" /></div>
+</div>
+<div style="color: white; text-align: left;">
+<br /></div>
+</div>
+<div class="" style="background-position: 0px 0px; border: 0px; box-sizing: border-box; clear: both; font-family: &quot;source sans pro&quot;, sans-serif; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<div style="text-align: left;">
+<b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: white;"><br style="box-sizing: border-box;" /></span></b></div>
+</div>
+<div class="" style="background-position: 0px 0px; border: 0px; box-sizing: border-box; clear: both; font-family: &quot;source sans pro&quot;, sans-serif; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<div style="text-align: left;">
+<span style="color: white;"><b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">7.</b>Usa la cruceta y con (<b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">UP)/(DOWN)</b>&nbsp;selecciona cual es tu flashcart<b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">&nbsp;y pulsa (A) para continuar</b></span><br />
+<div style="color: white;">
+<br /></div>
+<div style="color: white;">
+<img border="0" data-original-height="1600" data-original-width="1200" height="640" src="https://1.bp.blogspot.com/-9hSCn8nyUHQ/XO_wX-HrlLI/AAAAAAAAT6M/PUZvbW2hkr0WnVz3ZbU0lRH4U_eoZsPVQCLcBGAs/s640/IMG_20190530_165345.jpg" style="text-align: center;" width="480" /></div>
+</div>
+</div>
+<div class="" style="background-position: 0px 0px; border: 0px; box-sizing: border-box; clear: both; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<br />
+<div style="text-align: left;">
+<span style="color: white; font-family: &quot;source sans pro&quot; , sans-serif; font-weight: 700;"><br /></span></div>
+<b style="background: 0px 0px; border: 0px; box-sizing: border-box; color: white; font-family: &quot;source sans pro&quot;, sans-serif; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"></b><br />
+<div style="text-align: left;">
+<b style="background: 0px 0px; border: 0px; box-sizing: border-box; font-family: &quot;source sans pro&quot;, sans-serif; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span style="color: white;"><b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">8.</b>Seleccionamos&nbsp;<i style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">"lnject ntrboothax"</i>&nbsp;con el botón&nbsp;<b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">(A)</b></span></b><br />
+<br />
+<img border="0" data-original-height="414" data-original-width="683" height="387" src="https://1.bp.blogspot.com/-rIe0qjfL6Ik/Wc0qU7limzI/AAAAAAAAJ_g/ST0Gi4z_IYwzhDMY-Q4LvjCGVM5XbRaRgCK4BGAYYCw/s640/po%2B%25281%2529.jpg" style="color: white; font-family: &quot;source sans pro&quot;, sans-serif; text-align: center;" width="640" /></div>
+<br />
+<div style="text-align: left;">
+<br /></div>
+<span style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
+<b style="background: 0px 0px; border: 0px; box-sizing: border-box; color: white; font-family: &quot;source sans pro&quot;, sans-serif; font-weight: bold; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"></b></span>
+<br />
+<div style="text-align: left;">
+<span style="background: 0px 0px; border: 0px; box-sizing: border-box; color: white; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><b style="background: 0px 0px; border: 0px; box-sizing: border-box; font-family: &quot;source sans pro&quot;, sans-serif; font-weight: bold; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">9.</b><span style="font-weight: 400;">Seleccionamos&nbsp;</span><i style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">"retail"</i><span style="font-weight: 400;">&nbsp;con el botón&nbsp;</span><b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">(A)</b></b></span><br />
+<br />
+<img border="0" data-original-height="447" data-original-width="798" height="358" src="https://1.bp.blogspot.com/-UBf5Hfn6VHM/Wa7aVT5XjeI/AAAAAAAAJXM/s40k1c-hqu0q3G5xF2yV0LUdX9wQ8bTOgCLcBGAs/s640/iny.jpg" style="color: white; font-family: gafata, sans-serif; text-align: center;" width="640" /></div>
+</div>
+<div class="separator" style="clear: both; color: white; font-family: gafata, sans-serif; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; font-family: gafata, sans-serif; text-align: left;">
+<span style="background: 0px 0px; border: 0px; box-sizing: border-box; color: white; font-family: &quot;source sans pro&quot; , sans-serif; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><b style="background: 0px 0px; border: 0px; box-sizing: border-box; font-weight: bold; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">10.</b><span style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">&nbsp;Escribirá el exploit en la flashcart.</span></span></div>
+<div class="separator" style="clear: both; color: white; font-family: gafata, sans-serif; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; color: white; font-family: gafata, sans-serif; text-align: left;">
+<img border="0" data-original-height="471" data-original-width="609" height="494" src="https://4.bp.blogspot.com/-g1PFzoBRmlA/Wa7awil9etI/AAAAAAAAJXQ/1dg3lli36LgAmWzndOqEm58ZXcG80n9HwCLcBGAs/s640/wr.png" style="text-align: center;" width="640" /></div>
+<div class="separator" style="background-position: 0px 0px; border: 0px; box-sizing: border-box; clear: both; font-family: &quot;source sans pro&quot;, sans-serif; margin: 0px; outline: 0px; padding: 0px; text-align: left; vertical-align: baseline;">
+<span style="color: white;"><br /></span></div>
+<div class="separator" style="background-position: 0px 0px; border: 0px; box-sizing: border-box; clear: both; font-family: &quot;source sans pro&quot;, sans-serif; margin: 0px; outline: 0px; padding: 0px; text-align: left; vertical-align: baseline;">
+<span style="color: white;"><br /></span></div>
+<div class="separator" style="background-position: 0px 0px; border: 0px; box-sizing: border-box; clear: both; font-family: &quot;source sans pro&quot;, sans-serif; margin: 0px; outline: 0px; padding: 0px; text-align: left; vertical-align: baseline;">
+<span style="color: white;"><b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">11. Extraemos la flashcart&nbsp;</b>de nuestra DS&nbsp;<b style="background: 0px 0px; border: 0px; box-sizing: border-box; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">y ya la tenemos reflasheada</b>.</span></div>
+</div>
+</div>
+
+</div></div>
+<br /><br />
+<b><u><span style="color: white; font-size: x-large;">CONTINUA EN...</span></u></b>
+<div class="separator" style="clear: both; text-align: left;">
+<a href="https://www.hacktendo.net/p/una-vez-reflasheado-el-flashcart.html" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" data-original-height="124" data-original-width="320" height="155" src="https://1.bp.blogspot.com/-GtMjBd4NXd8/XhjCIg1okOI/AAAAAAAAV-k/Wgd2KXKY_xsg8b3ee8wlTVu7XkItXet3QCLcBGAsYHQ/s400/oie_transparent%2B%25285%2529.png" width="400" /></a><a href="https://1.bp.blogspot.com/-1zZZH3ZiAe8/XO_qfRB0jTI/AAAAAAAAT58/KlQRCOD9pDAnj0PVpu-GLq6EbkAE2istQCLcBGAs/s400/ff.png" style="clear: right; float: right; margin-bottom: 1em; margin-left: 1em;"><br /></a><a href="https://1.bp.blogspot.com/-1zZZH3ZiAe8/XO_qfRB0jTI/AAAAAAAAT58/KlQRCOD9pDAnj0PVpu-GLq6EbkAE2istQCLcBGAs/s400/ff.png" style="clear: right; float: right; margin-bottom: 1em; margin-left: 1em;"><br /></a><a href="https://1.bp.blogspot.com/-1zZZH3ZiAe8/XO_qfRB0jTI/AAAAAAAAT58/KlQRCOD9pDAnj0PVpu-GLq6EbkAE2istQCLcBGAs/s400/ff.png" style="clear: right; float: right; margin-bottom: 1em; margin-left: 1em;"><br /></a><a href="https://1.bp.blogspot.com/-1zZZH3ZiAe8/XO_qfRB0jTI/AAAAAAAAT58/KlQRCOD9pDAnj0PVpu-GLq6EbkAE2istQCLcBGAs/s400/ff.png" style="clear: right; float: right; margin-bottom: 1em; margin-left: 1em;"></a></div>
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+</div>
+            
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://https-ivanillo-github-io-android.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<script id="dsq-count-scr" src="//https-ivanillo-github-io-android.disqus.com/count.js" async></script>
+
+
+              
+      
+      </div>
+    </div>
+   
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	                             
+  </body>
+</html>
