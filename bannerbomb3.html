@@ -1,1 +1,508 @@
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+      https://www.apache.org/licenses/LICENSE-2.0
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
 
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Introducing Lollipop, a sweet new take on Android.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Android</title>
+
+    <style>
+body {
+
+  background-color: white;
+  color: black;
+
+}
+ android-header {
+
+  background-color: white;
+  color: black;
+
+}  
+      
+      
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
+    
+    
+    <!-- Page styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style>
+  </head>
+  <body>
+    <script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout__header-row">
+          <span class="android-title mdl-layout-title">
+		  	
+            <img class="android-logo-image" src="images/android-logo.png">
+           
+          </span>
+          <!-- Add spacer, to align navigation to the right in desktop -->
+          <div class="android-header-spacer mdl-layout-spacer"></div>
+          <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+           <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">       
+  <i class="material-icons">search</i>
+            </label>
+            <div class="mdl-textfield__expandable-holder">
+              <input class="mdl-textfield__input" type="text" id="search-field">
+            </div>            
+          </div>
+		
+		
+          <!-- Navigation -->
+          <div class="android-navigation-container">
+            <nav class="android-navigation mdl-navigation">
+             
+            </nav>  
+			
+		  
+          </div>
+	
+          <span class="android-mobile-title mdl-layout-title">
+            <img class="android-logo-image" src="images/android-logo.png">
+          </span>
+		
+		
+		<div>		
+													
+       <img onclick="myFunction()" src="images/dark.png">   
+			
+		
+		</div>
+		
+          <button class="android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
+            <i class="material-icons">more_vert</i>
+
+        	
+          </button>
+          <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
+            <li class="mdl-menu__item">5.0 Lollipop</li>
+            <li class="mdl-menu__item">4.4 KitKat</li>
+            <li disabled class="mdl-menu__item">4.3 Jelly Bean</li>
+            <li class="mdl-menu__item">Android History</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="android-drawer mdl-layout__drawer">
+        <span class="mdl-layout-title">
+          <img class="android-logo-image" src="images/android-logo-white.png">
+        </span>
+        <nav class="mdl-navigation">
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Nintendo 3DS</span>
+          <a class="mdl-navigation__link" href="">Actualizar A9LH a B9S</a>
+          <a class="mdl-navigation__link" href="">Desbrickear 3DS</a>
+          <a class="mdl-navigation__link" href="">Exploit BannerBomb3</a>
+          <a class="mdl-navigation__link" href="">Exploit NtrBootHax</a>
+		<a class="mdl-navigation__link" href="">Guía Rosalina</a>
+          <a class="mdl-navigation__link" href="">Guía VCC</a>
+          <a class="mdl-navigation__link" href="">Nintendo 3DS Kit</a>
+		
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Nintendo Switch</span>
+          <a class="mdl-navigation__link" href="">Acceder RCM</a>
+          <a class="mdl-navigation__link" href="">Actualizar offline</a>
+          <a class="mdl-navigation__link" href="">Android en Switch</a>
+		 <a class="mdl-navigation__link" href="">Backup de la NAND</a>
+          <a class="mdl-navigation__link" href="">Capturadora WiFi/USB</a>
+          <a class="mdl-navigation__link" href="">Android en Switch</a>
+		 <a class="mdl-navigation__link" href="">Ejecutar CFW</a>
+          <a class="mdl-navigation__link" href="">Ejecutar FLOG</a>
+          <a class="mdl-navigation__link" href="">Streaming de Windows</a>
+		
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Nintendo DSi</span>
+          <a class="mdl-navigation__link" href="">Guía TwiLightMenu++</a>
+          <a class="mdl-navigation__link" href="">HiyaCFW (Flipnote)</a>
+          <a class="mdl-navigation__link" href="">HiyaCFW (Camera)</a>
+		<div class="android-drawer-separator"></div>
+		
+          <span class="mdl-navigation__link" href="">Nintendo WiiU</span>
+          <a class="mdl-navigation__link" href="">Ejecutar MochaCFW</a>
+          <a class="mdl-navigation__link" href="">Guía WiiVC Injector</a>
+          <a class="mdl-navigation__link" href="">Historia WiiU</a>
+          <a class="mdl-navigation__link" href="">Instalar Haxchi+CBHC</a>
+          <div class="android-drawer-separator"></div>
+	
+          <span class="mdl-navigation__link" href="">Nintendo Wii Mini</span>
+          <a class="mdl-navigation__link" href="">Ejecutar BlueBomb</a>
+          <div class="android-drawer-separator"></div>
+        </nav>
+      </div>
+
+      <div class="android-content mdl-layout__content">
+        <a name="top"></a>
+        <div class="android-be-together-section mdl-typography--text-center">
+          <div class="logo-font android-slogan">Bienvenido a HackTendo.</div>
+          <div class="logo-font android-sub-slogan">Una página sobre la Scene de consolas de Nintendo.</div>
+  
+		
+		
+			   <br>
+			   <br> 
+			   <br>
+		    <a href="https://t.me/HackTendoNet" target="whatever"><img border="0" src="images/telegram.png"  style=max-width:100%  alt=""></a>
+	
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=ivanmolinamorales@gmail.com&su=Iv%C3%A1n&body=&bcc=" target="whatever"><img border="0" src="images/gmail.png" style=max-width:100%  alt=""></a>
+			   <br> <br>
+			   <br>
+		    <div>
+		   <div>
+		  
+		  
+            <a href=""><img src="images/andy.png"> </a>
+		     <br>
+		    © 2017-2020
+			   
+		 
+          <a href="#screens">
+            
+            </button>
+          </a>
+        </div>
+        <div class="android-screen-section mdl-typography--text-center">
+          <a name="screens"></a>
+          <div class="mdl-typography--display-1-color-contrast">Descarga tu pack de archivos</div>
+          <div class="android-screens">
+            <div class="android-wear android-screen">
+              <a class="android-image-link" href="">
+                <img class="android-screen-image" src="images/3ds.png">
+              </a>
+              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href=""></a>
+            </div>
+            <div class="android-phone android-screen">
+              <a class="android-image-link" href="">
+                <img class="android-screen-image" src="images/switch.png">
+              </a>
+              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href=""></a>
+            </div>
+            <div class="android-tablet android-screen">
+              <a class="android-image-link" href="">
+                <img class="android-screen-image" src="images/wiiu.png">
+              </a>
+              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href=""></a>
+            </div>
+            <div class="android-tv android-screen">
+              <a class="android-image-link" href="">
+                <img class="android-screen-image" src="images/dsi.png">
+              </a>
+              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href=""></a>
+            </div>
+		  
+		  
+		  
+		  
+		  
+		
+		  
+          
+          </div>
+        </div>
+        <div class="android-more-section">
+          <div class="android-section-title mdl-typography--display-1-color-contrast">Guía BannerBomb3: CFW gratis Familia Nintendo 3DS</div>
+         
+		
+		
+		
+		
+		
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://1.bp.blogspot.com/-7KFcH4Q-EcI/XUBCTP63ByI/AAAAAAAAUOI/-8_vgb9Pr7I8YYTuVEFZPmdH7kNnDqjsQCLcBGAs/s1600/bb3.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="360" data-original-width="640" src="https://1.bp.blogspot.com/-7KFcH4Q-EcI/XUBCTP63ByI/AAAAAAAAUOI/-8_vgb9Pr7I8YYTuVEFZPmdH7kNnDqjsQCLcBGAs/s1600/bb3.jpg" /></a></div>
+<div style="text-align: center;">
+<b><span style="color: #f1c232; font-size: large;">[PASOS] Guía BannerBomb3</span></b></div>
+<div style="text-align: center;">
+<span style="color: #f1c232;"><br /></span></div>
+<div style="text-align: center;">
+<b><span style="color: #f1c232;">1.-Obtener en ID0 de tu Nintendo 3DS</span></b></div>
+<div style="text-align: center;">
+<b><span style="color: #f1c232;">2.-Consigue tu movable.sed</span></b></div>
+<div style="text-align: center;">
+<b><span style="color: #f1c232;">3.-BannerBomb3 Tool</span></b><br />
+<b><span style="color: #f1c232;">4.- FredTool</span></b></div>
+<div style="text-align: center;">
+<b><span style="color: #f1c232;">5.-Ejectutar b9sTool</span></b></div>
+<div style="text-align: center;">
+<b><span style="color: blue;"><br /></span></b></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: left;">
+<b><span style="color: #f1c232; font-size: large;"><u>0.- Obtén el Friend Code y ID0 de tu Nintendo 3DS</u></span></b><br />
+<b><u><span style="color: blue; font-size: large;"><br /></span></u></b>
+<b><span style="font-size: large;">En tu Nintendo 3DS</span></b><br />
+<br />
+Desde el menú HOME accede a la lista de amigos pulsando el icono con una carita sonriente de la parte superior de la pantalla.<br />
+Selecciona tu tarjeta de amigo que aparecerá seleccionada con un tono cálido y copia en algún sitio la clave de 12 dígitos que aparece en <b><span style="color: #f1c232;">"Clave de amigo: xxxx- xxxx- xxxx"</span></b><br />
+<br />
+<img border="0" data-original-height="240" data-original-width="400" src="https://3.bp.blogspot.com/-GyGOjW-hBi4/W7ArnokNo_I/AAAAAAAASEE/koc3-5ANgx0qcccSgpIN7yGTujRCGwmiwCLcBGAs/s1600/2018-10-31_02-46-42.313_top.bmp" style="text-align: center;" /><br />
+<br /></div>
+<div style="text-align: left;">
+<br /></div>
+<div style="text-align: left;">
+<b><span style="font-size: large;">En tu PC</span></b><br />
+<br />
+Inserta la SD de tu Nintendo 3DS y ábrela, encontrarás una carpeta llamada "Nintendo 3DS" y dentro de ella otra con 32 carácteres, apunta ese número o copialo directamente con click derecho "copiar"</div>
+<div style="text-align: left;">
+<img border="0" data-original-height="98" data-original-width="580" src="https://1.bp.blogspot.com/-niy7BWMqdcA/W7Aqh3sOc0I/AAAAAAAASD8/Xg2LSqHNqOMkCqpWvQGgVkr-uJ_3sa2XgCLcBGAs/s1600/rr.png" style="text-align: center;" /><br />
+<br />
+<b>NOTA:</b> si al abrir la SD te encuentras en la carpeta Nintendo 3DS más de una carpeta, haz click en ambas y en la que encuentres carpetas dentro de la subcarpeta "titles" es la que corresponde a tu consola.</div>
+<div style="text-align: left;">
+<b><u><span style="color: blue; font-size: large;"><br /></span></u></b></div>
+<div style="text-align: left;">
+<b><u><span style="color: #f1c232; font-size: large;">1.- Consigue el movable.sed</span></u></b><br />
+<br />
+Tenemos que acceder a la página&nbsp;<b><a href="https://bruteforcemovable.com/"><span style="color: blue;">https://bruteforcemovable.com/</span></a></b><br />
+Una vez en dicha página, nos encontraremos con varios pasos a seguir para conseguie el movable.sed de nuestra consola.<br />
+<br />
+1.- Rellenamos los formularios con los datos que hemos copiado del paso 1, confirmamos la captcha y le damos a "GO"<br />
+<img border="0" data-original-height="547" data-original-width="1112" src="https://3.bp.blogspot.com/-hoeRyGxN9WY/W7AvDCTu9uI/AAAAAAAASEc/-FPWXp9sUlU2sc9RTJNz3pHRMo2QGmiYwCLcBGAs/s1600/eew.png" style="text-align: center;" /><br />
+<br />
+2.- Añade el código de amigo que te indique en la lista de amigos de tu Nintendo 3DS.<br />
+Una vez lo registres, el proceso empezará automáticamente.<br />
+Si no empieza, refresca la página<br />
+<br />
+3.-Ahora solo debes esperar a que extraiga el<b> movable_part1.sed</b> de tu consola<br />
+<br />
+4.- Cuando finalice el paso anterior, dale a<b> </b><span style="color: #f1c232;"><b>"continue</b>" </span>y empezará a generar el <b>"movable.sed" </b>mediante fuerza bruta.<br />
+Una vez finalice, solo haz click en <b><span style="color: #f1c232;">Downnload movable.sed</span></b> y lo descargará en tu ordenador<br />
+<img border="0" data-original-height="267" data-original-width="1111" src="https://3.bp.blogspot.com/-L51IRkRw4mw/W7AwPfM7HJI/AAAAAAAASEk/GpVFtXVfwfUNEU-vkcVfgHWe7zOaoPESgCLcBGAs/s1600/trrt.png" style="text-align: center;" /><br />
+<br />
+<b>NOTA:</b> el proceso de creación puede tardar de 5 a 60 minutos, ten paciencia.<br />
+<br />
+<div style="-webkit-text-stroke-width: 0px; color: black; font-family: &quot;Times New Roman&quot;; font-size: medium; font-style: normal; font-variant-caps: normal; font-variant-ligatures: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-decoration-color: initial; text-decoration-style: initial; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px;">
+</div>
+<br />
+<div style="text-align: center; text-indent: 0px;">
+<div style="font-family: &quot;times new roman&quot;; font-style: normal; letter-spacing: normal; text-align: left; text-transform: none; white-space: normal; word-spacing: 0px;">
+<div style="margin: 0px;">
+<div style="font-size: medium; font-weight: 400;">
+<b><span style="color: #f1c232; font-size: large;"><u>2.- BannerBomb3 Tool</u></span></b></div>
+<div style="color: black; font-size: medium; font-weight: 400;">
+<b><span style="color: blue; font-size: large;"><u><br /></u></span></b></div>
+<div style="font-size: medium; font-weight: 400;">
+<b style="font-family: &quot;Times New Roman&quot;;"><span style="color: white; font-size: large;">En tu PC</span></b></div>
+<div style="color: black; font-size: medium; font-weight: 400;">
+<b style="font-family: &quot;Times New Roman&quot;;"><span style="font-size: large;"><br /></span></b></div>
+<div style="font-size: medium; font-weight: 400;">
+<span style="color: white;">1.- Accede a la página</span>&nbsp;<b style="color: black;"><a href="https://bb3.bruteforcemovable.com/"><span style="color: blue;">BannerBomb3</span></a></b></div>
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" data-original-height="526" data-original-width="1343" src="https://1.bp.blogspot.com/-ADEhA2htM9Y/XUAsjCOIDuI/AAAAAAAAUNw/O2t1_Sfl27Ex5cMNivh_JsnDq734IZlDgCLcBGAs/s1600/Captura%2Bde%2Bpantalla%2Bde%2B2019-07-30%2B13-39-02.png" /></div>
+</div>
+</div>
+<div style="text-align: left;">
+<div style="margin: 0px;">
+<div style="font-family: &quot;times new roman&quot;; font-size: medium; font-style: normal; letter-spacing: normal; text-transform: none; white-space: normal; word-spacing: 0px;">
+2.- Haz click en el botón <span style="color: blue;"><b><span style="color: #f1c232;">"Seleccionar archivo"</span><span style="color: blue;">&nbsp;</span></b></span>y sube tu <b>"movable.sed"<span style="color: blue;"> </span></b>descargado en el paso anterior.</div>
+<span style="font-family: &quot;times new roman&quot;;">3.- Se descargará un archivo .zip llamado </span><span style="color: #f1c232; font-family: &quot;times new roman&quot;;"><b>"tadmuffin_out.zip"</b></span><b style="font-family: &quot;times new roman&quot;; font-size: medium; font-style: normal; letter-spacing: normal; text-transform: none; white-space: normal; word-spacing: 0px;">&nbsp;</b><span style="font-family: &quot;times new roman&quot;;">y dentro de él una archivo llamado</span><b style="font-style: normal; letter-spacing: normal; text-transform: none; white-space: normal; word-spacing: 0px;"> <span style="background-color: black; color: white; font-family: inherit;">"</span></b><span style="font-style: normal; letter-spacing: normal; text-transform: none; white-space: normal; word-spacing: 0px;"><b><span style="background-color: black; color: white; font-family: inherit;">F00D43D5.bin", extraelo en tu SD.</span></b></span><br />
+<div style="font-family: &quot;times new roman&quot;; font-size: medium; font-style: normal; letter-spacing: normal; text-transform: none; white-space: normal; word-spacing: 0px;">
+<span style="background-color: white; font-family: &quot;monaco&quot; , &quot;consolas&quot; , &quot;lucida console&quot; , monospace; font-size: 11.9213px;"><br /></span></div>
+<div style="font-style: normal; letter-spacing: normal; orphans: 3; text-transform: none; white-space: normal; widows: 3; word-spacing: 0px;">
+<b style="orphans: 2; widows: 2;"><span style="font-size: large;">En tu SD</span></b></div>
+<div style="font-style: normal; letter-spacing: normal; orphans: 3; text-transform: none; white-space: normal; widows: 3; word-spacing: 0px;">
+<br /></div>
+<div style="font-style: normal; letter-spacing: normal; orphans: 3; text-transform: none; white-space: normal; widows: 3; word-spacing: 0px;">
+4.- Ve a la ruta <b><span style="color: #f1c232;">Nintendo 3DS/ID0/ID1/Nintendo DSiWare&nbsp;</span></b></div>
+<div style="font-style: normal; letter-spacing: normal; orphans: 3; text-transform: none; white-space: normal; widows: 3; word-spacing: 0px;">
+(Si no existe la carpeta Nintendo DSiWare, créala)</div>
+<div style="font-style: normal; letter-spacing: normal; orphans: 3; text-transform: none; white-space: normal; widows: 3; word-spacing: 0px;">
+(Si existe algún backup .bin, bórralo)</div>
+<div style="font-style: normal; letter-spacing: normal; orphans: 3; text-transform: none; white-space: normal; widows: 3; word-spacing: 0px;">
+<br /></div>
+<div style="font-style: normal; letter-spacing: normal; orphans: 3; text-transform: none; white-space: normal; widows: 3; word-spacing: 0px;">
+5.- Copia el archivo<b> "F00D43D5.bin"&nbsp;</b>a la ruta&nbsp;<b><span style="color: #f1c232;">Nintendo 3DS/ID0/ID1/Nintendo DSiWare&nbsp;</span></b></div>
+<div style="font-style: normal; letter-spacing: normal; orphans: 3; text-transform: none; white-space: normal; widows: 3; word-spacing: 0px;">
+<br /></div>
+<div style="font-style: normal; letter-spacing: normal; orphans: 3; text-transform: none; white-space: normal; widows: 3; word-spacing: 0px;">
+<br /></div>
+<div style="font-style: normal; letter-spacing: normal; orphans: 3; text-transform: none; white-space: normal; widows: 3; word-spacing: 0px;">
+<b style="orphans: 2; widows: 2;"><span style="font-size: large;">En tu Nintendo 3DS</span></b></div>
+<div style="color: black; font-family: &quot;times new roman&quot;; font-size: medium; font-style: normal; font-weight: 400; letter-spacing: normal; text-transform: none; white-space: normal; word-spacing: 0px;">
+<br /></div>
+<div style="font-family: &quot;times new roman&quot;; font-size: medium; font-style: normal; letter-spacing: normal; text-transform: none; white-space: normal; word-spacing: 0px;">
+<span style="color: white; font-weight: 400;">6.- Accede a la aplicación</span><span style="color: black; font-weight: 400;"> </span><b><span style="color: #f1c232;">"Configuración de la consola"</span></b></div>
+<div style="font-family: &quot;times new roman&quot;; font-size: medium; font-style: normal; letter-spacing: normal; text-transform: none; white-space: normal; word-spacing: 0px;">
+<span style="color: white; font-weight: 400;">7.- Haz click en </span><b><span style="color: #f1c232;">"Gestión de datos"</span></b></div>
+<div style="font-family: &quot;times new roman&quot;; font-size: medium; font-style: normal; letter-spacing: normal; text-transform: none; white-space: normal; word-spacing: 0px;">
+<span style="color: white; font-weight: 400;">8.- Haz de nuevo click en</span><span style="color: black; font-weight: 400;"> </span><b><span style="color: #f1c232;">"DsiWare"</span></b></div>
+<div style="font-family: &quot;times new roman&quot;; font-size: medium; font-style: normal; letter-spacing: normal; text-transform: none; white-space: normal; word-spacing: 0px;">
+<span style="color: white; font-weight: 400;">9.- Haz click en el botón de </span><b><span style="color: #f1c232;">"SD"</span></b></div>
+<div style="font-family: &quot;times new roman&quot;; font-size: medium; font-style: normal; font-weight: 400; letter-spacing: normal; text-transform: none; white-space: normal; word-spacing: 0px;">
+<span style="color: white;">10.- La pantalla de tu consola cargará una splash magenta y tras unos segundos crasheara.</span></div>
+<div style="color: black; font-family: &quot;times new roman&quot;; font-size: medium; font-style: normal; font-weight: 400; letter-spacing: normal; text-transform: none; white-space: normal; word-spacing: 0px;">
+<br /></div>
+<div style="font-family: &quot;times new roman&quot;; font-size: medium; font-style: normal; font-weight: 400; letter-spacing: normal; text-transform: none; white-space: normal; word-spacing: 0px;">
+<b style="font-family: &quot;Times New Roman&quot;;"><span style="color: white; font-size: large;">En tu PC</span></b></div>
+<div style="color: black; font-family: &quot;times new roman&quot;; font-size: medium; font-style: normal; font-weight: 400; letter-spacing: normal; text-transform: none; white-space: normal; word-spacing: 0px;">
+<b style="font-family: &quot;Times New Roman&quot;;"><span style="font-size: large;"><br /></span></b></div>
+<div style="font-family: &quot;times new roman&quot;; font-size: medium; font-style: normal; letter-spacing: normal; text-transform: none; white-space: normal; word-spacing: 0px;">
+<span style="color: white;"><span style="font-weight: 400;">11.- Abre la raíz de tu SD y verás que se ha creado un nuevo archivo&nbsp;</span><b>"42383841.bin"</b></span></div>
+<div style="font-family: &quot;times new roman&quot;; font-size: medium; font-style: normal; font-weight: 400; letter-spacing: normal; text-transform: none; white-space: normal; word-spacing: 0px;">
+<span style="color: white;">12.- Copia el archivo&nbsp;<b>"42383841.bin"</b>&nbsp;en la ruta&nbsp;</span><b><span style="color: #f1c232;">Nintendo 3DS/ID0/ID1/Nintendo DSiWare&nbsp;</span></b></div>
+<div style="font-style: normal; font-weight: 400; letter-spacing: normal; text-transform: none; white-space: normal; word-spacing: 0px;">
+<span style="color: white;"><span style="font-family: &quot;times new roman&quot;; font-size: small;">13.- Borra el archivo&nbsp;</span><b style="font-family: &quot;times new roman&quot;; font-size: medium;">"F00D43D5.bin" en la ruta</b></span><span style="color: white; font-family: inherit;">&nbsp;</span><b style="font-family: &quot;times new roman&quot;; font-size: medium;"><span style="color: #f1c232;">Nintendo 3DS/ID0/ID1/Nintendo DSiWare&nbsp;</span></b></div>
+<div style="font-family: &quot;times new roman&quot;;">
+<br /></div>
+</div>
+</div>
+</div>
+</div>
+<div style="text-align: left;">
+<span style="color: #f1c232;"><br /></span></div>
+<div style="text-align: left;">
+<b><span style="color: #f1c232; font-size: large;"><u>3.- Prepara la SD de tu Nintendo 3DS</u></span></b></div>
+<div style="text-align: left;">
+<br />
+1.-Descarga <span style="color: blue;"><b><a href="https://sourceforge.net/projects/hacktendo-net-repository/files/Nintendo%203DS/BannerBomb3/">este pack de archivos</a></b> </span>que descargaste en el paso anterior, extrae ahora el contenido de la carpeta SD en la raíz de tu SD.<br />
+<br />
+Copia tambien el "<b>movable.sed" y el&nbsp;</b><b style="font-family: &quot;times new roman&quot;; orphans: 3; widows: 3;">"F00D43D5.bin"&nbsp;</b>a la raiz de la SD<br />
+<img border="0" data-original-height="118" data-original-width="578" height="129" src="https://3.bp.blogspot.com/-Ew1410FBxwc/W7A5C1gYw_I/AAAAAAAASFI/yZDb6qp1ZgserqtpJ9Jg0zQLRcy6wuMwgCLcBGAs/s640/ef.png" style="text-align: center;" width="640" /><br />
+<br />
+<br />
+<b><span style="color: #f1c232; font-size: large;"><u>4.-Fredtool Online</u></span></b><br />
+<b><u><span style="color: blue; font-size: large;"><br /></span></u></b>
+<b><span style="font-size: large;">En tu PC</span></b><br />
+<br />
+1.- Accede a la página <b><a href="https://fredtool.bruteforcemovable.com/"><span style="color: blue;">Fredtool Online</span></a></b><br />
+<img border="0" data-original-height="749" data-original-width="1137" src="https://1.bp.blogspot.com/-1VB3RqDnO_0/XUA51hknwOI/AAAAAAAAUN8/CY6y9XT5sgE-obe06H773P0D7FVfLMgYQCLcBGAs/s1600/Captura%2Bde%2Bpantalla%2Bde%2B2019-07-30%2B14-35-25.png" style="text-align: center;" /><br />
+2.- En el botón<b> <span style="color: #f1c232;">"Your movable.sed"</span><span style="color: blue;">,</span></b> sube tu&nbsp;<b style="font-family: &quot;times new roman&quot;;">"movable.sed"</b><br />
+3.- En el botón <b><span style="color: #f1c232;">"Your dsiware.bin"</span><span style="color: blue;">,</span></b> sube tu&nbsp;<b style="font-family: &quot;times new roman&quot;;">"42383841.bin"</b><span style="font-family: &quot;times new roman&quot;;">&nbsp;</span><br />
+4.- Haz click en<span style="color: blue;"> <b><span style="color: #f1c232;">Start</span> </b></span>y cuando acabe descargará un backup modificado llamado <b>"fredtool_output.zip"</b><br />
+<br />
+<br />
+<b><span style="font-size: large;">En tu SD</span></b><br />
+<br />
+5.- Ve a la ruta&nbsp;<span style="font-family: &quot;times new roman&quot;; orphans: 3; widows: 3;">&nbsp;</span><b style="font-family: &quot;times new roman&quot;; orphans: 3; widows: 3;"><span style="color: #f1c232;">Nintendo 3DS/ID0/ID1/Nintendo DSiWare&nbsp;</span></b><br />
+6.- Abre el zip&nbsp;<b><span style="color: #f1c232;">"fredtool_output.zip"</span>&nbsp;</b>y extrae el archivo&nbsp;<b style="font-family: &quot;times new roman&quot;;">"42383841.bin"</b><span style="font-family: &quot;times new roman&quot;;">&nbsp;</span>&nbsp;de la ruta<b> output/hax</b><br />
+<b><br /></b>
+<br />
+<b><span style="font-size: large;">En tu Nintendo 3DS</span></b><br />
+<br />
+7.- Accede a la aplicación "Configuración de la consola"<br />
+<div style="font-family: &quot;times new roman&quot;;">
+8.- Haz click en&nbsp;<b><span style="color: #f1c232;">"Gestión de datos"</span></b></div>
+<div style="font-family: &quot;times new roman&quot;;">
+9.- Haz de nuevo click en&nbsp;<b><span style="color: #f1c232;">"DsiWare"</span></b></div>
+<div style="orphans: 3; widows: 3;">
+10.- Haz click en SD y selecciona el título&nbsp;<b>"Haxxxxxxxxx!"</b></div>
+<div style="orphans: 3; widows: 3;">
+11.- Selecciona <b><span style="color: #f1c232;">"Copiar" y "Confirmar"</span></b></div>
+<div style="orphans: 3; widows: 3;">
+12.- Vuelve al menú principal de <span style="color: #f1c232;"><b>"Configuración de la consola"</b></span></div>
+<div style="orphans: 3; widows: 3;">
+13.- Selecciona "Configuración de Internet"y haz click en <span style="color: #f1c232;"><b>"Conexiones de Nintendo DS"</b></span></div>
+</div>
+<div style="text-align: left;">
+14 -&nbsp;<b>Se iniciará</b> <b><span style="color: #f1c232;">Flipnote Studio JPN</span></b> con éxito.<br />
+<br />
+<br />
+<b><span style="color: #f1c232; font-size: large;"><u>5.-Flipnote Studio</u></span></b><br />
+<br />
+<img border="0" data-original-height="344" data-original-width="241" height="640" src="https://3.bp.blogspot.com/-zVaQDYBJndg/W7BA-Jr_GaI/AAAAAAAASF8/y3Zgz8_3ieoQj60V2UEnYS5s2MaYEByDACLcBGAs/s640/ssw.png" style="text-align: center;" width="448" /><br />
+<br />
+6.- Selecciona el icono de la izquierda y el botón con el icono de SD<br />
+7.- Selecciona la cara y el botón de la derecha para continuar<br />
+(Selecciona X o UP en el D-Pad)<br />
+8.- Selecciona el&nbsp; segundo botón de la parte superior con el icono de película<br />
+9.- Usa la pantalla táctil para selecciona el frame 3/3, se ejecurará b9sTool<br />
+10.- Pulsa la tercera caja con la letra A<br />
+11.- Desplazate hacia la izquierda y selecciona el frame 1/3<br />
+12.- Pulsa la cuarta caja con la letra A<br />
+13-. Si ha funcionado, cargara b9stool<br />
+14.- Una vez en b9sTool, selecciona <b>"Install Boot9Strap"</b> y pulsar <b>"Start+Select"</b> para confirmarlo<br />
+<br />
+<br />
+Una vez instalado Boot9Strap, descarga de <a href="https://www.hacktendo.net/p/script.html"><b><span style="color: blue;">Aquí</span></b></a> Nintendo 3DS Kit y prepara tu SD</div>
+<div>
+<br /></div>
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+</div>
+            
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://https-ivanillo-github-io-android.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<script id="dsq-count-scr" src="//https-ivanillo-github-io-android.disqus.com/count.js" async></script>
+
+
+              
+      
+      </div>
+    </div>
+   
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	                             
+  </body>
+</html>
