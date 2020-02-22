@@ -1,1 +1,294 @@
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+      https://www.apache.org/licenses/LICENSE-2.0
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
 
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Introducing Lollipop, a sweet new take on Android.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Android</title>
+
+    <style>
+body {
+
+  background-color: white;
+  color: black;
+
+}
+ android-header {
+
+  background-color: white;
+  color: black;
+
+}  
+      
+      
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
+    
+    
+    <!-- Page styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style>
+  </head>
+  <body>
+    <script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout__header-row">
+          <span class="android-title mdl-layout-title">
+		  	
+            <img class="android-logo-image" src="images/android-logo.png">
+           
+          </span>
+          <!-- Add spacer, to align navigation to the right in desktop -->
+          <div class="android-header-spacer mdl-layout-spacer"></div>
+          <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+           <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">       
+  <i class="material-icons">search</i>
+            </label>
+            <div class="mdl-textfield__expandable-holder">
+              <input class="mdl-textfield__input" type="text" id="search-field">
+            </div>            
+          </div>
+		
+		
+          <!-- Navigation -->
+          <div class="android-navigation-container">
+            <nav class="android-navigation mdl-navigation">
+             
+            </nav>  
+			
+		  
+          </div>
+	
+          <span class="android-mobile-title mdl-layout-title">
+            <img class="android-logo-image" src="images/android-logo.png">
+          </span>
+		
+		
+		<div>		
+													
+       <img onclick="myFunction()" src="images/dark.png">   
+			
+		
+		</div>
+		
+          <button class="android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
+            <i class="material-icons">more_vert</i>
+
+        	
+          </button>
+          <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
+            <li class="mdl-menu__item">5.0 Lollipop</li>
+            <li class="mdl-menu__item">4.4 KitKat</li>
+            <li disabled class="mdl-menu__item">4.3 Jelly Bean</li>
+            <li class="mdl-menu__item">Android History</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="android-drawer mdl-layout__drawer">
+        <span class="mdl-layout-title">
+          <img class="android-logo-image" src="images/android-logo-white.png">
+        </span>
+        <nav class="mdl-navigation">
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Nintendo 3DS</span>
+          <a class="mdl-navigation__link" href="">Actualizar A9LH a B9S</a>
+          <a class="mdl-navigation__link" href="">Desbrickear 3DS</a>
+          <a class="mdl-navigation__link" href="">Exploit BannerBomb3</a>
+          <a class="mdl-navigation__link" href="">Exploit NtrBootHax</a>
+		<a class="mdl-navigation__link" href="">Guía Rosalina</a>
+          <a class="mdl-navigation__link" href="">Guía VCC</a>
+          <a class="mdl-navigation__link" href="">Nintendo 3DS Kit</a>
+		
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Nintendo Switch</span>
+          <a class="mdl-navigation__link" href="">Acceder RCM</a>
+          <a class="mdl-navigation__link" href="">Actualizar offline</a>
+          <a class="mdl-navigation__link" href="">Android en Switch</a>
+		 <a class="mdl-navigation__link" href="">Backup de la NAND</a>
+          <a class="mdl-navigation__link" href="">Capturadora WiFi/USB</a>
+          <a class="mdl-navigation__link" href="">Android en Switch</a>
+		 <a class="mdl-navigation__link" href="">Ejecutar CFW</a>
+          <a class="mdl-navigation__link" href="">Ejecutar FLOG</a>
+          <a class="mdl-navigation__link" href="">Streaming de Windows</a>
+		
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Nintendo DSi</span>
+          <a class="mdl-navigation__link" href="">Guía TwiLightMenu++</a>
+          <a class="mdl-navigation__link" href="">HiyaCFW (Flipnote)</a>
+          <a class="mdl-navigation__link" href="">HiyaCFW (Camera)</a>
+		<div class="android-drawer-separator"></div>
+		
+          <span class="mdl-navigation__link" href="">Nintendo WiiU</span>
+          <a class="mdl-navigation__link" href="">Ejecutar MochaCFW</a>
+          <a class="mdl-navigation__link" href="">Guía WiiVC Injector</a>
+          <a class="mdl-navigation__link" href="">Historia WiiU</a>
+          <a class="mdl-navigation__link" href="">Instalar Haxchi+CBHC</a>
+          <div class="android-drawer-separator"></div>
+	
+          <span class="mdl-navigation__link" href="">Nintendo Wii Mini</span>
+          <a class="mdl-navigation__link" href="">Ejecutar BlueBomb</a>
+          <div class="android-drawer-separator"></div>
+        </nav>
+      </div>
+
+      <div class="android-content mdl-layout__content">
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div class="separator" style="clear: both; text-align: center;">
+<img border="0" data-original-height="590" data-original-width="1024" src="https://2.bp.blogspot.com/-i9GjEtrl8-Q/WZRW4LC9ZoI/AAAAAAAAIzk/NqBQDNnLP8AXl2cnib08RQMXdV78hAWoACLcBGAs/s1600/rt.png" /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<blockquote class="tr_bq" style="clear: both; text-align: left;">
+<b>¿Pasar de Arm9LoaderHax a Boot9Strap?</b>. A no ser que vivas en una cueva apartado de la civilización, te habrás enterado que e<b>n los últimos meses salió a la luz Boot9Strap, el exploit que sucede a A9LH</b> y saca todo el potencial de tu 3DS c<b>argando un CFW directamente desde el Bootrom</b> de la consola por un error del mismo.</blockquote>
+<br />
+<h3>
+<b>[PASOS]&nbsp;</b></h3>
+<div>
+<b><br /></b></div>
+<div class="separator" style="clear: both; text-align: left;">
+<b>1.</b>Descarga el siguiente pack y extrae el contenido de la carpeta<b>&nbsp;</b>en la raíz de la SD.</div>
+<div class="separator" style="clear: both; text-align: left;">
+</div>
+<blockquote class="tr_bq">
+<b><span style="color: blue;"><a href="https://github.com/YV4N/Nintendo-3DS-Definitive-Kit/releases/download/2018/Tutoriales.zip">Descargar</a></span></b></blockquote>
+<div>
+<b>2.</b>Presiona el botón <b style="font-style: italic;">"START" </b>y enciende tu 3DS.</div>
+<div>
+<br /></div>
+<div>
+<b>3.</b>Se te abrirá el <b style="font-style: italic;">"Luma 3DS Chainloader", </b>selecciona <b><i>"SafeB9SInstaller"</i></b> con el botón <i><b>"A"</b></i>.<br />
+<br /></div>
+<img src="https://4.bp.blogspot.com/-bZde-AY-AyU/Wa-lWZE6CvI/AAAAAAAAJYo/veZdYqursUcWj81FmzGSwLlpxTxZl3BqwCLcBGAs/s640/b.1.4.jpg" /><br />
+<br />
+<b>4.</b>Se iniciará el <b style="font-style: italic;">"SafeB9SInstaller", </b>chequeará unos parámetros de seguridad y comprobará si cuentas con A9LH y lo desinstalará.<br />
+<br />
+<b>5.</b>En el penúltimo punto te pedirá una combinación de botones, <i><b>"Izquierda_Abajo_Derecha_Arriba_A"&nbsp;</b></i><br />
+<br />
+<img src="https://1.bp.blogspot.com/-emkdUpEVYx4/Wa-kRQThJpI/AAAAAAAAJYg/sIIMN_sdtmMDYPZkMqIe0MPEy1C7Q8ViACLcBGAs/s640/b1.3.jpg" /><br />
+<b><br /></b>
+<b>6.</b><i><b>Tras esa combinación</b></i> <i><b>Boot9Strap estará instalado</b></i> en nuestra Nintendo 3DS, <i><b>pulsamos "A"</b></i> y la consola se reiniciará.<br />
+<br />
+<img src="https://2.bp.blogspot.com/-MPkgdFXV2LM/Wa-u9oOZZkI/AAAAAAAAJZI/RoTtpkEWH4MsvIv20ymz3AQxK7TYf4tqgCLcBGAs/s1600/fi.jpg" /><br />
+<br />
+<div style="orphans: 3; widows: 3;">
+<b>7.Al reiniciarse&nbsp;</b>cargará&nbsp;<b>"Nintendo 3DS Kit<i>",&nbsp;</i>elige la opción "[2:] Seleccionar script", ahí elige "Clean&amp;Update"<i>&nbsp;y sigue los pasos en pantalla.</i></b><br />
+<br /></div>
+<div style="orphans: 3; widows: 3;">
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" data-original-height="1024" data-original-width="768" src="https://3.bp.blogspot.com/-5W2t8kQmo-Y/WpFRdQcMj6I/AAAAAAAANwU/FHA4bX40O8Q__KdVYFovaq6NBIlya7D_wCLcBGAs/s1600/ta2tvEMO.jpg" /></div>
+<b><br /></b><b>8.Seguimos las instrucciones con el botón(A) y&nbsp;</b>se encargará de&nbsp;<b>borrar archivos innecesarios</b>&nbsp;del tutorial<b>, te copiará todas las herramientas y&nbsp;</b>actualizar las que tenías<b>, al igual que te copiará luma3ds a la CTRNAND&nbsp;<span style="color: red;">y te instalará Boot9Strap</span></b><br />
+<br />
+<br />
+<b>9.</b>Una vez haya acabado, selecciona<b><span style="color: blue;">&nbsp;{Configuración Nintendo 3DS Kit}</span></b>&nbsp;y&nbsp;<span style="color: blue;"><b>{Apagar Nintendo 3DS}</b></span><br />
+<br />
+<b>10.</b>Listo, ya tienes tu 3DS con<b>&nbsp;Boot9Strap</b>&nbsp;y configurada con&nbsp;<b>Luma3DS en la CTRNAND.</b><br />
+<br />
+<br /></div>
+<div style="orphans: 3; widows: 3;">
+<blockquote class="tr_bq">
+<b>Continua en</b>:&nbsp;<b><a href="http://www.scenen3ds.com/p/rosalina.html"><span style="color: blue;">Ejecutar Homebrew Launcher desde el modo descarga con Rosalina</span></a></b></blockquote>
+</div>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+</div>
+            </div>
+          </div>
+        </div>
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://https-ivanillo-github-io-android.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<script id="dsq-count-scr" src="//https-ivanillo-github-io-android.disqus.com/count.js" async></script>
+
+
+              
+      
+      </div>
+    </div>
+   
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	  <audio autoplay>
+  <source src="ambient.mp3" type="audio/mpeg" loop="on">
+Your browser does not support the audio element.
+</audio> 
+	                             
+  </body>
+</html>
