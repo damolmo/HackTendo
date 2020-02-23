@@ -1,1 +1,379 @@
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+      https://www.apache.org/licenses/LICENSE-2.0
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
 
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Introducing Lollipop, a sweet new take on Android.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Android</title>
+
+    <style>
+body {
+
+  background-color: white;
+  color: black;
+
+}
+ android-header {
+
+  background-color: white;
+  color: black;
+
+}  
+      
+      
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
+    
+    
+    <!-- Page styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style>
+  </head>
+  <body>
+    <script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout__header-row">
+          <span class="android-title mdl-layout-title">
+		  	
+            <img class="android-logo-image" src="images/android-logo.png">
+           
+          </span>
+          <!-- Add spacer, to align navigation to the right in desktop -->
+          <div class="android-header-spacer mdl-layout-spacer"></div>
+          <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+           <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">       
+  <i class="material-icons">search</i>
+            </label>
+            <div class="mdl-textfield__expandable-holder">
+              <input class="mdl-textfield__input" type="text" id="search-field">
+            </div>            
+          </div>
+		
+		
+          <!-- Navigation -->
+          <div class="android-navigation-container">
+            <nav class="android-navigation mdl-navigation">
+             
+            </nav>  
+			
+		  
+          </div>
+	
+          <span class="android-mobile-title mdl-layout-title">
+            <img class="android-logo-image" src="images/android-logo.png">
+          </span>
+		
+		
+		<div>		
+													
+       <img onclick="myFunction()" src="images/dark.png">   
+			
+		
+		</div>
+		
+          <button class="android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
+            <i class="material-icons">more_vert</i>
+
+        	
+          </button>
+          <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
+            <li class="mdl-menu__item">5.0 Lollipop</li>
+            <li class="mdl-menu__item">4.4 KitKat</li>
+            <li disabled class="mdl-menu__item">4.3 Jelly Bean</li>
+            <li class="mdl-menu__item">Android History</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="android-drawer mdl-layout__drawer">
+        <span class="mdl-layout-title">
+          <img class="android-logo-image" src="images/android-logo-white.png">
+        </span>
+        <nav class="mdl-navigation">
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Nintendo 3DS</span>
+          <a class="mdl-navigation__link" href="">Actualizar A9LH a B9S</a>
+          <a class="mdl-navigation__link" href="">Desbrickear 3DS</a>
+          <a class="mdl-navigation__link" href="">Exploit BannerBomb3</a>
+          <a class="mdl-navigation__link" href="">Exploit NtrBootHax</a>
+		<a class="mdl-navigation__link" href="">Guía Rosalina</a>
+          <a class="mdl-navigation__link" href="">Guía VCC</a>
+          <a class="mdl-navigation__link" href="">Nintendo 3DS Kit</a>
+		
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Nintendo Switch</span>
+          <a class="mdl-navigation__link" href="">Acceder RCM</a>
+          <a class="mdl-navigation__link" href="">Actualizar offline</a>
+          <a class="mdl-navigation__link" href="">Android en Switch</a>
+		 <a class="mdl-navigation__link" href="">Backup de la NAND</a>
+          <a class="mdl-navigation__link" href="">Capturadora WiFi/USB</a>
+          <a class="mdl-navigation__link" href="">Android en Switch</a>
+		 <a class="mdl-navigation__link" href="">Ejecutar CFW</a>
+          <a class="mdl-navigation__link" href="">Ejecutar FLOG</a>
+          <a class="mdl-navigation__link" href="">Streaming de Windows</a>
+		
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Nintendo DSi</span>
+          <a class="mdl-navigation__link" href="">Guía TwiLightMenu++</a>
+          <a class="mdl-navigation__link" href="">HiyaCFW (Flipnote)</a>
+          <a class="mdl-navigation__link" href="">HiyaCFW (Camera)</a>
+		<div class="android-drawer-separator"></div>
+		
+          <span class="mdl-navigation__link" href="">Nintendo WiiU</span>
+          <a class="mdl-navigation__link" href="">Ejecutar MochaCFW</a>
+          <a class="mdl-navigation__link" href="">Guía WiiVC Injector</a>
+          <a class="mdl-navigation__link" href="">Historia WiiU</a>
+          <a class="mdl-navigation__link" href="">Instalar Haxchi+CBHC</a>
+          <div class="android-drawer-separator"></div>
+	
+          <span class="mdl-navigation__link" href="">Nintendo Wii Mini</span>
+          <a class="mdl-navigation__link" href="">Ejecutar BlueBomb</a>
+          <div class="android-drawer-separator"></div>
+        </nav>
+      </div>
+
+      <div class="android-content mdl-layout__content">
+        <a name="top"></a>
+        <div class="android-be-together-section mdl-typography--text-center">
+          <div class="logo-font android-slogan">Bienvenido a HackTendo.</div>
+          <div class="logo-font android-sub-slogan">Una página sobre la Scene de consolas de Nintendo.</div>
+  
+		
+		
+			   <br>
+			   <br> 
+			   <br>
+		    <a href="https://t.me/HackTendoNet" target="whatever"><img border="0" src="images/telegram.png"  style=max-width:100%  alt=""></a>
+	
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=ivanmolinamorales@gmail.com&su=Iv%C3%A1n&body=&bcc=" target="whatever"><img border="0" src="images/gmail.png" style=max-width:100%  alt=""></a>
+			   <br> <br>
+			   <br>
+		    <div>
+		   <div>
+		  
+		  
+           
+			   
+		 
+      
+		  
+		  
+		  
+		  
+		  
+		
+		  
+           <div class="android-section-title mdl-typography--display-1-color-contrast">Flog</div>
+<div style="text-align: center;">
+<a href="http://4.bp.blogspot.com/-3o3oJkVzrqk/Wct_EaWVYDI/AAAAAAAAJ80/qoFdcFjyydYCH1IQyoIrgZClVmpJ-qHvgCK4BGAYYCw/s1600/GG.jpg" imageanchor="1"><img border="0" src="https://4.bp.blogspot.com/-3o3oJkVzrqk/Wct_EaWVYDI/AAAAAAAAJ80/qoFdcFjyydYCH1IQyoIrgZClVmpJ-qHvgCK4BGAYYCw/s1600/GG.jpg" style=max-width:100%    /></a></div>
+<blockquote class="tr_bq">
+<div style="text-align: center;">
+Flog, un emulador de NES oculto en las entrañas de todas las Nintendo Switch.</div>
+</blockquote>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b><span style="font-size: large;">¿Qué es Flog?</span></b></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b>Flog es un emulador de NES oculto en todas las consolas Nintendo Switch </b>desde su lanzamiento el 3 de marzo a nivel mundial. Dicho emulador<b> venía incluido desde la versión 1.0.0 de la consola </b>y &nbsp;pretendía<b> rendir homenaje al fallecido Satoru Iwata</b>, el presidente de Nintendo f<b>allecido el 11 de julio de 2015 por problemas de salud.</b></div>
+<div style="text-align: center;">
+<b><br /></b>
+</div>
+<div style="text-align: center;">
+<b><span style="font-size: large;">¿En qué consiste Flog?</span></b></div>
+<br />
+<div style="text-align: center;">
+<span style="font-size: large; font-weight: 700;"><br /></span></div>
+<div style="text-align: center;">
+Flog, <b>golf al revés</b>, consiste en un <b>emulador de NES que corre el título de NES "Golf"</b>, este título <b>fue programado por el propio Satoru Iwata, hayá por 1984 </b>cuando trabajaba cómo programador para Nintendo.</div>
+<br />
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+El título <b>consiste en una adaptación del juego de 1984 de "Golf"</b> <b>a las bondades de "Nintendo Switch"</b>, lo que se traduce en un<b> sistema de juego para dos jugadores en el que los joy-con simulan el movimiento</b> <b>para golpear esa bola de golf</b> y cumplir así el objetivo del juego, alcanzar una máxima distancia posible.</div>
+<br />
+<div style="text-align: center;">
+<span style="font-size: large; font-weight: 700;"><br /></span></div>
+<div style="text-align: center;">
+<a href="http://3.bp.blogspot.com/-nzZHBHWs2sQ/WcuAX_WWE7I/AAAAAAAAJ9A/0gw6GeGweNUxBdeEoIGDenA76BKGXqd7wCK4BGAYYCw/s1600/GG1.jpg" style=max-width:100%   imageanchor="1"></a><a href="http://3.bp.blogspot.com/-nzZHBHWs2sQ/WcuAX_WWE7I/AAAAAAAAJ9A/0gw6GeGweNUxBdeEoIGDenA76BKGXqd7wCK4BGAYYCw/s1600/GG1.jpg" style=max-width:100%    imageanchor="1"><img border="0" height="180" src="https://3.bp.blogspot.com/-nzZHBHWs2sQ/WcuAX_WWE7I/AAAAAAAAJ9A/0gw6GeGweNUxBdeEoIGDenA76BKGXqd7wCK4BGAYYCw/s320/GG1.jpg"style=max-width:100%     width="320" /></a></div>
+<br />
+<div style="text-align: center;">
+<br /></div>
+<br />
+<div style="text-align: center;">
+<span style="font-weight: 700;"><br /></span></div>
+<span style="font-size: large;"><div style="text-align: center;">
+<b>¿Cómo ejecutar el juego "Golf" de NES?</b></div>
+</span><br />
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+Actualmente, ejecutar el juego es bastante complicado, ya que <b>SOLO</b> las consolas "Nintendo Switch" que aún estén entre 1.0.0 y 3.0.2 y&nbsp;<b>JAMÁS</b> se hayan conectado a la red pueden acceder a dicho título.</div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+Los usuarios entre las versiones especificadas anteriormente, solo deberán poner su Switch a fecha&nbsp; de 11 de julio, ya que <b>para la cultura japonesa,&nbsp;tener dicho título en cada Switch que sea lanzada es cómo un amuleto de buena suerte</b>, dado que dicho título fue programado por Satoru Iwata, alguien muy querido por los usuarios y los directivos de la compañía.</div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<a href="http://1.bp.blogspot.com/-FvsP5r_Rg90/WcuE4-S8xdI/AAAAAAAAJ9M/bE4ABcT57fwbMCAXIRA24MCfMeMVhJRjACK4BGAYYCw/s1600/nintendo-direct-satoru-iwata.jpg" style=max-width:100%   imageanchor="1"><img border="0" src="https://1.bp.blogspot.com/-FvsP5r_Rg90/WcuE4-S8xdI/AAAAAAAAJ9M/bE4ABcT57fwbMCAXIRA24MCfMeMVhJRjACK4BGAYYCw/s1600/nintendo-direct-satoru-iwata.jpg"style=max-width:100%    /></a></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+Si tenéis una Switch con dicha versión y nunca la habéis conectado a internet, debéis seguir los siguientes pasos:</div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b>1)</b> <b>La fecha</b> de la consola debe ser<b> el 11 de julio</b></div>
+<div style="text-align: center;">
+<b>2)</b> Debes estar <b>en el menú HOME</b></div>
+<div style="text-align: center;">
+<b>3)</b> <b>Saca los joy-con</b> de la Switch y<b> ejecuta el movimiento</b> icónico de Iwata <b>"Direct to you"</b></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: left;">
+<div style="text-align: center;">
+Podéis ver una demostración por parte de un Scener de que realmente funciona:</div>
+<div style="text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<iframe allowfullscreen="" class="YOUTUBE-iframe-video" data-thumbnail-src="https://i.ytimg.com/vi/CGN6QXv7sfs/0.jpg" style=max-width:100%   frameborder="0" height="266" src="https://www.youtube.com/embed/CGN6QXv7sfs?feature=player_embedded" width="320"></iframe></div>
+<div style="text-align: center;">
+<br /></div>
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<u><br /></u>
+</div>
+<div style="text-align: left;">
+<div style="text-align: center;">
+<u><b><u><span style="font-size: large;">Galería de NES "Golf" en una Nintendo Switch</span></u></b></u></div>
+</div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-3xL32ZEjW5w/WcuGNXCX_II/AAAAAAAAJ9w/PAPIUfiLn1s4l9LbFmt7Lfq0ATX2TCo-ACK4BGAYYCw/s1600/GG.jpg" style=max-width:100%   imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="225" src="https://2.bp.blogspot.com/-3xL32ZEjW5w/WcuGNXCX_II/AAAAAAAAJ9w/PAPIUfiLn1s4l9LbFmt7Lfq0ATX2TCo-ACK4BGAYYCw/s400/GG.jpg" style=max-width:100%   width="400" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;"> 
+<a href="http://4.bp.blogspot.com/-UerpD82y_H4/WcuGNe_l5PI/AAAAAAAAJ9o/LPVZ5k3tsIcD5GHtAHPbCDiNG18NuSMpgCK4BGAYYCw/s1600/GG3.jpg" style=max-width:100%   imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="225" src="https://4.bp.blogspot.com/-UerpD82y_H4/WcuGNe_l5PI/AAAAAAAAJ9o/LPVZ5k3tsIcD5GHtAHPbCDiNG18NuSMpgCK4BGAYYCw/s400/GG3.jpg" style=max-width:100%   width="400" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-_P0tM1GX9zs/WcuGNVIR2RI/AAAAAAAAJ9g/rS28F7iOPpI_QhwQs6Wkyr2QaSiunxPZwCK4BGAYYCw/s1600/GG1.jpg" style=max-width:100%    imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="225" src="https://4.bp.blogspot.com/-_P0tM1GX9zs/WcuGNVIR2RI/AAAAAAAAJ9g/rS28F7iOPpI_QhwQs6Wkyr2QaSiunxPZwCK4BGAYYCw/s400/GG1.jpg" style=max-width:100%   width="400" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-E3X0zE4ekog/WcuGNoIXyDI/AAAAAAAAJ9k/fCB96zXvmecmARUUCogC0TXR9Uo54OhLACK4BGAYYCw/s1600/GG2.jpg" style=max-width:100%   imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="225" src="https://3.bp.blogspot.com/-E3X0zE4ekog/WcuGNoIXyDI/AAAAAAAAJ9k/fCB96zXvmecmARUUCogC0TXR9Uo54OhLACK4BGAYYCw/s400/GG2.jpg" style=max-width:100%   width="400" /></a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+</div>
+            
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://https-ivanillo-github-io-android.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<script id="dsq-count-scr" src="//https-ivanillo-github-io-android.disqus.com/count.js" async></script>
+
+
+              
+      
+      </div>
+    </div>
+   
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	                             
+  </body>
+</html>
