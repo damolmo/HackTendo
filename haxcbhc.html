@@ -1,1 +1,719 @@
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+      https://www.apache.org/licenses/LICENSE-2.0
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
 
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Introducing Lollipop, a sweet new take on Android.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Android</title>
+
+    <style>
+body {
+
+  background-color: white;
+  color: black;
+
+}
+ android-header {
+
+  background-color: white;
+  color: black;
+
+}  
+      
+      
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
+    
+    
+    <!-- Page styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style>
+  </head>
+  <body>
+    <script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout__header-row">
+          <span class="android-title mdl-layout-title">
+		  	
+            <img class="android-logo-image" src="images/android-logo.png">
+           
+          </span>
+          <!-- Add spacer, to align navigation to the right in desktop -->
+          <div class="android-header-spacer mdl-layout-spacer"></div>
+          <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+           <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">       
+  <i class="material-icons">search</i>
+            </label>
+            <div class="mdl-textfield__expandable-holder">
+              <input class="mdl-textfield__input" type="text" id="search-field">
+            </div>            
+          </div>
+		
+		
+          <!-- Navigation -->
+          <div class="android-navigation-container">
+            <nav class="android-navigation mdl-navigation">
+             
+            </nav>  
+			
+		  
+          </div>
+	
+          <span class="android-mobile-title mdl-layout-title">
+            <img class="android-logo-image" src="images/android-logo.png">
+          </span>
+		
+		
+		<div>		
+													
+       <img onclick="myFunction()" src="images/dark.png">   
+			
+		
+		</div>
+		
+          <button class="android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
+            <i class="material-icons">more_vert</i>
+
+        	
+          </button>
+          <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
+            <li class="mdl-menu__item">5.0 Lollipop</li>
+            <li class="mdl-menu__item">4.4 KitKat</li>
+            <li disabled class="mdl-menu__item">4.3 Jelly Bean</li>
+            <li class="mdl-menu__item">Android History</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="android-drawer mdl-layout__drawer">
+        <span class="mdl-layout-title">
+          <img class="android-logo-image" src="images/android-logo-white.png">
+        </span>
+        <nav class="mdl-navigation">
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Nintendo 3DS</span>
+          <a class="mdl-navigation__link" href="">Actualizar A9LH a B9S</a>
+          <a class="mdl-navigation__link" href="">Desbrickear 3DS</a>
+          <a class="mdl-navigation__link" href="">Exploit BannerBomb3</a>
+          <a class="mdl-navigation__link" href="">Exploit NtrBootHax</a>
+		<a class="mdl-navigation__link" href="">Guía Rosalina</a>
+          <a class="mdl-navigation__link" href="">Guía VCC</a>
+          <a class="mdl-navigation__link" href="">Nintendo 3DS Kit</a>
+		
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Nintendo Switch</span>
+          <a class="mdl-navigation__link" href="">Acceder RCM</a>
+          <a class="mdl-navigation__link" href="">Actualizar offline</a>
+          <a class="mdl-navigation__link" href="">Android en Switch</a>
+		 <a class="mdl-navigation__link" href="">Backup de la NAND</a>
+          <a class="mdl-navigation__link" href="">Capturadora WiFi/USB</a>
+          <a class="mdl-navigation__link" href="">Android en Switch</a>
+		 <a class="mdl-navigation__link" href="">Ejecutar CFW</a>
+          <a class="mdl-navigation__link" href="">Ejecutar FLOG</a>
+          <a class="mdl-navigation__link" href="">Streaming de Windows</a>
+		
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Nintendo DSi</span>
+          <a class="mdl-navigation__link" href="">Guía TwiLightMenu++</a>
+          <a class="mdl-navigation__link" href="">HiyaCFW (Flipnote)</a>
+          <a class="mdl-navigation__link" href="">HiyaCFW (Camera)</a>
+		<div class="android-drawer-separator"></div>
+		
+          <span class="mdl-navigation__link" href="">Nintendo WiiU</span>
+          <a class="mdl-navigation__link" href="">Ejecutar MochaCFW</a>
+          <a class="mdl-navigation__link" href="">Guía WiiVC Injector</a>
+          <a class="mdl-navigation__link" href="">Historia WiiU</a>
+          <a class="mdl-navigation__link" href="">Instalar Haxchi+CBHC</a>
+          <div class="android-drawer-separator"></div>
+	
+          <span class="mdl-navigation__link" href="">Nintendo Wii Mini</span>
+          <a class="mdl-navigation__link" href="">Ejecutar BlueBomb</a>
+          <div class="android-drawer-separator"></div>
+        </nav>
+      </div>
+
+      <div class="android-content mdl-layout__content">
+        <a name="top"></a>
+        <div class="android-be-together-section mdl-typography--text-center">
+          <div class="logo-font android-slogan">Bienvenido a HackTendo.</div>
+          <div class="logo-font android-sub-slogan">Una página sobre la Scene de consolas de Nintendo.</div>
+  
+		
+		
+			   <br>
+			   <br> 
+			   <br>
+		    <a href="https://t.me/HackTendoNet" target="whatever"><img border="0" src="images/telegram.png"  style=max-width:100%  alt=""></a>
+	
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=ivanmolinamorales@gmail.com&su=Iv%C3%A1n&body=&bcc=" target="whatever"><img border="0" src="images/gmail.png" style=max-width:100%  alt=""></a>
+			   <br> <br>
+			   <br>
+		    <div>
+		   <div>
+		  
+		  
+           
+			   
+		 
+      
+		  
+		  
+		  
+		  
+		  
+		
+		  
+           <div class="android-section-title mdl-typography--display-1-color-contrast">[GUÍA] Coldboot Haxchi en WiiU</div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://1.bp.blogspot.com/-fVTYyq83FQE/W3FcpG-uwbI/AAAAAAAARJE/wvdUyNfpjHYfCxHi9MZ-St579gqjcr9dwCLcBGAs/s1600/hh.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="547" data-original-width="1200" height="291" src="https://1.bp.blogspot.com/-fVTYyq83FQE/W3FcpG-uwbI/AAAAAAAARJE/wvdUyNfpjHYfCxHi9MZ-St579gqjcr9dwCLcBGAs/s640/hh.jpg" style=max-width:100%   width="640" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<b><u>Requisitos</u></b>:<br />
+Descarga&nbsp;<a href="https://sourceforge.net/projects/hacktendo-net-repository/files/Nintendo%20Wii%20U/Haxchi%20Coldboot/"><span style="color: blue;"><b>este pack de archivos</b></span></a> y extraelo en tu SD/MicroSD<br />
+Compra un título de CV de Nintendo DS de los siguientes :<br />
+<br />
+<table claqss="table table-responsive: collapse; border: 1px solid rgb(189, 193, 196); box-sizing: border-box; font-family: -apple-system, &quot;.SFNSText-Regular&quot;, &quot;San Francisco&quot;, Roboto, &quot;Segoe UI&quot;, &quot;Helvetica Neue&quot;, &quot;Lucida Grande&quot;, Arial, &quot;Microsoft Yahei&quot;, 微软雅黑, STXihei, 华文细黑, sans-serif; font-size: 0.75em; margin-bottom: 1em; orphans: 3; widows: 3; width: 636px;"><thead style="background-color: #3d424a; border-bottom: 1px solid rgb(189, 193, 196); box-sizing: border-box; color: #88c0d0;">
+<tr style="box-sizing: border-box; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><th style="border-right: 1px solid rgb(189, 193, 196); box-sizing: border-box; padding: 0.5em; text-align: left; vertical-align: middle;"><div style="text-align: center;">
+<div style="text-align: center;">
+<span style="background-color: #444444; color: white;">Lista de Juegos compatibles con Haxchi en WiiU</span></div>
+</div>
+</th></tr>
+</thead><tbody style="box-sizing: border-box;">
+<tr style="box-sizing: border-box; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><td style="border-bottom: 1px solid rgb(189, 193, 196); border-right: 1px solid rgb(189, 193, 196); box-sizing: border-box; padding: 0.5em; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><div style="text-align: center;">
+<div style="text-align: center;">
+<b style="color: black;"><b>Animal Crossing:<br /> Wild World</b></span></div>
+</div>
+<div style="text-align: center;">
+<b></b><br /></div>
+<div style="text-align: center;">
+<div style="text-align: center;">
+<b><b><a href="https://www.nintendo.es/Juegos/Nintendo-DS/Animal-Crossing-Wild-World-270011.html"><span style="color: blue;">https://www.nintendo.es/Juegos/Nintendo-DS/Animal-Crossing-Wild-World-270011.html</span></a></b></b></div>
+</div>
+<b>
+</b><b></b></td></tr>
+<tr style="box-sizing: border-box; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><td style="border-bottom: 1px solid rgb(189, 193, 196); border-right: 1px solid rgb(189, 193, 196); box-sizing: border-box; padding: 0.5em; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><div style="text-align: center;">
+<div style="text-align: center;">
+<b style="color: black;">Big Brain Academy</b><br />
+<br /></div>
+</div>
+<span style="background-color: white;">
+<span style="font-size: 12px;"></span></span>
+<div style="text-align: center;">
+<div style="text-align: center;">
+<b><b><a href="https://www.nintendo.es/Juegos/Nintendo-DS/Big-Brain-Academy-270143.html"><span style="color: blue;">https://www.nintendo.es/Juegos/Nintendo-DS/Big-Brain-Academy-270143.html</span></a></b></b></div>
+</div>
+<span style="background-color: white;"><span style="font-size: 12px;">
+</span></span></td></tr>
+<tr style="box-sizing: border-box; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><td style="border-bottom: 1px solid rgb(189, 193, 196); border-right: 1px solid rgb(189, 193, 196); box-sizing: border-box; padding: 0.5em; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><div style="text-align: center;">
+<div style="text-align: center;">
+<b style="color: black;"><b>Brain Training del Dr Kawashima:<br /> ¿Cuántos años tiene tu cerebro?</b></span></div>
+</div>
+<div style="text-align: center;">
+<div style="text-align: center;">
+<span style="background-color: white;"><br /></span></div>
+</div>
+<span style="background-color: white;">
+<span style="font-size: 12px;"></span></span>
+<div style="text-align: center;">
+<div style="text-align: center;">
+<span style="background-color: white;"><span style="font-size: 12px;"><b><a href="https://www.nintendo.es/Juegos/Nintendo-DS/Brain-Training-del-Dr-Kawashima-Cuantos-anios-tiene-tu-cerebro--270627.html"><span style="color: blue;">https://www.nintendo.es/Juegos/Nintendo-DS/Brain-Training-del-Dr-Kawashima-Cuantos-anios-tiene-tu-cerebro--270627.html</span></a></b></span></span></div>
+</div>
+<span style="background-color: white;"><span style="font-size: 12px;">
+</span></span></td></tr>
+<tr style="box-sizing: border-box; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><td style="border-bottom: 1px solid rgb(189, 193, 196); border-right: 1px solid rgb(189, 193, 196); box-sizing: border-box; padding: 0.5em; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><div style="text-align: center;">
+<div style="text-align: center;">
+<b style="color: black;">DK: Jungle Climber</b></div>
+</div>
+<div style="text-align: center;">
+<div style="text-align: center;">
+<span style="background-color: white;"><br /></span></div>
+</div>
+<span style="background-color: white;">
+<span style="font-size: 12px;"></span></span>
+<div style="text-align: center;">
+<div style="text-align: center;">
+<span style="background-color: white;"><span style="font-size: 12px;"><a href="https://www.nintendo.es/Juegos/Nintendo-DS/Donkey-Kong-Jungle-Climber-270506.html"><b><span style="color: blue;">https://www.nintendo.es/Juegos/Nintendo-DS/Donkey-Kong-Jungle-Climber-270506.html</span></b></a></span></span></div>
+</div>
+<span style="background-color: white;"><span style="font-size: 12px;">
+</span></span></td></tr>
+<tr style="box-sizing: border-box; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><td style="border-bottom: 1px solid rgb(189, 193, 196); border-right: 1px solid rgb(189, 193, 196); box-sizing: border-box; padding: 0.5em; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><div style="text-align: center;">
+<div style="text-align: center;">
+<b style="color: black;">Kirby Y El Pincel Del Poder</b></div>
+</div>
+<div style="text-align: center;">
+<div style="text-align: center;">
+<span style="background-color: white;"><br /></span></div>
+</div>
+<span style="background-color: white;">
+<span style="font-size: 12px;"></span></span>
+<div style="text-align: center;">
+<div style="text-align: center;">
+<span style="background-color: white;"><span style="font-size: 12px;"><a href="https://www.nintendo.es/Juegos/Nintendo-DS/Kirby-El-Pincel-del-poder-271287.html"><b><span style="color: blue;">https://www.nintendo.es/Juegos/Nintendo-DS/Kirby-El-Pincel-del-poder-271287.html</span></b></a></span></span></div>
+</div>
+<span style="background-color: white;"><span style="font-size: 12px;">
+</span></span></td></tr>
+<tr style="box-sizing: border-box; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><td style="border-bottom: 1px solid rgb(189, 193, 196); border-right: 1px solid rgb(189, 193, 196); box-sizing: border-box; padding: 0.5em; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><div style="text-align: center;">
+<div style="text-align: center;">
+<b style="color: black;">Kirby: Mass Attack</b></div>
+</div>
+<div style="text-align: center;">
+<div style="text-align: center;">
+<span style="background-color: white;"><br /></span></div>
+</div>
+<span style="background-color: white;">
+<span style="font-size: 12px;"></span></span>
+<div style="text-align: center;">
+<div style="text-align: center;">
+<span style="background-color: white;"><span style="font-size: 12px;"><a href="https://www.nintendo.es/Juegos/Nintendo-DS/Kirby-Mass-Attack-271265.html"><b><span style="color: blue;">https://www.nintendo.es/Juegos/Nintendo-DS/Kirby-Mass-Attack-271265.html</span></b></a></span></span></div>
+</div>
+<span style="background-color: white;"><span style="font-size: 12px;">
+</span></span></td></tr>
+<tr style="box-sizing: border-box; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><td style="border-bottom: 1px solid rgb(189, 193, 196); border-right: 1px solid rgb(189, 193, 196); box-sizing: border-box; padding: 0.5em; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><div style="text-align: center;">
+<div style="text-align: center;">
+<b style="color: black;">Kirby: ¡Roedores al ataque!</b></div>
+</div>
+<div style="text-align: center;">
+<div style="text-align: center;">
+<span style="background-color: white;"><br /></span></div>
+</div>
+<span style="background-color: white;">
+<span style="font-size: 12px;"></span></span>
+<div style="text-align: center;">
+<div style="text-align: center;">
+<span style="background-color: white;"><span style="font-size: 12px;"><a href="https://www.nintendo.es/Juegos/Nintendo-DS/Kirby-Roedores-al-ataque--271276.html"><b><span style="color: blue;">https://www.nintendo.es/Juegos/Nintendo-DS/Kirby-Roedores-al-ataque--271276.html</span></b></a></span></span></div>
+</div>
+<span style="background-color: white;"><span style="font-size: 12px;">
+</span></span></td></tr>
+<tr style="box-sizing: border-box; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><td style="border-bottom: 1px solid rgb(189, 193, 196); border-right: 1px solid rgb(189, 193, 196); box-sizing: border-box; padding: 0.5em; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><div style="text-align: center;">
+<div style="text-align: center;">
+<b style="color: black;">The Legend of Zelda: <br />Phantom Hourglass</b></div>
+</div>
+<div style="text-align: center;">
+<div style="text-align: center;">
+<span style="background-color: white;"><br /></span></div>
+</div>
+<span style="background-color: white;">
+<span style="font-size: 12px;"></span></span>
+<div style="text-align: center;">
+<div style="text-align: center;">
+<span style="background-color: white;"><span style="font-size: 12px;"><b><a href="https://www.nintendo.es/Juegos/Nintendo-DS/The-Legend-of-Zelda-Phantom-Hourglass-273289.html"><span style="color: blue;">https://www.nintendo.es/Juegos/Nintendo-DS/The-Legend-of-Zelda-Phantom-Hourglass-273289.html</span></a></b></span></span></div>
+</div>
+<span style="background-color: white;"><span style="font-size: 12px;">
+</span></span></td></tr>
+<tr style="box-sizing: border-box; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><td style="border-bottom: 1px solid rgb(189, 193, 196); border-right: 1px solid rgb(189, 193, 196); box-sizing: border-box; padding: 0.5em; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><div style="text-align: center;">
+<div style="text-align: center;">
+<b style="color: black;">The Legend of Zelda:<br /> Spirit Tracks</b></div>
+</div>
+<div style="text-align: center;">
+<div style="text-align: center;">
+<span style="background-color: white;"><br /></span></div>
+</div>
+<span style="background-color: white;">
+<span style="font-size: 12px;"></span></span>
+<div style="text-align: center;">
+<div style="text-align: center;">
+<span style="background-color: white;"><span style="font-size: 12px;"><b><a href="https://www.nintendo.es/Juegos/Nintendo-DS/The-Legend-of-Zelda-Spirit-Tracks-273300.html"><span style="color: blue;">https://www.nintendo.es/Juegos/Nintendo-DS/The-Legend-of-Zelda-Spirit-Tracks-273300.html</span></a></b></span></span></div>
+</div>
+<span style="background-color: white;"><span style="font-size: 12px;">
+</span></span></td></tr>
+<tr style="box-sizing: border-box; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><td style="border-bottom: 1px solid rgb(189, 193, 196); border-right: 1px solid rgb(189, 193, 196); box-sizing: border-box; padding: 0.5em; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><div style="text-align: center;">
+<div style="text-align: center;">
+<b style="color: black;">Mario &amp; Luigi:<br /> Compañeros en el Tiempo</b></div>
+</div>
+<div style="text-align: center;">
+<div style="text-align: center;">
+<span style="background-color: white;"><br /></span></div>
+</div>
+<span style="background-color: white;">
+<span style="font-size: 12px;"></span></span>
+<div style="text-align: center;">
+<div style="text-align: center;">
+<span style="background-color: white;"><span style="font-size: 12px;"><b><a href="https://www.nintendo.es/Juegos/Nintendo-DS/Mario-Luigi-Companieros-en-el-Tiempo-271595.html"><span style="color: blue;">https://www.nintendo.es/Juegos/Nintendo-DS/Mario-Luigi-Companieros-en-el-Tiempo-271595.html</span></a></b></span></span></div>
+</div>
+<span style="background-color: white;"><span style="font-size: 12px;">
+</span></span></td></tr>
+<tr style="box-sizing: border-box; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><td style="border-bottom: 1px solid rgb(189, 193, 196); border-right: 1px solid rgb(189, 193, 196); box-sizing: border-box; padding: 0.5em; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><div style="text-align: center;">
+<div style="text-align: center;">
+<b style="color: black;">Mario Kart DS</b></div>
+</div>
+<div style="text-align: center;">
+<div style="text-align: center;">
+<span style="background-color: white;"><br /></span></div>
+</div>
+<span style="background-color: white;">
+<span style="font-size: 12px;"></span></span>
+<div style="text-align: center;">
+<div style="text-align: center;">
+<span style="background-color: white;"><span style="font-size: 12px;"><b><a href="https://www.nintendo.es/Juegos/Nintendo-DS/Mario-Kart-DS-271518.html"><span style="color: blue;">https://www.nintendo.es/Juegos/Nintendo-DS/Mario-Kart-DS-271518.html</span></a></b></span></span></div>
+</div>
+<span style="background-color: white;"><span style="font-size: 12px;">
+</span></span></td></tr>
+<tr style="box-sizing: border-box; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><td style="border-bottom: 1px solid rgb(189, 193, 196); border-right: 1px solid rgb(189, 193, 196); box-sizing: border-box; padding: 0.5em; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><div style="text-align: center;">
+<div style="text-align: center;">
+<b style="color: black;">New Super Mario Bros.</b></div>
+</div>
+<div style="text-align: center;">
+<div style="text-align: center;">
+<span style="background-color: white;"><br /></span></div>
+</div>
+<span style="background-color: white;">
+<span style="font-size: 12px;"></span></span>
+<div style="text-align: center;">
+<div style="text-align: center;">
+<span style="background-color: white;"><span style="font-size: 12px;"><b><a href="https://www.nintendo.es/Juegos/Nintendo-DS/New-Super-Mario-Bros--271969.html"><span style="color: blue;">https://www.nintendo.es/Juegos/Nintendo-DS/New-Super-Mario-Bros--271969.html</span></a></b></span></span></div>
+</div>
+<span style="background-color: white;"><span style="font-size: 12px;">
+</span></span></td></tr>
+<tr style="box-sizing: border-box; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><td style="border-bottom: 1px solid rgb(189, 193, 196); border-right: 1px solid rgb(189, 193, 196); box-sizing: border-box; padding: 0.5em; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><div style="text-align: center;">
+<div style="text-align: center;">
+<b style="color: black;">Pokémon Mundo Misterioso:<br /> Exploradores del cielo</b></div>
+</div>
+<div style="text-align: center;">
+<div style="text-align: center;">
+<span style="background-color: white;"><br /></span></div>
+</div>
+<span style="background-color: white;">
+<span style="font-size: 12px;"></span></span>
+<div style="text-align: center;">
+<div style="text-align: center;">
+<span style="background-color: white;"><span style="font-size: 12px;"><a href="https://www.nintendo.es/Juegos/Nintendo-DS/Pokemon-Mundo-misterioso-Exploradores-del-cielo-272409.html"><b><span style="color: blue;">https://www.nintendo.es/Juegos/Nintendo-DS/Pokemon-Mundo-misterioso-Exploradores-del-cielo-272409.html</span></b></a></span></span></div>
+</div>
+<span style="background-color: white;"><span style="font-size: 12px;">
+</span></span></td></tr>
+<tr style="box-sizing: border-box; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><td style="border-bottom: 1px solid rgb(189, 193, 196); border-right: 1px solid rgb(189, 193, 196); box-sizing: border-box; padding: 0.5em; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><div style="text-align: center;">
+<div style="text-align: center;">
+<b style="color: black;">Pokémon Ranger</b></div>
+</div>
+<div style="text-align: center;">
+<div style="text-align: center;">
+<span style="background-color: white;"><br /></span></div>
+</div>
+<span style="background-color: white;">
+<span style="font-size: 12px;"></span></span>
+<div style="text-align: center;">
+<div style="text-align: center;">
+<span style="background-color: white;"><span style="font-size: 12px;"><b><a href="https://www.nintendo.es/Juegos/Nintendo-DS/Pokemon-Ranger-272442.html"><span style="color: blue;">https://www.nintendo.es/Juegos/Nintendo-DS/Pokemon-Ranger-272442.html</span></a></b></span></span></div>
+</div>
+<span style="background-color: white;"><span style="font-size: 12px;">
+</span></span></td></tr>
+<tr style="box-sizing: border-box; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><td style="border-bottom: 1px solid rgb(189, 193, 196); border-right: 1px solid rgb(189, 193, 196); box-sizing: border-box; padding: 0.5em; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><div style="text-align: center;">
+<div style="text-align: center;">
+<b style="color: black;">Pokémon Ranger:<br /> Trazos de Luz</b></div>
+</div>
+<div style="text-align: center;">
+<div style="text-align: center;">
+<span style="background-color: white;"><br /></span></div>
+</div>
+<span style="background-color: white;">
+<span style="font-size: 12px;"></span></span>
+<div style="text-align: center;">
+<div style="text-align: center;">
+<span style="background-color: white;"><span style="font-size: 12px;"><a href="https://www.nintendo.es/Juegos/Nintendo-DS/Pokemon-Ranger-Trazos-de-Luz-272453.html"><b><span style="color: blue;">https://www.nintendo.es/Juegos/Nintendo-DS/Pokemon-Ranger-Trazos-de-Luz-272453.html</span></b></a></span></span></div>
+</div>
+<span style="background-color: white;"><span style="font-size: 12px;">
+</span></span></td></tr>
+<tr style="box-sizing: border-box; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><td style="border-bottom: 1px solid rgb(189, 193, 196); border-right: 1px solid rgb(189, 193, 196); box-sizing: border-box; padding: 0.5em; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><div style="text-align: center;">
+<div style="text-align: center;">
+<b style="color: black;">Pokémon Ranger:<br /> Sombras de Almia</b></div>
+</div>
+<div style="text-align: center;">
+<div style="text-align: center;">
+<span style="background-color: white;"><br /></span></div>
+</div>
+<span style="background-color: white;">
+<span style="font-size: 12px;"></span></span>
+<div style="text-align: center;">
+<div style="text-align: center;">
+<span style="background-color: white;"><span style="font-size: 12px;"><a href="https://www.nintendo.es/Juegos/Nintendo-DS/Pokemon-Ranger-Sombras-de-Almia-272464.html"><span style="color: blue;"><b>https://www.nintendo.es/Juegos/Nintendo-DS/Pokemon-Ranger-Sombras-de-Almia-272464.html</b></span></a></span></span></div>
+</div>
+<span style="background-color: white;"><span style="font-size: 12px;">
+</span></span></td></tr>
+<tr style="box-sizing: border-box; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><td style="border-bottom: 1px solid rgb(189, 193, 196); border-right: 1px solid rgb(189, 193, 196); box-sizing: border-box; padding: 0.5em; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><div style="text-align: center;">
+<div style="text-align: center;">
+<b style="color: black;">Starfox Command</b></div>
+</div>
+<div style="text-align: center;">
+<div style="text-align: center;">
+<span style="background-color: white;"><br /></span></div>
+</div>
+<span style="background-color: white;">
+<span style="font-size: 12px;"></span></span>
+<div style="text-align: center;">
+<div style="text-align: center;">
+<span style="background-color: white;"><span style="font-size: 12px;"><b><a href="https://www.nintendo.es/Juegos/Nintendo-DS/Star-Fox-Command-273113.html"><span style="color: blue;">https://www.nintendo.es/Juegos/Nintendo-DS/Star-Fox-Command-273113.html</span></a></b></span></span></div>
+</div>
+<span style="background-color: white;"><span style="font-size: 12px;">
+</span></span></td></tr>
+<tr style="box-sizing: border-box; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><td style="border-bottom: 1px solid rgb(189, 193, 196); border-right: 1px solid rgb(189, 193, 196); box-sizing: border-box; padding: 0.5em; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><div style="text-align: center;">
+<div style="text-align: center;">
+<b style="color: black;"><b>Super Mario 64 DS</b></span></div>
+</div>
+<div style="text-align: center;">
+<span style="background-color: white;"></span><br /></div>
+<div style="text-align: center;">
+<div style="text-align: center;">
+<span style="background-color: white;"><a href="https://www.nintendo.es/Juegos/Nintendo-DS/Super-Mario-64-DS-273179.html" style="font-size: 12px; font-weight: bold;"><span style="color: blue;">https://www.nintendo.es/Juegos/Nintendo-DS/Super-Mario-64-DS-273179.html</span></a></span></div>
+</div>
+<span style="background-color: white;">
+</span></td></tr>
+<tr style="box-sizing: border-box; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><td style="border-bottom: 1px solid rgb(189, 193, 196); border-right: 1px solid rgb(189, 193, 196); box-sizing: border-box; padding: 0.5em; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><div style="text-align: center;">
+<div style="text-align: center;">
+<b style="color: black;">Wario: Master of Disguise</b></div>
+</div>
+<div style="text-align: center;">
+<div style="text-align: center;">
+<span style="background-color: white;"><span style="font-weight: 700;"><br /></span></span></div>
+</div>
+<span style="background-color: white;">
+<b></b></span>
+<div style="text-align: center;">
+<div style="text-align: center;">
+<span style="background-color: white;"><b><b><span style="font-size: 12px;"><a href="https://www.nintendo.es/Juegos/Nintendo-DS/Wario-Master-of-Disguise-273553.html"><span style="color: blue;">https://www.nintendo.es/Juegos/Nintendo-DS/Wario-Master-of-Disguise-273553.html</span></a></span></b></b></span></div>
+</div>
+<span style="background-color: white;"><b>
+</b></span></td></tr>
+<tr style="box-sizing: border-box; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><td style="border-bottom: 1px solid rgb(189, 193, 196); border-right: 1px solid rgb(189, 193, 196); box-sizing: border-box; padding: 0.5em; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><div style="text-align: center;">
+<div style="text-align: center;">
+<b style="color: black;">WarioWare: Touched</b></div>
+</div>
+<div style="text-align: center;">
+<div style="text-align: center;">
+<span style="background-color: white;"><span style="font-weight: 700;"><br /></span></span></div>
+</div>
+<span style="background-color: white;">
+<b></b></span>
+<div style="text-align: center;">
+<div style="text-align: center;">
+<span style="background-color: white;"><b><b><span style="font-size: 12px;"><a href="https://www.nintendo.es/Juegos/Nintendo-DS/WarioWare-Touched--273564.html"><span style="color: blue;">https://www.nintendo.es/Juegos/Nintendo-DS/WarioWare-Touched--273564.html</span></a></span></b></b></span></div>
+</div>
+<span style="background-color: white;"><b>
+</b></span></td></tr>
+<tr style="box-sizing: border-box; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><td style="border-bottom: 1px solid rgb(189, 193, 196); border-right: 1px solid rgb(189, 193, 196); box-sizing: border-box; padding: 0.5em; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><div style="text-align: center;">
+<div style="text-align: center;">
+<b style="color: black;">Yoshi´s Island DS</b></div>
+</div>
+<div style="text-align: center;">
+<div style="text-align: center;">
+<span style="background-color: white;"><span style="font-weight: 700;"><br /></span></span></div>
+</div>
+<span style="background-color: white;">
+<b></b></span>
+<div style="text-align: center;">
+<div style="text-align: center;">
+<span style="background-color: white;"><b><b><span style="font-size: 12px;"><a href="https://www.nintendo.es/Juegos/Nintendo-DS/Yoshi-s-Island-DS-273630.html"><span style="color: blue;">https://www.nintendo.es/Juegos/Nintendo-DS/Yoshi-s-Island-DS-273630.html</span></a></span></b></b></span></div>
+</div>
+<span style="background-color: white;"><b>
+</b></span></td></tr>
+<tr style="box-sizing: border-box; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><td style="border-bottom: 1px solid rgb(189, 193, 196); border-right: 1px solid rgb(189, 193, 196); box-sizing: border-box; padding: 0.5em; transition: all 0.2s ease-in-out 0s; vertical-align: middle;"><div style="text-align: center;">
+<div style="text-align: center;">
+<b style="color: black;">Yoshi´s Touch & Go</b></div>
+</div>
+<div style="text-align: center;">
+<div style="text-align: center;">
+<span style="background-color: white;"><span style="font-weight: 700;"><br /></span></span></div>
+</div>
+<span style="background-color: white;">
+<b></b></span>
+<div style="text-align: center;">
+<div style="text-align: center;">
+<span style="background-color: white;"><b><b><span style="font-size: 12px;"><a href="https://www.nintendo.es/Juegos/Nintendo-DS/Yoshi-Touch-Go-273641.html"><span style="color: blue;">https://www.nintendo.es/Juegos/Nintendo-DS/Yoshi-Touch-Go-273641.html</span></a></span></b></b></span></div>
+</div>
+<span style="background-color: white;"><b>
+</b></span></td></tr>
+</tbody></table>
+<b><span style="color: blue; font-size: large;"><br /></span></b>
+<b><span style="color: blue; font-size: x-large;">[PASOS] Instalar Haxchi con Coldboot</span></b><br />
+<b><span style="color: blue; font-size: large;"><br /></span></b>
+<span style="color: blue; font-size: large;"><b><u>[PASO 1] Instalar Haxchi en el Menú HOME</u></b></span><br />
+Teniendo ya un título de Consola Virtual de Nintendo DS de los mostrados en la tabla superior, puedes instalar Haxchi.<br />
+Recuerda,<b> si el título no es comprado legalmente</b>,<span style="color: red;"><b> la consola acabará brickeada</b></span><br />
+<br />
+1- Accede desde el navegador a la siguiente url (Y pulsa el botón "Exploit 5.5.X" para acceder al Homebrew Launcher)&nbsp;<a href="http://wiiuexploit.xyz/"><b><span style="color: blue;">http://wiiuexploit.xyz/</span></b></a><br />
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" data-original-height="460" data-original-width="1034" height="284" src="https://1.bp.blogspot.com/-j6y4GtnJ224/XcFxDSyEINI/AAAAAAAAVPU/IznBMwgQV4kXpA5nfz0gKeJREeadznGswCLcBGAsYHQ/s640/JKL.png" style=max-width:100%   width="640" /></div>
+<br />
+2- Abre el homebrew llamado<b><span style="color: blue;"> "Haxchi" "Haxchi Installer"</span></b><br />
+<br />
+3-Te saldrá una pantallada cómo la siguiente. Selecciona tu título de DS y pulsa (A) para instalarlo<br />
+<img border="0" data-original-height="360" data-original-width="735" height="313" src="https://1.bp.blogspot.com/-fnBRdnxNLWo/W3FgwcT-iBI/AAAAAAAARJg/yvlpKZIOHXUXKNcVAQMedgndyC_5cxjlgCLcBGAs/s640/Sin%2Bt%25C3%25ADtulo.png" style=max-width:100%    style="text-align: center;" width="640" /><br />
+<br />
+<div>
+4-Tu título de DS ahora aparecerá en el menú HOME cómo<b><span style="color: blue;"> "Haxchi"</span></b><br />
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" data-original-height="883" data-original-width="1600" height="352" src="https://2.bp.blogspot.com/-rjdviauMSxw/W3FiSgmqnjI/AAAAAAAARKQ/uB65utaOJJgmSivYPOCHr4tdIdpkg4hVQCLcBGAs/s640/IMG_20180813_124622%2B%25281%2529.jpg" style=max-width:100%   width="640" /></div>
+<br />
+5- <b>Abre Haxchi</b> y tu consola se<b><span style="color: blue;"> reiniciará al HOME para activar los parches del CFW</span></b>, necesarios para este tutorial<br />
+<br />
+
+<br />
+<span style="color: blue; font-size: large;"><b><u>[PASO 2] Hacer backup de la NAND</u></b></span><br />
+<br />
+1- <b>Pulsa (A)</b> mientras ejecutas tu título de<span style="color: blue;"><b> "Haxchi"</b></span> desde el Menú HOME<br />
+2-<b> Ejecuta </b>el homebrew llamado <span style="color: blue;"><b>"nanddumper"</b></span><br />
+3-Con tu D-Pad, selecciona las opciones cómo aparece en la siguiente imagen<br />
+<img border="0" data-original-height="1200" data-original-width="1600" height="480" src="https://4.bp.blogspot.com/-Pi8gmmD2eKQ/W3Fkgtc36GI/AAAAAAAARKo/oFxYqd6K8ykFFiTVpdBbL5840CBG5Em6gCLcBGAs/s640/IMG_20180813_125724.jpg" style=max-width:100%    style="text-align: center;" width="640" /><br />
+<br />
+4- <b>Pulsa (A)</b> para dumpear tu NAND.<span style="color: blue;"><b> El programa empezará a dumpearla en tu SD.</b></span><br />
+(Este proceso <b><span style="color: blue;">tardará entre 30-60 min</span></b>, controla la batería de tu WiiU Gamepad)<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://1.bp.blogspot.com/--VvI-_mcU6w/W3FueKEhpcI/AAAAAAAARLU/jyp5wGJO53sTclKtHzpAtzfsAQqiW9c9wCLcBGAs/s1600/IMG_20180813_133910.jpg" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" data-original-height="391" data-original-width="1600" height="156" src="https://1.bp.blogspot.com/--VvI-_mcU6w/W3FueKEhpcI/AAAAAAAARLU/jyp5wGJO53sTclKtHzpAtzfsAQqiW9c9wCLcBGAs/s640/IMG_20180813_133910.jpg" style=max-width:100%   width="640" /></a></div>
+<br />
+5- <b>Una vez termine reiniciará tu Nintendo WiiU</b>, apaga la consola y extrae la SD y ve a tu PC<br />
+<br />
+6- Guarda en un lugar seguro los siguientes archivos y continua con en el paso siguiente<br />
+<blockquote class="tr_bq">
+<b><span style="color: blue;">slc.bin<br />slccmpt.bin<br />otp.bin<br />seeprom.bin<br />mlc.bin.part</span></b></blockquote>
+<br />
+<br />
+<span style="color: blue; font-size: large;"><u><b>[PASO 3] Instalar CBHC</b></u></span><br />
+<br />
+1- <b>Desconecta de tu WiiU </b>todas<b><span style="color: blue;"> las unidades USB externas</span></b><br />
+2- <b>Entra al Homebrew Launcher</b> <b><span style="color: blue;">pulsando (A) </span></b>mientras inicias tu título de <span style="color: blue;"><b>"Haxchi"</b></span><br />
+3-<b>Lanza el Homebrew</b> llamado<b><span style="color: blue;"> "CBHC installer"</span></b><br />
+4-<b>Selecciona el título de DS</b> donde ya tenemos Haxchi instalado y pulsa (A)<br />
+<img border="0" data-original-height="571" data-original-width="1600" height="228" src="https://4.bp.blogspot.com/-DiuhaWnbfNE/W3FvIVgnpQI/AAAAAAAARLs/xJ7vWFOzPMciCdqbNNLn0vFKhqSbyEPOACLcBGAs/s640/IMG_20180813_134308.jpg" style=max-width:100%    style="text-align: center;" width="640" /><br />
+<br />
+5-<b>Una vez acabe la instalación</b>, <span style="color: blue;"><b>deberías ser reiniciado al Menú HOME</b></span><br />
+6-Si tenías unidades USB externas, vuelve a conectarlas y reinicia la consola<br />
+<br />
+7-<b>Te aparecerá un menú de arranque con varias opciones</b>, situate sobre<br />
+"Autoboot: Disabled" y<span style="color: blue;"><b> pulsa (A) hasta que ponga "Autoboot: System Menu"</b></span><br />
+<img border="0" data-original-height="965" data-original-width="1600" height="386" src="https://4.bp.blogspot.com/-yxpEyO8yHgo/W3FzEoSmmdI/AAAAAAAARMQ/ldFHjzo9kNUB2jFmuQ1LzcPkTGbgEnu9ACLcBGAs/s640/IMG_20180813_135952.jpg" style=max-width:100%    style="text-align: center;" width="640" /><br />
+<br />
+8-<b>Pulsa (A)</b> en<b><span style="color: blue;"> "Boot System Menu"</span></b><br />
+9-<b>Reinicia tu WiiU </b>para comprobar que el exploit funciona automaticamente.<br />
+<br />
+<b><span style="background-color: red; color: white;">IMPORTANTE: Una vez en el HOME, mueve el título "Haxchi" a la última página de tu Menú HOME de tu WiiU y evite que sea abierto/movido o desinstalado para no brickear tu consola.</span></b><br />
+<br />
+<br />
+<b><span style="color: blue; font-size: large;"><u>[PASO 4] Instalar Homebrew Launcher Chanel</u></span></b><br />
+<br />
+1- <b>Con la WiiU totalmente apagada</b>, <span style="color: blue;"><b>enciéndela y mientras aparece la pantalla de carga de CBHC, pulsa el botón (HOME)</b></span><br />
+2- Te saldrá un menú de configuración, <b><span style="color: blue;">selecciona "Boot Homebrew Launcher"</span></b><br />
+3-<b>Abre la aplicación</b> <b><span style="color: blue;">"WUP Installer GX2"</span></b><br />
+4-<b>Selecciona<span style="color: blue;"> "hbc"</span></b><br />
+<img border="0" data-original-height="950" data-original-width="1600" height="380" src="https://3.bp.blogspot.com/-b-q2EQhjAi8/W3F1VlIEbJI/AAAAAAAARNI/JyksQWn6tpwo9saSiEBUQkaU8OOzLmoYACLcBGAs/s640/IMG_20180813_140621.jpg" style=max-width:100%   style="text-align: center;" width="640" /><br />
+<br />
+5-<b>Pulsa </b><span style="color: blue;"><b>"Install"</b></span> y confirma con <span style="color: blue;"><b>"Yes"</b></span><br />
+6-<b><span style="color: red;">¡IMPORTANTE!</span></b> <b>Selecciona la NAND cómo ruta de la instalación</b><br />
+7-<b>Pulsa HOME</b> y salte una vez haya acabado<b><span style="color: blue;"> y tendrás tu canal de The Homebrew Launcher instalado</span></b><br />
+<img border="0" data-original-height="933" data-original-width="1600" height="373" src="https://3.bp.blogspot.com/-M87XTPRS174/W3F1cjxywHI/AAAAAAAARNM/Tan6guvJ73sa0mIbGMlLVqD6qXB92z9RgCLcBGAs/s640/IMG_20180813_140757.jpg" style=max-width:100%   style="text-align: center;" width="640" /><br />
+<br />
+<br />
+<b><span style="color: blue; font-size: large;"><u>[PASO 5] Instalar Juegos</u></span></b><br />
+<br />
+Para descargar e instalar títulos sigue<b><a href="http://www.hacktendo.net/p/wiiu_24.html"> <span style="color: blue;">esta guía</span></a></b>, con la diferencia de que tú usarás el acceso directo al Homebrew Launcher desde tu Menú HOME<br />
+<br />
+<span style="color: blue; font-size: large;"><u><b><br /></b></u></span></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+</div>
+            
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://https-ivanillo-github-io-android.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<script id="dsq-count-scr" src="//https-ivanillo-github-io-android.disqus.com/count.js" async></script>
+
+
+              
+      
+      </div>
+    </div>
+   
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	                             
+  </body>
+</html>
