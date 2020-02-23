@@ -1,1 +1,420 @@
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+      https://www.apache.org/licenses/LICENSE-2.0
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
 
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Introducing Lollipop, a sweet new take on Android.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Android</title>
+
+    <style>
+body {
+
+  background-color: white;
+  color: black;
+
+}
+ android-header {
+
+  background-color: white;
+  color: black;
+
+}  
+      
+      
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
+    
+    
+    <!-- Page styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style>
+  </head>
+  <body>
+    <script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout__header-row">
+          <span class="android-title mdl-layout-title">
+		  	
+            <img class="android-logo-image" src="images/android-logo.png">
+           
+          </span>
+          <!-- Add spacer, to align navigation to the right in desktop -->
+          <div class="android-header-spacer mdl-layout-spacer"></div>
+          <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+           <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">       
+  <i class="material-icons">search</i>
+            </label>
+            <div class="mdl-textfield__expandable-holder">
+              <input class="mdl-textfield__input" type="text" id="search-field">
+            </div>            
+          </div>
+		
+		
+          <!-- Navigation -->
+          <div class="android-navigation-container">
+            <nav class="android-navigation mdl-navigation">
+             
+            </nav>  
+			
+		  
+          </div>
+	
+          <span class="android-mobile-title mdl-layout-title">
+            <img class="android-logo-image" src="images/android-logo.png">
+          </span>
+		
+		
+		<div>		
+													
+       <img onclick="myFunction()" src="images/dark.png">   
+			
+		
+		</div>
+		
+          <button class="android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
+            <i class="material-icons">more_vert</i>
+
+        	
+          </button>
+          <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
+            <li class="mdl-menu__item">5.0 Lollipop</li>
+            <li class="mdl-menu__item">4.4 KitKat</li>
+            <li disabled class="mdl-menu__item">4.3 Jelly Bean</li>
+            <li class="mdl-menu__item">Android History</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="android-drawer mdl-layout__drawer">
+        <span class="mdl-layout-title">
+          <img class="android-logo-image" src="images/android-logo-white.png">
+        </span>
+        <nav class="mdl-navigation">
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Nintendo 3DS</span>
+          <a class="mdl-navigation__link" href="">Actualizar A9LH a B9S</a>
+          <a class="mdl-navigation__link" href="">Desbrickear 3DS</a>
+          <a class="mdl-navigation__link" href="">Exploit BannerBomb3</a>
+          <a class="mdl-navigation__link" href="">Exploit NtrBootHax</a>
+		<a class="mdl-navigation__link" href="">Guía Rosalina</a>
+          <a class="mdl-navigation__link" href="">Guía VCC</a>
+          <a class="mdl-navigation__link" href="">Nintendo 3DS Kit</a>
+		
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Nintendo Switch</span>
+          <a class="mdl-navigation__link" href="">Acceder RCM</a>
+          <a class="mdl-navigation__link" href="">Actualizar offline</a>
+          <a class="mdl-navigation__link" href="">Android en Switch</a>
+		 <a class="mdl-navigation__link" href="">Backup de la NAND</a>
+          <a class="mdl-navigation__link" href="">Capturadora WiFi/USB</a>
+          <a class="mdl-navigation__link" href="">Android en Switch</a>
+		 <a class="mdl-navigation__link" href="">Ejecutar CFW</a>
+          <a class="mdl-navigation__link" href="">Ejecutar FLOG</a>
+          <a class="mdl-navigation__link" href="">Streaming de Windows</a>
+		
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Nintendo DSi</span>
+          <a class="mdl-navigation__link" href="">Guía TwiLightMenu++</a>
+          <a class="mdl-navigation__link" href="">HiyaCFW (Flipnote)</a>
+          <a class="mdl-navigation__link" href="">HiyaCFW (Camera)</a>
+		<div class="android-drawer-separator"></div>
+		
+          <span class="mdl-navigation__link" href="">Nintendo WiiU</span>
+          <a class="mdl-navigation__link" href="">Ejecutar MochaCFW</a>
+          <a class="mdl-navigation__link" href="">Guía WiiVC Injector</a>
+          <a class="mdl-navigation__link" href="">Historia WiiU</a>
+          <a class="mdl-navigation__link" href="">Instalar Haxchi+CBHC</a>
+          <div class="android-drawer-separator"></div>
+	
+          <span class="mdl-navigation__link" href="">Nintendo Wii Mini</span>
+          <a class="mdl-navigation__link" href="">Ejecutar BlueBomb</a>
+          <div class="android-drawer-separator"></div>
+        </nav>
+      </div>
+
+      <div class="android-content mdl-layout__content">
+        <a name="top"></a>
+        <div class="android-be-together-section mdl-typography--text-center">
+          <div class="logo-font android-slogan">Bienvenido a HackTendo.</div>
+          <div class="logo-font android-sub-slogan">Una página sobre la Scene de consolas de Nintendo.</div>
+  
+		
+		
+			   <br>
+			   <br> 
+			   <br>
+		    <a href="https://t.me/HackTendoNet" target="whatever"><img border="0" src="images/telegram.png"  style=max-width:100%  alt=""></a>
+	
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=ivanmolinamorales@gmail.com&su=Iv%C3%A1n&body=&bcc=" target="whatever"><img border="0" src="images/gmail.png" style=max-width:100%  alt=""></a>
+			   <br> <br>
+			   <br>
+		    <div>
+		   <div>
+		  
+		  
+           
+			   
+		 
+      
+		  
+		  
+		  
+		  
+		  
+		
+		  
+           <div class="android-section-title mdl-typography--display-1-color-contrast">BlueBomb Exploit: Homebrew Channel y cIOS</div>
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" data-original-height="497" data-original-width="740" src="https://1.bp.blogspot.com/-rZuv_I1jstI/XbNpnQ3-nJI/AAAAAAAAVEE/26asNR64zUA-BwJSQCcxLfV4J3SvUOhtACLcBGAsYHQ/s1600/1%25C2%25B41.jpg" style=max-width:100%    /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<b><span style="color: blue;">BlueBomb</span> es el primer exploit conocido para la Wii Mini que hace uso de una pequeña vulnerabilidad en las librerias Bluetooth </b>de la consola de Nintendo para exploitearla.</div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<b><span style="font-size: large;">Requisitos:</span></b></div>
+<div class="separator" style="clear: both; text-align: center;">
+<b>1.-&nbsp;</b>Una distro de Linux, cómo puede ser Ubuntu</div>
+<b><button type="button"><a href="https://ubuntu.com/download/desktop/thank-you?version=18.04.3&amp;architecture=amd64"><b>Ubuntu 18.04.3 LTS</b></a></button>&nbsp;</b><b><button type="button"><b><a href="https://ubuntu.com/download/desktop/thank-you/?version=19.10&amp;architecture=amd64">Ubuntu 19.10</a></b></button></b><br />
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b>2.-</b> Un memoria USB formateada en FAT32 de 32GB o inferior</div>
+<div style="text-align: center;">
+(Una memoria de 64GB o superior no es compatible con el exploit)</div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b>3.-</b> Un PC con Bluetooth o un adaptador bluetooth adicional</div>
+<div style="text-align: center;">
+(Puedes usar el Bluetooth incluído en tu PC si este funciona con la distro Linux, aunque va a fallar más que un adaptador adicional)</div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b>4.-</b> El pack de archivos de BlueBomb</div>
+<button type="button"><b><a href="https://sourceforge.net/projects/hacktendo-net-repository/files/Nintendo%20Wii%20Mini/BlueBomb/">Archivos</a></b></button><br />
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b><span style="font-size: large;">Pasos:</span></b></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b>1.- </b>Prepara el entorno Linux en tu PC, puedes instalar la distro en tu memoria o puedes usar Linux en modo Live sin modificar tu sistema operativo actual.</div>
+<div style="text-align: center;">
+Para preparar el USB de Linux, descargate la distro de los enlaces superiores y la herramienta <b><a href="https://rufus.ie/"><span style="color: blue;">Rufus </span></a></b>para preparar el USB.</div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b>2.-</b> Una vez en Linux, descarga el pack de archivos del enlace superior y extrae la carpeta <b>"BlueBomb"</b> en el<u><b> Escritorio</b></u> en tu PC. (Es muy importante, sino el exploit no funcionará)</div>
+<div style="text-align: center;">
+Al abrirlo, te encontrarás con estas dos carpetas.</div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://1.bp.blogspot.com/-f7qQh0lWAGg/XbNtehfC9cI/AAAAAAAAVEQ/iK2jBEp0lOIywJliCsFd3DtJ5U_6pqemQCLcBGAsYHQ/s1600/b1.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="112" data-original-width="170" src="https://1.bp.blogspot.com/-f7qQh0lWAGg/XbNtehfC9cI/AAAAAAAAVEQ/iK2jBEp0lOIywJliCsFd3DtJ5U_6pqemQCLcBGAsYHQ/s1600/b1.png" style=max-width:100%   /></a></div>
+<div style="text-align: center;">
+<b>3.- </b>Extrae el contenido de la carpeta "SD" en una memoria USB formateada en FAT32 y conectala al puerto USB de tu Wii Mini.</div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b>4.-</b> Abre ahora la carpeta "PC" y dentro encontrarás otras dos subcarpetas.</div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://1.bp.blogspot.com/-sfwxXXYAq50/XbNuFTsuIVI/AAAAAAAAVEY/9PzyTlKqutQxxTExUydZRK57SowrCYK5ACLcBGAsYHQ/s1600/b2.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="160" data-original-width="267" src="https://1.bp.blogspot.com/-sfwxXXYAq50/XbNuFTsuIVI/AAAAAAAAVEY/9PzyTlKqutQxxTExUydZRK57SowrCYK5ACLcBGAsYHQ/s1600/b2.png" style=max-width:100%   style="text-align: center;" /></a></div>
+<div style="text-align: center;">
+<b style="font-size: small;">Elige la carpeta que se corresponda con la región de tu consola, PAL o NTSC.</b></div>
+<br />
+<div style="text-align: center;">
+<span style="font-size: x-small; font-weight: 700;"><br /></span></div>
+<span><div style="text-align: center;">
+<span style="font-size: x-small; font-weight: 700;"><br /></span></div>
+</span><div style="text-align: center;">
+<b>5.-</b> Ahora, dentro de la carpeta encontrarás un único archivo, un script .sh.</div>
+<br />
+<div style="text-align: center;">
+Abre el terminal de Linux en esa carpeta y escribe el siguiente comando para que se inicie el proceso.</div>
+<blockquote class="tr_bq">
+<div style="text-align: center;">
+<b><span style="color: blue;">sh BlueBomb.sh</span></b></div>
+</blockquote>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b>6.-</b>&nbsp;Sigue su ejecución y introduce los datos que te pida, una vez haya acabado, te encontrarás con una pantalla cómo esta que te pedirá</div>
+<div style="text-align: center;">
+<b>"Waiting to accept"</b></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<img border="0" data-original-height="234" data-original-width="740" src="https://1.bp.blogspot.com/-RCMNsLcPVUo/XbN2yclAccI/AAAAAAAAVEk/YzvZgIbKTKs6VIp7xvdLVgVo9AkH4fM9gCLcBGAsYHQ/s1600/1%25C2%25B41.jpg" style=max-width:100%   /></div>
+<br />
+<div style="text-align: center;">
+<span style="font-weight: 700;"><br /></span></div>
+<b><div style="text-align: center;">
+<b>En este punto:</b></div>
+</b><br />
+<div style="text-align: center;">
+<b>1.-&nbsp;</b>Apaga todos los Wii Mote que estén o puedan connectarse a tu Wii mini</div>
+<div style="text-align: center;">
+(Quítales las pilas si es necesario)</div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b>2.- </b>Enciende la consola (si no la tenías encendida) y presiona varias veces en intervalos de 5-10s el botón de SYNC de la consola hasta que en esa ventana te aparezca el mensaje</div>
+<div style="text-align: center;">
+<b>"Got connection handle"</b></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b>7.- </b>Una vez haya cargado el exploit, te habrá abierto el <b>HackMii Installer</b></div>
+<div style="text-align: center;">
+Usa esa aplicación para instalar el Homebrew Channel cómo un canal y no tener que volver a cargar el exploit vía PC.</div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b>8.-</b> Una vez instalado el Homebrew Channel, ábrelo desde el Menú de Wii y selecciona el Homebrew <b>"d2x cIOS installer"</b> para instalar los CIOS necesarios para poder cargar juegos vía USB.</div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b>9.-</b> Presiona cualquier botón para saltar la introducción de la app y una vez en el menú principal te encontrarás con varias opciones:</div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b>"Select cIOS"</b></div>
+<div style="text-align: center;">
+<b>"Select cIOS base"</b></div>
+<div style="text-align: center;">
+<b>"Select cIOS slot"</b></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+Puedes desplazarte entre ellas con la cruceta y seleccionar valores con izquierda/derecha.</div>
+<div style="text-align: center;">
+Completa esa configuración con los siguientes valores y pulsa (A):</div>
+<div style="text-align: center;">
+<b>Select cIOS: d2xl-v1-beta2</b></div>
+<div style="text-align: center;">
+<b>Select cIOS base: 57</b></div>
+<div style="text-align: center;">
+<b>Select cIOS slot: 249</b></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+Una vez hayas llegado a este punto, tienes tu consola Wii Mini totalmente modificada y funcional.</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+</div>
+            
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://https-ivanillo-github-io-android.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<script id="dsq-count-scr" src="//https-ivanillo-github-io-android.disqus.com/count.js" async></script>
+
+
+              
+      
+      </div>
+    </div>
+   
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	                             
+  </body>
+</html>
