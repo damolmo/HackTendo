@@ -1,1 +1,342 @@
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+      https://www.apache.org/licenses/LICENSE-2.0
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
 
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Introducing Lollipop, a sweet new take on Android.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Android</title>
+
+    <style>
+body {
+
+  background-color: white;
+  color: black;
+
+}
+ android-header {
+
+  background-color: white;
+  color: black;
+
+}  
+      
+      
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
+    
+    
+    <!-- Page styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style>
+  </head>
+  <body>
+    <script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout__header-row">
+          <span class="android-title mdl-layout-title">
+		  	
+            <img class="android-logo-image" src="images/android-logo.png">
+           
+          </span>
+          <!-- Add spacer, to align navigation to the right in desktop -->
+          <div class="android-header-spacer mdl-layout-spacer"></div>
+          <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+           <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">       
+  <i class="material-icons">search</i>
+            </label>
+            <div class="mdl-textfield__expandable-holder">
+              <input class="mdl-textfield__input" type="text" id="search-field">
+            </div>            
+          </div>
+		
+		
+          <!-- Navigation -->
+          <div class="android-navigation-container">
+            <nav class="android-navigation mdl-navigation">
+             
+            </nav>  
+			
+		  
+          </div>
+	
+          <span class="android-mobile-title mdl-layout-title">
+            <img class="android-logo-image" src="images/android-logo.png">
+          </span>
+		
+		
+		<div>		
+													
+       <img onclick="myFunction()" src="images/dark.png">   
+			
+		
+		</div>
+		
+          <button class="android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
+            <i class="material-icons">more_vert</i>
+
+        	
+          </button>
+          <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
+            <li class="mdl-menu__item">5.0 Lollipop</li>
+            <li class="mdl-menu__item">4.4 KitKat</li>
+            <li disabled class="mdl-menu__item">4.3 Jelly Bean</li>
+            <li class="mdl-menu__item">Android History</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="android-drawer mdl-layout__drawer">
+        <span class="mdl-layout-title">
+          <img class="android-logo-image" src="images/android-logo-white.png">
+        </span>
+        <nav class="mdl-navigation">
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Nintendo 3DS</span>
+          <a class="mdl-navigation__link" href="">Actualizar A9LH a B9S</a>
+          <a class="mdl-navigation__link" href="">Desbrickear 3DS</a>
+          <a class="mdl-navigation__link" href="">Exploit BannerBomb3</a>
+          <a class="mdl-navigation__link" href="">Exploit NtrBootHax</a>
+		<a class="mdl-navigation__link" href="">Guía Rosalina</a>
+          <a class="mdl-navigation__link" href="">Guía VCC</a>
+          <a class="mdl-navigation__link" href="">Nintendo 3DS Kit</a>
+		
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Nintendo Switch</span>
+          <a class="mdl-navigation__link" href="">Acceder RCM</a>
+          <a class="mdl-navigation__link" href="">Actualizar offline</a>
+          <a class="mdl-navigation__link" href="">Android en Switch</a>
+		 <a class="mdl-navigation__link" href="">Backup de la NAND</a>
+          <a class="mdl-navigation__link" href="">Capturadora WiFi/USB</a>
+          <a class="mdl-navigation__link" href="">Android en Switch</a>
+		 <a class="mdl-navigation__link" href="">Ejecutar CFW</a>
+          <a class="mdl-navigation__link" href="">Ejecutar FLOG</a>
+          <a class="mdl-navigation__link" href="">Streaming de Windows</a>
+		
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Nintendo DSi</span>
+          <a class="mdl-navigation__link" href="">Guía TwiLightMenu++</a>
+          <a class="mdl-navigation__link" href="">HiyaCFW (Flipnote)</a>
+          <a class="mdl-navigation__link" href="">HiyaCFW (Camera)</a>
+		<div class="android-drawer-separator"></div>
+		
+          <span class="mdl-navigation__link" href="">Nintendo WiiU</span>
+          <a class="mdl-navigation__link" href="">Ejecutar MochaCFW</a>
+          <a class="mdl-navigation__link" href="">Guía WiiVC Injector</a>
+          <a class="mdl-navigation__link" href="">Historia WiiU</a>
+          <a class="mdl-navigation__link" href="">Instalar Haxchi+CBHC</a>
+          <div class="android-drawer-separator"></div>
+	
+          <span class="mdl-navigation__link" href="">Nintendo Wii Mini</span>
+          <a class="mdl-navigation__link" href="">Ejecutar BlueBomb</a>
+          <div class="android-drawer-separator"></div>
+        </nav>
+      </div>
+
+      <div class="android-content mdl-layout__content">
+        <a name="top"></a>
+        <div class="android-be-together-section mdl-typography--text-center">
+          <div class="logo-font android-slogan">Bienvenido a HackTendo.</div>
+          <div class="logo-font android-sub-slogan">Una página sobre la Scene de consolas de Nintendo.</div>
+  
+		
+		
+			   <br>
+			   <br> 
+			   <br>
+		    <a href="https://t.me/HackTendoNet" target="whatever"><img border="0" src="images/telegram.png"  style=max-width:100%  alt=""></a>
+	
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=ivanmolinamorales@gmail.com&su=Iv%C3%A1n&body=&bcc=" target="whatever"><img border="0" src="images/gmail.png" style=max-width:100%  alt=""></a>
+			   <br> <br>
+			   <br>
+		    <div>
+		   <div>
+		  
+		  
+           
+			   
+		 
+      
+		  
+		  
+		  
+		  
+		  
+		
+		  
+           <div class="android-section-title mdl-typography--display-1-color-contrast">[ChoiDujourNX] Actualiza tu Nintendo Switch offline (Atmosphere CFW)</div>
+
+<blockquote class="tr_bq" style="clear: both; text-align: center;">
+<span style="color: orange; font-family: inherit;"><b>ANOTACIONES:&nbsp;</b></span></blockquote>
+<blockquote class="tr_bq" style="clear: both; text-align: center;">
+<span style="color: orange; font-family: inherit;"><b>1. Esta guía está pensada para seguirse con Atmosphere CFW.</b></span></blockquote>
+<blockquote class="tr_bq" style="clear: both; text-align: center;">
+<span style="color: orange;"><b>2. Esta aplicación NO se puede usar en Switch IPatched o Mariko (sysNAND), de usarse tu consola quedaría brickeada al activarse el autorcm.</b></span></blockquote>
+<blockquote class="tr_bq">
+<div style="text-align: center;">
+&nbsp;<span style="color: orange;"><span style="text-align: center;"><b>3. Usar MicroSDs originales, evitando marcas como SanDisk o Kingston que tienen clones chinos de dudosa calidad que pueden corromper archivos y causar brickeos.</b></span></span></div>
+</blockquote>
+<blockquote class="tr_bq">
+<div style="text-align: center;">
+<span style="color: orange;"><b>&nbsp;4.&nbsp;</b></span><span style="text-align: center;"><b><span style="color: orange;">Es necesario tener un backup de la NAND y del Boot0/1 para poder restaurar la consola a su estado original en caso de brickeo.</span></b></span><span style="text-align: center;"><b><span style="color: orange;">Para ello,&nbsp;<a href="https://www.hacktendo.net/p/blog-page_10.html">sigue esta guía</a>&nbsp;para hacer un backup </span><span style="color: orange;">de la consola.</span></b></span></div>
+</blockquote>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<b><span style="color: white; font-size: x-large;">[INTRODUCCIÓN]</span></b></div>
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" data-original-height="480" data-original-width="853" src="https://1.bp.blogspot.com/-FMtEhYuA3u0/W4RanApvSpI/AAAAAAAARlM/VED2b1skK_sPxgKJ_tJb41xuXpJl-UoBgCLcBGAs/s1600/fffd.png" style=max-width:100%  /></div>
+<div style="text-align: center;">
+<b><span style="color: #f1c232;">ChoiDujourNX</span></b> es una aplicación Homebrew creada por<span style="color: blue;"> </span><b><a href="https://switchtools.sshnuke.net/"><span style="color: blue;">@Rajkosto`s</span>,</a></b> que <b>nos permite actualizar nuestra Nintendo Switch desde nuestra propia consola sin quemar fusibles</b>, lo que nos permitirá si estamos en una versión 4.0.1 o inferior disfrutar de soporte exFAT y de funciones en línea mientras esperamos a algún exploit con coldboot que será publicado en algún momento por SciresM</div>
+<div style="text-align: center;">
+<img border="0" data-original-height="720" data-original-width="1280" src="https://4.bp.blogspot.com/-GNDQAnHo9c0/W5wxNmtTrGI/AAAAAAAAR3U/hHmoz-tPHlUB3sYzZ-lYay0esIrrzSZbwCLcBGAs/s1600/2018091500023700-1AB131B6E6571375B79964211BB3F5AE.jpg" style="text-align: center;" /><b><br /></b>
+<b>Esta aplicación Homebrew <span style="color: #f1c232;">permite actualizar la consola a aquellos que hayan recibido un superban y Nintendo les haya restringido las actualizaciones del firmware.</span></b></div>
+<div style="text-align: center;">
+Así tendrás siempre las últimas novedades y lo más importante, compatibilidad con todos los juegos que requieran versiones de software superiores.</div>
+<div style="text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" data-original-height="351" data-original-width="695" src="https://1.bp.blogspot.com/-tNrDUGDQjlg/Xhhz1JrlIlI/AAAAAAAAV8c/PP1wOqtnfzg3Q_9Jzylag0Yh92GNLNdYQCLcBGAsYHQ/s1600/dd.png" style=max-width:100%    /></div>
+<div style="text-align: center;">
+Gracias a ChoiDujourNX tambien puedes hacer downgrade en el futuro a una versión de software que tenga un exploit por software, dado que no quema fusibles al hacer un upgrade.<br />
+<b><span style="color: white; font-size: small;"><br /></span></b>
+<span style="font-size: x-small;"><b><span style="color: white; font-size: small;"><br /></span></b></span></div>
+<div style="text-align: center;">
+<span style="font-size: x-large;"><b><span style="color: white; font-size: medium;">[</span></b><b><span style="color: white; font-size: medium;">PASOS]</span></b></span></div>
+<div style="text-align: center;">
+1.- Encuentra <span style="color: black;"><a href="https://darthsternie.net/index.php/switch-firmwares/"><b><span style="color: #8e7cc3;">Aquí</span></b></a> </span>el firmware al que deseas actualizar tu Nintendo Switch y extraelo en tu SD</div>
+<div style="text-align: center;">
+2.- Descarga de <b><a href="https://switchtools.sshnuke.net/"><span style="color: #8e7cc3;">Aquí</span></a></b> la última versión del Homebrew y extraelo en tu SD</div>
+<div style="text-align: center;">
+3.-Ejecuta un CFW, si no usas uno debes seguir estas guías (<span style="color: black;"><a href="https://www.hacktendo.net/p/nintendo-switch-tutorial-shofel2fusee.html" style="color: black;"><b><span style="color: #8e7cc3;">Acceder Modo RCM</span></b></a><a href="https://www.hacktendo.net/p/hekate-es-un-bootloader-que-permite.html"><span style="color: white;"><b>/</b></span><b style="color: black;"><span style="color: #8e7cc3;">Ejecutar CFW</span></b></a></span>)</div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+4.-Accede al Homebrew Launcher y pulsa el icono de<b><span style="color: purple;"> </span><span style="color: #f1c232;">ChoiDujourNX</span></b></div>
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" data-original-height="720" data-original-width="1280" src="https://2.bp.blogspot.com/-6KMwUuz-YAs/W4RlOqAYXmI/AAAAAAAARlc/J7a2eeAkiPwUGRjmWPFlH1BEYs3sqlpYgCLcBGAs/s1600/2018082722223400-DB1426D1DFD034027CECDE9C2DD914B8.jpg"  style=max-width:100%    /></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+5.- Te cargará una interfaz con todas las rutas de tu SD, <b><span style="color: #f1c232;">selecciona donde está tu actualización</span></b></div>
+<div style="text-align: center;">
+Y elige la versión exFAT si tu SD está en ese formato y la versión normal si está en Fat32.</div>
+<img border="0" data-original-height="720" data-original-width="1280" src="https://1.bp.blogspot.com/-u4KYPh0laq4/W4Rlbzph5DI/AAAAAAAARlg/2r_6cbd3qDQnlByZAPdsdyxiB152tBwfgCLcBGAs/s1600/2018082722344000-DB1426D1DFD034027CECDE9C2DD914B8.jpg" style=max-width:100%    style=max-width:100%   style="text-align: center;" /><br />
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+6.- <b><span style="color: #f1c232;">Se transferirá a la consola y aplicará los parches</span></b> sin quemar fusibles.</div>
+<img border="0" data-original-height="480" data-original-width="853" src="https://3.bp.blogspot.com/-cqa8LFGy0MM/W4RloGr6BmI/AAAAAAAARlk/sk5Lbij2swojndbqZFY3hC83KhSh_GQ4QCLcBGAs/s1600/fffd.png" 
+ style=max-width:100%   style="text-align: center;" /><br />
+<br />
+<div style="text-align: center;">
+<span style="color: blue; font-weight: 700;"><br /></span></div>
+<b><div style="text-align: center;">
+<b><span style="color: #f1c232;">¿Necesitas ayuda con tu Switch?</span></b></div>
+</b><br />
+<div style="text-align: center;">
+<b>Únete al grupo de Telegram de la página&nbsp;</b></div>
+<div style="text-align: center;">
+<a href="http://t.me/HackTendoNet"><span style="color: blue;"><b>t.me/HackTendoNet</b></span></a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+</div>
+            
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://https-ivanillo-github-io-android.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<script id="dsq-count-scr" src="//https-ivanillo-github-io-android.disqus.com/count.js" async></script>
+
+
+              
+      
+      </div>
+    </div>
+   
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	                             
+  </body>
+</html>
