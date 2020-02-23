@@ -1,1 +1,538 @@
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+      https://www.apache.org/licenses/LICENSE-2.0
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
 
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Introducing Lollipop, a sweet new take on Android.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Android</title>
+
+    <style>
+body {
+
+  background-color: white;
+  color: black;
+
+}
+ android-header {
+
+  background-color: white;
+  color: black;
+
+}  
+      
+      
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
+    
+    
+    <!-- Page styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style>
+  </head>
+  <body>
+    <script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout__header-row">
+          <span class="android-title mdl-layout-title">
+		  	
+            <img class="android-logo-image" src="images/android-logo.png">
+           
+          </span>
+          <!-- Add spacer, to align navigation to the right in desktop -->
+          <div class="android-header-spacer mdl-layout-spacer"></div>
+          <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+           <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">       
+  <i class="material-icons">search</i>
+            </label>
+            <div class="mdl-textfield__expandable-holder">
+              <input class="mdl-textfield__input" type="text" id="search-field">
+            </div>            
+          </div>
+		
+		
+          <!-- Navigation -->
+          <div class="android-navigation-container">
+            <nav class="android-navigation mdl-navigation">
+             
+            </nav>  
+			
+		  
+          </div>
+	
+          <span class="android-mobile-title mdl-layout-title">
+            <img class="android-logo-image" src="images/android-logo.png">
+          </span>
+		
+		
+		<div>		
+													
+       <img onclick="myFunction()" src="images/dark.png">   
+			
+		
+		</div>
+		
+          <button class="android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
+            <i class="material-icons">more_vert</i>
+
+        	
+          </button>
+          <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
+            <li class="mdl-menu__item">5.0 Lollipop</li>
+            <li class="mdl-menu__item">4.4 KitKat</li>
+            <li disabled class="mdl-menu__item">4.3 Jelly Bean</li>
+            <li class="mdl-menu__item">Android History</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="android-drawer mdl-layout__drawer">
+        <span class="mdl-layout-title">
+          <img class="android-logo-image" src="images/android-logo-white.png">
+        </span>
+        <nav class="mdl-navigation">
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Nintendo 3DS</span>
+          <a class="mdl-navigation__link" href="">Actualizar A9LH a B9S</a>
+          <a class="mdl-navigation__link" href="">Desbrickear 3DS</a>
+          <a class="mdl-navigation__link" href="">Exploit BannerBomb3</a>
+          <a class="mdl-navigation__link" href="">Exploit NtrBootHax</a>
+		<a class="mdl-navigation__link" href="">Guía Rosalina</a>
+          <a class="mdl-navigation__link" href="">Guía VCC</a>
+          <a class="mdl-navigation__link" href="">Nintendo 3DS Kit</a>
+		
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Nintendo Switch</span>
+          <a class="mdl-navigation__link" href="">Acceder RCM</a>
+          <a class="mdl-navigation__link" href="">Actualizar offline</a>
+          <a class="mdl-navigation__link" href="">Android en Switch</a>
+		 <a class="mdl-navigation__link" href="">Backup de la NAND</a>
+          <a class="mdl-navigation__link" href="">Capturadora WiFi/USB</a>
+          <a class="mdl-navigation__link" href="">Android en Switch</a>
+		 <a class="mdl-navigation__link" href="">Ejecutar CFW</a>
+          <a class="mdl-navigation__link" href="">Ejecutar FLOG</a>
+          <a class="mdl-navigation__link" href="">Streaming de Windows</a>
+		
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Nintendo DSi</span>
+          <a class="mdl-navigation__link" href="">Guía TwiLightMenu++</a>
+          <a class="mdl-navigation__link" href="">HiyaCFW (Flipnote)</a>
+          <a class="mdl-navigation__link" href="">HiyaCFW (Camera)</a>
+		<div class="android-drawer-separator"></div>
+		
+          <span class="mdl-navigation__link" href="">Nintendo WiiU</span>
+          <a class="mdl-navigation__link" href="">Ejecutar MochaCFW</a>
+          <a class="mdl-navigation__link" href="">Guía WiiVC Injector</a>
+          <a class="mdl-navigation__link" href="">Historia WiiU</a>
+          <a class="mdl-navigation__link" href="">Instalar Haxchi+CBHC</a>
+          <div class="android-drawer-separator"></div>
+	
+          <span class="mdl-navigation__link" href="">Nintendo Wii Mini</span>
+          <a class="mdl-navigation__link" href="">Ejecutar BlueBomb</a>
+          <div class="android-drawer-separator"></div>
+        </nav>
+      </div>
+
+      <div class="android-content mdl-layout__content">
+        <a name="top"></a>
+        <div class="android-be-together-section mdl-typography--text-center">
+          <div class="logo-font android-slogan">Bienvenido a HackTendo.</div>
+          <div class="logo-font android-sub-slogan">Una página sobre la Scene de consolas de Nintendo.</div>
+  
+		
+		
+			   <br>
+			   <br> 
+			   <br>
+		    <a href="https://t.me/HackTendoNet" target="whatever"><img border="0" src="images/telegram.png"  style=max-width:100%  alt=""></a>
+	
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=ivanmolinamorales@gmail.com&su=Iv%C3%A1n&body=&bcc=" target="whatever"><img border="0" src="images/gmail.png" style=max-width:100%  alt=""></a>
+			   <br> <br>
+			   <br>
+		    <div>
+		   <div>
+		  
+		  
+           
+			   
+		 
+      
+		  
+		  
+		  
+		  
+		  
+		
+		  
+           <div class="android-section-title mdl-typography--display-1-color-contrast">Guía SysDVR: Capturadora por Wi-Fi/USB</div>
+
+<div style="text-align: center;">
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" data-original-height="900" data-original-width="1600" src="https://1.bp.blogspot.com/-6NyJadnX8Kc/Xbc_74wGtkI/AAAAAAAAVIU/2DAOH0-Po8sVDk5EgXV3pLismJn5EA6TACLcBGAsYHQ/s1600/dvr6.png"  style=max-width:100%    /></div>
+<b><span style="color: blue;">SysDVR</span></b> es una aplicación/sysmodule que nos permite hacer streaming de lo que está pasando en nuestra consola a nuestro PC en tiempo real.<br />
+<br /></div>
+<div style="text-align: left;">
+<div style="text-align: center;">
+Hasta ahora teníamos<b><a href="https://www.hacktendo.net/p/guia-in-home-switching.html"> <span style="color: blue;">In-Home-Switching</span></a></b>, un homebrew que nos permitía transmitir gameplay de nuestro PC a la Switch, ahora tenemos una aplicación que nos permite hacer la inversa.</div>
+</div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b><span style="font-size: large;">Requisitos:</span></b></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b>1.-</b> PC con Windows de 64-bits.</div>
+<div style="text-align: center;">
+<b>2.- </b>Descargar el pack de archivo de  <button type="button"><a href="https://sourceforge.net/projects/hacktendo-net-repository/files/Nintendo%20Switch/Nintendo%20Switch%20Kit/"><b>Nintendo Switch</b></a></button></div>
+<div style="text-align: center;">
+<b>3.-</b> Descargar el pack de SysDVR&nbsp;<button type="button"><b><a href="https://sourceforge.net/projects/hacktendo-net-repository/files/Nintendo%20Switch/SysDVR/">Descargar</a></b></button></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<span style="font-size: large;"><b>Configuración inicial:</b></span></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b>1.-</b> Extraer el pack de archivos&nbsp;en tu PC.</div>
+<div style="text-align: center;">
+<img border="0" data-original-height="139" data-original-width="342" src="https://1.bp.blogspot.com/-SPQgKAgfFKM/XbdBAkafR1I/AAAAAAAAVIg/6v1eHzkRm0IEiwMLfWTkcJHgTkJ0dlEBACLcBGAsYHQ/s1600/12.png" style=max-width:100%  /></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b>2.-</b> Una vez extraído uno de los archivos, lo exploramos y abrimos la ruta /PC.</div>
+<div style="text-align: center;">
+Dentro de ella, <b>ejecutamos e instalamos el programa</b> <b><span style="color: blue;">".NET Core 3.0" </span></b>(necesario para el tutorial)</div>
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" data-original-height="582" data-original-width="814" src="https://1.bp.blogspot.com/-LkPC1tlh-QI/XbdBUhGZSiI/AAAAAAAAVIo/dQN7VDl8mZ4mqHcaYY2nsa6SdJmqiFJngCLcBGAsYHQ/s1600/14.png" style=max-width:100%    /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b>3.-</b> Cerramos la carpeta PC y abrimos la carpeta SD del pack que hayamos descargado.</div>
+<div style="text-align: center;">
+<b>Copia el contenido de esa carpeta a la tarjeta microSD</b> de tu Nintendo Switch.</div>
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" data-original-height="107" data-original-width="761" src="https://1.bp.blogspot.com/-43fQW_kNwdw/XbdBkAStPGI/AAAAAAAAVIw/dLK09fDfTNAxlo32xUvMcBeNkG0I4VDYwCLcBGAsYHQ/s1600/15.png" style=max-width:100%    /></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b>4.-</b> Ahora en nuestro ordenador vamos a la carpeta /PC y seguimos los siguientes pasos según la versión que hayamos descargado:</div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b><span style="font-size: large;">Por Streaming:</span></b></div>
+<br />
+<div style="text-align: center;">
+<span style="font-weight: 700; text-decoration-line: underline;"><br /></span></div>
+<b></b><br />
+<div style="text-align: center;">
+<b><b><u>En tu Switch:</u></b></b></div>
+<b>
+</b><br />
+<br />
+<div style="text-align: center;">
+<span style="font-weight: 700; text-decoration-line: underline;"><br /></span></div>
+<b></b><br />
+<div style="text-align: center;">
+<b><b>1.-</b> Inicia tu Nintendo Switch con Atmosphere y abre el <b>Homebrew Launcher.</b></b></div>
+<b>
+</b><br />
+<div style="text-align: center;">
+Busca la aplicación SysDVR Settings y ejecutala.</div>
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" data-original-height="720" data-original-width="1280" src="https://1.bp.blogspot.com/-VH70JGEDy7I/XbdDlM3dvpI/AAAAAAAAVJA/KJ06mkhTneEYhBKk-0hNvR0V0osFBHwMgCLcBGAsYHQ/s1600/2019102819200100-DA63280140B1530CD17755515D814CFE.jpg" style=max-width:100%    /></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+Dentro de la aplicación selecciona <b>"Stream over NETWORK"</b> y sal de la aplicación en <b>"Quit"</b></div>
+<div style="text-align: center;">
+(Debería ser la opción predeterminada, así que sino aparece simplemente la seleccionas así)</div>
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" data-original-height="720" data-original-width="1280" src="https://1.bp.blogspot.com/-4bmkrAhtq5w/XbdEFvsiJYI/AAAAAAAAVJI/DQXAoF5jZ6UVx8ExbZbQMx1BOMh0z74VACLcBGAsYHQ/s1600/2019102819115700-DA63280140B1530CD17755515D814CFE.jpg" style=max-width:100%    /></div>
+<div style="text-align: center;">
+(En este punto inicia el juego que quieras ejecutar para evitar errores en los siguientes pasos).</div>
+<br />
+<div style="text-align: center;">
+<span style="font-weight: 700; text-decoration-line: underline;"><br /></span></div>
+<div style="text-align: center;">
+<span style="font-weight: 700; text-decoration-line: underline;"><br /></span></div>
+<b></b><br />
+<div style="text-align: center;">
+<b><b><u>En tu PC:</u></b></b></div>
+<b>
+</b><br />
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b>1.-&nbsp;Abre&nbsp;</b>la aplicación&nbsp;<b>UsbStreamGUI.exe&nbsp;</b>de la carpeta&nbsp;<b>/PC</b>.</div>
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" data-original-height="386" data-original-width="749" src="https://1.bp.blogspot.com/-Igoqgp9op3g/XbdKxFAm3qI/AAAAAAAAVKE/aGI78_ytm-glaTgcSybGHXqPwNoV1SWLQCLcBGAsYHQ/s1600/20.png" style=max-width:100%  /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b>2.-</b> Dentro encontrarás varias opciones con diferentes configuraciones (Video y Video y Sonido).</div>
+<div style="text-align: center;">
+Elige si quieres video solo o ambos, elige <b>"Relay via network"</b> y haz click en <b>"Launch"</b></div>
+<div style="text-align: center;">
+<span style="font-size: x-small;"><b>(Ten en cuentra que al hacer streaming por la red habrá más lag si se reproduce también el audio)</b></span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" data-original-height="569" data-original-width="786" src="https://1.bp.blogspot.com/-EkwbNTK0k98/XbdFfyv2gBI/AAAAAAAAVJU/VzWbsYBtMA8mfbZcVgmYCNHMAvFbniFpwCLcBGAsYHQ/s1600/17.png" style=max-width:100%  /></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b>3.- </b>El juego ya debería estar ejecutándose en tu PC a través de una ventana con la configuración que hayas elegido.</div>
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" data-original-height="900" data-original-width="1600" src="https://1.bp.blogspot.com/-6NyJadnX8Kc/Xbc_74wGtkI/AAAAAAAAVIY/lxEERc5emOoXPFhPFkn_ZPd1Ojtnu_nNQCEwYBhgL/s1600/dvr6.png" style=max-width:100%    /></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b><span style="font-size: large;">Por USB:</span></b></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b><u>En tu Switch:</u></b></div>
+<br />
+<div style="text-align: center;">
+<span style="font-weight: 700; text-decoration-line: underline;"><br /></span></div>
+<b></b><br />
+<div style="text-align: center;">
+<b><b>1.-</b>&nbsp;Inicia tu Nintendo Switch con Atmosphere y abre el&nbsp;<b>Homebrew Launcher.</b></b></div>
+<b>
+</b><br />
+<div style="text-align: center;">
+Busca la aplicación SysDVR Settings y ejecutala.</div>
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" data-original-height="720" data-original-width="1280" src="https://1.bp.blogspot.com/-VH70JGEDy7I/XbdDlM3dvpI/AAAAAAAAVJA/KJ06mkhTneEYhBKk-0hNvR0V0osFBHwMgCLcBGAsYHQ/s1600/2019102819200100-DA63280140B1530CD17755515D814CFE.jpg" style=max-width:100%   /></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+Dentro de la aplicación selecciona&nbsp;<b>"Stream over USB"</b>&nbsp;y <b>"Set current mode as default on boot"</b></div>
+<div style="text-align: center;">
+Sal de la aplicación en&nbsp;<b>"Quit"</b></div>
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" data-original-height="720" data-original-width="1280" src="https://1.bp.blogspot.com/-zS8baBEheV8/XbdL0PBejmI/AAAAAAAAVKU/IRnZIY9r7hQ7bcHWkIxTXOfz7iN2D-_jACLcBGAsYHQ/s1600/2019102819230400-DA63280140B1530CD17755515D814CFE.jpg" style=max-width:100%   /></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: left;">
+<div style="text-align: center;">
+<b>2.-</b> <b>Reinicia la consola</b>, <b>conéctala a tu PC vía USB y déjala en el menú HOME</b> sin iniciar ningún juego.</div>
+</div>
+<div style="text-align: left;">
+<div style="text-align: center;">
+<br /></div>
+</div>
+<div style="text-align: left;">
+<div style="text-align: center;">
+<br /></div>
+</div>
+<div style="text-align: left;">
+<div style="text-align: center;">
+<b><u>En tu PC:</u></b></div>
+</div>
+<div style="text-align: left;">
+<div style="text-align: center;">
+<br /></div>
+</div>
+<div style="text-align: left;">
+<div style="text-align: center;">
+1.- Dentro de la carpeta <b>/PC</b> busca la aplicación <span style="color: blue;"><b>"zadig.exe"</b></span>. Ejecutala.</div>
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" data-original-height="400" data-original-width="757" src="https://1.bp.blogspot.com/-ZOgG5z4nKOU/XbdH7cy4XjI/AAAAAAAAVJg/Y20jDtVjJ9MguLkBQAcUWMwAyYvRM0e-ACLcBGAsYHQ/s1600/18.png" style=max-width:100%  /></div>
+<div style="text-align: left;">
+<div style="text-align: center;">
+<b><u><br /></u></b></div>
+</div>
+<div style="text-align: left;">
+<div style="text-align: center;">
+<b>2.-</b> Una vez inicie la aplicación, haz click en<b> "Options"</b> y ahí selecciona<b> "List all devices"</b> para que aparezcan los dispositivos que están conectados a nuestro PC.</div>
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" data-original-height="318" data-original-width="716" src="https://1.bp.blogspot.com/-HOCbEwpCNGI/XbdIoxVKptI/AAAAAAAAVJo/3bxChfv6sAQkWzHij8LmGYWp4XBhWotzACLcBGAsYHQ/s1600/19.png" style=max-width:100%  /></div>
+<div style="text-align: left;">
+<div style="text-align: center;">
+<br /></div>
+</div>
+<div style="text-align: left;">
+<div style="text-align: center;">
+<b>3.-</b> Desde el menú principal de Zadig selecciona <b>"Nintendo Switch"</b> y sigue los siguientes pasos:</div>
+</div>
+<div style="text-align: left;">
+<div style="text-align: center;">
+<b><span style="font-size: x-small;">(debería reconocerla, sino vuelve a reiniciar la consola o cambia de cable USB)</span></b></div>
+</div>
+<div style="text-align: left;">
+<div style="text-align: center;">
+<br /></div>
+</div>
+<div style="text-align: left;">
+<div style="text-align: center;">
+<b>3.1.</b>- <b>Toma nota del ID</b>, debe ser <b><span style="color: blue;">"057E 3006"</span></b> (Si es diferente el Sysmodule no se está ejecutando)</div>
+</div>
+<div style="text-align: left;">
+<div style="text-align: center;">
+3.2.- <b>Selecciona el driver <span style="color: blue;">"libusb-win32"</span></b> para Nintendo Switch</div>
+</div>
+<div style="text-align: left;">
+<div style="text-align: center;">
+3.2.- Haz clic en <b><span style="color: blue;">"Install Driver"</span></b></div>
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" data-original-height="320" data-original-width="715" src="https://1.bp.blogspot.com/-EEkOhlRr2WM/XbdJJUhnJII/AAAAAAAAVJ0/674wZ5yae7wpfhE6rlEdx0KSocih_47rQCLcBGAsYHQ/s1600/dvr4.png" style=max-width:100%   /></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+Si todo salió bien, ya tienes el driver instalado para tu Nintendo Switch.</div>
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" data-original-height="318" data-original-width="716" src="https://1.bp.blogspot.com/-PaqKGzRbfV4/XbdJJZkBGWI/AAAAAAAAVJw/v9dImxnbzvcg189GNYPWhK0QqBEWl2rhQCLcBGAsYHQ/s1600/dvr5.png" style=max-width:100%   /></div>
+<div style="text-align: left;">
+<div style="text-align: center;">
+<br /></div>
+</div>
+<div style="text-align: center;">
+4.-<b>&nbsp;Abre&nbsp;</b>la aplicación&nbsp;<b>UsbStreamGUI.exe&nbsp;</b>de la carpeta&nbsp;<b>/PC</b>.</div>
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" data-original-height="386" data-original-width="749" src="https://1.bp.blogspot.com/-Igoqgp9op3g/XbdKxFAm3qI/AAAAAAAAVKE/aGI78_ytm-glaTgcSybGHXqPwNoV1SWLQCLcBGAsYHQ/s1600/20.png" style=max-width:100%  /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b>5.-</b>&nbsp;Dentro encontrarás varias opciones con diferentes configuraciones:</div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+5.1- Ejecuta ahora el juego del que quieras hacer streaming en tu Nintendo Switch</div>
+<div style="text-align: center;">
+5.2- Elige en la app si quieres video solo o ambos, elige&nbsp;<b>"Play in mpv"</b>&nbsp;y haz click en&nbsp;<b>"Launch"</b></div>
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" data-original-height="565" data-original-width="786" src="https://1.bp.blogspot.com/-jtsL2eEsBwI/XbdLHBefR-I/AAAAAAAAVKM/aALRtFYGnPI1PKHimZZhnvQCqj3-FlCPQCLcBGAsYHQ/s1600/21.png" style=max-width:100%  /></div>
+<br />
+<div style="text-align: center;">
+<span style="font-size: x-small; font-weight: 700;"><br /></span></div>
+<b></b><br />
+<div style="text-align: center;">
+<b><b>6.-&nbsp;</b>El juego ya debería estar ejecutándose en tu PC a través de una ventana con la configuración que hayas elegido.</b></div>
+<b>
+</b><br />
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" data-original-height="900" data-original-width="1600" src="https://1.bp.blogspot.com/-6NyJadnX8Kc/Xbc_74wGtkI/AAAAAAAAVIY/lxEERc5emOoXPFhPFkn_ZPd1Ojtnu_nNQCEwYBhgL/s1600/dvr6.png" style=max-width:100%   /></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b>Créditos:</b></div>
+<div style="text-align: center;">
+<b><a href="https://github.com/exelix11"><span style="color: blue;">Exelix11</span></a></b>: desarrollador de la aplicación</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+</div>
+            
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://https-ivanillo-github-io-android.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<script id="dsq-count-scr" src="//https-ivanillo-github-io-android.disqus.com/count.js" async></script>
+
+
+              
+      
+      </div>
+    </div>
+   
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	                             
+  </body>
+</html>
