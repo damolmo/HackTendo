@@ -1,5 +1,1 @@
-$ dig WWW.HACKTENDO.NET +nostats +nocomments +nocmd
-  > ;WWW.HACKTENDO.NET.                     IN      A
-  > WWW.HACKTENDO.NET.              3592    IN      CNAME   ivanillo.github.io.
-  > ivanillo.github.io.      43192   IN      CNAME    GITHUB-PAGES-SERVER .
-  >  GITHUB-PAGES-SERVER .         22      IN      A       192.0.2.1
+www.hacktendo.net
