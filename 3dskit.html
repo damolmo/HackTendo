@@ -1,1 +1,432 @@
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+      https://www.apache.org/licenses/LICENSE-2.0
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
 
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Introducing Lollipop, a sweet new take on Android.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Android</title>
+
+    <style>
+body {
+
+  background-color: white;
+  color: black;
+
+}
+ android-header {
+
+  background-color: white;
+  color: black;
+
+}  
+      
+      
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
+    
+    
+    <!-- Page styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style>
+  </head>
+  <body>
+    <script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout__header-row">
+          <span class="android-title mdl-layout-title">
+		  	
+            <img class="android-logo-image" src="images/android-logo.png">
+           
+          </span>
+          <!-- Add spacer, to align navigation to the right in desktop -->
+          <div class="android-header-spacer mdl-layout-spacer"></div>
+          <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+           <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">       
+  <i class="material-icons">search</i>
+            </label>
+            <div class="mdl-textfield__expandable-holder">
+              <input class="mdl-textfield__input" type="text" id="search-field">
+            </div>            
+          </div>
+		
+		
+          <!-- Navigation -->
+          <div class="android-navigation-container">
+            <nav class="android-navigation mdl-navigation">
+             
+            </nav>  
+			
+		  
+          </div>
+	
+          <span class="android-mobile-title mdl-layout-title">
+            <img class="android-logo-image" src="images/android-logo.png">
+          </span>
+		
+		
+		<div>		
+													
+       <img onclick="myFunction()" src="images/dark.png">   
+			
+		
+		</div>
+		
+          <button class="android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
+            <i class="material-icons">more_vert</i>
+
+        	
+          </button>
+          <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
+            <li class="mdl-menu__item">5.0 Lollipop</li>
+            <li class="mdl-menu__item">4.4 KitKat</li>
+            <li disabled class="mdl-menu__item">4.3 Jelly Bean</li>
+            <li class="mdl-menu__item">Android History</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="android-drawer mdl-layout__drawer">
+        <span class="mdl-layout-title">
+          <img class="android-logo-image" src="images/android-logo-white.png">
+        </span>
+        <nav class="mdl-navigation">
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Nintendo 3DS</span>
+          <a class="mdl-navigation__link" href="">Actualizar A9LH a B9S</a>
+          <a class="mdl-navigation__link" href="">Desbrickear 3DS</a>
+          <a class="mdl-navigation__link" href="">Exploit BannerBomb3</a>
+          <a class="mdl-navigation__link" href="">Exploit NtrBootHax</a>
+		<a class="mdl-navigation__link" href="">Guía Rosalina</a>
+          <a class="mdl-navigation__link" href="">Guía VCC</a>
+          <a class="mdl-navigation__link" href="">Nintendo 3DS Kit</a>
+		
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Nintendo Switch</span>
+          <a class="mdl-navigation__link" href="">Acceder RCM</a>
+          <a class="mdl-navigation__link" href="">Actualizar offline</a>
+          <a class="mdl-navigation__link" href="">Android en Switch</a>
+		 <a class="mdl-navigation__link" href="">Backup de la NAND</a>
+          <a class="mdl-navigation__link" href="">Capturadora WiFi/USB</a>
+          <a class="mdl-navigation__link" href="">Android en Switch</a>
+		 <a class="mdl-navigation__link" href="">Ejecutar CFW</a>
+          <a class="mdl-navigation__link" href="">Ejecutar FLOG</a>
+          <a class="mdl-navigation__link" href="">Streaming de Windows</a>
+		
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Nintendo DSi</span>
+          <a class="mdl-navigation__link" href="">Guía TwiLightMenu++</a>
+          <a class="mdl-navigation__link" href="">HiyaCFW (Flipnote)</a>
+          <a class="mdl-navigation__link" href="">HiyaCFW (Camera)</a>
+		<div class="android-drawer-separator"></div>
+		
+          <span class="mdl-navigation__link" href="">Nintendo WiiU</span>
+          <a class="mdl-navigation__link" href="">Ejecutar MochaCFW</a>
+          <a class="mdl-navigation__link" href="">Guía WiiVC Injector</a>
+          <a class="mdl-navigation__link" href="">Historia WiiU</a>
+          <a class="mdl-navigation__link" href="">Instalar Haxchi+CBHC</a>
+          <div class="android-drawer-separator"></div>
+	
+          <span class="mdl-navigation__link" href="">Nintendo Wii Mini</span>
+          <a class="mdl-navigation__link" href="">Ejecutar BlueBomb</a>
+          <div class="android-drawer-separator"></div>
+        </nav>
+      </div>
+
+      <div class="android-content mdl-layout__content">
+        <a name="top"></a>
+        <div class="android-be-together-section mdl-typography--text-center">
+          <div class="logo-font android-slogan">Bienvenido a HackTendo.</div>
+          <div class="logo-font android-sub-slogan">Una página sobre la Scene de consolas de Nintendo.</div>
+  
+		
+		
+			   <br>
+			   <br> 
+			   <br>
+		    <a href="https://t.me/HackTendoNet" target="whatever"><img border="0" src="images/telegram.png"  style=max-width:100%  alt=""></a>
+	
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=ivanmolinamorales@gmail.com&su=Iv%C3%A1n&body=&bcc=" target="whatever"><img border="0" src="images/gmail.png" style=max-width:100%  alt=""></a>
+			   <br> <br>
+			   <br>
+		    <div>
+		   <div>
+		  
+		  
+           
+			   
+		 
+      
+		  
+		  
+		  
+		  
+		  
+		
+		  
+           <div class="android-section-title mdl-typography--display-1-color-contrast">Nintendo 3DS Kit</div>
+
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div style="text-align: center;">
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" data-original-height="400" data-original-width="400" src="https://1.bp.blogspot.com/-pG4Cd6sozfU/XhjeaLdq6UI/AAAAAAAAV_U/xw0o-7nn1JkPCN5lcC92gM5HYG1BPBWPQCLcBGAsYHQ/s1600/oie_transparent%2B%25286%2529.png"  style=max-width:100%    /></div>
+<b>Nintendo<span style="color: red;"> 3</span>DS Kit<span style="color: blue;">,&nbsp;</span></b>el <b><span style="color: #f1c232;">script definitivo</span> para tu <span style="color: red;">3</span>DS.</b><br />
+<b><br /></b></div>
+<div style="text-align: center;">
+Tanto si quieres <b><span style="color: #f1c232;">modificar consolas, actualizar consolas</span></b> o <span style="color: #f1c232;"><b>personalizarla</b></span>,</div>
+<div style="text-align: center;">
+<b>Nintendo <span style="color: red;">3</span>DS Kit</b> te ofrece decenas de funciones accesibles a todo el mundo gracias a su<span style="color: blue;"> <b><span style="color: #f1c232;">interfaz minimalista y fácil de usar.</span></b></span></div>
+<div style="text-align: center;">
+<br /></div>
+<span style="font-size: large;">
+</span>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" data-original-height="340" data-original-width="640" src="https://1.bp.blogspot.com/-4Mt-5yhN5C8/XhjegCjRHuI/AAAAAAAAV_Y/lGld_0BrIDgTYqRMud-zWFFsiNmW50FFgCLcBGAsYHQ/s1600/oie_transparent%2B%25287%2529.png" style=max-width:100%    /></div>
+<div style="text-align: left;">
+<div style="text-align: center;">
+<div style="text-align: left;">
+<div style="text-align: center;">
+<b><span style="color: #f1c232; font-size: large;"><u>Nintendo 3DS Kit 20.0</u></span></b></div>
+</div>
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div style="text-align: left;">
+<div style="text-align: center;">
+<b>Última actualización: 17/02/2020</b></div>
+</div>
+<div style="text-align: left;">
+<div style="text-align: center;">
+<b>Descargas: 
+<button type="button"><a href="https://sourceforge.net/projects/hacktendo-net-repository/files/Nintendo%203DS/Nintendo%203DS%20Kit/Para%20NtrBootHax/">NtrBootHax</a></button><button type="button"><a href="https://sourceforge.net/projects/hacktendo-net-repository/files/Nintendo%203DS/Nintendo%203DS%20Kit/Personal/">Personal</a></button><br />
+
+
+
+</b></div>
+</div>
+</div>
+<br />
+<br />
+<div style="text-align: center;">
+<b><span style="color: white;"><u>ANOTACIONES:</u></span></b></div>
+<div style="text-align: center;">
+<b>-Si has usado una versión del script inferior a la actual</b>, <span style="color: blue;"><b><span style="color: #f1c232;">elimina la carpeta de la ruta 3ds/3DSKIT</span> </b></span>antes de copiar el nuevo pack de archivos.</div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b>- Este script<span style="color: #f1c232;"> no es compatible con tarjetas MicroSD Kingston o de mala calidad</span><span style="color: blue;">.</span></b></div>
+<div style="text-align: center;">
+Usa<b> solo tarjetas de clase 10</b> o la original incluida con la consola.</div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+-<b>Usar SD's de baja calidad</b> puede<b><span style="color: blue;"> </span><span style="color: #f1c232;">corromper tu SD y los archivos de la misma</span></b> e incluso <b><span style="color: #f1c232;">dañar tu 3DS si se detecta algún fallo </span></b>en pasos cruciales cómo la instalación de Boot9Strap
+
+</div>
+<div style="text-align: left;">
+<div style="text-align: center;">
+<div>
+<span style="color: blue; font-family: &quot;georgia&quot; , &quot;times new roman&quot; , serif; font-size: x-small;"><br /></span></div>
+<span style="color: white;"><b><u style="background-color: white;">NOVEDADES:</u></b></span><br />
+<span style="background-color: white;"><b style="color: blue; font-family: georgia, &quot;times new roman&quot;, serif;">&nbsp;</b><span style="white-space: pre-wrap;"><b><span style="color: #f1c232; font-family: inherit;">• Compilado con las últimas fuentes</span></b></span></span><br />
+<span style="white-space: pre-wrap;"><b><span style="background-color: white; color: #f1c232; font-family: inherit;">• GodMode9 1.9.1</span></b></span><br />
+<span style="white-space: pre-wrap;"><b><span style="background-color: white; color: #f1c232; font-family: inherit;">• nds-bootstrap 0.29.0
+• TwilightMenu 12.0
+• PKSM  8.0.3</span></b></span><b style="color: blue; font-family: georgia, &quot;times new roman&quot;, serif;"><br /></b>
+
+
+<br />
+<div>
+<div style="font-size: medium; font-style: normal; letter-spacing: normal; margin: 0px; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px;">
+<div style="color: black; font-family: &quot;times new roman&quot;; font-weight: 400;">
+<div style="font-family: &quot;times new roman&quot;; margin: 0px;">
+<span style="background-color: white; font-family: &quot;georgia&quot; , &quot;times new roman&quot; , serif;"><br /></span></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div style="text-align: left;">
+<span style="color: #f1c232; font-size: large;"><b><span style="color: #f1c232;">{</span><span style="color: #f1c232;">¿</span><span style="color: #f1c232;">Cómo ejecuto Nintendo 3DS Kit</span><span style="color: #f1c232;">?</span></b><span style="color: #f1c232;">}</span></span><br />
+<br />
+<b>Ejecutar</b> <b><span style="color: #f1c232;">Nintendo 3DS Kit</span></b> es muy sencillo, dado que se trata de un <b>.firm</b> que se ejecuta cómo cualquier otra aplicación.<br />
+<br />
+Según el pack que descarguemos, seguimos los siguientes pasos:<br />
+<br />
+<b><span style="color: #f1c232;"><u>Pack (NtrbootHax)</u></span></b><br />
+<blockquote class="tr_bq">
+Si descargas el pack<b><span style="color: blue;"> </span><span style="color: #f1c232;">"Para NtrBootHax"</span></b>, se copiará en tu SD dos archivos, un <b>boot.firm</b> y un <b>ntrboot.firm</b>, si la consola en la que lo ejecutas <u><b>esta modificada</b></u>, bastará con que esté el boot.firm en la SD y al pulsar POWER <b><span style="color: white;">iniciará Nintendo 3DS Kit</span><span style="color: white;">.</span></b></blockquote>
+<blockquote class="tr_bq">
+Y <b><u>si no está modificada</u></b> y vas a iniciarlo por <b>NtrBootHax</b>, basta con tener una <b><span style="color: white;">flashcart reflasheada</span></b>, <b><span style="color: white;">SD con</span></b> esos archivos (<span style="color: white;"><b>boot.firm y ntrboot.firm</b></span>) y al<b> <span style="color: white;">pulsar el </span><span style="color: white;">combo (X)+Start+Select+POWER</span></b> <u><b>debería iniciarse Nintendo 3DS Kit.</b></u></blockquote>
+</div>
+<br />
+<div>
+<b><span style="color: #f1c232;"><u>Pack (Personal)</u></span></b><br />
+<blockquote class="tr_bq">
+Si descargas el pack <b><span style="color: #f1c232;">"Personal"</span></b>, basta con que <b>extraigas todo el contenido del mismo</b> y<span style="color: #f1c232;"> <b>pulsar el combo (UP)+POWER</b></span>, <u><b>debería iniciarse Nintendo 3DS Kit </b></u>sin problemas.</blockquote>
+<b><span style="color: blue;"><u><br /></u></span></b>
+<b><span style="color: blue;"><u><br /></u></span></b></div>
+<span style="font-size: x-large;"><b style="color: #f1c232;"><span style="color: #f1c232;">{Funciones N3DS Kit</span></b><span style="color: #f1c232;">}</span></span><br />
+<br />
+<b>Las funciones de Nintendo 3DS Kit son muy variadas y son las siguientes:</b><br />
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<span style="color: #f1c232;"><b>{1} Menu recovery</b><b><span style="color: purple;">&nbsp;</span></b></span><br />
+(apagado, reinicio, ejecutar CFW)<br />
+<br />
+<span style="color: #f1c232;"><b>{2} Menu de selección de Payloads</b></span> (GodMode9, Decrypt9, ntrboot-flasher y OpenFirmInstaller).<br />
+<br />
+<b><span style="color: #f1c232;">{3} Menu de selección de scripts</span></b><br />
+<br />
+<b>(1)Modo Torneo:&nbsp;</b><br />
+Un modo cuyo atractivo es hacer tu consola virgen ocultar tu programación, tienes dos opciones según las necesidades, Boot9strap Hidden o Dsiwarehax, tu eliges.<br />
+<br />
+<b>(2) Clean&amp;Update:</b><br />
+Un script avanzado destinado sobretodo a modificar otras consolas vírgenes por medio de NtrBootHax.<br />
+Se encarga de limpiar la SD de basura, copiar archivos de actualización e instalar Boot9strap.<br />
+<br />
+<b>(3) UNBRICKED!:</b><br />
+Es un script de desbrickeo avanzado cuando no cuentas con un backup de la consola brickeada.<br />
+Si lo ejecutas, el programa automáticamente detectará tu modelo y región y corregirá aquellos archivos de la consola que hayan podido ser dañados.<br />
+<br />
+<b>(4) 1,2 Splash!:</b><br />
+Es un script muy sencillo que te permite personalizar el arranque de tu Nintendo 3DS.<br />
+Si eliges esta opción, automáticamente detectará si tú consola es New u Old, elige alguna Splash de las temáticas disponibles y se instalará en la consola.<br />
+<br />
+<b>(5) Limpiar SD</b><br />
+Es un script que te facilita el limpiado de archivos haciéndolo automático.<br />
+Una vez lo ejecutas te da a elegir entre: limpiar SD residuos (limpia solo archivos basura que no necesitas) o limpiar SD stock (deja la consola solo con la carpeta Nintendo 3DS), útil si quieres desinstalar Boot9strap de una consola y dejar la SD cómo antes.<br />
+<br />
+<b><span style="color: blue;"><br /></span></b>
+<b><span style="color: #f1c232;">{4} Dumpear un cartucho</span></b><br />
+Te permite dumpear el cartucho actualmente insertado en consola a uno de los más comunes, (.NDS, .3DS, .CIA)<br />
+<br />
+<b><span style="color: #f1c232;">{5} Crear/Restaurar SysNAND</span></b><br />
+Esta opción te permite como es lógico:<br />
+Crear un backup de tu SysNAND, inyectar un backup en tu consola o pasar una EmuNAND a la SysNAND.<br />
+<br />
+<b><span style="color: #f1c232;">{6} Explorador de archivos</span></b><br />
+Un explorador avanzado que te permite copiar archivos a la raíz de tu SD u a otras SD's, de fácil acceso y con muchísimas posibilidades<br />
+<br />
+<b><span style="color: #f1c232;">{7} Jugar en Modo Kecleon</span></b><br />
+Es una opción que te puede ser util si acostumbras a usar Homebrews en .CIA<br />
+Si activas está función, te creará un backup de tu Registro, una vez dejes de jugar simplemente vuelve a ese menu y desactivas la opción, no quedara rastro de nada a lo que hayas jugado.<br />
+<br />
+<b><span style="color: #f1c232;">{8} Otras Opciones</span></b><br />
+En esta sección se encuentran otras opciones muy útiles cómo:<br />
+Desinstalar cualquier modificación, dumpear archivos del sistema, instalar Dsiwarehax o desbanear una consola.<br />
+<b><span style="color: blue;"><br /></span></b>
+<b><span style="color: #f1c232;">{9} Administrar SD/MicroSD</span></b><br />
+Es una función que te permite en cualquier momento cambiar la SD desde el menú principal del script.<br />
+<br />
+<br />
+<!--more--><br />
+<b><span style="color: #f1c232;">¿Necesitas ayuda con tu 3DS?</span></b><br />
+<b>Únete al grupo de Telegram de la página&nbsp;</b><br />
+<a href="http://t.me/HackTendoNet"><span style="color: blue;"><b>t.me/HackTendoNet</b></span></a>
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+</div>
+            
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://https-ivanillo-github-io-android.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<script id="dsq-count-scr" src="//https-ivanillo-github-io-android.disqus.com/count.js" async></script>
+
+
+              
+      
+      </div>
+    </div>
+   
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	                             
+  </body>
+</html>
