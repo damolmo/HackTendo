@@ -1,1 +1,598 @@
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+      https://www.apache.org/licenses/LICENSE-2.0
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
 
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Introducing Lollipop, a sweet new take on Android.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Android</title>
+
+    <style>
+body {
+
+  background-color: white;
+  color: black;
+
+}
+ android-header {
+
+  background-color: white;
+  color: black;
+
+}  
+      
+      
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
+    
+    
+    <!-- Page styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style>
+  </head>
+  <body>
+    <script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout__header-row">
+          <span class="android-title mdl-layout-title">
+		  	
+            <img class="android-logo-image" src="images/android-logo.png">
+           
+          </span>
+          <!-- Add spacer, to align navigation to the right in desktop -->
+          <div class="android-header-spacer mdl-layout-spacer"></div>
+          <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+           <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">       
+  <i class="material-icons">search</i>
+            </label>
+            <div class="mdl-textfield__expandable-holder">
+              <input class="mdl-textfield__input" type="text" id="search-field">
+            </div>            
+          </div>
+		
+		
+          <!-- Navigation -->
+          <div class="android-navigation-container">
+            <nav class="android-navigation mdl-navigation">
+             
+            </nav>  
+			
+		  
+          </div>
+	
+          <span class="android-mobile-title mdl-layout-title">
+            <img class="android-logo-image" src="images/android-logo.png">
+          </span>
+		
+		
+		<div>		
+													
+       <img onclick="myFunction()" src="images/dark.png">   
+			
+		
+		</div>
+		
+          <button class="android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
+            <i class="material-icons">more_vert</i>
+
+        	
+          </button>
+          <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
+            <li class="mdl-menu__item">5.0 Lollipop</li>
+            <li class="mdl-menu__item">4.4 KitKat</li>
+            <li disabled class="mdl-menu__item">4.3 Jelly Bean</li>
+            <li class="mdl-menu__item">Android History</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="android-drawer mdl-layout__drawer">
+        <span class="mdl-layout-title">
+          <img class="android-logo-image" src="images/android-logo-white.png">
+        </span>
+        <nav class="mdl-navigation">
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Nintendo 3DS</span>
+          <a class="mdl-navigation__link" href="">Actualizar A9LH a B9S</a>
+          <a class="mdl-navigation__link" href="">Desbrickear 3DS</a>
+          <a class="mdl-navigation__link" href="">Exploit BannerBomb3</a>
+          <a class="mdl-navigation__link" href="">Exploit NtrBootHax</a>
+		<a class="mdl-navigation__link" href="">Guía Rosalina</a>
+          <a class="mdl-navigation__link" href="">Guía VCC</a>
+          <a class="mdl-navigation__link" href="">Nintendo 3DS Kit</a>
+		
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Nintendo Switch</span>
+          <a class="mdl-navigation__link" href="">Acceder RCM</a>
+          <a class="mdl-navigation__link" href="">Actualizar offline</a>
+          <a class="mdl-navigation__link" href="">Android en Switch</a>
+		 <a class="mdl-navigation__link" href="">Backup de la NAND</a>
+          <a class="mdl-navigation__link" href="">Capturadora WiFi/USB</a>
+          <a class="mdl-navigation__link" href="">Android en Switch</a>
+		 <a class="mdl-navigation__link" href="">Ejecutar CFW</a>
+          <a class="mdl-navigation__link" href="">Ejecutar FLOG</a>
+          <a class="mdl-navigation__link" href="">Streaming de Windows</a>
+		
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Nintendo DSi</span>
+          <a class="mdl-navigation__link" href="">Guía TwiLightMenu++</a>
+          <a class="mdl-navigation__link" href="">HiyaCFW (Flipnote)</a>
+          <a class="mdl-navigation__link" href="">HiyaCFW (Camera)</a>
+		<div class="android-drawer-separator"></div>
+		
+          <span class="mdl-navigation__link" href="">Nintendo WiiU</span>
+          <a class="mdl-navigation__link" href="">Ejecutar MochaCFW</a>
+          <a class="mdl-navigation__link" href="">Guía WiiVC Injector</a>
+          <a class="mdl-navigation__link" href="">Historia WiiU</a>
+          <a class="mdl-navigation__link" href="">Instalar Haxchi+CBHC</a>
+          <div class="android-drawer-separator"></div>
+	
+          <span class="mdl-navigation__link" href="">Nintendo Wii Mini</span>
+          <a class="mdl-navigation__link" href="">Ejecutar BlueBomb</a>
+          <div class="android-drawer-separator"></div>
+        </nav>
+      </div>
+
+      <div class="android-content mdl-layout__content">
+        <a name="top"></a>
+        <div class="android-be-together-section mdl-typography--text-center">
+          <div class="logo-font android-slogan">Bienvenido a HackTendo.</div>
+          <div class="logo-font android-sub-slogan">Una página sobre la Scene de consolas de Nintendo.</div>
+  
+		
+		
+			   <br>
+			   <br> 
+			   <br>
+		    <a href="https://t.me/HackTendoNet" target="whatever"><img border="0" src="images/telegram.png"  style=max-width:100%  alt=""></a>
+	
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=ivanmolinamorales@gmail.com&su=Iv%C3%A1n&body=&bcc=" target="whatever"><img border="0" src="images/gmail.png" style=max-width:100%  alt=""></a>
+			   <br> <br>
+			   <br>
+		    <div>
+		   <div>
+		  
+		  
+           
+			   
+		 
+      
+		  
+		  
+		  
+		  
+		  
+		
+		  
+           <div class="android-section-title mdl-typography--display-1-color-contrast">[TUTORIAL] Video Channels Creator</div>
+
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" data-original-height="528" data-original-width="529" src="https://1.bp.blogspot.com/-GTH4hX0KUVQ/Xhx10jJaShI/AAAAAAAAWAM/a4Da0OIINUwHjgGNBJY8VUGvcuSGjOAegCLcBGAsYHQ/s1600/oie_transparent%2B%252811%2529.png"   style=max-width:100%   /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<b>¿Convertir cualquier video a .CIA? </b>Pues sí, es posible gracias a varios programas convierten el archivo de video a un formato compatible con 3DS.</div>
+<div class="separator" style="clear: both; text-align: center;">
+Para ello <b>vamos a necesitar dos aplicaciones</b>,<b> una para transformar cualquier archivo de vídeo en formato .mp4 a .jpgv y otro para transformar dicho archivo .jpgv en un .CIA</b></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+En principio,<b> podemos convertir archivos</b> de hasta más de una hora <b>a una resolución de 480 px </b>(es lo máximo que soporta 3DS) <b>y a 60 fps.</b></div>
+<div class="separator" style="clear: both; text-align: center;">
+Eso sí, <b>debemos ajustar la calidad de la imágen</b> ya que sino acabaremos con un archivo .CIA que <b>puede ocupar desde bastantes megabytes a Gigabytes</b></div>
+<div class="separator" style="clear: both; text-align: center;">
+<b><br /></b></div>
+<div class="separator" style="clear: both; text-align: center;">
+Lo primero, será descargar el siguiente pack de archivos que contiene todo lo necesario para el tutorial</div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<blockquote class="tr_bq" style="clear: both; text-align: left;">
+<div style="text-align: center;">
+Descargar: <b><span style="color: red;"><a href="https://sourceforge.net/projects/hacktendo-net-repository/files/Nintendo%203DS/VCC/">Sourceforge</a></span></b></div>
+</blockquote>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<b>[INDICE]</b></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<blockquote class="tr_bq" style="clear: both; text-align: left;">
+<div style="text-align: center;">
+1-Transformar .MP4 a .JPGV</div>
+<div style="text-align: center;">
+2-Transformar .JPGV a .CIA</div>
+</blockquote>
+<h3 style="clear: both; text-align: left;">
+<div style="text-align: center;">
+<br /></div>
+<u><div style="text-align: center;">
+<u><b>1-Transformar .MP4 a .JPGV</b></u></div>
+</u></h3>
+<div class="separator" style="clear: both; text-align: center;">
+<u><b><br /></b></u></div>
+<div class="separator" style="clear: both; text-align: center;">
+Para transformar nuestro archivo de video .MP4 a .JPGV solo necesitaremos usar uno de los programas incluidos en el pack de archivos, darle las indicaciones correspondientes y lo convertirá por nosotros.</div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+1-<b>Copiamos el archivo .MP4</b> que queremos convertir <b>en la raíz de la carpeta "JPGVTHON"</b></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+`2-Abrimos la carpeta <b>"JPGVTHON"</b> incluida en nuestro pack de archivos</div>
+<div class="separator" style="clear: both; text-align: center;">
+Ahí encontramos varios archivos, <b>seleccionaremos el "jpgvthon.exe" y lo ejecutaremos cómo administrador</b></div>
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" data-original-height="573" data-original-width="996" src="https://1.bp.blogspot.com/-UxhUzl7G9kA/WWlSht-NgII/AAAAAAAAIZk/9qRZrw6RlcYGiq9gwcalypexW1lClWPkQCLcBGAs/s1600/JP.png" style=max-width:100%    /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<b><br /></b></div>
+<div class="separator" style="clear: both; text-align: center;">
+<b><br /></b></div>
+<div class="separator" style="clear: both; text-align: center;">
+<b>3- </b>Se nos abrirá un simple programa, en el cual debemos seguir las siguientes indicaciones</div>
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" data-original-height="455" data-original-width="760" src="https://1.bp.blogspot.com/-dizCrj9PGY0/WWlTB4JY_tI/AAAAAAAAIZo/BYg7tjaH52w9rZmNERU5pejJ-oIQab3SQCLcBGAs/s1600/dfe.png" style=max-width:100%     /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<u><b>3.1 Nombre</b></u></div>
+<div class="separator" style="clear: both; text-align: center;">
+Debes poner el nombre del archivo .mp4 que debes convertir<img border="0" data-original-height="331" data-original-width="497" src="https://2.bp.blogspot.com/-5F_VoYYAkgg/WWlTnGq90DI/AAAAAAAAIZs/IVymDELbKFcJ49G6Pq0hIJPQil3xNKvoQCLcBGAs/s1600/nombre.png" style=max-width:100%    style="text-align: center;" /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<u><b>3.2 Nombre de destino</b></u></div>
+<div class="separator" style="clear: both; text-align: center;">
+Debes poner el nombre con el que el video será convertido añadiendo la extensión .jpgv<img border="0" data-original-height="331" data-original-width="498" src="https://1.bp.blogspot.com/-Vz6_Ssn-Swk/WWlUF-hxonI/AAAAAAAAIZw/aZmXpPl3RP0UE24F5ukvzStjv01o16RbACLcBGAs/s1600/de.png" style=max-width:100%     /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://1.bp.blogspot.com/-Vz6_Ssn-Swk/WWlUF-hxonI/AAAAAAAAIZw/aZmXpPl3RP0UE24F5ukvzStjv01o16RbACLcBGAs/s1600/de.png" style=max-width:100%     imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><br /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<u><b>3.3 Tasa de frames</b></u></div>
+<div class="separator" style="clear: both; text-align: center;">
+Dado que <b>3DS no soporta ejecutar videos a más de 30fps</b>, es recomendable seleccionar 30 fps cómo máximo sino es posible que el video<b> "pegue ciertos tirones"</b><img border="0" data-original-height="330" data-original-width="497" src="https://1.bp.blogspot.com/-W2ZgiUmm3zQ/WWlUrPhHh5I/AAAAAAAAIZ0/6l_Pmkhs2JgRWsShkitA7JKcPzYTYQLpQCLcBGAs/s1600/ta.png"  style=max-width:100%     style="text-align: center;" /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<u><b><br /></b></u></div>
+<div class="separator" style="clear: both; text-align: center;">
+<u><b>3.4 Resolución del vídeo en pantalla</b></u></div>
+<div class="separator" style="clear: both; text-align: center;">
+<u><br /></u></div>
+<div class="separator" style="clear: both; text-align: center;">
+Dado que la pantalla de 3DS/New 3DS<b> no soporta una resolución mayor a 400/240 escogeremos la predeterminada pulsando "enter"</b><img border="0" data-original-height="332" data-original-width="495" src="https://1.bp.blogspot.com/-kN47iUPgbLI/WWlVOiVaawI/AAAAAAAAIZ4/5RlisaAD86gcF6ju6pWxtcwKSfWHUIWeQCLcBGAs/s1600/re.png" style=max-width:100%     style="text-align: center;" /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<u><b>3.5 Escalar la imágen</b></u></div>
+<div class="separator" style="clear: both; text-align: center;">
+<u><br /></u></div>
+<div class="separator" style="clear: both; text-align: center;">
+<b>Pulsamos "1" para adaptar la imágen a nuestra pantalla</b> y evitar espantos<img border="0" data-original-height="328" data-original-width="496" src="https://3.bp.blogspot.com/-M5i9mqPgFxA/WWlVsTQoh5I/AAAAAAAAIZ8/HSg7NPDP9AMKjQySC6XMqBvRBZzgwnHqQCLcBGAs/s1600/es.png" style=max-width:100%     style="text-align: center;" /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<u><b>3.6 Calidad de imágen</b></u></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+Seleccionamos "1" para una alta calidad de imágen, así nos aseguramos obtener la mayor calidad que soporta 3DS</div>
+<div class="separator" style="clear: both; text-align: left;">
+<img border="0" data-original-height="333" data-original-width="493" src="https://1.bp.blogspot.com/-NZNpW04VHtc/WWlWHjKdhgI/AAAAAAAAIaA/dx9_rouB3OkKWxwt15REwl82jtAEZoQCACLcBGAs/s1600/ca.png" 
+ style=max-width:100%     style="text-align: center;" /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<u><b>3.7 Tipo de audio</b></u></div>
+<div class="separator" style="clear: both; text-align: center;">
+<u><br /></u></div>
+<div class="separator" style="clear: both; text-align: center;">
+Seleccionamos "2" para tener audio estereo en el vídeo<img border="0" data-original-height="337" data-original-width="495" src="https://3.bp.blogspot.com/-pbNK40DGz6k/WWlWsqCdbyI/AAAAAAAAIaE/zhtJViYQK2w13FSJzEit61DFkwqwhKUMgCLcBGAs/s1600/tere.png"  style=max-width:100%   style="text-align: center;" /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<b><u><br /></u></b></div>
+<div class="separator" style="clear: both; text-align: center;">
+<b><u>3.8 Intensidad de audio</u></b></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+Pulsamos <b>"enter"</b> para escoger la opción predefinida (44100)<img border="0" data-original-height="333" data-original-width="496" src="https://4.bp.blogspot.com/-E548j3_htVM/WWlXWvUP8RI/AAAAAAAAIaM/D8E-6fNxj3IFAlM7gKIfgCp2j9tc2p3UwCLcBGAs/s1600/au.png" style=max-width:100%    style="text-align: center;" /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<b><u>3.9 Audio Codec</u></b></div>
+<div class="separator" style="clear: both; text-align: center;">
+<b><u><br /></u></b></div>
+<div class="separator" style="clear: both; text-align: center;">
+Recomiendo escoger<b> "OGG Vorbis"</b></div>
+<div class="separator" style="clear: both; text-align: center;">
+Para ello seleccionamos <b>con "2"</b><img border="0" data-original-height="331" data-original-width="499" src="https://3.bp.blogspot.com/-SCOg2e3uaPw/WWlX5n5cTeI/AAAAAAAAIaQ/BaWBNHuIbPQU1pOFONU2kH-7KQaNHb4PgCLcBGAs/s1600/ogg.png"  style=max-width:100%    style="text-align: center;" /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<b><u>4.0 Creando archivo</u></b></div>
+<div class="separator" style="clear: both; text-align: center;">
+<b><u><br /></u></b></div>
+<div class="separator" style="clear: both; text-align: center;">
+Una vez dadas las instrucciones el programa creará el archivo .JPGV analizando cada fotograma<img border="0" data-original-height="326" data-original-width="499" src="https://1.bp.blogspot.com/-peA7gawuZmw/WWlYtehpV1I/AAAAAAAAIaY/3xuZbjNyz54gSCRYr0vGHWkVkoearS7NwCLcBGAs/s1600/jaj.png" style=max-width:100%    style="text-align: center;" /></div>
+<h3 style="clear: both; text-align: left;">
+<div style="text-align: center;">
+<span style="text-decoration-line: underline;"><br /></span></div>
+<u><div style="text-align: center;">
+<u><b>2-Transformar .JPGV a .CIA</b></u></div>
+</u></h3>
+<div>
+<div style="text-align: center;">
+Ahora que tenemos nuestro archivo en formato .JPGV podemos ir al paso final con el que obtendremos un instable .CIA gracias al cual podremos instalar el .CIA con<a href="http://www.scenen3ds.com/2017/07/tutorial-fbi-instalacion-opciones-etc.html"> <b>FBI</b></a></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+1- <b>Abrimos la carpeta "Video Creator Channels"</b> y <b>copiamos el archivo de video </b>.jpgv que acabamos de convertir<b> a 2&nbsp;ubicaciones distintas</b></div>
+<div style="text-align: center;">
+<br /></div>
+<ol>
+<li style="text-align: center;"><b>Raíz de la carpeta Video Creator Channels</b></li>
+<li style="text-align: center;">Carpeta <b>roms</b></li>
+</ol>
+<div>
+<div style="text-align: center;">
+En todas ellas <b>le cambiamos el nombre a video.jpgv</b> <b>o un nombre que no exceda de 5 letras</b> , ej AC.jpgv</div>
+</div>
+</div>
+<div>
+<br />
+<div style="text-align: center;">
+<span style="font-weight: 700; text-decoration-line: underline;"><br /></span></div>
+<b style="text-decoration-line: underline;"><div style="text-align: center;">
+<b style="text-decoration-line: underline;">2-</b>Os habréis fijado que en la carpeta "files" se encuentran distintos archivos. Estos archivos son los siguientes y podéis cambiarlos por otros siempre que respetéis las medidas:</div>
+</b><br />
+<div style="text-align: center;">
+<br /></div>
+<ol>
+<li style="text-align: center;"><b>Banner,</b> es la imágen que <b>aparecerá en la cabecera</b> del Nintendo 3DS (debe ser <b>256 por 128</b>)</li>
+<li style="text-align: center;"><b>Icon</b>, es el <b>icono que aparecerá en el menú Home</b> ( debe ser de <b>48 por 48</b>)</li>
+<li style="text-align: center;"><b>Audio</b>, es el sonido que<b> se reproduce al seleccionar el título</b> (debe ser de <b>2 segundos)</b></li>
+</ol>
+<div>
+<div style="text-align: center;">
+<b>3- </b>Una vez teniendo personalizado nuestro vídeo, <b>debemos ejecutar el programa "build-jpgv.exe" que lo convertirá en .CIA dándole las siguientes instrucciones</b></div>
+</div>
+<div>
+<div style="text-align: center;">
+<b><br /></b></div>
+</div>
+<div>
+<div style="text-align: center;">
+<b><u>3.1 Nombre del vídeo</u></b></div>
+</div>
+<div>
+<div style="text-align: center;">
+<b><u><br /></u></b></div>
+</div>
+<div>
+<div style="text-align: center;">
+Debes poner el nombre del archivo .jpgv que has copiado</div>
+<div style="text-align: center;">
+<br /></div>
+<img border="0" data-original-height="329" data-original-width="496" src="https://4.bp.blogspot.com/-uIBlm-583nY/WWm32AWC22I/AAAAAAAAIak/r6OCmFFhRtMNtXYh7dyiBA_1wIezDOKrQCLcBGAs/s1600/name.png"  style=max-width:100%   style="text-align: center;" /><br />
+<div style="text-align: center;">
+<br /></div>
+</div>
+<div>
+<div style="text-align: center;">
+<b><u>3.2 &nbsp;Identificador único del .CIA</u></b></div>
+</div>
+<div>
+<div style="text-align: center;">
+<b><br /></b></div>
+</div>
+<div>
+<div style="text-align: center;">
+Debemos crear una dirección ID única para nuestro vídeo, siendo esta compuesta de 6 letras o 6 números aleatorios</div>
+</div>
+<div>
+<img border="0" data-original-height="327" data-original-width="497" src="https://4.bp.blogspot.com/-f1jaAGbg3AI/WWm4ZTjAf0I/AAAAAAAAIao/Tdzyf5ujtm0wY5SmdpxBPMPDiUP6uvRwQCLcBGAs/s1600/id.png" 
+ style=max-width:100%   style="text-align: center;" /></div>
+<div>
+<div style="text-align: center;">
+<b><br /></b></div>
+</div>
+<div>
+<div style="text-align: center;">
+<b><u>3.3 Efecto 3D</u></b></div>
+</div>
+<div>
+<div style="text-align: center;">
+<b><u><br /></u></b></div>
+</div>
+<div>
+<div style="text-align: center;">
+<b>Si el vídeo de origen es compatible con el efecto 3D</b>, podemos <b>seleccionar dicha opción </b>para disfrutarlo en 3D en nuestra 3DS/New 3DS<img border="0" data-original-height="330" data-original-width="499" src="https://3.bp.blogspot.com/-db0Y0Fs-hqM/WWm48_VVjGI/AAAAAAAAIas/Jk22jlKshAocyQuxgWpzptAAzDaWsKrnQCLcBGAs/s1600/3D.png"  style=max-width:100%    style="text-align: center;" /></div>
+</div>
+<div>
+<div style="text-align: center;">
+<br /></div>
+</div>
+<div>
+<div style="text-align: center;">
+<u><b><br /></b></u></div>
+</div>
+<div>
+<div style="text-align: center;">
+<u><b>3.4 Insertar título del vídeo</b></u></div>
+</div>
+<div>
+<div style="text-align: center;">
+<br /></div>
+</div>
+<div>
+<div style="text-align: center;">
+Este nombre en concreto <b>es el que aparecerá en nuestra 3DS en concreto</b>, así que escoged el que más os guste</div>
+<img border="0" data-original-height="329" data-original-width="494" src="https://1.bp.blogspot.com/-NeAtwwBGxM0/WWm5brI_5-I/AAAAAAAAIaw/XurTjpcB3lkDlY4Cu9NQGN9zQhXEBTFXgCLcBGAs/s1600/titulo.png" 
+style=max-width:100%     style="text-align: center;" /></div>
+<div>
+<div style="text-align: center;">
+<br /></div>
+</div>
+<div>
+<div style="text-align: center;">
+<b><u>3.5 Autor del vídeo</u></b></div>
+<div style="text-align: center;">
+<b><u><br /></u></b></div>
+</div>
+<div>
+<div style="-webkit-text-stroke-width: 0px; color: black; font-family: &quot;Times New Roman&quot;; font-size: medium; font-style: normal; font-variant-caps: normal; font-variant-ligatures: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-decoration-color: initial; text-decoration-style: initial; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px;">
+<div style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;">
+<div style="margin: 0px;">
+<div style="text-align: center;">
+Podéis poner vuestro nombre, el autor original o el que más os guste</div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<div style="text-align: center;">
+<br /></div>
+</div>
+<div>
+  border="0" data-original-height="330" data-original-width="497" src="https://3.bp.blogspot.com/-xBe4dr0qihA/WWm6AOn1lGI/AAAAAAAAIa0/z5193d-X-G00Ut3iUzdSJ-w4pX-z_UALgCLcBGAs/s1600/aut.png" 
+ style=max-width:100%    style="text-align: center;" /></div>
+<div>
+<br />
+<div style="text-align: center;">
+<span style="font-weight: 700; text-decoration-line: underline;"><br /></span></div>
+<b><div style="text-align: center;">
+<b><u>3.6 Conversión del vídeo</u></b></div>
+</b></div>
+<div>
+<div style="text-align: center;">
+<br /></div>
+</div>
+<div>
+<div style="text-align: center;">
+El programa <b>cargará todos los archivos de video, imágen y audio y en unos minutos creará el instalable .CIA</b> que <b>podéis instalarlo con FBI</b><img border="0" data-original-height="328" data-original-width="497" src="https://1.bp.blogspot.com/-2ypR2E_oij8/WWm8IMrybcI/AAAAAAAAIa4/wsNn8o8DdbY-Qv7C1cgMzn0EjWA7N31fQCLcBGAs/s1600/cia.png" style=max-width:100%      style="text-align: center;" /></div>
+</div>
+<div>
+<div style="text-align: center;">
+<br /></div>
+</div>
+<div>
+<div style="text-align: center;">
+<br /></div>
+</div>
+<div>
+<div style="text-align: center;">
+<br /></div>
+</div>
+<h3 style="text-align: center;">
+<b><u>[VISTA PREVIA]</u></b></h3>
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" data-original-height="472" data-original-width="473" src="https://1.bp.blogspot.com/--iK85kQc5fI/Xhx3TIpITdI/AAAAAAAAWAY/Hijn5cQKmlAhcfh2fJgPW0lze2xlvq7swCLcBGAsYHQ/s1600/oie_transparent%2B%252812%2529.png" style=max-width:100%    /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div>
+<div style="text-align: center;">
+Una vez instalado, nos quedará un título con la imagen,sonido y nombre que hemos escogido, el cual al abrirlo nos reproducirá un vídeo</div>
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" data-original-height="528" data-original-width="529" src="https://1.bp.blogspot.com/-M-43jb-Mk3g/Xhx3gQIR8II/AAAAAAAAWAc/hDGoW6EWqi0fAJGnBF1BNiUA8VnI67kGgCLcBGAsYHQ/s1600/oie_transparent%2B%252811%2529.png"  style=max-width:100%     /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div>
+<div style="text-align: center;">
+<br /></div>
+</div>
+<div>
+<div style="text-align: center;">
+<br /></div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+</div>
+            
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://https-ivanillo-github-io-android.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<script id="dsq-count-scr" src="//https-ivanillo-github-io-android.disqus.com/count.js" async></script>
+
+
+              
+      
+      </div>
+    </div>
+   
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	                             
+  </body>
+</html>
