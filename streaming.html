@@ -1,1 +1,348 @@
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+      https://www.apache.org/licenses/LICENSE-2.0
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
 
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Introducing Lollipop, a sweet new take on Android.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Android</title>
+
+    <style>
+body {
+
+  background-color: white;
+  color: black;
+
+}
+ android-header {
+
+  background-color: white;
+  color: black;
+
+}  
+      
+      
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
+    
+    
+    <!-- Page styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style>
+  </head>
+  <body>
+    <script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout__header-row">
+          <span class="android-title mdl-layout-title">
+		  	
+            <img class="android-logo-image" src="images/android-logo.png">
+           
+          </span>
+          <!-- Add spacer, to align navigation to the right in desktop -->
+          <div class="android-header-spacer mdl-layout-spacer"></div>
+          <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+           <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">       
+  <i class="material-icons">search</i>
+            </label>
+            <div class="mdl-textfield__expandable-holder">
+              <input class="mdl-textfield__input" type="text" id="search-field">
+            </div>            
+          </div>
+		
+		
+          <!-- Navigation -->
+          <div class="android-navigation-container">
+            <nav class="android-navigation mdl-navigation">
+             
+            </nav>  
+			
+		  
+          </div>
+	
+          <span class="android-mobile-title mdl-layout-title">
+            <img class="android-logo-image" src="images/android-logo.png">
+          </span>
+		
+		
+		<div>		
+													
+       <img onclick="myFunction()" src="images/dark.png">   
+			
+		
+		</div>
+		
+          <button class="android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
+            <i class="material-icons">more_vert</i>
+
+        	
+          </button>
+          <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
+            <li class="mdl-menu__item">5.0 Lollipop</li>
+            <li class="mdl-menu__item">4.4 KitKat</li>
+            <li disabled class="mdl-menu__item">4.3 Jelly Bean</li>
+            <li class="mdl-menu__item">Android History</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="android-drawer mdl-layout__drawer">
+        <span class="mdl-layout-title">
+          <img class="android-logo-image" src="images/android-logo-white.png">
+        </span>
+        <nav class="mdl-navigation">
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Nintendo 3DS</span>
+          <a class="mdl-navigation__link" href="">Actualizar A9LH a B9S</a>
+          <a class="mdl-navigation__link" href="">Desbrickear 3DS</a>
+          <a class="mdl-navigation__link" href="">Exploit BannerBomb3</a>
+          <a class="mdl-navigation__link" href="">Exploit NtrBootHax</a>
+		<a class="mdl-navigation__link" href="">Guía Rosalina</a>
+          <a class="mdl-navigation__link" href="">Guía VCC</a>
+          <a class="mdl-navigation__link" href="">Nintendo 3DS Kit</a>
+		
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Nintendo Switch</span>
+          <a class="mdl-navigation__link" href="">Acceder RCM</a>
+          <a class="mdl-navigation__link" href="">Actualizar offline</a>
+          <a class="mdl-navigation__link" href="">Android en Switch</a>
+		 <a class="mdl-navigation__link" href="">Backup de la NAND</a>
+          <a class="mdl-navigation__link" href="">Capturadora WiFi/USB</a>
+          <a class="mdl-navigation__link" href="">Android en Switch</a>
+		 <a class="mdl-navigation__link" href="">Ejecutar CFW</a>
+          <a class="mdl-navigation__link" href="">Ejecutar FLOG</a>
+          <a class="mdl-navigation__link" href="">Streaming de Windows</a>
+		
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Nintendo DSi</span>
+          <a class="mdl-navigation__link" href="">Guía TwiLightMenu++</a>
+          <a class="mdl-navigation__link" href="">HiyaCFW (Flipnote)</a>
+          <a class="mdl-navigation__link" href="">HiyaCFW (Camera)</a>
+		<div class="android-drawer-separator"></div>
+		
+          <span class="mdl-navigation__link" href="">Nintendo WiiU</span>
+          <a class="mdl-navigation__link" href="">Ejecutar MochaCFW</a>
+          <a class="mdl-navigation__link" href="">Guía WiiVC Injector</a>
+          <a class="mdl-navigation__link" href="">Historia WiiU</a>
+          <a class="mdl-navigation__link" href="">Instalar Haxchi+CBHC</a>
+          <div class="android-drawer-separator"></div>
+	
+          <span class="mdl-navigation__link" href="">Nintendo Wii Mini</span>
+          <a class="mdl-navigation__link" href="">Ejecutar BlueBomb</a>
+          <div class="android-drawer-separator"></div>
+        </nav>
+      </div>
+
+      <div class="android-content mdl-layout__content">
+        <a name="top"></a>
+        <div class="android-be-together-section mdl-typography--text-center">
+          <div class="logo-font android-slogan">Bienvenido a HackTendo.</div>
+          <div class="logo-font android-sub-slogan">Una página sobre la Scene de consolas de Nintendo.</div>
+  
+		
+		
+			   <br>
+			   <br> 
+			   <br>
+		    <a href="https://t.me/HackTendoNet" target="whatever"><img border="0" src="images/telegram.png"  style=max-width:100%  alt=""></a>
+	
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=ivanmolinamorales@gmail.com&su=Iv%C3%A1n&body=&bcc=" target="whatever"><img border="0" src="images/gmail.png" style=max-width:100%  alt=""></a>
+			   <br> <br>
+			   <br>
+		    <div>
+		   <div>
+		  
+		  
+           
+			   
+		 
+      
+		  
+		  
+		  
+		  
+		  
+		
+		  
+           <div class="android-section-title mdl-typography--display-1-color-contrast">[Guía] In-Home-Switching (Streaming de tu PC)</div>
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" data-original-height="720" data-original-width="1280" src="https://1.bp.blogspot.com/-67eLUuEgiEc/XM7uf5bmReI/AAAAAAAATlY/60j2o16SSrsZuoPEvPgAamekxFnvrhIngCLcBGAs/s1600/2019050514561800-DA63280140B1530CD17755515D814CFE.jpg" style=max-width:100%   /></div>
+<div style="text-align: center;">
+<span style="font-size: x-small;"><b>Life is Strange 2 por Streaming en Nintendo Switch</b></span><br />
+<span style="font-size: x-small;"><b><br /></b></span></div>
+<div style="text-align: center;">
+<b><span style="color: blue;">In-Home-Switching </span></b>es un Homebrew que te permite hacer streaming tanto de imagen como audio de tu PC en tu Nintendo Switch. Con esta aplicacion puedes jugar juegos de tu libreria de Steam en tu Nintendo Switch.</div>
+<div style="text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<object class="BLOG_video_class" contentid="7276df0428c8e95" height="266" id="BLOG_video-7276df0428c8e95" width="320"></object></div>
+<div class="separator" style="clear: both; text-align: center;">
+<b><span style="font-size: x-small;">Gameplay Life is Strange 2 en Nintendo Switch</span></b></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<u><b>Requisitos:</b></u></div>
+<div style="text-align: center;">
+-Una Nintendo Switch en una <b><a href="https://www.hacktendo.net/p/choidujournx.html"><span style="color: blue;">versión de software reciente</span></a></b></div>
+<div style="text-align: center;">
+-Una Switch que pueda <b>ejecutar un CFW</b></div>
+<div style="text-align: center;">
+-Un PC de 64 bit con<b> Windows 8 o superior.</b></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<u><b>Bugs:</b></u></div>
+<div style="text-align: center;">
+El audio es muy inestable por ahora, se recomiendan auriculares bluetooth</div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b>[PASOS]</b></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b>1.</b> <button type="button"><a href="https://bsnx.lavatech.top/in-home-switching">Descarga</a>&nbsp; </button>&nbsp;la ultima nightly y extrae el <b>.nro </b>en la carpeta <b>/Switch </b>de&nbsp;tu SD.</div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b>2.&nbsp;</b><button type="button"><a href="https://github.com/jakibaki/In-Home-Switching/releases/latest">Descarga</a>&nbsp;</button> la última versión estable y extrae la carpeta&nbsp;<b>/Windows</b> en tu PC.</div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b>3.</b> Ejecuta el Homebrew desde el Homebrew Launcher y te saldrá la siguiente pantalla con la dirección IP de tu Nintendo Switch, la necesitaremos mas tarde.<img border="0" data-original-height="720" data-original-width="1280" src="https://2.bp.blogspot.com/-tHJByj8ClPE/XM7vG2qCUTI/AAAAAAAATlg/G-Mqm9mygfkqJDMoBgqS9FtBLbT_ox6tQCLcBGAs/s1600/2019050516015900-DA63280140B1530CD17755515D814CFE.jpg" style="text-align: center;" style=max-width:100%    /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<b>4. </b>Descarga e instala las siguientes aplicaciones en tu PC, son necesarias para el streaming.</div>
+<button type="button"><a href="https://github.com/mogzol/ScpDriverInterface/releases/download/1.1/ScpDriverInterface_v1.1.zip">SpcDrivers</a></button><br />
+<button type="button"><a href="https://github.com/rdp/screen-capture-recorder-to-video-windows-free/releases">Screen Capture Recorder</a></button><br />
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b>5. </b>En Windows, cambia la resolución de la pantalla a <b><span style="color: blue;">1280x720p </span></b>para un mejor rendimiento de la aplicación.</div>
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" data-original-height="973" data-original-width="1033" src="https://2.bp.blogspot.com/-_sVXnJ6_wlw/XM7x1QEayII/AAAAAAAATls/UYtD6XnZA4UWOXE3WCXWsOfPWe1EHs57gCLcBGAs/s1600/p.png" style=max-width:100%   /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<b>6. </b>En Windows, ejecuta la aplicación de la <b><span style="color: blue;">In-Home-Switching.exe</span></b> de la carpeta<b> /Windows.</b></div>
+<div class="separator" style="clear: both; text-align: center;">
+Escribe la IP de tu Nintendo Switch en la caja, ajusta la calidad de imagen y haz click en <b><span style="color: blue;">Connect</span></b></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://4.bp.blogspot.com/-oR_q3z-qxcQ/XM7yZDtnN3I/AAAAAAAATl0/TWfZT5TQZK4-W4UwD8zssgQnmJzAjRyJACLcBGAs/s1600/edf.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" data-original-height="260" data-original-width="333" src="https://4.bp.blogspot.com/-oR_q3z-qxcQ/XM7yZDtnN3I/AAAAAAAATl0/TWfZT5TQZK4-W4UwD8zssgQnmJzAjRyJACLcBGAs/s1600/edf.png" style=max-width:100%   /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<b>7. </b>Tu Nintendo Switch ya debería estar reproduciendo la imagen de tu PC.</div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+</div>
+            
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://https-ivanillo-github-io-android.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<script id="dsq-count-scr" src="//https-ivanillo-github-io-android.disqus.com/count.js" async></script>
+
+
+              
+      
+      </div>
+    </div>
+   
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	                             
+  </body>
+</html>
