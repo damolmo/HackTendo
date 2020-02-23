@@ -1,1 +1,1 @@
-www.hacktendo.net
+$ dig www.hacktendo.net +noall +answer
