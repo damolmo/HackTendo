@@ -1,1 +1,415 @@
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+      https://www.apache.org/licenses/LICENSE-2.0
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
 
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Introducing Lollipop, a sweet new take on Android.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Android</title>
+
+    <style>
+body {
+
+  background-color: white;
+  color: black;
+
+}
+ android-header {
+
+  background-color: white;
+  color: black;
+
+}  
+      
+      
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
+    
+    
+    <!-- Page styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style>
+  </head>
+  <body>
+    <script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout__header-row">
+          <span class="android-title mdl-layout-title">
+		  	
+            <img class="android-logo-image" src="images/android-logo.png">
+           
+          </span>
+          <!-- Add spacer, to align navigation to the right in desktop -->
+          <div class="android-header-spacer mdl-layout-spacer"></div>
+          <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+           <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">       
+  <i class="material-icons">search</i>
+            </label>
+            <div class="mdl-textfield__expandable-holder">
+              <input class="mdl-textfield__input" type="text" id="search-field">
+            </div>            
+          </div>
+		
+		
+          <!-- Navigation -->
+          <div class="android-navigation-container">
+            <nav class="android-navigation mdl-navigation">
+             
+            </nav>  
+			
+		  
+          </div>
+	
+          <span class="android-mobile-title mdl-layout-title">
+            <img class="android-logo-image" src="images/android-logo.png">
+          </span>
+		
+		
+		<div>		
+													
+       <img onclick="myFunction()" src="images/dark.png">   
+			
+		
+		</div>
+		
+          <button class="android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
+            <i class="material-icons">more_vert</i>
+
+        	
+          </button>
+          <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
+            <li class="mdl-menu__item">5.0 Lollipop</li>
+            <li class="mdl-menu__item">4.4 KitKat</li>
+            <li disabled class="mdl-menu__item">4.3 Jelly Bean</li>
+            <li class="mdl-menu__item">Android History</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="android-drawer mdl-layout__drawer">
+        <span class="mdl-layout-title">
+          <img class="android-logo-image" src="images/android-logo-white.png">
+        </span>
+        <nav class="mdl-navigation">
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Nintendo 3DS</span>
+          <a class="mdl-navigation__link" href="">Actualizar A9LH a B9S</a>
+          <a class="mdl-navigation__link" href="">Desbrickear 3DS</a>
+          <a class="mdl-navigation__link" href="">Exploit BannerBomb3</a>
+          <a class="mdl-navigation__link" href="">Exploit NtrBootHax</a>
+		<a class="mdl-navigation__link" href="">Guía Rosalina</a>
+          <a class="mdl-navigation__link" href="">Guía VCC</a>
+          <a class="mdl-navigation__link" href="">Nintendo 3DS Kit</a>
+		
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Nintendo Switch</span>
+          <a class="mdl-navigation__link" href="">Acceder RCM</a>
+          <a class="mdl-navigation__link" href="">Actualizar offline</a>
+          <a class="mdl-navigation__link" href="">Android en Switch</a>
+		 <a class="mdl-navigation__link" href="">Backup de la NAND</a>
+          <a class="mdl-navigation__link" href="">Capturadora WiFi/USB</a>
+          <a class="mdl-navigation__link" href="">Android en Switch</a>
+		 <a class="mdl-navigation__link" href="">Ejecutar CFW</a>
+          <a class="mdl-navigation__link" href="">Ejecutar FLOG</a>
+          <a class="mdl-navigation__link" href="">Streaming de Windows</a>
+		
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Nintendo DSi</span>
+          <a class="mdl-navigation__link" href="">Guía TwiLightMenu++</a>
+          <a class="mdl-navigation__link" href="">HiyaCFW (Flipnote)</a>
+          <a class="mdl-navigation__link" href="">HiyaCFW (Camera)</a>
+		<div class="android-drawer-separator"></div>
+		
+          <span class="mdl-navigation__link" href="">Nintendo WiiU</span>
+          <a class="mdl-navigation__link" href="">Ejecutar MochaCFW</a>
+          <a class="mdl-navigation__link" href="">Guía WiiVC Injector</a>
+          <a class="mdl-navigation__link" href="">Historia WiiU</a>
+          <a class="mdl-navigation__link" href="">Instalar Haxchi+CBHC</a>
+          <div class="android-drawer-separator"></div>
+	
+          <span class="mdl-navigation__link" href="">Nintendo Wii Mini</span>
+          <a class="mdl-navigation__link" href="">Ejecutar BlueBomb</a>
+          <div class="android-drawer-separator"></div>
+        </nav>
+      </div>
+
+      <div class="android-content mdl-layout__content">
+        <a name="top"></a>
+        <div class="android-be-together-section mdl-typography--text-center">
+          <div class="logo-font android-slogan">Bienvenido a HackTendo.</div>
+          <div class="logo-font android-sub-slogan">Una página sobre la Scene de consolas de Nintendo.</div>
+  
+		
+		
+			   <br>
+			   <br> 
+			   <br>
+		    <a href="https://t.me/HackTendoNet" target="whatever"><img border="0" src="images/telegram.png"  style=max-width:100%  alt=""></a>
+	
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=ivanmolinamorales@gmail.com&su=Iv%C3%A1n&body=&bcc=" target="whatever"><img border="0" src="images/gmail.png" style=max-width:100%  alt=""></a>
+			   <br> <br>
+			   <br>
+		    <div>
+		   <div>
+		  
+		  
+           
+			   
+		 
+      
+		  
+		  
+		  
+		  
+		  
+		
+		  
+           <div class="android-section-title mdl-typography--display-1-color-contrast">¿Qué es WiiU?</div>
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" data-original-height="370" data-original-width="652" src="https://3.bp.blogspot.com/-sBt51O3wg2s/WVYmgjN6qbI/AAAAAAAAH7g/V7Rdd7u0E-cD-9soV0koTCNpvwa-7DKNACLcBGAs/s1600/iop.jpg"style=max-width:100%    /></div>
+<div style="text-align: center;">
+WiiU es una consola de sobremesa de Nintendo presentada por primera vez en el E3 de 2011, por Reggie Films-Aime, presidente de Nintendo of America.</div>
+<div style="text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<iframe allowfullscreen="" class="YOUTUBE-iframe-video" data-thumbnail-src="https://i.ytimg.com/vi/4e3qaPg_keg/0.jpg" frameborder="0" height="266" src="https://www.youtube.com/embed/4e3qaPg_keg?feature=player_embedded" width="320"></iframe></div>
+<div style="text-align: center;">
+La nueva consola de Nintendo llegaba al mercado en una apuesta contra el boom de los smartphones y tabletas inteligentes, es por ello que la consola fue presentada oficialmente cómo un producto para el hogar, siguiendo apostando por ese público casual de Wii.</div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+La consola doméstica de Nintendo se dividía en dos partes:</div>
+<blockquote class="tr_bq">
+<div style="text-align: center;">
+WiiU Gamepad</div>
+<div style="text-align: center;">
+WiiU console</div>
+</blockquote>
+<div>
+<div style="text-align: center;">
+<br /></div>
+</div>
+<div>
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" src="https://2.bp.blogspot.com/-xpysckEck5Y/WVZo1IrKyYI/AAAAAAAAH8I/xecnBfCbqo4NjsOiaatyE99grFeIcmtGACLcBGAs/s1600/GTV.png" style=max-width:100%   /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+El WiiU gamepad no era ni más ni menos que un mando/tableta que te permitía visionar lo mismo que en tu TV o complementar a modo de segunda pantalla cómo hemos visto en las portátiles de Nintendo.</div>
+</div>
+<div>
+<div style="text-align: center;">
+<br /></div>
+</div>
+<div>
+<div style="text-align: center;">
+Siempre que tu WiiU Gamepad estuviera a una distancia apróximadamente alrededor de 10 m podías ver en esa pantalla de apenas 5 pulgadas la imágen de tu TV.</div>
+<div style="text-align: center;">
+Siendo esta la diferencia de WiiU con su predecesora, Wii. En cualquier momento podías apagar la TV y seguir tranquilamente tu partida tumbado, por ejemplo, en tu sofá.</div>
+</div>
+<div>
+<div style="text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" src="https://3.bp.blogspot.com/-ufaqo22Zd3w/WVZqBFFzvVI/AAAAAAAAH8Q/PLBy-putsOIOZQo-6vwjlsj_kw8wbFwNgCLcBGAs/s1600/tyui.jpg" style=max-width:100%   style="text-align: center;" /></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+Es por ello que esta funcionalidad llegó a ser un punto tan atractivo de la consola de Nintendo que casi todos los juegos( menos los que mostraban distinta imágen en TV y Gamepad) te permitían seguir tranquilamente con tu partida fuera de la TV, ya que no siempre la televisión de tu casa puede estar disponible.</div>
+</div>
+<div>
+<div style="text-align: center;">
+<br /></div>
+</div>
+<div>
+<div style="text-align: center;">
+Aunque el verdadero desafío no era ese, sino poder aguantar en tus manos tanto tiempo el WiiU Gamepad, es cierto que jugar con el Gamepad incluso fuera de la TV puede resultar atractivo, pero el mando-tableta de Nintendo presentada un grave problema, su peso.</div>
+</div>
+<div>
+<div style="text-align: center;">
+<br /></div>
+</div>
+<div>
+<div style="text-align: center;">
+Tras largas partidas de juego a títulos cómo MK8 o Splatoon entre otros, el jugador acababa agotado tras sostener ese pedazo de mando en sus manos...</div>
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" data-original-height="539" data-original-width="950" src="https://4.bp.blogspot.com/-HQEn0nya4M0/WVZqrcayczI/AAAAAAAAH8Y/pW70cuoHJWkFcF_R9Xqhc32X33xpKOYTwCLcBGAs/s1600/game.jpg" style=max-width:100%   /></div>
+<div>
+<div style="text-align: center;">
+<br /></div>
+</div>
+<div>
+<div style="text-align: center;">
+Por otra parte, es cierto que el mando presentaba una gran ergonomía que permitía al jugador agarrar facilmente dicho mando, pero el gran peso sumado al gran tamaño del mismo complicaba a los jugadores hasta al alcanzar ciertos gatillos cómo el ZL/ZR de la parte trasera, que a veces resultaban imposibles de alcanzar o era incluso fácil equivocarse de botón, ya que nuestras manos debían desplazarse por todo ese voluminoso mando, lo que a veces no resultaba una tarea sencilla.</div>
+</div>
+<div>
+<div style="text-align: center;">
+<br /></div>
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" data-original-height="1067" data-original-width="1600" src="https://3.bp.blogspot.com/-cTFGEXCBRXw/WVZrv3dHSyI/AAAAAAAAH8g/XVrLXljCG0s6dBjhRgro9kDXpe-kurK7gCLcBGAs/s1600/wii_u_back1.jpg" style=max-width:100%   /></div>
+<div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+Pero no todo en WiiU era malo, al contrario, pese a ser un fracaso comercial por tener un excesivo precio(el cual Nintendo achacaba a la inflación del yen y coste de los materiales a producir) sumado a los problemas en sí del propio hardware, WiiU tuvo unas ventas pésimas, siendo el mayor fracaso de Nintendo en lo que respecta a consolas de sobremesa, pero ello no impidio que la consola de Nintendo recibiera auténticas joyas las cuales pese a ser muy limitadas son lo que hacen atractiva a la consola.<img border="0" data-original-height="1004" data-original-width="1600" src="https://2.bp.blogspot.com/-kkIqwpnjEcc/WVZtaSRYNrI/AAAAAAAAH8s/ArywtyEB4AQyotJsas7Iws3l7StjkRHsgCLcBGAs/s1600/fewr.png" style=max-width:100%   style="text-align: center;" /></div>
+</div>
+<div>
+<div style="text-align: center;">
+<br /></div>
+</div>
+<div>
+<div style="text-align: center;">
+WiiU recibió auténticas joyas de las cuales muchas de ellas son queridas por aquellos fans que  no pudieron acceder a ella, destacando las siguientes:</div>
+</div>
+<div>
+<div style="text-align: center;">
+<br /></div>
+</div>
+<blockquote class="tr_bq">
+<div style="text-align: center;">
+Splatoon</div>
+<div style="text-align: center;">
+Mario Kart 8</div>
+<div style="text-align: center;">
+Bayonetta 2</div>
+<div style="text-align: center;">
+Tokyo Mirage Sessions #FE</div>
+<div style="text-align: center;">
+Super Mario 3D World</div>
+<div style="text-align: center;">
+Super Smash Bros for WiiU</div>
+<div style="text-align: center;">
+TLOF Wind Waker HD</div>
+<div style="text-align: center;">
+Xenoblade Chronicles X</div>
+<div style="text-align: center;">
+Donkey Kong Tropical Freeze</div>
+</blockquote>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+A día de hoy WiiU, cesó su producción en el último trimestre de 2016, siendo sustituida por Nintendo Switch, la nueva consola de la compañia que hereda ADN de todas las consolas de la compañia, incluída WiiU, ya que cómo Nintendo ha declarado en numerosas ocasiones</div>
+<div style="text-align: center;">
+<br /></div>
+<blockquote class="tr_bq">
+<div style="text-align: center;">
+"No hubiera sido posible crear Nintendo Switch si WiiU no hubiera existido"</div>
+</blockquote>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+Es por ello que concluimos que pese a que WiiU fue un fracaso en ventas, recibió un gran catálogo de exclusivos y ha sido un antes y un después para el futuro de la compañía nipona</div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+</div>
+            
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://https-ivanillo-github-io-android.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<script id="dsq-count-scr" src="//https-ivanillo-github-io-android.disqus.com/count.js" async></script>
+
+
+              
+      
+      </div>
+    </div>
+   
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	                             
+  </body>
+</html>
