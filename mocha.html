@@ -1,1 +1,435 @@
 
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+      https://www.apache.org/licenses/LICENSE-2.0
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Introducing Lollipop, a sweet new take on Android.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Android</title>
+
+    <style>
+body {
+
+  background-color: white;
+  color: black;
+
+}
+ android-header {
+
+  background-color: white;
+  color: black;
+
+}  
+      
+      
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
+    
+    
+    <!-- Page styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style>
+  </head>
+  <body>
+    <script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout__header-row">
+          <span class="android-title mdl-layout-title">
+		  	
+            <img class="android-logo-image" src="images/android-logo.png">
+           
+          </span>
+          <!-- Add spacer, to align navigation to the right in desktop -->
+          <div class="android-header-spacer mdl-layout-spacer"></div>
+          <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+           <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">       
+  <i class="material-icons">search</i>
+            </label>
+            <div class="mdl-textfield__expandable-holder">
+              <input class="mdl-textfield__input" type="text" id="search-field">
+            </div>            
+          </div>
+		
+		
+          <!-- Navigation -->
+          <div class="android-navigation-container">
+            <nav class="android-navigation mdl-navigation">
+             
+            </nav>  
+			
+		  
+          </div>
+	
+          <span class="android-mobile-title mdl-layout-title">
+            <img class="android-logo-image" src="images/android-logo.png">
+          </span>
+		
+		
+		<div>		
+													
+       <img onclick="myFunction()" src="images/dark.png">   
+			
+		
+		</div>
+		
+          <button class="android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
+            <i class="material-icons">more_vert</i>
+
+        	
+          </button>
+          <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
+            <li class="mdl-menu__item">5.0 Lollipop</li>
+            <li class="mdl-menu__item">4.4 KitKat</li>
+            <li disabled class="mdl-menu__item">4.3 Jelly Bean</li>
+            <li class="mdl-menu__item">Android History</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="android-drawer mdl-layout__drawer">
+        <span class="mdl-layout-title">
+          <img class="android-logo-image" src="images/android-logo-white.png">
+        </span>
+        <nav class="mdl-navigation">
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Nintendo 3DS</span>
+          <a class="mdl-navigation__link" href="">Actualizar A9LH a B9S</a>
+          <a class="mdl-navigation__link" href="">Desbrickear 3DS</a>
+          <a class="mdl-navigation__link" href="">Exploit BannerBomb3</a>
+          <a class="mdl-navigation__link" href="">Exploit NtrBootHax</a>
+		<a class="mdl-navigation__link" href="">Guía Rosalina</a>
+          <a class="mdl-navigation__link" href="">Guía VCC</a>
+          <a class="mdl-navigation__link" href="">Nintendo 3DS Kit</a>
+		
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Nintendo Switch</span>
+          <a class="mdl-navigation__link" href="">Acceder RCM</a>
+          <a class="mdl-navigation__link" href="">Actualizar offline</a>
+          <a class="mdl-navigation__link" href="">Android en Switch</a>
+		 <a class="mdl-navigation__link" href="">Backup de la NAND</a>
+          <a class="mdl-navigation__link" href="">Capturadora WiFi/USB</a>
+          <a class="mdl-navigation__link" href="">Android en Switch</a>
+		 <a class="mdl-navigation__link" href="">Ejecutar CFW</a>
+          <a class="mdl-navigation__link" href="">Ejecutar FLOG</a>
+          <a class="mdl-navigation__link" href="">Streaming de Windows</a>
+		
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Nintendo DSi</span>
+          <a class="mdl-navigation__link" href="">Guía TwiLightMenu++</a>
+          <a class="mdl-navigation__link" href="">HiyaCFW (Flipnote)</a>
+          <a class="mdl-navigation__link" href="">HiyaCFW (Camera)</a>
+		<div class="android-drawer-separator"></div>
+		
+          <span class="mdl-navigation__link" href="">Nintendo WiiU</span>
+          <a class="mdl-navigation__link" href="">Ejecutar MochaCFW</a>
+          <a class="mdl-navigation__link" href="">Guía WiiVC Injector</a>
+          <a class="mdl-navigation__link" href="">Historia WiiU</a>
+          <a class="mdl-navigation__link" href="">Instalar Haxchi+CBHC</a>
+          <div class="android-drawer-separator"></div>
+	
+          <span class="mdl-navigation__link" href="">Nintendo Wii Mini</span>
+          <a class="mdl-navigation__link" href="">Ejecutar BlueBomb</a>
+          <div class="android-drawer-separator"></div>
+        </nav>
+      </div>
+
+      <div class="android-content mdl-layout__content">
+        <a name="top"></a>
+        <div class="android-be-together-section mdl-typography--text-center">
+          <div class="logo-font android-slogan">Bienvenido a HackTendo.</div>
+          <div class="logo-font android-sub-slogan">Una página sobre la Scene de consolas de Nintendo.</div>
+  
+		
+		
+			   <br>
+			   <br> 
+			   <br>
+		    <a href="https://t.me/HackTendoNet" target="whatever"><img border="0" src="images/telegram.png"  style=max-width:100%  alt=""></a>
+	
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=ivanmolinamorales@gmail.com&su=Iv%C3%A1n&body=&bcc=" target="whatever"><img border="0" src="images/gmail.png" style=max-width:100%  alt=""></a>
+			   <br> <br>
+			   <br>
+		    <div>
+		   <div>
+		  
+		  
+           
+			   
+		 
+      
+		  
+		  
+		  
+		  
+		  
+		
+		  
+           <div class="android-section-title mdl-typography--display-1-color-contrast">[Guía WiiU] Instalar Juegos</div>
+<img border="0" data-original-height="360" data-original-width="640" src="https://2.bp.blogspot.com/-tGTWmlgofnI/WpGYbEejoXI/AAAAAAAANyo/XjRHmn1ffD0a4ugZhmqHK83AuTuFVGUMwCLcBGAs/s1600/M.jpg" style=max-width:100%   style="text-align: center;" /><br />
+<div style="text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<b style="text-align: center;"><span style="color: blue; font-size: large;"><u>Requisitos</u></span></b><br />
+<div style="text-align: center;">
+<b>1. </b>Una <b>Nintendo WiiU</b> en la versión más reciente <b><span style="color: blue;">5.5.4</span></b></div>
+<div style="text-align: center;">
+<b>2.</b> Una <b>SD</b> con <u>bastante capacidad</u> (para poder instalar los juegos).</div>
+<div style="text-align: center;">
+<b>3. </b>Un <b>pendrive</b> de suficiente capacidad para instalar juegos (<b><span style="color: blue;">64GB o más</span></b>).</div>
+<div style="text-align: center;">
+<b>4.</b> Un <b>PC</b> <b>con Windows.</b></div>
+<div style="text-align: center;">
+<b>5.&nbsp;</b>&nbsp;Descargar <b><a href="https://sourceforge.net/projects/hacktendo-net-repository/files/Nintendo%20Wii%20U/MochaCFW/"><span style="color: blue;">este</span></a></b> pack de archivos.</div>
+<br />
+<div style="text-align: center;">
+<span style="font-weight: 700;"><br /></span></div>
+<div style="text-align: center;">
+<span style="font-weight: 700;"><br /></span></div>
+<b><div style="text-align: center;">
+<b><span style="font-size: large;"><span style="color: blue;">[PASO 1]</span>&nbsp;</span></b></div>
+</b><br />
+<div style="text-align: center;">
+<b><span style="font-size: large;">Formatear la Unidad USB/Pendrive</span></b></div>
+<br />
+<div style="text-align: center;">
+<span style="font-weight: 700;"><br /></span></div>
+<div style="text-align: center;">
+Cómo viene siendo costumbre, para usar nuestro pendrive con nuestra WiiU e instalarle juegos, este <b>debe tener una partición exclusiva de la consola</b> que nos permita hacerlo.</div>
+<br />
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+Para ello, introducimos el pendrive en nuestra WiiU y al encender la consola os deberá salir el siguiente mensaje. Simplemente pulsamos<b><span style="color: blue;"> "Sí"</span></b> y autorizamos que nuestra unidad se formatee.</div>
+<div style="text-align: center;">
+<br /></div>
+<img border="0" data-original-height="362" data-original-width="682" src="https://2.bp.blogspot.com/-jFQoRTxNo7E/WpGGt5i3hKI/AAAAAAAANxY/tzhNMiN1XD0SIcvNg7zDLlN_3k0kciLbgCLcBGAs/s1600/PC6.jpg" style=max-width:100%    style="text-align: center;" /><br />
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b><span style="font-size: large;"><span style="color: blue;">[PASO 2]</span>&nbsp;</span></b></div>
+<div style="text-align: center;">
+<b><span style="font-size: large;">Descargar juegos para nuestra WiiU</span></b></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+En nuestro PC, antes de continuar con el tutorial, hacemos lo siguiente:</div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b>1.- </b>Extraemos todo el contenido de la carpeta /PC en nuestro Escritorio<img border="0" data-original-height="119" data-original-width="245" src="https://1.bp.blogspot.com/-4J_Ls8c_tPY/Xc8yZENJNHI/AAAAAAAAVYo/8yyTvK-WKeMpO4jom_Y9nCcGde0b9e7CwCLcBGAsYHQ/s1600/FE.png" style=max-width:100%   style="text-align: center;" /></div>
+<div style="text-align: center;">
+<b>2.- </b>Abrimos e instalamos los 3 programas copiados por orden.</div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b>3.-</b> Abre el archivo "3) Descargar juegos"</div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b>4.- </b>Nos cargará una lista de títulos de los que simplemente instalamos los que queramos.</div>
+<div style="text-align: center;">
+<b>Selecciona el juego</b>, dale a<b><span style="color: blue;"> "Descarga seleccionada", </span>elige una carpeta donde descargarlo y listo.</b></div>
+<div style="text-align: center;">
+<img border="0" data-original-height="580" data-original-width="825" src="https://2.bp.blogspot.com/-ZhOEFx3lHuo/WpGOHY9ApaI/AAAAAAAANx4/yrF4-RIPUI8xwW95rYRCsv_sA2FTHXm6ACLcBGAs/s1600/pc3.png" style=max-width:100%   /></div>
+<blockquote class="tr_bq">
+<div style="text-align: center;">
+<span style="color: red;"><b>Recuerda que los títulos marcados en rojo necesitan un CFW para ser ejecutados al igual que títulos de otras regiones.</b></span></div>
+</blockquote>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b><span style="font-size: large;"><span style="color: blue;">[PASO 3]</span>&nbsp;</span></b></div>
+<div style="text-align: center;">
+<b><span style="font-size: large;">Copiar los archivos a la SD</span></b></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+Una vez descargados los juegos, es hora de instalarlos en el menú HOME de nuestra WiiU.</div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+Primero copiamos todo el contenido de la carpeta <b><span style="color: blue;">"SD"</span></b> de la descarga a la raíz de nuestra SD.</div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+Después, <b>copiamos todos los archivos del juego(s)</b> que hayamos descargado<b> a una nueva ruta dentro de la carpeta install.</b></div>
+<blockquote class="tr_bq">
+<div style="text-align: center;">
+<b><span style="color: blue;">Ej: install/SUPERMARIO3DWORLD/</span><span style="color: red;">Aquí</span></b></div>
+</blockquote>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b><span style="font-size: large;"><span style="color: blue;">[PASO 4]</span>&nbsp;</span></b></div>
+<div style="text-align: center;">
+<b><span style="font-size: large;">Ejecutar The Homebrew Launcher</span></b></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<img border="0" data-original-height="360" data-original-width="640" src="https://4.bp.blogspot.com/-xhWrerFtbRY/WpGZ1Eb2-2I/AAAAAAAANy0/onYzL60VmzUA8nJrAVJQ988CeMU3Cx2VgCLcBGAs/s1600/g44.jpg"style=max-width:100%    /></div>
+<div style="text-align: center;">
+Insertamos la <b><span style="color: blue;">SD </span></b>y el <b><span style="color: blue;">Pendrive</span></b> en nuestra WiiU e<b><span style="color: blue;"> iniciamos el navegador de internet</span></b>.</div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+Una vez en el navegador, ve a la página<span style="color: blue;">&nbsp;<span style="font-family: inherit;"><b><span style="background-color: white; font-size: 15px;"><a href="http://u.drg.li/">&nbsp;</a></span></b></span></span><span style="background-color: white; color: #555555; font-family: &quot;open sans&quot; , &quot;arial&quot; , &quot;helvetica&quot; , sans-serif; font-size: 14px;">&nbsp;</span><a href="http://wiiuexploit.xyz/" style="background-color: white; color: #444444; font-family: &quot;Open Sans&quot;, Arial, Helvetica, sans-serif; font-size: 14px; text-decoration-line: none; transition: all 0.5s ease 0s;"><b><span style="color: blue;">http://wiiuexploit.xyz/</span></b></a></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+Haz click sobre <b><span style="color: blue;">" 5.5.X Exploit"</span></b> y debería iniciarse el <b><span style="color: blue;">Homebrew Launcher.</span></b></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://1.bp.blogspot.com/-j6y4GtnJ224/XcFxDSyEINI/AAAAAAAAVPU/IznBMwgQV4kXpA5nfz0gKeJREeadznGswCLcBGAsYHQ/s1600/JKL.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="460" data-original-width="1034" src="https://1.bp.blogspot.com/-j6y4GtnJ224/XcFxDSyEINI/AAAAAAAAVPU/IznBMwgQV4kXpA5nfz0gKeJREeadznGswCLcBGAsYHQ/s1600/JKL.png" style=max-width:100%    /></a></div>
+<blockquote class="tr_bq">
+<div style="text-align: center;">
+Si aún así no inicia el <b><span style="color: blue;">Homebrew Launcher</span></b>,<b><span style="color: red;"> borra datos de navegación </span></b>y sigue probando esa página hasta que entre, es cuestión de paciencia.</div>
+</blockquote>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b><span style="font-size: large;"><span style="color: blue;">[PASO 5]</span>&nbsp;</span></b></div>
+<div style="text-align: center;">
+<b><span style="font-size: large;">Instalar juegos en la WiiU</span></b></div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+Una vez en el <b><span style="color: blue;">Homebrew Launcher</span></b>, elegimos la aplicación <b><span style="color: blue;">"WUP INSTALLER GX2"</span></b></div>
+<img border="0" data-original-height="349" data-original-width="507" src="https://1.bp.blogspot.com/-r74vaywPPn0/WpGalwaD31I/AAAAAAAANy8/3bcP3r4KKdA3sNjlMFwyLkWsxORIUy1dACLcBGAs/s1600/dd.jpg" style=max-width:100%   style="text-align: center;" /><br />
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+&nbsp;Nos cargará la siguiente interfaz,<b> elegimos el juego</b>&nbsp;que queremos instalar, <b><span style="color: blue;">pulsamos "install"</span> y elegimos el destino</b>; <b><span style="color: blue;">memoria USB (externa)</span></b> o<b><span style="color: blue;"> memoria interna (8GB/32 GB).</span></b></div>
+<img border="0" data-original-height="720" data-original-width="1280" src="https://4.bp.blogspot.com/-4uHn7GViFrs/WpGVk5JggaI/AAAAAAAANyY/zvT3DnEFJkQchSMYuxSXuVFzSyJVhEujgCLcBGAs/s1600/PC4.png" style=max-width:100%   style="text-align: center;" /><br />
+<div style="text-align: center;">
+<br /></div>
+<blockquote class="tr_bq">
+<div style="text-align: center;">
+<b><span style="color: red;">Si instalas juegos en la memoria interna de tu WiiU, asegúrate que dispones del espacio suficiente.</span></b></div>
+</blockquote>
+<blockquote class="tr_bq">
+<div style="text-align: center;">
+<b><span style="color: orange;">Si instalas juegos de otra región o de CV cómo lo son títulos de DS, recuerda que debes ejecutar Mocha CFW para poder jugar a dichos juegos.</span></b></div>
+</blockquote>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: center;">
+<b>¡Listo!&nbsp; ¡Ya tienes los juegos instalados en tu consola para poder disfrutar con ellos!</b></div>
+<div style="text-align: center;">
+Recuerda que puedes jugar online con ellos sin problema alguno ni riesgo de baneo.</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+</div>
+            
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://https-ivanillo-github-io-android.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<script id="dsq-count-scr" src="//https-ivanillo-github-io-android.disqus.com/count.js" async></script>
+
+
+              
+      
+      </div>
+    </div>
+   
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	                             
+  </body>
+</html>
