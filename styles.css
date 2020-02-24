@@ -424,18 +424,24 @@ background: black;
     height: auto;
     color: white;
     padding-bottom: 56px;
+border-radius: 15px;
+
   }
 
   .android-card-container .mdl-card__actions {
     position: absolute;
     bottom: 0;
 background: black;
+border-radius: 15px;
+
   }
 
   .android-card-container .mdl-card__actions a {
     border-top: none;
     font-size: 16px;
 color: white;
+border-radius: 15px;
+
   }
 
 .android-footer {
