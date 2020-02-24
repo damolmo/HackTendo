@@ -398,8 +398,8 @@ background-color: #000000;
 
   .android-card-container .mdl-card__media {
     overflow: hidden;
-    background: black;
-     border-radius: 5px;
+    background: transparent;
+     border-radius: 2px;
   }
 
     .android-card-container .mdl-card__media img {
@@ -441,7 +441,7 @@ border-radius: 15px;
     font-size: 16px;
 color: black;
 background: black;
-border-radius: 15px;
+border-radius: 2px;
 
   }
 
