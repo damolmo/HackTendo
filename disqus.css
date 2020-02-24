@@ -1,0 +1,48 @@
+/* the entire list */
+
+.dsq-widget-list {
+display: block;
+}
+
+/* each comment item */
+
+.dsq-widget-item {
+position: center;
+}
+
+/* hover over style for each comment item */
+
+.dsq-widget-item:hover {
+background: transparent;
+}
+
+/* the avatar image in each comment item */
+
+.dsq-widget-avatar {
+display:block;
+}
+
+/* the Disqus user name */
+
+.dsq-widget-user {
+display:block;
+color: black;
+}
+
+/* the comment */
+
+.dsq-widget-comment {
+display: block;
+}
+
+/* paragraph that contains the link to the post and day */
+
+.dsq-widget-meta {
+display:block;
+}
+
+/* make the post title bold */
+
+.dsq-widget-meta a:nth-child(1) {
+font-weight:800;
+}
