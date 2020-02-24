@@ -412,12 +412,14 @@ background: black;
   .android-card-container .mdl-card__title {
     background: transparent;
     height: auto;
+border-radius: 15px;
   }
 
   .android-card-container .mdl-card__title-text {
     color: black;
     height: auto;
 background: transparent;
+border-radius: 15px;
   }
 
   .android-card-container .mdl-card__supporting-text {
