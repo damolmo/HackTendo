@@ -410,20 +410,20 @@ background: black;
     }
 
   .android-card-container .mdl-card__title {
-    background: black;
+    background: transparent;
     height: auto;
   }
 
   .android-card-container .mdl-card__title-text {
     color: black;
     height: auto;
-background: black;
+background: transparent;
   }
 
   .android-card-container .mdl-card__supporting-text {
     height: auto;
     color: black;
-background: black;
+background: transparent;
     padding-bottom: 56px;
 border-radius: 15px;
 
