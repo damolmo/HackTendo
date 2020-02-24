@@ -394,7 +394,6 @@ background-color: #000000;
 
 .android-card-container {
     border-radius: 15px;
-background: black;
 }
 
   .android-card-container .mdl-card__media {
@@ -416,14 +415,14 @@ background: black;
   }
 
   .android-card-container .mdl-card__title-text {
-    color: white;
+    color: black;
     height: auto;
 background: black;
   }
 
   .android-card-container .mdl-card__supporting-text {
     height: auto;
-    color: white;
+    color: black;
 background: black;
     padding-bottom: 56px;
 border-radius: 15px;
@@ -442,7 +441,7 @@ border-radius: 15px;
   .android-card-container .mdl-card__actions a {
     border-top: none;
     font-size: 16px;
-color: white;
+color: black;
 background: black;
 border-radius: 15px;
 
