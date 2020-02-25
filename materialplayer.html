@@ -41,6 +41,53 @@ body {
   color: white;
 }
 </style>
+	  
+	<link rel="stylesheet" type="text/css" href="materialaudio.css">
+<style type="text/css">
+body {
+<div class="container">
+  <div class="player">
+    <div class="like waves-effect waves-light">
+      <i class="icon-heart"></i>
+    </div>
+    <div class="mask"></div>
+    <ul class="player-info info-one">
+      <li>Oh My God</li>
+      <li>Alec Benjamin</li>
+      <li>3:13</li>
+    </ul>
+    <ul class="player-info info-two">
+      <li>Oh My God</li>
+      <li>Alec Benjamin</li>
+      <li><span id="duration"></span><i> / </i>3:!3</li>
+    </ul>
+    <div id="play-button" class="unchecked">
+      <i class="icon icon-play"></i>
+    </div>
+    <div class="control-row">
+      <div class="waves-animation-one"></div>
+      <div class="waves-animation-two"></div>
+      <div id="pause-button">
+        <i class="icon"></i>
+      </div>
+      <div class="seek-field">
+        <input id="audioSeekBar" min="0" max="334" step="1" value="0" type="range" oninput="audioSeekBar()" onchange="this.oninput()">
+      </div>
+      <div class="volume-icon">
+        <i class="icon-volume-up"></i>
+      </div>
+      <div class="volume-field">
+        <input type="range" min="0" max="100" value="100" step="1" oninput="audio.volume = this.value/100" onchange="this.oninput()">
+      </div>
+    </div>
+  </div>
+</div>
+<audio id="audio-player" ontimeupdate="SeekBar()" ondurationchange="CreateSeekBar()" preload="auto" loop>
+  <source src="https://hacktendo.net/Sounds/OMG.mp3" type="audio/mp3">
+      <source src="https://hacktendo.net/Sounds/OMG.mp3" type="audio/mp3">
+</audio>
+</style>  
+	  
     
     
     <!-- Page styles -->
@@ -166,269 +213,6 @@ Waves.init();
 Waves.attach("#play-button", ["waves-button", "waves-float"]);
 Waves.attach("#pause-button", ["waves-button", "waves-float"]);  
 	 </script>   
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-    <script>
-function myFunction() {
-   var element = document.body;
-   element.classList.toggle("dark-mode");
-}
-</script>
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-      <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
-        <div class="mdl-layout__header-row">
-          <span class="android-title mdl-layout-title">
-		  	
-            <img class="android-logo-image" src="images/android-logo.png">
-           
-          </span>
-          <!-- Add spacer, to align navigation to the right in desktop -->
-          <div class="android-header-spacer mdl-layout-spacer"></div>
-          <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
-           <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">       
-  <i class="material-icons">search</i>
-            </label>
-            <div class="mdl-textfield__expandable-holder">
-              <input class="mdl-textfield__input" type="text" id="search-field">
-            </div>            
-          </div>
-		
-		
-          <!-- Navigation -->
-          <div class="android-navigation-container">
-            <nav class="android-navigation mdl-navigation">
-             
-            </nav>  
-			
-		  
-          </div>
-	
-          <span class="android-mobile-title mdl-layout-title">
-            <img class="android-logo-image" src="images/android-logo.png">
-          </span>
-		
-		
-		<div>		
-													
-       <img onclick="myFunction()" src="images/dark.png">   
-			
-		
-		</div>
-		
-          <button class="android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
-            <i class="material-icons">more_vert</i>
-
-        	
-          </button>
-          <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
-            <li class="mdl-menu__item"></li>
-            <li class="mdl-menu__item"></li>
-            <li disabled class="mdl-menu__item"></li>
-            <li class="mdl-menu__item"></li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="android-drawer mdl-layout__drawer">
-        <span class="mdl-layout-title">
-          <img class="android-logo-image" src="images/android-logo-white.png"  style=max-width:100%  style=max-height:100%  >
-        </span>
-        <nav class="mdl-navigation">
-		
-		 <div class="android-drawer-separator"></div>
-          <a class="mdl-navigation__link" href="https://www.hacktendo.net/index.html">Inicio</a>
-		
-		 	 <div class="android-drawer-separator"></div>
-          <span class="mdl-navigation__link" href="https://www.hacktendo.net/index.html">Google</span>
-          <a class="mdl-navigation__link" href="https://www.hacktendo.net/chromeos">ChromeOS</a>
-	
-          <div class="android-drawer-separator"></div>
-          <span class="mdl-navigation__link" href="">Nintendo 3DS</span>
-          <a class="mdl-navigation__link" href="https://www.hacktendo.net/A9LH">Actualizar A9LH a B9S</a>
-          <a class="mdl-navigation__link" href="https://www.hacktendo.net/desbrickear3ds">Desbrickear 3DS</a>
-          <a class="mdl-navigation__link" href="https://www.hacktendo.net/bannerbomb3">Exploit BannerBomb3</a>
-          <a class="mdl-navigation__link" href="https://www.hacktendo.net/ntrboothax">Exploit NtrBootHax</a>
-		<a class="mdl-navigation__link" href="https://www.hacktendo.net/rosalina">Guía Rosalina</a>
-          <a class="mdl-navigation__link" href="https://www.hacktendo.net/vcc">Guía VCC</a>
-          <a class="mdl-navigation__link" href="https://www.hacktendo.net/3dskit">Nintendo 3DS Kit</a>
-		
-          <div class="android-drawer-separator"></div>
-          <span class="mdl-navigation__link" href="">Nintendo Switch</span>
-          <a class="mdl-navigation__link" href="https://www.hacktendo.net/rcm">Acceder RCM</a>
-          <a class="mdl-navigation__link" href="https://www.hacktendo.net/choidujour">Actualizar offline</a>
-          <a class="mdl-navigation__link" href="https://www.hacktendo.net/android">Android en Switch</a>
-		 <a class="mdl-navigation__link" href="https://www.hacktendo.net/nand">Backup de la NAND</a>
-          <a class="mdl-navigation__link" href="https://www.hacktendo.net/capturadora">Capturadora WiFi/USB</a>
-          
-		 <a class="mdl-navigation__link" href="https://www.hacktendo.net/atmosphere">Ejecutar CFW</a>
-          <a class="mdl-navigation__link" href="https://www.hacktendo.net/flog">Ejecutar FLOG</a>
-          <a class="mdl-navigation__link" href="https://www.hacktendo.net/streaming">Streaming de Windows</a>
-		
-          <div class="android-drawer-separator"></div>
-          <span class="mdl-navigation__link" href="">Nintendo DSi</span>
-          <a class="mdl-navigation__link" href="https://www.hacktendo.net/twlmenu">Guía TwiLightMenu++</a>
-          <a class="mdl-navigation__link" href="https://www.hacktendo.net/hiyaflipnote">HiyaCFW (Flipnote)</a>
-          <a class="mdl-navigation__link" href="https://www.hacktendo.net/hiyacamera">HiyaCFW (Camera)</a>
-		<div class="android-drawer-separator"></div>
-		
-          <span class="mdl-navigation__link" href="">Nintendo WiiU</span>
-          <a class="mdl-navigation__link" href="https://www.hacktendo.net/mocha">Ejecutar MochaCFW</a>
-          <a class="mdl-navigation__link" href="https://www.hacktendo.net/wiivc">Guía WiiVC Injector</a>
-          <a class="mdl-navigation__link" href="https://www.hacktendo.net/wiiu">Historia WiiU</a>
-          <a class="mdl-navigation__link" href="https://www.hacktendo.net/haxcbhc">Instalar Haxchi+CBHC</a>
-          <div class="android-drawer-separator"></div>
-	
-          <span class="mdl-navigation__link" href="">Nintendo Wii Mini</span>
-          <a class="mdl-navigation__link" href="https://www.hacktendo.net/bluebomb">Ejecutar BlueBomb</a>
-          <div class="android-drawer-separator"></div>
-        </nav>
-      </div>
-
-      <div class="android-content mdl-layout__content">
-        <a name="top"></a>
-        <div class="android-be-together-section mdl-typography--text-center">
-          <div class="logo-font android-slogan">Bienvenido a HackTendo.</div>
-          <div class="logo-font android-sub-slogan">Una página sobre la Scene de consolas de Nintendo.</div>
-  
-		
-		
-			   <br>
-			   <br> 
-			   <br>
-		    <a href="https://t.me/HackTendoNet" target="whatever"><img border="0" src="images/telegram.png"  style=max-width:100%  alt=""></a>
-	
-<a href="https://mail.google.com/mail/?view=cm&fs=1&to=ivanthenintendogamer@gmail.com&su=Iv%C3%A1n&body=&bcc=" target="whatever"><img border="0" src="images/gmail.png" style=max-width:100%  alt=""></a>
-			   <br> <br>
-			   <br>
-		    <div>
-		  
-		  
-	
-			   
-		 
-          <a href="#screens">
-            
-            </button>
-          </a>
-        </div>
-        <div class="android-screen-section mdl-typography--text-center">
-          <a name="screens"></a>
-          <div class="mdl-typography--display-1-color-contrast">Descarga tu pack de archivos</div>
-          <div class="android-screens">
-            <div class="android-wear android-screen">
-              <a class="android-image-link" href="https://github.com/ivanillo/HackTendo/releases/download/3DS/Para.NtrBootHax.zip">
-                <img class="android-screen-image" src="images/3ds.png">
-              </a>
-              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href="https://github.com/ivanillo/HackTendo/releases/download/Releases/Nintendo_3DS.zip"></a>
-            </div>
-            <div class="android-phone android-screen">
-              <a class="android-image-link" href="https://github.com/ivanillo/HackTendo/releases/download/SWITCH/Nintendo_Switch_Kit.zip">
-                <img class="android-screen-image" src="images/switch.png">
-              </a>
-              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href="https://github.com/ivanillo/HackTendo/releases/download/Releases/Nintendo_Switch.zip"></a>
-            </div>
-            <div class="android-tablet android-screen">
-              <a class="android-image-link" href="https://github.com/ivanillo/HackTendo/releases/download/WIIU/Nintendo.WiiU.zip">
-                <img class="android-screen-image" src="images/wiiu.png">
-              </a>
-              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href=""></a>
-            </div>
-            <div class="android-tv android-screen">
-              <a class="android-image-link" href="https://github.com/ivanillo/HackTendo/releases/download/DSI/UpdateTWiLightMenu++.zip">
-                <img class="android-screen-image" src="images/dsi.png">
-              </a>
-              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href=""></a>
-</div>
-          
-              
-  
-		 
-     </div>
-		  
-		  
-		  <div class="android-more-section">
-          <div class="android-section-title mdl-typography--display-1-color-contrast">Noticias de la Scene</div>
-          <div class="android-card-container mdl-grid">
-            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
-              <div class="mdl-card__media">
-                <img src="https://1.bp.blogspot.com/-k6ca-Rgksuw/Xksd5V6Mv2I/AAAAAAAAWaY/QO2J-hVl760SMPn1Vsoo3wm1n38vs-MFQCLcBGAsYHQ/s1600/dd.jpg">
-              </div>
-              <div class="mdl-card__title">
-                 <h4 class="mdl-card__title-text">Nintendo América cierra Darkumbra.net</h4>
-              </div>
-              <div class="mdl-card__supporting-text">
-                <span class="mdl-typography--font-light mdl-typography--subhead">Darkumbra, una de las páginas mas conocidas para descargar dumpeos, cierra sus puertas</span>
-              </div>
-              <div class="mdl-card__actions">
-                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="https://www.hacktendo.net/News_Darkumbra.html"> Más información
-                   
-                   <i class="material-icons">chevron_right</i>
-                 </a>
-              </div>
-            </div>
-
-            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
-              <div class="mdl-card__media">
-                <img src="https://1.bp.blogspot.com/-HZzQuiRlcZQ/XknaqZXUR0I/AAAAAAAAWZo/eXtu9FRsuREeXkTTr8Q1NOMJuwcPMFtagCLcBGAsYHQ/s1600/amss.png">
-              </div>
-              <div class="mdl-card__title">
-                 <h4 class="mdl-card__title-text">Atmosphére cumple 2 años desde el inicio de su desarrollo</h4>
-              </div>
-              <div class="mdl-card__supporting-text">
-                <span class="mdl-typography--font-light mdl-typography--subhead">Se cumplen 2 años desde el inicio del desarrollo de Atmosphere CFW</span>
-              </div>
-              <div class="mdl-card__actions">
-                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="https://www.hacktendo.net/News_Atmosphere.html">Más información
-                   
-                   <i class="material-icons">chevron_right</i>
-                 </a>
-              </div>
-            </div>
-
-            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
-              <div class="mdl-card__media">
-           <img src="https://1.bp.blogspot.com/-7hogwejC3uM/XkMTG4vKtvI/AAAAAAAAWWA/AZ6Q-aGzFj4V6gY2nUMsZls0InMBESHrwCLcBGAsYHQ/s1600/oie_transparent%2B%252819%2529.png     ">
-              </div>
-              <div class="mdl-card__title">
-                 <h4 class="mdl-card__title-text">TX busca testers para SX Core y SX Lite, sus chips para NSW</h4>
-              </div>
-              <div class="mdl-card__supporting-text">
-                <span class="mdl-typography--font-light mdl-typography--subhead">TEAM XECUTER confirma los pronósticos, el Coronavirus ha afectado a la producción</span>
-              </div>
-              <div class="mdl-card__actions">
-                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="https://www.hacktendo.net/News_TX.html">Más información
-                   
-                   <i class="material-icons">chevron_right</i>
-                 </a>
-              </div>
-            </div>
-
-            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
-              <div class="mdl-card__media">
-                <img src="https://1.bp.blogspot.com/-B7kCNJv6XXM/XjWUiPN-75I/AAAAAAAAWTg/ohla59QvsqsUKzrZQ3-CJOhpQ7HDIrj2QCLcBGAsYHQ/s1600/sw.jpg">
-              </div>
-              <div class="mdl-card__title">
-                 <h4 class="mdl-card__title-text">Nintendo no tiene planes para una Switch 2020</h4>
-              </div>
-              <div class="mdl-card__supporting-text">
-¡                <span class="mdl-typography--font-light mdl-typography--subhead">¿Nueva revisión para el tercer trimestre de 2020?</span>
-              </div>
-              <div class="mdl-card__actions">
-                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="https://www.hacktendo.net/News_Nintendo">Más información 
-                   
-                   <i class="material-icons">chevron_right</i>
-                 </a>
-		</div>
-		    
-		    
-		    
 		    		
 	<div class="container">
   <div class="player">
@@ -471,35 +255,6 @@ function myFunction() {
   <source src="https://hacktendo.net/Sounds/OMG.mp3" type="audio/mp3">
       <source src="https://hacktendo.net/Sounds/OMG.mp3" type="audio/mp3">
 </audio>
-		    
-		   </div>
-		  <footer>
-<br /></div>
-		  
-	  </div>	  
-          <div id="RecentComments" class="dsq-widget dsq-widget-user dsq-widget-comment dsq-widget-text dsq-widget-list dsq-widget-item dsq-widget-avatar dsq-widget-user dsq-widget-meta ">
-
-<title>Comentarios</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
-<div class="w3-container w3-content">
- <p class="w3-opacity"><b><h2 style="text-align: center;">
-<span style="color: #999999;">Últimos comentarios</span></h2></b></p> 
- <div class="w3-panel w3-white w3-card w3-display-container">
-   <p class="w3-text-blue"><b> <script type="text/javascript" src="https://https-ivanillo-github-io-android.disqus.com/recent_comments_widget.js?num_items=5&hide_mods=0&hide_avatars=0&avatar_size=32&excerpt_length=100&font_align: center"; ></script></b></p>
-   <p></p>
- </div>
- 
- </div> 
-<br /></div>
-		  <a href=""><img src="images/andy.png"> </a>
-		     <br>
-		    © 2017-2020
-          </footer>
        
           
     <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
