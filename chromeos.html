@@ -48,6 +48,7 @@ body {
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">
     <link rel="stylesheet" href="styles.css">
+	    <link rel="stylesheet" href="materialaudio.css">
     <style>
     #view-source {
       position: fixed;
@@ -434,9 +435,198 @@ s.setAttribute('data-timestamp', +new Date());
     </div>
    
     <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	               <script src="material.js"></script> 
 	   <audio autoplay>
   <source src="music.mp3" type="audio/mpeg" loop="on">
 Your browser does not support the audio element.
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   	  <script>   
+var audio = document.getElementById("audio-player");
+
+$(document).ready(function() {
+  $("#play-button").click(function() {
+    if ($(this).hasClass("unchecked")) {
+      $(this)
+        .addClass("play-active")
+        .removeClass("play-inactive")
+        .removeClass("unchecked");
+      $(".info-two")
+        .addClass("info-active");
+      $("#pause-button")
+        .addClass("scale-animation-active");
+      $(".waves-animation-one, #pause-button, .seek-field, .volume-icon, .volume-field, .info-two").show();
+      $(".waves-animation-two").hide();
+      $("#pause-button")
+        .children('.icon')
+        .addClass("icon-pause")
+        .removeClass("icon-play");
+      setTimeout(function() {
+        $(".info-one").hide();
+      }, 400);
+      audio.play();
+      audio.currentTime = 0;
+    } else {
+      $(this)
+        .removeClass("play-active")
+        .addClass("play-inactive")
+        .addClass("unchecked");
+      $("#pause-button")
+        .children(".icon")
+        .addClass("icon-pause")
+        .removeClass("icon-play");
+      $(".info-two")
+        .removeClass("info-active");
+      $(".waves-animation-one, #pause-button, .seek-field, .volume-icon, .volume-field, .info-two").hide();
+      $(".waves-animation-two").show();
+      setTimeout(function() {
+        $(".info-one").show();
+      }, 150);
+      audio.pause();
+      audio.currentTime = 0;
+    }
+  });
+  $("#pause-button").click(function() {
+    $(this).children(".icon")
+      .toggleClass("icon-pause")
+      .toggleClass("icon-play");
+
+    if (audio.paused) {
+      audio.play();
+    } else {
+      audio.pause();
+    }
+  });
+  $("#play-button").click(function() {
+    setTimeout(function() {
+      $("#play-button").children(".icon")
+        .toggleClass("icon-play")
+        .toggleClass("icon-cancel");
+    }, 350);
+  });
+  $(".like").click(function() {
+    $(".icon-heart").toggleClass("like-active");
+  });
+});
+
+function CreateSeekBar() {
+  var seekbar = document.getElementById("audioSeekBar");
+  seekbar.min = 0;
+  seekbar.max = audio.duration;
+  seekbar.value = 0;
+}
+
+function EndofAudio() {
+  document.getElementById("audioSeekBar").value = 0;
+}
+
+function audioSeekBar() {
+  var seekbar = document.getElementById("audioSeekBar");
+  audio.currentTime = seekbar.value;
+}
+
+function SeekBar() {
+  var seekbar = document.getElementById("audioSeekBar");
+  seekbar.value = audio.currentTime;
+}
+
+audio.addEventListener("timeupdate", function() {
+  var duration = document.getElementById("duration");
+  var s = parseInt(audio.currentTime % 60);
+  var m = parseInt((audio.currentTime / 60) % 60);
+  duration.innerHTML = m + ':' + s;
+}, false);
+
+Waves.init();
+Waves.attach("#play-button", ["waves-button", "waves-float"]);
+Waves.attach("#pause-button", ["waves-button", "waves-float"]);
+	 </script>  
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		     <div class="container">
+  <div class="player">
+    <div class="like waves-effect waves-light">
+      <i class="icon-heart"></i>
+    </div>
+    <div class="mask"></div>
+    <ul class="player-info info-one">
+      <li>Oh My God</li>
+      <li>Alec Benjamin</li>
+      <li>3:13</li>
+    </ul>
+    <ul class="player-info info-two">
+      <li>Oh My God</li>
+      <li>Alec Benjamin</li>
+      <li><span id="duration"></span><i> / </i>3:13</li>
+    </ul>
+    <div id="play-button" class="unchecked">
+      <i class="icon icon-play"></i>
+    </div>
+    <div class="control-row">
+      <div class="waves-animation-one"></div>
+      <div class="waves-animation-two"></div>
+      <div id="pause-button">
+        <i class="icon"></i>
+      </div>
+      <div class="seek-field">
+        <input id="audioSeekBar" min="0" max="334" step="1" value="0" type="range" oninput="audioSeekBar()" onchange="this.oninput()">
+      </div>
+      <div class="volume-icon">
+        <i class="icon-volume-up"></i>
+      </div>
+      <div class="volume-field">
+        <input type="range" min="0" max="100" value="100" step="1" oninput="audio.volume = this.value/100" onchange="this.oninput()">
+      </div>
+    </div>
+  </div>
+</div>
+<audio id="audio-player" ontimeupdate="SeekBar()" ondurationchange="CreateSeekBar()" preload="auto" loop>
+  <source src="https://www.hacktendo.net/Alec%20Benjamin%20-%20Oh%20My%20God%20%5BOfficial%20Music%20Video%5D.mp3" type="audio/mpeg"> 
+      <source src="https://www.hacktendo.net/Alec%20Benjamin%20-%20Oh%20My%20God%20%5BOfficial%20Music%20Video%5D.mp3" type="audio/mp3">
+</audio> 
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
 </audio>                             
   </body>
 </html>
