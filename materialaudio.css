@@ -1,6 +1,6 @@
 body {
   font-family: Roboto;
-  background-color: #bbdefb;
+  background-color: #000000;
 }
 
 .container {
@@ -14,8 +14,8 @@ body {
 
 .player {
   position: relative;
-  background-color: #ffffff;
-  background-image: url("https://michael-zhigulin.github.io/mz-codepen-projects/Material%20Design%20UI%20Audio%20Player/tim_minchin_piano.jpg");
+  background-color: #000000;
+  background-image: url("https://i.ytimg.com/vi/F5EbXtaiWww/0.jpg");
   width: 550px;
   height: 375px;
   border-radius: 3px;
@@ -92,7 +92,7 @@ body {
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background-color: #5c6bc0;
+    background-color: #000000;
     box-shadow: 0 8px 25px 6px rgba(0, 0, 0, .5);
     right: 40px;
     bottom: 90px;
@@ -382,7 +382,7 @@ input[type="range"]::-moz-range-track {
   cursor: pointer;
   animate: 0.2s;
   box-shadow: 0px 0px 0px transparent, 0px 0px 0px transparent;
-  background: #f2f2f2;
+  background: #000000;
   border-radius: 0;
   border: 0px solid #000101;
 }
