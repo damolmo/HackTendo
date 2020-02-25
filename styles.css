@@ -176,7 +176,7 @@ background-color: #000000;
   position: relative;
   height: 800px;
   width: auto;
-  background-color: #f3f3f3;
+  background-color: #ffffff;
   background: url('images/slide01.jpg') center 30% no-repeat;
   background-size: cover;
 }
@@ -518,6 +518,7 @@ background: black;
 
   .android-be-together-section {
     height: 350px;
+    background-color: #ffffff;
   }
 
   .android-slogan {
