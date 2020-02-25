@@ -191,13 +191,13 @@ background-color: #000000;
 .android-slogan {
   font-size: 60px;
   padding-top: 160px;
-  color: white;
+   color: #ffffff;
 }
 
 .android-sub-slogan {
   font-size: 21px;
   padding-top: 24px;
-  color: white;
+   color: #ffffff;
 }
 
 .android-create-character {
@@ -522,14 +522,14 @@ background: black;
     font-size: 26px;
     margin: 0 16px;
     padding-top: 24px;
-    color: white;
+   color: #ffffff;
   }
 
   .android-sub-slogan {
     font-size: 16px;
     margin: 0 16px;
     padding-top: 8px;
-    color: white;
+    color: #ffffff;
   }
 
   .android-create-character {
