@@ -7,7 +7,15 @@
 		</script>	
 </style>
 </head>
+<link rel="stylesheet" href="https://cdn.plyr.io/3.5.10/plyr.css"/>
 <body>
+	
+	<script src="https://cdn.plyr.io/3.5.10/plyr.js"></script>
+	<script>//<![CDATA[
+const players = Array.from(document.querySelectorAll('.js-player')).map(player => new Plyr(player));
+//]]></script>
+	
+	
 	<div class="container">
 	<div id="player" data-plyr-provider="youtube" data-plyr-embed-id="qZyGWipr9oA"></div>
 </div>
