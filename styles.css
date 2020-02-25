@@ -393,14 +393,12 @@ background-color: #000000;
   }
 
 .android-card-container {
-  border-radius: 15px; 
+
 }
 
   .android-card-container .mdl-card__media {
     overflow: hidden;
-    background: transparent;
-  border-radius: 15px; 
-    border-radius: 15px;   
+    background: transparent;  
   }
 
     .android-card-container .mdl-card__media img {
@@ -411,20 +409,17 @@ background-color: #000000;
 
   .android-card-container .mdl-card__title {
     height: auto;
-  border-radius: 15px;
   }
 
   .android-card-container .mdl-card__title-text {
     color: black;
     height: auto;
-  border-radius: 15px;
   }
 
   .android-card-container .mdl-card__supporting-text {
     height: auto;
     color: black;
-    padding-bottom: 56px;
-  border-radius: 15px;  
+    padding-bottom: 56px;  
   }
 
   .android-card-container .mdl-card__actions {
@@ -432,7 +427,6 @@ background-color: #000000;
     bottom: 0;
 background: black;
 color: black;
-  border-radius: 15px; 
 
   }
 
@@ -441,7 +435,6 @@ color: black;
     font-size: 16px;
 color: black;
 background: black;
-  border-radius: 15px;
 
   }
 
