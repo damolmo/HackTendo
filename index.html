@@ -45,6 +45,16 @@ body {
   color: white;
 }
 
+.dark-waves {
+  background: #000000;
+}
+
+
+#dark-waves{
+ background: #3586ff;
+}
+
+
 </style>
     
     
@@ -71,19 +81,17 @@ body {
     <script>
 function myFunction() {
    var element = document.body;
-   element.classList.toggle("dark-mode");
-document.getElementById("section").style.backgroundColor = colour;
+
+   element.classList.toggle("dark-mode", "dark-waves");
 }
 </script>
 
 
-        <link href="waves.css" rel="stylesheet" type="text/css"/>
-        <style> 
-            #section {
-                background-color: black;
-                color: black;
-            }
-        </style>
+        
+        
+            
+           
+       
    
 
 
@@ -203,7 +211,7 @@ document.getElementById("section").style.backgroundColor = colour;
         <a name="top"></a>
 	       <div class="android-be-together-section mdl-typography--text-center">
          
-	      	<section>
+	      	<section id="dark-waves">
 	 <div class="logo-font android-slogan">Bienvenido a HackTendo.</div>
           <div class="logo-font android-sub-slogan">Una página sobre la Scene de consolas de Nintendo.</div>
   <br>
