@@ -1,15 +1,15 @@
-.android-more-section {
+.android-posts-section {
   position: relative;
   padding-top: 60px;
   padding-bottom: 80px;
 }
 
-.android-card-container {
+.android-posts-container {
 
 }
 
 
-.android-card-container .mdl-card__media {
+.android-post-container .mdl-card__media {
   text-align: right;
   width: 100%;
   white-space: nowrap;
