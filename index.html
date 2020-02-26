@@ -45,9 +45,6 @@ body {
   color: white;
 }
 
-.dark-waves {
-href="darkwaves.css"
-}
 </style>
     
     
@@ -75,9 +72,23 @@ href="darkwaves.css"
 function myFunction() {
    var element = document.body;
    element.classList.toggle("dark-mode");
-element.classList.toggle("dark-waves")
+document.getElementById("section").style.backgroundColor = colour;
 }
 </script>
+
+
+        <link href="darkwaves.css" rel="stylesheet" type="text/css"/>
+        <style> 
+            #section {
+                background-color: black;
+                color: black;
+            }
+        </style>
+   
+
+
+
+
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
         <div class="mdl-layout__header-row">
