@@ -1,0 +1,41 @@
+.android-more-section {
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+.android-card-container {
+
+}
+
+
+.android-card-container .mdl-card__media {
+  text-align: right;
+  width: 100%;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.android-card {
+  text-align: center;
+}
+
+.android-card .android-link {
+  margin-top: 16px;
+  display: block;
+  z-index: 2;
+}
+
+.android-card-link {
+  text-decoration: none;
+}
+.android-cards {
+  display: inline-block;
+  width: 300px;
+  margin-right: 80px;
+}
+
+  .android-cards .android-screen-image {
+    width: 100%;
+    z-index: 1;
+  }
