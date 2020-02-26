@@ -407,10 +407,8 @@ background-color: #000000;
 
     .android-card-container .mdl-card__media img {
       width: 100%;
-border-radius: 25px;
-  border: 2px solid #000000;
-  padding: 20px;
- background-color: #000000;
+
+
    
 }
     }
