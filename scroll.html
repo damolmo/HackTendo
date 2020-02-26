@@ -59,28 +59,21 @@ body {
   height: 300px;
   overflow-y: auto;
   overflow-x: hidden;
+...
+  transform: rotate(-90deg);
+  transform-origin: right top;
+...
+  transform:rotate(-90deg) translateY(-100px);
+  ...
 }
 
 .horizontal-scroll-wrapper > div {
   width: 100px;
   height: 100px;
-}
-.horizontal-scroll-wrapper {
-  ...
-  transform: rotate(-90deg);
-  transform-origin: right top;
-}
-
-
-.horizontal-scroll-wrapper > div {
-  ...
+...
   transform: rotate(90deg);
   transform-origin: right top;
-}
-.horizontal-scroll-wrapper {
-  ...
-  transform:rotate(-90deg) translateY(-100px);
-  ...
+  
 }
 
 
@@ -301,7 +294,7 @@ function myFunction() {
 </div>
           
               
-
+</div>
 
   <div class="horizontal-scroll-wrapper squares">
   <div>item 1</div>
