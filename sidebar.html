@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sidebar</title>
+
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
+
+</head>
+
+<body>
+
+  <div class="container section">
+
+    <a href="#" class="sidenav-trigger" data-target="menu-side">
+      <i class="material-icons">menu</i>
+    </a>
+
+    <ul class="sidenav" id="menu-side">
+      <li>
+        <div class="user-view">
+          <div class="background">
+            <img src="s3.jpg" alt="">
+          </div>
+          <a href="#">
+            <img src="s1.jpg" alt="" class="circle">
+          </a>
+          <a href="">
+            <span class="name white-text">Ignacio Gutiérrez</span>
+          </a>
+          <a href="">
+            <span class="email white-text">Ignacio@tucorreo.cl</span>
+          </a>
+        </div>
+      </li>
+      <li>
+        <a href="">
+          <i class="material-icons">cloud</i>
+          Primer Elemento
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <i class="material-icons">cloud</i>
+          Segundo Elemento
+        </a>
+      </li>
+      <li>
+        <div class="divider"></div>
+      </li>
+      <li>
+        <a href="">
+          <i class="material-icons">cloud</i>
+          Tercer Elemento
+        </a>
+      </li>
+    </ul>
+
+  </div>
+
+  <div class="container section">
+    <div class="row">
+
+
+      <div class="col s12">
+
+        <div class="slider">
+          <ul class="slides">
+
+            <li>
+              <img src="s1.jpg" alt="">
+              <div class="caption center-align">
+                <h3>Lorem, ipsum dolor.</h3>
+                <h5 class="light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, praesentium.</h5>
+              </div>
+            </li>
+
+            <li>
+              <img src="s2.jpg" alt="">
+              <div class="caption right-align">
+                <h3>Lorem, ipsum dolor.</h3>
+                <h5 class="light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, praesentium.</h5>
+              </div>
+            </li>
+
+
+            <li>
+              <img src="s3.jpg" alt="">
+              <div class="caption left-align">
+                <h3>Lorem, ipsum dolor.</h3>
+                <h5 class="light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, praesentium.</h5>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="col s6">
+        <div class="section">
+
+          <img src="s3.jpg" alt="" class="materialboxed responsive-img">
+
+        </div>
+      </div>
+
+      <div class="col s6">
+        <div class="section">
+
+          <img src="s3.jpg" alt="" class="materialboxed responsive-img" data-caption="Esta es una imagen de una persona haciendo SURF">
+
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+
+
+
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js">
+  </script>
+
+  <script>
+
+    document.addEventListener('DOMContentLoaded', function () {
+      var elems = document.querySelectorAll('.slider');
+      var instances = M.Slider.init(elems, {
+      });
+
+      var elems = document.querySelectorAll('.materialboxed');
+      var instances = M.Materialbox.init(elems);
+
+      var elems = document.querySelectorAll('.sidenav');
+      var instances = M.Sidenav.init(elems);
+
+    });
+
+  </script>
+
+
+</body>
+
+</html>
