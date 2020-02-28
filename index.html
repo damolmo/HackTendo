@@ -45,7 +45,7 @@ body {
 background: #000000;   
 
 }    
-	 .dark-sidebar {
+	 .sidenav {
 background: #000000;   
 font-color: #ffffff;
 
@@ -115,8 +115,9 @@ function myFunction() {
    element.classList.toggle("dark-mode");
 	  var element = document.getElementById("dark-waves");
   element.classList.toggle("dark-waves");
-		  var element = document.getElementById("dark-sidebar");
-  element.classList.toggle("dark-sidebar");
+		  var element = document.getElementsByClassName('sidenav');
+  element.classList.toggle("sidenav");
+	
 }
 </script>
 
