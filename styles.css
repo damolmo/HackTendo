@@ -488,9 +488,11 @@ background: black;
 
   .android-title {
     display: none !important;
+    font-family: 'Open Sans', ;
   }
 
   .android-mobile-title {
+font-family: 'Open Sans', ;    
     display: block !important;
     position: absolute;
     left: calc(50% - 70px);
@@ -519,11 +521,13 @@ background: black;
   }
 
   .android-be-together-section {
+    font-family: 'Open Sans', ;
     height: 350px;
     background-color: #ffffff;
   }
 
   .android-slogan {
+    font-family: 'Open Sans', ;
     font-size: 26px;
     margin: 0 16px;
     padding-top: 24px;
@@ -536,7 +540,7 @@ background: black;
     margin: 0 16px;
     padding-top: 8px;
     color: #ffffff; 
-
+ font-family: 'Open Sans', ;
     
   }
 
