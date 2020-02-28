@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Carousel</title>
+
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
+
+</head>
+
+<body>
+
+  <div class="container section">
+    <div class="row">
+      <div class="col s12">
+
+        <div class="carousel carousel-slider">
+
+          <div class="carousel-fixed-item center">
+            <a class="btn waves-effect white grey-text darken-text-2">button</a>
+          </div>
+
+          <a href="" class="carousel-item">
+            <img src="s1.jpg" alt="">
+          </a>
+
+          <a href="" class="carousel-item">
+            <img src="s2.jpg" alt="">
+          </a>
+
+          <a href="" class="carousel-item">
+            <img src="s3.jpg" alt="">
+          </a>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js">
+  </script>
+
+  <script>
+
+    document.addEventListener('DOMContentLoaded', function () {
+      var elems = document.querySelectorAll('.carousel');
+      var instances = M.Carousel.init(elems, {
+        duration: 500,
+        indicators: true
+      });
+    });
+
+  </script>
+
+
+</body>
+
+</html>
