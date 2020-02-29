@@ -49,7 +49,15 @@ background: #000000;
  .menu-side {
 background-color: #000000;   
 font-color: white;
+background: #000000;  
 }    	    
+	    
+
+ .sidenav {
+background-color: #000000;  
+background: #000000;   
+font-color: white;
+}    	  	    
 </style>
     
     
@@ -116,6 +124,8 @@ function myFunction() {
   element.classList.toggle("dark-waves");
 		  var element = document.getElementById("menu-side");
   element.classList.toggle("menu-side");
+	var element = document.getElementByClassName("sidenav");
+  element.classList.toggle("sidenav");
 	
 }
 </script>
