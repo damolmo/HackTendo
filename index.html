@@ -51,8 +51,57 @@ background-color: #000000;
 font-color: white;
 background: #000000;  
 }    	    
+	
+	.home {
+background-color: #000000;   
+font-color: white;
+background: #000000;  
+}    	        
 	    
-  	    
+.android {
+background-color: #000000;   
+font-color: white;
+background: #000000;  
+}  
+	    
+	.google {
+background-color: #000000;   
+font-color: white;
+background: #000000;  
+}    	        
+  
+	.n3ds {
+background-color: #000000;   
+font-color: white;
+background: #000000;  
+}    	  
+	    
+	    
+.nswitch {
+background-color: #000000;   
+font-color: white;
+background: #000000;  
+}    
+	    
+.nwiiu {
+background-color: #000000;   
+font-color: white;
+background: #000000;  
+}    
+	    
+	.ndsi {
+background-color: #000000;   
+font-color: white;
+background: #000000;  
+}  
+	    
+	.nwiimini {
+background-color: #000000;   
+font-color: white;
+background: #000000;  
+}    	        
+	    
+	    
 </style>
     
     
@@ -121,6 +170,26 @@ function myFunction() {
   element.classList.toggle("menu-side");
 	
 	
+	  var element = document.getElementById("home");
+  element.classList.toggle("home");
+	
+	  var element = document.getElementById("google");
+  element.classList.toggle("google");
+	
+	  var element = document.getElementById("android");
+  element.classList.toggle("android");
+	
+	  var element = document.getElementById("n3ds");
+  element.classList.toggle("n3ds");
+	  var element = document.getElementById("nswitch");
+  element.classList.toggle("nswitch");
+	
+	  var element = document.getElementById("nwiiu");
+  element.classList.toggle("nwiiu");
+	  var element = document.getElementById("ndsi");
+  element.classList.toggle("ndsi");
+	  var element = document.getElementById("nwiimini");
+  element.classList.toggle("nwiimini");
 }
 </script>
 
@@ -174,16 +243,16 @@ function myFunction() {
         <div class="divider"></div>
       </li>
 	
-        <li>
+        <li id="home">
         <a href="https://www.hacktendo.net/index.html">
             <i class="material-icons">home</i>
        Inicio
         </a>
       </li>
-	    <li>
+<li id="google">
         <div class="divider"></div>
       </li>    
-      <li>
+         <li id="android">
         <a href="">
             <i class="material-icons">android</i>
         <b>Google</b>
@@ -196,7 +265,7 @@ function myFunction() {
 	   <li>
         <div class="divider"></div>
       </li>  
-      <li>
+          <li id="n3ds">
         <a href="">
             <i class="material-icons">videogame_asset</i>
          <b>Nintendo 3DS</b>
@@ -216,7 +285,7 @@ function myFunction() {
         <div class="divider"></div>
       </li>  
 	    
-      <li>
+        <li id="nswitch">
         <a href="">
           
             
@@ -238,7 +307,7 @@ function myFunction() {
       <li>
         <div class="divider"></div>
       </li>
-      <li>
+          <li id="nwiiu">
         <a href="">
            <i class="material-icons">videogame_asset</i>
           <b>Nintendo WiiU</b>
@@ -253,7 +322,7 @@ function myFunction() {
   <li>
         <div class="divider"></div>
       </li>
-<li>
+    <li id="ndsi">
         <a href="">
             <i class="material-icons">videogame_asset</i>
          <b>Nintendo DSi</b>
@@ -269,7 +338,7 @@ function myFunction() {
  <li>
         <div class="divider"></div>
       </li>       
-      <li>
+          <li id="nwiimini">
         <a href="">
            <i class="material-icons">videogame_asset</i>
           <b>Nintendo Wii Mini</b>
