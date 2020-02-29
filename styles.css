@@ -300,8 +300,7 @@ font-family: 'Open Sans', ;
 }
 
   .android-auto .android-screen-image {
-    display: block;
-    height: 300px;
+      width: 100%;
     z-index: 1;
   }
 
