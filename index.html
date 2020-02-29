@@ -263,13 +263,11 @@ color: white;
 
 }    	
 
-.material-icons.md-light { 
-	color: rgba(255, 255, 255, 1); 
-	    }
-	    
-.material-icons.md-light.md-inactive { 
-	color: rgba(255, 255, 255, 0.3); 
-	    }
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
 	    
 </style>
     
@@ -428,14 +426,15 @@ var element = document.getElementById("ncero");
 	 var element = document.getElementById("nnnnn");
   element.classList.toggle("nnnnn");
 
-var element = document.getElementByClassName("divider");
+var element = document.getElementsByClassName("divider");
   element.classList.toggle("divider")
 
+var element = document.getElementsByClassName("material-icons md-light");
+  element.classList.toggle("material-icons md-light")
 
 
-
-var element = document.getElementById("ome");
-  element.classList.toggle("ome");
+var element = document.getElementsByClassName("material-icons.md-light");
+  element.classList.toggle("material-icons.md-light");
 
 
 
