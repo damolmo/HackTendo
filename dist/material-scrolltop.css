@@ -11,9 +11,9 @@
   display: block;
   position: fixed;
   width: 0;
-  height: 20px;
+  height: 0;
   bottom: 23px;
-  left: 300px;
+  right: 23px;
   padding: 0;
   overflow: hidden;
   outline: none;
@@ -22,7 +22,7 @@
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
   cursor: hand;
   border-radius: 50%;
-  background: #1458B0;
+  background: #4caf50;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-transition: all 0.3s cubic-bezier(0.25, 0.25, 0, 1);
   -ms-transition: all 0.3s cubic-bezier(0.25, 0.25, 0, 1);
@@ -30,14 +30,13 @@
   -o-transition: all 0.3s cubic-bezier(0.25, 0.25, 0, 1);
   transition: all 0.3s cubic-bezier(0.25, 0.25, 0, 1); }
   .material-scrolltop:hover {
-    background-color: #1458B0;
+    background-color: #4caf50;
     text-decoration: none;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5), 0 3px 15px rgba(0, 0, 0, 0.5); }
   .material-scrolltop::before {
-      position:absolute;
-transition: .5s ease;
-    left: 100px;
-    top: 198px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
@@ -46,7 +45,7 @@ transition: .5s ease;
     content: '';
     width: 0;
     border-radius: 100%;
-    background: #1458B0; }
+    background: #67bb6a; }
   .material-scrolltop:active::before {
     width: 120%;
     padding-top: 120%;
@@ -60,7 +59,6 @@ transition: .5s ease;
     height: 56px; }
   .material-scrolltop span {
     display: block;
-    padding-left: 25px;
     font-size: 25px;
     color: #fff; }
 
