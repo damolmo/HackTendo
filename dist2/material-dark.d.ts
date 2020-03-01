@@ -1,13 +1,13 @@
 /**
- * Material-scrollTop
+ * Material-dark
  *
  * Author: Bartholomej
- * Website: https://github.com/bartholomej/material-scrollTop
- * Docs: https://github.com/bartholomej/material-scrollTop
- * Repo: https://github.com/bartholomej/material-scrollTop
- * Issues: https://github.com/bartholomej/material-scrollTop/issues
+ * Website: https://github.com/bartholomej/material-dark
+ * Docs: https://github.com/bartholomej/material-dark
+ * Repo: https://github.com/bartholomej/material-dark
+ * Issues: https://github.com/bartholomej/material-dark/issues
  */
-interface MaterialScrollTopSettings {
+interface MaterialdarkSettings {
     revealElement: 'body' | string;
     revealPosition: 'top' | 'bottom';
     padding: number;
@@ -15,14 +15,14 @@ interface MaterialScrollTopSettings {
     easing: 'linear' | 'swing' | string;
     onScrollEnd: Function;
 }
-interface MaterialScrollTopRoot {
+interface MaterialdarkRoot {
     btnClass: string;
     revealClass: string;
     revealElement: JQuery<HTMLElement>;
     btnElement: JQuery<HTMLElement>;
-    initial: MaterialScrollTopSettings;
-    options: MaterialScrollTopSettings;
+    initial: MaterialdarkSettings;
+    options: MaterialdarkSettings;
 }
 interface JQuery {
-    materialScrollTop(): MaterialScrollTopSettings;
+    materialdark(): MaterialdarkSettings;
 }
