@@ -16,7 +16,7 @@
         _.revealClass = 'reveal';
         _.btnElement = $(_.btnClass);
         _.initial = {
-            revealElement: 'body',
+            revealElement: 'top',
             revealPosition: 'top',
             padding: 0,
             duration: 600,
