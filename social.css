@@ -1,0 +1,65 @@
+#social_btn {
+    display: none;
+    position: relative;
+}
+#share_btn {
+    position: relative;
+}
+.icon {
+    position: relative;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 32px;
+    background: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+.icon a {
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+.icon > .text {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    background: white;
+    padding: 0 10px;
+    display: table;
+    font: bold 16px/30px Roboto, Verdana, Arial;
+    visibility: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    transition: all 0.2s ease-in-out;
+    z-index: -3;
+}
+.icon:hover > .text {
+    visibility: visible;
+    left: 120%;
+}
+.share {
+    color: orange;
+    cursor: pointer;
+}
+.share:hover {
+    background: orange;
+    color: white;
+}
+.fb, .fb a {
+    color: rgb(59, 89, 152);
+}
+.tw, .tw a {
+    color: rgb(0, 172, 237);
+}
+.inst, .inst a {
+    color: rgb(81, 127, 164);
+}
+.gplus, .gplus a {
+    color: rgb(221, 75, 57);
+}
+.ytube, .ytube a {
+    color: rgb(187, 0, 0);
+}
