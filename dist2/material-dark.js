@@ -1,11 +1,11 @@
 /**
- * Material-scrollTop
+ * Material-dark
  *
  * Author: Bartholomej
- * Website: https://github.com/bartholomej/material-scrollTop
- * Docs: https://github.com/bartholomej/material-scrollTop
- * Repo: https://github.com/bartholomej/material-scrollTop
- * Issues: https://github.com/bartholomej/material-scrollTop/issues
+ * Website: https://github.com/bartholomej/material-dark
+ * Docs: https://github.com/bartholomej/material-dark
+ * Repo: https://github.com/bartholomej/material-dark
+ * Issues: https://github.com/bartholomej/material-dark/issues
  */
 function darkbutton() {
    var element = document.body;
