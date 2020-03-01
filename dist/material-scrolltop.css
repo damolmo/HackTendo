@@ -22,7 +22,7 @@
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
   cursor: hand;
   border-radius: 50%; 
-  background: #4caf50;
+  background: #1458B0;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-transition: all 0.3s cubic-bezier(0.25, 0.25, 0, 1);
   -ms-transition: all 0.3s cubic-bezier(0.25, 0.25, 0, 1);
@@ -37,7 +37,7 @@
      position:absolute;
 transition: .5s ease;
     left: 202px;
-    top: 298px;
+    top: -298px;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
