@@ -36,7 +36,7 @@
   .material-scrolltop::before {
       position:absolute;
 transition: .5s ease;
-    left: 202px;
+    left: 250px;
     top: 198px;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
