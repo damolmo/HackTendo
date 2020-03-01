@@ -867,11 +867,18 @@ Your browser does not support the audio element.
     <!-- Include js plugin -->
     <script src="./dist/material-scrolltop.js"></script>
 
-
-<!-- Initialize material-scrolltop (minimal) -->
-<script>
-  $('body').materialScrollTop();
-</script>
+ <!-- Initialize -->
+    <script>
+      $(document).ready(function() {
+        $('body').materialScrollTop({
+          revealElement: 'header',
+          revealPosition: 'bottom',
+          onScrollEnd: function() {
+            console.log('Scrolling End');
+          }
+        });
+      });
+    </script>
 	    
   </body>
 					  
