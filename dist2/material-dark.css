@@ -1,13 +1,13 @@
 /**
-* material-scrolltop
+* material-dark
 *
 * Author: Bartholomej
-* Website: https://github.com/bartholomej/material-scrolltop
-* Docs: https://github.com/bartholomej/material-scrolltop
-* Repo: https://github.com/bartholomej/material-scrolltop
-* Issues: https://github.com/bartholomej/material-scrolltop/issues
+* Website: https://github.com/bartholomej/material-dark
+* Docs: https://github.com/bartholomej/material-dark
+* Repo: https://github.com/bartholomej/material-dark
+* Issues: https://github.com/bartholomej/material-dark/issues
 */
-.material-scrolltop {
+.material-dark {
   display: block;
   position: fixed;
   width: 0;
@@ -29,11 +29,11 @@
   -moz-transition: all 0.3s cubic-bezier(0.25, 0.25, 0, 1);
   -o-transition: all 0.3s cubic-bezier(0.25, 0.25, 0, 1);
   transition: all 0.3s cubic-bezier(0.25, 0.25, 0, 1); }
-  .material-scrolltop:hover {
+  .material-dark:hover {
     background-color: #000000;
     text-decoration: none;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5), 0 3px 15px rgba(0, 0, 0, 0.5); }
-  .material-scrolltop::before {
+  .material-dark::before {
      position:absolute;
 transition: .5s ease;
     left: 202px;
@@ -47,7 +47,7 @@ transition: .5s ease;
     width: 0;
     border-radius: 100%;
     background: #000000; }
-  .material-scrolltop:active::before {
+  .material-dark:active::before {
     width: 120%;
     padding-top: 120%;
     -webkit-transition: all 0.2s ease-out;
@@ -55,15 +55,15 @@ transition: .5s ease;
     -moz-transition: all 0.2s ease-out;
     -o-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out; }
-  .material-scrolltop.reveal {
+  .material-dark.reveal {
     width: 56px;
     height: 56px; }
-  .material-scrolltop span {
+  .material-dark span {
     display: block;
     font-size: 25px;
     color: #fff; }
 
-.material-scrolltop, .material-scrolltop::before {
+.material-dark, .material-dark::before {
   background-image: url(icons/dark.png);
   background-position: center 50%;
   background-repeat: no-repeat; }
