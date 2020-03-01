@@ -327,79 +327,6 @@ color: white;
 	    
 
 
-	    
-	    
-	    
-	    
-	    
-	    
-	material-moon {
-  display: block;
-  position: fixed;
-  width: 0;
-  height: 20px;
-  bottom: 95px;
-  right: 43px;
-  padding: 0;
-  overflow: hidden;
-  outline: none;
-  border: none;
-  border-radius: 2px;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
-  cursor: hand;
-  border-radius: 50%; 
-  background: #000000;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.25, 0, 1);
-  -ms-transition: all 0.3s cubic-bezier(0.25, 0.25, 0, 1);
-  -moz-transition: all 0.3s cubic-bezier(0.25, 0.25, 0, 1);
-  -o-transition: all 0.3s cubic-bezier(0.25, 0.25, 0, 1);
-  transition: all 0.3s cubic-bezier(0.25, 0.25, 0, 1); }
-  .material-moon:hover {
-    background-color: #000000;
-    text-decoration: none;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5), 0 3px 15px rgba(0, 0, 0, 0.5); }
-  .material-moon::before {
-     position:absolute;
-transition: .5s ease;
-    left: 202px;
-    top: -298px;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    content: '';
-    width: 0;
-    border-radius: 100%;
-    background: #000000; }
-  .material-moon:active::before {
-    width: 120%;
-    padding-top: 120%;
-    -webkit-transition: all 0.2s ease-out;
-    -ms-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
-    -o-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out; }
-  .material-moon.reveal {
-    width: 56px;
-    height: 56px; }
-  .material-moon span {
-    display: block;
-    font-size: 25px;
-    color: #fff; }
-
-.material-moon, .material-moon::before {
-  background-image: url(icons/top-arrow.svg);
-  background-position: center 50%;
-  background-repeat: no-repeat; }    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
 </style>
     
     
@@ -458,14 +385,6 @@ transition: .5s ease;
 
 <!-- material-scrolltop plugin -->
 <script src="dist/material-scrolltop.js"></script>  
-	  
-	  	  
-	<!-- Material ScrollTop stylesheet -->
-<link rel="stylesheet" href="dist2/material-dark.css" />
-
-<!-- material-scrolltop plugin -->
-<script src="dist2/material-dark.js"></script>  
-	  
 
   </head>
   <body>
@@ -934,7 +853,7 @@ Your browser does not support the audio element.
     });
 
   </script> 	
-		  <img onclick="myFunction()" img src="images/dark.png" id="view-source" class="material-dark" type="button"></button></a>
+		  <img onclick="myFunction()" img src="images/dark.png" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"></a>
   
 
 	         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -946,17 +865,11 @@ Your browser does not support the audio element.
 
     <!-- Include js plugin -->
     <script src="./dist/material-scrolltop.js"></script>
-	    
-	    
-	    	   
-
 
 <!-- Initialize material-scrolltop (minimal) -->
 <script>
   $('body').materialScrollTop();
 </script>
-	    
-	    
 	    
   </body>
 					  
