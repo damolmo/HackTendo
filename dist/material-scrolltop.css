@@ -13,7 +13,7 @@
   width: 0;
   height: 0;
   bottom: 23px;
-  right: 23px;
+  right: -23px;
   padding: 0;
   overflow: hidden;
   outline: none;
@@ -22,7 +22,7 @@
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
   cursor: hand;
   border-radius: 50%;
-  background: #4caf50;
+  background: #1458B0;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-transition: all 0.3s cubic-bezier(0.25, 0.25, 0, 1);
   -ms-transition: all 0.3s cubic-bezier(0.25, 0.25, 0, 1);
@@ -30,7 +30,7 @@
   -o-transition: all 0.3s cubic-bezier(0.25, 0.25, 0, 1);
   transition: all 0.3s cubic-bezier(0.25, 0.25, 0, 1); }
   .material-scrolltop:hover {
-    background-color: #4caf50;
+    background-color: #1458B0;
     text-decoration: none;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5), 0 3px 15px rgba(0, 0, 0, 0.5); }
   .material-scrolltop::before {
@@ -45,7 +45,7 @@
     content: '';
     width: 0;
     border-radius: 100%;
-    background: #67bb6a; }
+    background: #1458B0; }
   .material-scrolltop:active::before {
     width: 120%;
     padding-top: 120%;
