@@ -11,7 +11,7 @@
   display: block;
   position: fixed;
   width: 0;
-  height: 30px;
+  height: 0px;
   bottom: 95px;
   right: 43px;
   padding: 0;
@@ -30,7 +30,7 @@
   -o-transition: all 0.3s cubic-bezier(0.25, 0.25, 0, 1);
   transition: all 0.3s cubic-bezier(0.25, 0.25, 0, 1); }
   .material-scrolltop:hover {
-    background-color: #1458B0;
+    background-color: #000000;
     text-decoration: none;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5), 0 3px 15px rgba(0, 0, 0, 0.5); }
   .material-scrolltop::before {
@@ -46,7 +46,7 @@ transition: .5s ease;
     content: '';
     width: 0;
     border-radius: 100%;
-    background: #1458B0; }
+    background: #000000; }
   .material-scrolltop:active::before {
     width: 120%;
     padding-top: 120%;
