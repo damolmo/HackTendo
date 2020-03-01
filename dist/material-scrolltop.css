@@ -56,8 +56,8 @@ transition: .5s ease;
     -o-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out; }
   .material-scrolltop.reveal {
-    width: 300px;
-    height: 300px; }
+    width: 56px;
+    height: 56px; }
   .material-scrolltop span {
     display: block;
     font-size: 25px;
