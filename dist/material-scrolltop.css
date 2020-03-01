@@ -13,7 +13,7 @@
   width: 0;
   height: 0;
   bottom: 23px;
-left: -25px;
+  left: 25px;
   padding: 0;
   overflow: hidden;
   outline: none;
@@ -59,6 +59,7 @@ left: -25px;
     height: 56px; }
   .material-scrolltop span {
     display: block;
+    padding-left: 25px;
     font-size: 25px;
     color: #fff; }
 
