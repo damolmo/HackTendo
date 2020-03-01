@@ -11,8 +11,9 @@
   display: block;
   position: fixed;
   width: 0;
-  height: 200px;
+  height: 100px;
   bottom: 200px;
+  left: 10px;
   right: 23px;
   padding: 0;
   overflow: hidden;
