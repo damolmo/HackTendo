@@ -265,6 +265,31 @@ height: 5px;
 width:100%;
 
 }    	  	 
+
+
+
+
+
+.u-divider{
+  &--shadow{
+    height:0;
+    position:relative;
+    &:after{
+      content:'';
+      height: 50px;
+      box-shadow: 0 20px 20px -20px rgba(0,0,0,0.15);
+      margin: -50px auto 10px;
+      position: absolute;
+      top:0;
+      left:0;
+      right:0;
+    }
+  }
+}
+
+
+
+
    
 
 .ome {   
@@ -575,7 +600,8 @@ var element = document.getElementsByClassName("divider");
     </li>
 
 	    
-        <div class="divider"></div>
+        <br><br>
+<div class="u-divider--shado<br><br>w"></div>
        	  
 	   
         <li id="nswitch">
