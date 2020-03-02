@@ -250,23 +250,29 @@ background-color: #000000;
 color: #FFFFFF;
 }    	  
 	    
-		  	 
-
-.divider {   
-color: #000000;
-background-color: #000000;   
-}    	
+		  	
 	    
 .menu-side.divider {   
 color: #000000;
 background-color: #000000;   
-}    	  	    
-	
+}    	  
+
+   
 
 .ome {   
 color: white;
 
 }    	
+	    
+	    
+	    
+	    
+	.w3-black,.w3-hover-white:hover{color:#000!important;background-color:#fff!important}
+.w3-white,.w3-hover-black:hover{color:#fff!important;background-color:#000!important}    
+	    
+	    
+	    
+	    
 .material-icons.md-dark { color: rgba(0, 0, 0, 0.26); }
 .material-icons.md-dark.md-inactive {color: rgba(255, 255, 255, 0.3);}
 
@@ -319,6 +325,8 @@ color: white;
   font-feature-settings: 'liga';
 }    
 	    
+
+
 </style>
     
     
@@ -327,6 +335,7 @@ color: white;
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:700,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">
     <link rel="stylesheet" href="styles.css">
+	  <link rel="stylesheet" href="social.css">
 	    <link rel="stylesheet" href="newstyles.css">
 <link rel="stylesheet" href="disqus.css">
     <style>
@@ -371,7 +380,11 @@ color: white;
 	  
 	  
 	  
-	  
+	<!-- Material ScrollTop stylesheet -->
+<link rel="stylesheet" href="dist/material-scrolltop.css" />
+
+<!-- material-scrolltop plugin -->
+<script src="dist/material-scrolltop.js"></script>  
 
   </head>
   <body>
@@ -477,7 +490,8 @@ var element = document.getElementById("ncero");
 var element = document.getElementsByClassName("divider");
   element.classList.toggle("divider")
 
-
+var element = document.getElementsByClassName("w3-white");
+  element.classList.toggle("w3-white")
 
 }
 </script>
@@ -508,7 +522,8 @@ var element = document.getElementsByClassName("divider");
        <a href="#" class="sidenav-trigger" data-target="menu-side">
       <i class="material-icons"  style="font-size: 50px">menu</i>
     </a>
-<ul class="sidenav" id="menu-side">
+
+    <ul class="sidenav" id="menu-side">
       <li>
         <div class="user-view">
           <div class="background">
@@ -544,7 +559,7 @@ var element = document.getElementsByClassName("divider");
         </a>
      <ul class="dropdown">
        
-<li id="chrome"><a href="https://www.hacktendo.net/chromeos"><i class="material-icons" style="color:orange" >folder_open</i><b id="ncero">ChromeOS</b></a></li>
+<li id="chrome"><a href="https://www.hacktendo.net/chromeos"><i class="material-icons" style="color:orange" >description</i><b id="ncero">ChromeOS</b></a></li>
       </ul>
     </li>
 	   <li>
@@ -556,20 +571,20 @@ var element = document.getElementsByClassName("divider");
          <b id="nn3ds">Nintendo 3DS</b>
         </a>
      <ul class="dropdown">
-        <li><a href="https://www.hacktendo.net/A9LH"><i class="material-icons" style="color:orange" >folder_open</i><b id="nuno">Actualizar A9LH a B9S</b></a></li>
-        <li><a href="https://www.hacktendo.net/desbrickear3ds"><i class="material-icons md-light" style="color:orange" >folder_open</i><b id="ndos">Desbrickear 3DS</b></a></li>
-       <li><a href="https://www.hacktendo.net/bannerbomb3"><i class="material-icons md-light" style="color:orange" >folder_open</i><b id="ntres">Exploit BannerBomb3</b></a></li>               
-       <li><a href="https://www.hacktendo.net/ntrboothax"><i class="material-icons md-light" style="color:orange">folder_open</i><b id="ncuatro">Exploit NtrBootHax</b></a></li>
-       <li><a href="https://www.hacktendo.net/rosalina"><i class="material-icons md-light" style="color:orange">folder_open</i><b id="ncinco">Guía Rosalina</b></a></li>   
-        <li><a href="https://www.hacktendo.net/vcc"><i class="material-icons md-light" style="color:orange" >folder_open</i><b id="nseis">Guía VCC</b></a></li>
-        <li><a href="https://www.hacktendo.net/3dskit"><i class="material-icons md-light" style="color:orange">folder_open</i><b id="nsiete">Nintendo 3DS Kit</b></a></li>
+        <li><a href="https://www.hacktendo.net/A9LH"><i class="material-icons" style="color:orange" >description</i><b id="nuno">Actualizar A9LH a B9S</b></a></li>
+        <li><a href="https://www.hacktendo.net/desbrickear3ds"><i class="material-icons md-light" style="color:orange" >description</i><b id="ndos">Desbrickear 3DS</b></a></li>
+       <li><a href="https://www.hacktendo.net/bannerbomb3"><i class="material-icons md-light" style="color:orange" >description</i><b id="ntres">Exploit BannerBomb3</b></a></li>               
+       <li><a href="https://www.hacktendo.net/ntrboothax"><i class="material-icons md-light" style="color:orange">description</i><b id="ncuatro">Exploit NtrBootHax</b></a></li>
+       <li><a href="https://www.hacktendo.net/rosalina"><i class="material-icons md-light" style="color:orange">description</i><b id="ncinco">Guía Rosalina</b></a></li>   
+        <li><a href="https://www.hacktendo.net/vcc"><i class="material-icons md-light" style="color:orange" >description</i><b id="nseis">Guía VCC</b></a></li>
+        <li><a href="https://www.hacktendo.net/3dskit"><i class="material-icons md-light" style="color:orange">description</i><b id="nsiete">Nintendo 3DS Kit</b></a></li>
       </ul>
     </li>
+
 	    
-	   <li>
         <div class="divider"></div>
-      </li>  
-	    
+       	  
+	   
         <li id="nswitch">
         <a href="">
           
@@ -578,14 +593,14 @@ var element = document.getElementsByClassName("divider");
           <b id="nn">Nintendo Switch</b>
         </a>
        <ul class="dropdown">
-        <li><a href="https://www.hacktendo.net/rcm"><i class="material-icons" style="color:orange" >folder_open</i><b id="nocho">Acceder RCM</b></a></li>
-        <li><a href="https://www.hacktendo.net/choidujournx"><i class="material-icons"  style="color:orange">folder_open</i><b id="nnueve">Actualizar Offline</b></a></li>
-        <li><a href="https://www.hacktendo.net/android"><i class="material-icons" style="color:orange" >folder_open</i><b id="ndiez">Android en Switch</b></a></li>
-       <li><a href="https://www.hacktendo.net/nand"><i class="material-icons"  style="color:orange">folder_open</i><b id="nveinte">Backup de la NAND</b></a></li>
-        <li><a href="https://www.hacktendo.net/capturadora"><i class="material-icons"  style="color:orange">folder_open</i><b id="ntreinta">Capturadora WiFi/USB</b></a></li>
-        <li><a href="https://www.hacktendo.net/atmosphere"><i class="material-icons" style="color:orange">folder_open</i><b id="ncuarenta">Ejecutar CFW</b></a></li>
-        <li><a href="https://www.hacktendo.net/flog"><i class="material-icons" style="color:orange">folder_open</i><b id="ncincuenta">Ejecutar Flog</b></a></li>  
-	       <li><a href="https://www.hacktendo.net/streaming"><i class="material-icons" style="color:orange">folder_open</i><b id="nsesenta">Streaming Windows</b></a></li>
+        <li><a href="https://www.hacktendo.net/rcm"><i class="material-icons" style="color:orange" >description</i><b id="nocho">Acceder RCM</b></a></li>
+        <li><a href="https://www.hacktendo.net/choidujournx"><i class="material-icons"  style="color:orange">description</i><b id="nnueve">Actualizar Offline</b></a></li>
+        <li><a href="https://www.hacktendo.net/android"><i class="material-icons" style="color:orange" >description</i><b id="ndiez">Android en Switch</b></a></li>
+       <li><a href="https://www.hacktendo.net/nand"><i class="material-icons"  style="color:orange">description</i><b id="nveinte">Backup de la NAND</b></a></li>
+        <li><a href="https://www.hacktendo.net/capturadora"><i class="material-icons"  style="color:orange">description</i><b id="ntreinta">Capturadora WiFi/USB</b></a></li>
+        <li><a href="https://www.hacktendo.net/atmosphere"><i class="material-icons" style="color:orange">description</i><b id="ncuarenta">Ejecutar CFW</b></a></li>
+        <li><a href="https://www.hacktendo.net/flog"><i class="material-icons" style="color:orange">description</i><b id="ncincuenta">Ejecutar Flog</b></a></li>  
+	       <li><a href="https://www.hacktendo.net/streaming"><i class="material-icons" style="color:orange">description</i><b id="nsesenta">Streaming Windows</b></a></li>
          
       </ul>
     </li>
@@ -598,10 +613,10 @@ var element = document.getElementsByClassName("divider");
           <b id="nnn">Nintendo WiiU</b>
         </a>
       <ul class="dropdown">
-        <li><a href="https://www.hacktendo.net/mocha"><i class="material-icons" style="color:orange" >folder_open</i><b id="nsetenta">Ejecutar MochaCFW</b></a></li>
-        <li><a href="https://www.hacktendo.net/wiivc"><i class="material-icons"  style="color:orange" >folder_open</i><b id="nochenta">Guía WiiVC Injector</b></a></li>
-        <li><a href="https://www.hacktendo.net/wiiu"><i class="material-icons" style="color:orange" >folder_open</i><b id="nnoventa">Historia WiiU</b></a></li>
-       <li><a href="https://www.hacktendo.net/haxcbhc"><i class="material-icons" style="color:orange"  >folder_open</i><b id="ncien">Instalar Haxchi+CBHC</b></a></li>     
+        <li><a href="https://www.hacktendo.net/mocha"><i class="material-icons" style="color:orange" >description</i><b id="nsetenta">Ejecutar MochaCFW</b></a></li>
+        <li><a href="https://www.hacktendo.net/wiivc"><i class="material-icons"  style="color:orange" >description</i><b id="nochenta">Guía WiiVC Injector</b></a></li>
+        <li><a href="https://www.hacktendo.net/wiiu"><i class="material-icons" style="color:orange" >description</i><b id="nnoventa">Historia WiiU</b></a></li>
+       <li><a href="https://www.hacktendo.net/haxcbhc"><i class="material-icons" style="color:orange"  >description</i><b id="ncien">Instalar Haxchi+CBHC</b></a></li>     
       </ul>
     </li>
   <li>
@@ -613,9 +628,9 @@ var element = document.getElementsByClassName("divider");
          <b id="nnnn">Nintendo DSi</b>
         </a>
       <ul class="dropdown">
-	  <li><a href="https://www.hacktendo.net/twlmenu"><i class="material-icons" style="color:orange">folder_open</i><b id="ndoscientos">Guía TwiLightMenu++</b></a></li>
-        <li><a href="https://www.hacktendo.net/hiyaflipnote"><i class="material-icons" style="color:orange">folder_open</i><b id="ntrescientos">HiyaCFW (FlipNote)</b></a></li>
-        <li><a href="https://www.hacktendo.net/hiyacamera"><i class="material-icons" style="color:orange">folder_open</i><b id="ncuatrocientos">HiyaCFW (Camera)</b></a></li>
+	  <li><a href="https://www.hacktendo.net/twlmenu"><i class="material-icons" style="color:orange">description</i><b id="ndoscientos">Guía TwiLightMenu++</b></a></li>
+        <li><a href="https://www.hacktendo.net/hiyaflipnote"><i class="material-icons" style="color:orange">description</i><b id="ntrescientos">HiyaCFW (FlipNote)</b></a></li>
+        <li><a href="https://www.hacktendo.net/hiyacamera"><i class="material-icons" style="color:orange">description</i><b id="ncuatrocientos">HiyaCFW (Camera)</b></a></li>
       
          
       </ul>
@@ -629,7 +644,7 @@ var element = document.getElementsByClassName("divider");
           <b id="nnnnn">Nintendo Wii Mini</b>
         </a>
      <ul class="dropdown">
-        <li><a href="https://www.hacktendo.net/bluebomb"><i class="material-icons" style="color:orange">folder_open</i><b id="nquinientos">Ejecutar BlueBomb</b></a></li>
+        <li><a href="https://www.hacktendo.net/bluebomb"><i class="material-icons" style="color:orange">description</i><b id="nquinientos">Ejecutar BlueBomb</b></a></li>
    
    
       </ul>
@@ -653,7 +668,7 @@ var element = document.getElementsByClassName("divider");
   <div class="wave wave2"></div>	
   <div class="wave wave3"></div>	
   <div class="wave wave4"></div>
- </section>
+ </section>  
           <a href="#screens">
             
             </button>
@@ -1114,12 +1129,7 @@ s.setAttribute('data-timestamp', +new Date());
 Your browser does not support the audio element.
 </audio>               
 
- <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-	  <audio autoplay>
-  <source src="music.mp3" type="audio/mpeg" loop="on">
-Your browser does not support the audio element.
-</audio> 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js">
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js">
   </script>
 
   <script>
@@ -1137,10 +1147,28 @@ Your browser does not support the audio element.
 
     });
 
-  </script> 	 
-	
-      <img onclick="myFunction()" img src="images/dark.png" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"></a>
+  </script> 	
+		  <img onclick="myFunction()" img src="images/dark.png" id="view-source" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect"></a>
+  
 
+	         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	    
+	    
+	    
+	   <!-- Material button -->
+    <button class="material-scrolltop" type="button"></button>
 
+    <!-- Include js plugin -->
+    <script src="./dist/material-scrolltop.js"></script>
+
+<!-- Initialize material-scrolltop (minimal) -->
+<script>
+  $('body').materialScrollTop(); 
+</script>
+	    
   </body>
+					  
+		
+        		  
+	
 </html>
