@@ -1136,7 +1136,9 @@ Your browser does not support the audio element.
 	    
 	    
 	<script>			  
-		console.log(window.matchMedia("(prefers-color-scheme: dark)").matches);
+		if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    // dark mode
+}
 		 </script>    
 	    
 	    
