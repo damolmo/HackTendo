@@ -1,2 +1,2 @@
 <div style="text-align: center;">
-<b>EN CONSTRUCCIÓN</span></b></div>
+<b>EN CONSTRUCCIÓN</b></div>
