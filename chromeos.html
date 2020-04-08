@@ -372,6 +372,33 @@ color: white;
    	 
 		   }
 		  
+	
+		 #video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+
+iframe {
+    position: absolute;
+    top: 0;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 1000px;
+    max-height: 563px;
+}
+.video-holder{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    max-width: 1000px;
+    max-height: 563px;
+} 
+		  
 		  
     </style>
 	  
@@ -691,10 +718,16 @@ var element = document.getElementsByClassName("w3-white");
 		  <div style="text-align: center;">
            <div class="android-section-title mdl-typography--display-1-color-contrast">(Guía) Convierte tu portátil en un Chromebook con ChromeOS</div>
 <div class="separator" style="clear: both; text-align: center;">
-<video width="1080" height="720" controls>
-  <source src="pages/ChromeOS/chromeos.mp4" style=max-width: 100%;
-  height:auto; type="video/mp4">
-</video>
+
+	
+<div class="video-holder">
+  <div id="video-container">
+      <iframe width="1000" height="563" src="pages/ChromeOS/chromeos.mp4" frameborder="0" allowfullscreen>        </iframe> 
+  </div>
+  <p>This should stay right underneath the video</p>
+</div>	
+	
+
 <div style="text-align: center;">
 <b><span style="color: #674ea7;">ChromeOS</span><span style="color: blue;"> </span>es el sistema operativo de Google para ordenadores portátiles y tabletas inteligentes.</b><br />
 <b><br /></b></div>
