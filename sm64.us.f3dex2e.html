@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width"><title>https://super-mario-64.surge.sh/sm64.us.f3dex2e.html</title><link rel="stylesheet" type="text/css" href="resource://content-accessible/viewsource.css"></head><body id="viewsource" class="highlight" style="-moz-tab-size: 4" contextmenu="actions"><pre id="line1"><span></span><span class="doctype">&lt;!doctype html&gt;</span><span>
+<span id="line2"></span></span><span>&lt;<span class="start-tag">html</span> <span class="attribute-name">lang</span>="<a class="attribute-value">en-us</a>"&gt;</span><span>
+<span id="line3"></span>  </span><span>&lt;<span class="start-tag">head</span>&gt;</span><span>
+<span id="line4"></span>    </span><span>&lt;<span class="start-tag">meta</span> <span class="attribute-name">charset</span>="<a class="attribute-value">utf-8</a>"&gt;</span><span>
+<span id="line5"></span>    </span><span>&lt;<span class="start-tag">meta</span> <span class="attribute-name">http-equiv</span>="<a class="attribute-value">Content-Type</a>" <span class="attribute-name">content</span>="<a class="attribute-value">text/html; charset=utf-8</a>"&gt;</span><span>
+<span id="line6"></span>    </span><span>&lt;<span class="start-tag">title</span>&gt;</span><span>Super Mario 64 on the Web! 🐸</span><span>&lt;/<span class="end-tag">title</span>&gt;</span><span>
+<span id="line7"></span>    </span><span>&lt;<span class="start-tag">style</span>&gt;</span><span>
+<span id="line8"></span>      body, html{
+<span id="line9"></span>        margin: 0;
+<span id="line10"></span>        padding: 0;
+<span id="line11"></span>        width: 100vw;
+<span id="line12"></span>        min-height: 100vh;
+<span id="line13"></span>        background-color: #111;
+<span id="line14"></span>        font-family: Arial, Helvetica, sans-serif;
+<span id="line15"></span>        color: white;
+<span id="line16"></span>        image-rendering: pixelated;
+<span id="line17"></span>        scrollbar-width: none;
+<span id="line18"></span>      }
+<span id="line19"></span>      ::-webkit-scrollbar {
+<span id="line20"></span>        display: none;
+<span id="line21"></span>      }
+<span id="line22"></span>      #container {
+<span id="line23"></span>        width: 100vw;
+<span id="line24"></span>        height: 100vh;
+<span id="line25"></span>        display: flex;
+<span id="line26"></span>        align-items: center;
+<span id="line27"></span>        justify-content: center;
+<span id="line28"></span>      }
+<span id="line29"></span>      canvas {
+<span id="line30"></span>        width: 100vw;
+<span id="line31"></span>        height: 100vh;
+<span id="line32"></span>      }
+<span id="line33"></span>      #controls {
+<span id="line34"></span>        margin-left: 1em;
+<span id="line35"></span>        display: flex;
+<span id="line36"></span>        align-items: center;
+<span id="line37"></span>      }
+<span id="line38"></span>      #controller, #dmca {
+<span id="line39"></span>        padding-left: 4em;
+<span id="line40"></span>      }
+<span id="line41"></span>    </span><span>&lt;/<span class="end-tag">style</span>&gt;</span><span>
+<span id="line42"></span>  </span><span>&lt;/<span class="end-tag">head</span>&gt;</span><span>
+<span id="line43"></span>  </span><span>&lt;<span class="start-tag">body</span>&gt;</span><span>
+<span id="line44"></span>    </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">id</span>="<a class="attribute-value">controls</a>"&gt;</span><span>
+<span id="line45"></span>      </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">id</span>="<a class="attribute-value">keyboard</a>"&gt;</span><span>
+<span id="line46"></span>        </span><span>&lt;<span class="start-tag">h2</span>&gt;</span><span>Keyboard Controls</span><span>&lt;/<span class="end-tag">h2</span>&gt;</span><span>
+<span id="line47"></span>        </span><span>&lt;<span class="start-tag">ul</span>&gt;</span><span>
+<span id="line48"></span>          </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>Movement: Arrow Keys</span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+<span id="line49"></span>          </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>A: X</span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+<span id="line50"></span>          </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>B: C</span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+<span id="line51"></span>          </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>L: Q</span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+<span id="line52"></span>          </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>Z: Space</span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+<span id="line53"></span>          </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>Start: Enter</span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+<span id="line54"></span>          </span><span>&lt;<span class="start-tag">li</span>&gt;</span><span>C-stick: WASD</span><span>&lt;/<span class="end-tag">li</span>&gt;</span><span>
+<span id="line55"></span>        </span><span>&lt;/<span class="end-tag">ul</span>&gt;</span><span>
+<span id="line56"></span>      </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line57"></span>      </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">id</span>="<a class="attribute-value">controller</a>"&gt;</span><span>
+<span id="line58"></span>        </span><span>&lt;<span class="start-tag">h2</span>&gt;</span><span>You can use a controller!</span><span>&lt;/<span class="end-tag">h2</span>&gt;</span><span>
+<span id="line59"></span>        </span><span>&lt;<span class="start-tag">h2</span>&gt;</span><span>You can save!</span><span>&lt;/<span class="end-tag">h2</span>&gt;</span><span>
+<span id="line60"></span>        </span><span>&lt;<span class="start-tag">h2</span>&gt;</span><span>Press page down to hide these instructions.</span><span>&lt;/<span class="end-tag">h2</span>&gt;</span><span>
+<span id="line61"></span>        </span><span>&lt;<span class="start-tag">h2</span>&gt;</span><span>Press page up to see them again.</span><span>&lt;/<span class="end-tag">h2</span>&gt;</span><span>
+<span id="line62"></span>      </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line63"></span>    </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line64"></span>    </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">id</span>="<a class="attribute-value">container</a>"&gt;</span><span>
+<span id="line65"></span>      </span><span>&lt;<span class="start-tag">canvas</span> <span class="attribute-name">class</span>="<a class="attribute-value">emscripten</a>" <span class="attribute-name">id</span>="<a class="attribute-value">canvas</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">canvas</span>&gt;</span><span>
+<span id="line66"></span>    </span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
+<span id="line67"></span>    </span><span>&lt;<span class="start-tag">script</span> <span class="attribute-name">type</span>='<a class="attribute-value">text/javascript</a>'&gt;</span><span>
+<span id="line68"></span>      var Module = {
+<span id="line69"></span>        preRun: [],
+<span id="line70"></span>        postRun: [],
+<span id="line71"></span>        print: (function() {
+<span id="line72"></span>          return function(text) {
+<span id="line73"></span>            if (arguments.length &gt; 1) text = Array.prototype.slice.call(arguments).join(' ');
+<span id="line74"></span>            console.log(text);
+<span id="line75"></span>          };
+<span id="line76"></span>        })(),
+<span id="line77"></span>        printErr: function(text) {
+<span id="line78"></span>          if (arguments.length &gt; 1)
+<span id="line79"></span>            text = Array.prototype.slice.call(arguments).join(' ');
+<span id="line80"></span>          console.error(text);
+<span id="line81"></span>        },
+<span id="line82"></span>        canvas: (function() {
+<span id="line83"></span>          var canvas = document.getElementById('canvas');
+<span id="line84"></span>          canvas.width = window.innerWidth; // Todo: how to do this from c++
+<span id="line85"></span>          canvas.height = window.innerHeight;
+<span id="line86"></span>          canvas.addEventListener("webglcontextlost", function(e) {
+<span id="line87"></span>            alert('WebGL context lost. You will need to reload the page.');
+<span id="line88"></span>            e.preventDefault();
+<span id="line89"></span>          }, false);
+<span id="line90"></span>          return canvas;
+<span id="line91"></span>        })(),
+<span id="line92"></span>        setStatus: function(text) {
+<span id="line93"></span>        }
+<span id="line94"></span>      };
+<span id="line95"></span>    </span><span>&lt;/<span class="end-tag">script</span>&gt;</span><span>
+<span id="line96"></span>    </span><span>&lt;<span class="start-tag">script</span> <span class="attribute-name">async</span> <span class="attribute-name">type</span>="<a class="attribute-value">text/javascript</a>" <span class="attribute-name">src</span>="<a class="attribute-value" href="view-source:https://super-mario-64.surge.sh/sm64.us.f3dex2e.js">sm64.us.f3dex2e.js</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">script</span>&gt;</span><span>
+<span id="line97"></span>    </span><span>&lt;<span class="start-tag">script</span>&gt;</span><span>
+<span id="line98"></span>    </span><span>&lt;/<span class="end-tag">script</span>&gt;</span><span>
+<span id="line99"></span>  </span><span>&lt;/<span class="end-tag">body</span>&gt;</span><span>
+<span id="line100"></span></span><span>&lt;/<span class="end-tag">html</span>&gt;</span><span>
+<span id="line101"></span>
+<span id="line102"></span>
+<span id="line103"></span>
+<span id="line104"></span></span></pre><menu type="context" id="actions"><menuitem id="goToLine" label="Ir a la línea…" accesskey="x"></menuitem><menuitem id="wrapLongLines" label="Ajustar líneas largas" type="checkbox"></menuitem><menuitem id="highlightSyntax" label="Resaltar sintaxis" type="checkbox" checked="true"></menuitem></menu></body></html>
