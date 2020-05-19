@@ -508,11 +508,12 @@ var element = document.getElementsByClassName("w3-white");
     </style>
 		
 <div style="text-align: center;">
-           <div class="android-section-title mdl-typography--display-1-color-contrast">Building SM64 for MacOS<img src="pages/apple.png" /></div>
+           <div class="android-section-title mdl-typography--display-1-color-contrast">Build SM64 In MacOS<img src="pages/apple.png" /></div>
 <br />
 <div class="separator" style="clear: both; text-align: center;">
 <img border="0" data-original-height="442" data-original-width="952" src="pages/decompilation/build3.png" style=max-width:100%  /></a></div>
 
+<br />
 <div style="text-align: center;">
            <div class="android-section-title mdl-typography--display-1-color-contrast">What you need?</div>
 <br />
@@ -520,15 +521,14 @@ var element = document.getElementsByClassName("w3-white");
         <span style="color:grey;">1.- Install Homebrew from Terminal using the following command:</div>
         <div class="separator" style="clear: both; text-align: center;">
 <img border="0" data-original-height="442" data-original-width="952" src="pages/decompilation/build1.png" style=max-width:100%  /></a></div>
-<br />
 <div style="text-align: center;">
-        <span style="color:grey;">ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</div>
-<br />
+        <span style="color:grey;">ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master
+		<br />
+		/install)"</div>
 <div style="text-align: center;">
         <span style="color:grey;">2.- Install the minimum dependencies to build the macOS version:</div>
         <div class="separator" style="clear: both; text-align: center;">
 <img border="0" data-original-height="442" data-original-width="952" src="pages/decompilation/build2.png" style=max-width:100%  /></a></div>
-<br />
 <div style="text-align: center;">
  <span style="color:grey;"> brew install git gcc make audiofile libusb pkg-config yasm sdl2 glew glfw mingw-w64 python</div>
 <br />
@@ -536,7 +536,6 @@ var element = document.getElementsByClassName("w3-white");
         <span style="color:grey;">3.- Clone the sm64 GitHub repository using GIT</div>
                 <div class="separator" style="clear: both; text-align: center;">
 <img border="0" data-original-height="442" data-original-width="952" src="pages/decompilation/build5.png" style=max-width:100%  /></a></div>
-        <br />
         <div style="text-align: center;">
         <span style="color:grey;">git clone https://github.com/sm64pc/sm64pc.git</div>
         
@@ -557,6 +556,7 @@ var element = document.getElementsByClassName("w3-white");
  <div style="text-align: center;">
  <span style="color:grey;"> gmake OSX_BUILD=1 BETTERCAMERA=1 NODRAWINGDISTANCE=1 (Mods)
 <br />
+<br /> 
     <div style="text-align: center;">
         <span style="color:grey;">6.- Wait for the build process to end and you will find a build folder with the binary</div>
       
