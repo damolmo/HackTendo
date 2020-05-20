@@ -811,7 +811,7 @@ var element = document.getElementsByClassName("w3-white");
 	    <script>
 	  $(document).ready(main);
  
-var contador = 1;
+var contador = 0;
  
 function main () {
 	$('.menu_bar').click(function(){
@@ -819,7 +819,12 @@ function main () {
 			$('nav').animate({
 				left: '0'
 			});
+			contador = 0;
+		} else {
 			contador = 1;
+			$('nav').animate({
+				left: '-100%'
+			});
 		}
 	});
  
