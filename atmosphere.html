@@ -1,18 +1,4 @@
-<!doctype html>
-<!--
-  Material Design Lite
-  Copyright 2015 Google Inc. All rights reserved.
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-      https://www.apache.org/licenses/LICENSE-2.0 
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License
--->
-
+  <!doctype html>
 <html lang="en">
   <head>
     <link rel="stylesheet" type="text/css" href="waves.css">
@@ -54,6 +40,7 @@ font-color: white;
 	.home {
 background-color: #000000;   
 color: #FFFFFF;
+	font-color: #FFFFFF;	
 }    	        
 	    
 .android {
@@ -61,9 +48,40 @@ background-color: #000000;
 color: #FFFFFF;
 }  
 	    
-	.google {
+	.zali {
 background-color: #000000;   
 color: #FFFFFF;
+}     
+	    
+	.magenta {
+background-color: #000000;   
+color: #FFFFFF;
+}         
+	    
+	 .fuchsia {
+background-color: #000000;   
+color: #FFFFFF;
+}        
+	    
+	.sailfish {
+background-color: #000000;   
+color: #FFFFFF;
+}         
+	    
+			.zircon {
+background-color: #000000;   
+color: #FFFFFF;
+}    	     
+	    
+			.soli {
+background-color: #000000;   
+color: #FFFFFF;
+}    	     
+	    
+	    
+	.google {
+background-color: #000000;   
+font-color: white;
 }    	        
   
 	.n3ds {
@@ -72,7 +90,7 @@ color: #FFFFFF;
 }    	  
 	    
 	    
-.nswitch {
+.switch {
 background-color: #000000;   
 color: #FFFFFF;
 }    
@@ -167,10 +185,7 @@ background-color: #000000;
 color: #FFFFFF;
 }    	    
 	    
-	  	.ntreinta {
-background-color: #000000;   
-color: #FFFFFF;
-}    
+   
 	    
 		.ncuarenta {
 background-color: #000000;   
@@ -181,11 +196,7 @@ color: #FFFFFF;
 background-color: #000000;   
 color: #FFFFFF;
 } 			
-		.nsesenta {
-background-color: #000000;   
-color: #FFFFFF;		
-   		
-}    
+  
 		.nsetenta {
 background-color: #000000;   
 color: #FFFFFF;
@@ -260,13 +271,12 @@ color: #000000;
 background-color: #000000;   
 }    	  
 
-   
+	
 
 .ome {   
 color: white;
 
 }    	
-
 
 	    
 	    
@@ -402,9 +412,21 @@ function myFunction() {
 	  var element = document.getElementById("android");
   element.classList.toggle("android");
 	
+	  var element = document.getElementById("zali");
+  element.classList.toggle("zali");
+	
+	  var element = document.getElementById("magenta");
+  element.classList.toggle("magenta");
+	
+	  var element = document.getElementById("fuchsia");
+  element.classList.toggle("fuchsia");
+	
+	  var element = document.getElementById("sailfish");
+  element.classList.toggle("sailfish");
+	
 	  var element = document.getElementById("n3ds");
   element.classList.toggle("n3ds");
-	  var element = document.getElementById("nswitch");
+	  var element = document.getElementById("switch");
   element.classList.toggle("nswitch");
 	
 	  var element = document.getElementById("nwiiu");
@@ -446,14 +468,10 @@ var element = document.getElementById("ncero");
   element.classList.toggle("ndiez");
 	 var element = document.getElementById("nveinte");
   element.classList.toggle("nveinte");
-	 var element = document.getElementById("ntreinta");
-  element.classList.toggle("ntreinta");
 	 var element = document.getElementById("ncuarenta");
   element.classList.toggle("ncuarenta");
 	 var element = document.getElementById("ncincuenta");
   element.classList.toggle("ncincuenta");
-	 var element = document.getElementById("nsesenta");
-  element.classList.toggle("nsesenta");
 
 
 	 var element = document.getElementById("nsetenta");
@@ -484,12 +502,17 @@ var element = document.getElementById("ncero");
 	 var element = document.getElementById("nnnnn");
   element.classList.toggle("nnnnn");
 
-var element = document.getElementsByClassName("divider");
-  element.classList.toggle("divider")
+var element = document.getElementsByClassName("hr.solid");
+  element.classList.toggle("divider2")
 
 var element = document.getElementsByClassName("w3-white");
   element.classList.toggle("w3-white")
+	var element = document.getElementsByClassName("submenu");
+  element.classList.toggle("submenu")
 
+
+	
+	
 }
 </script>
 	
@@ -498,136 +521,127 @@ var element = document.getElementsByClassName("w3-white");
       <i class="material-icons"  style="font-size: 50px">menu</i>
     </a>
 
-    <ul class="sidenav" id="menu-side">
-      <li>
+      <ul class="sidenav" id="menu-side">
+      <li>   
+	     <a href="https://www.hacktendo.net/m4r10"><img src="start.gif" style=max-width:100% alt=""> </a>
+		 <br/>
         <div class="user-view">
           <div class="background">
-            <img src="bgg.jpg" alt="">
+          <img src="pages/decompilation/mar.gif"  style=max-width:100% alt=""></a>
           </div>
-          <a href="#">
-            <img src="favicon.png" alt="" href="t.me/DroidIvan" class="circle">
+          
           </a>
           <a href="">
 <br/>
-            <span class="name white-text">HackTendo.net</span>
+		  <br />
+		 <br />
+		  <br />  
+            <span class="name black-text">HackTendo.net</span>
           </a>
           <a href="">
 
-            <span class="email white-text">Comunidad de hacking hispana</span>
+            <span class="email black-text">Comunidad de hacking hispana</span>
           </a>
-		
+		 
 		
         </div>
       </li>
-	
-        <li id="home">
+       <div class="divider"></div>
+
+      <li id="home"> 
         <a href="https://www.hacktendo.net/index.html">
             <i class="material-icons md-light" style="color: red"><b id="me">home</b></i>
-         <b id="hhome">Inicio</b>
+         <b><span style="color: #565656;">Inicio</span></b>
         </a>
       </li>
-<li id="google">
-        <div class="divider"></div>
-      </li>    
-         <li id="android">
-        <a href="">
-            <i class="material-icons"  style="color:green" >android</i>
-        <b id="aandroid">Google</b>
-        </a>
-     <ul class="dropdown">
-       
-<li id="chrome"><a href="https://www.hacktendo.net/chromeos"><i class="material-icons" style="color:orange" >description</i><b id="ncero">ChromeOS</b></a></li>
-      </ul>
-    </li>
-	   <li>
-        <div class="divider"></div>
-      </li>  
-          <li id="n3ds">
-        <a href="">
-               <i class="material-icons" style="color:blue">videogame_asset</i>
-         <b id="nn3ds">Nintendo 3DS</b>
-        </a>
-     <ul class="dropdown">
-        <li><a href="https://www.hacktendo.net/A9LH"><i class="material-icons" style="color:orange" >description</i><b id="nuno">Actualizar A9LH a B9S</b></a></li>
-        <li><a href="https://www.hacktendo.net/desbrickear3ds"><i class="material-icons md-light" style="color:orange" >description</i><b id="ndos">Desbrickear 3DS</b></a></li>
-       <li><a href="https://www.hacktendo.net/bannerbomb3"><i class="material-icons md-light" style="color:orange" >description</i><b id="ntres">Exploit BannerBomb3</b></a></li>               
-       <li><a href="https://www.hacktendo.net/ntrboothax"><i class="material-icons md-light" style="color:orange">description</i><b id="ncuatro">Exploit NtrBootHax</b></a></li>
-       <li><a href="https://www.hacktendo.net/rosalina"><i class="material-icons md-light" style="color:orange">description</i><b id="ncinco">Guía Rosalina</b></a></li>   
-        <li><a href="https://www.hacktendo.net/vcc"><i class="material-icons md-light" style="color:orange" >description</i><b id="nseis">Guía VCC</b></a></li>
-        <li><a href="https://www.hacktendo.net/3dskit"><i class="material-icons md-light" style="color:orange">description</i><b id="nsiete">Nintendo 3DS Kit</b></a></li>
-      </ul>
-    </li>
-
-	    
-        <div class="divider"></div>
-       	  
-	   
-        <li id="nswitch">
-        <a href="">
-          
-            
-             <i class="material-icons" style="color:blue">videogame_asset</i>
-          <b id="nn">Nintendo Switch</b>
-        </a>
-       <ul class="dropdown">
-        <li><a href="https://www.hacktendo.net/rcm"><i class="material-icons" style="color:orange" >description</i><b id="nocho">Acceder RCM</b></a></li>
-        <li><a href="https://www.hacktendo.net/choidujournx"><i class="material-icons"  style="color:orange">description</i><b id="nnueve">Actualizar Offline</b></a></li>
-        <li><a href="https://www.hacktendo.net/android"><i class="material-icons" style="color:orange" >description</i><b id="ndiez">Android en Switch</b></a></li>
-       <li><a href="https://www.hacktendo.net/nand"><i class="material-icons"  style="color:orange">description</i><b id="nveinte">Backup de la NAND</b></a></li>
-        <li><a href="https://www.hacktendo.net/atmosphere"><i class="material-icons" style="color:orange">description</i><b id="ncuarenta">Ejecutar CFW</b></a></li>
-        <li><a href="https://www.hacktendo.net/flog"><i class="material-icons" style="color:orange">description</i><b id="ncincuenta">Ejecutar Flog</b></a></li>  
-	       
-      </ul>
-    </li>
-      <li>
-        <div class="divider"></div>
-      </li>
-          <li id="nwiiu">
-        <a href="">
-           <i class="material-icons" style="color:blue">videogame_asset</i>
-          <b id="nnn">Nintendo WiiU</b>
-        </a>
-      <ul class="dropdown">
-        <li><a href="https://www.hacktendo.net/mocha"><i class="material-icons" style="color:orange" >description</i><b id="nsetenta">Ejecutar MochaCFW</b></a></li>
-        <li><a href="https://www.hacktendo.net/wiivc"><i class="material-icons"  style="color:orange" >description</i><b id="nochenta">Guía WiiVC Injector</b></a></li>
-        <li><a href="https://www.hacktendo.net/wiiu"><i class="material-icons" style="color:orange" >description</i><b id="nnoventa">Historia WiiU</b></a></li>
-       <li><a href="https://www.hacktendo.net/haxcbhc"><i class="material-icons" style="color:orange"  >description</i><b id="ncien">Instalar Haxchi+CBHC</b></a></li>     
-      </ul>
-    </li>
-  <li>
-        <div class="divider"></div>
-      </li>
-    <li id="ndsi">
-        <a href="">
-            <i class="material-icons md-light" style="color:blue">videogame_asset</i>
-         <b id="nnnn">Nintendo DSi</b>
-        </a>
-      <ul class="dropdown">
-	      <li><a href="https://www.hacktendo.net/Bye-UnLaunch"><i class="material-icons" style="color:orange">description</i><b id="ndoscientos">Desinstalar UnLaunch</b></a></li>
-	  <li><a href="https://www.hacktendo.net/twlmenu"><i class="material-icons" style="color:orange">description</i><b id="ddoscientos">Guía TwiLightMenu++</b></a></li>
-        <li><a href="https://www.hacktendo.net/hiyaflipnote"><i class="material-icons" style="color:orange">description</i><b id="ntrescientos">HiyaCFW (FlipNote)</b></a></li>
-        <li><a href="https://www.hacktendo.net/hiyacamera"><i class="material-icons" style="color:orange">description</i><b id="ncuatrocientos">HiyaCFW (Camera)</b></a></li>
-      
+			
+	    	 
+		<li class="submenu" id="google">
+			
+					<a href="#"> <i class="material-icons"  style="color:green" >android</i><b id="soli"><span style="color: #565656;">Google</span></b></a>
+					<ul class="children" style="display: none;">
          
-      </ul>
-    </li> 
- <li>
-        <div class="divider"></div>
-      </li>       
-          <li id="nwiimini">
-        <a href=""> 
-           <i class="material-icons" style="color:blue">videogame_asset</i>
-          <b id="nnnnn">Nintendo Wii Mini</b>
-        </a>
-     <ul class="dropdown">
-        <li><a href="https://www.hacktendo.net/bluebomb"><i class="material-icons" style="color:orange">description</i><b id="nquinientos">Ejecutar BlueBomb</b></a></li>
+<li><a href="https://www.hacktendo.net/chromeos"><i class="material-icons" style="color:orange" >description</i><b id="zircon"><span style="color: #777777;">ChromeOS</span></b></a></li>
+			</ul>
+   	 </li> 
+	  
+
+
+ 	<li class="submenu" id="android">
+			
+					<a href="#"> <i class="material-icons" style="color:blue">videogame_asset</i><b id="nn"><span style="color: #565656;">Nintendo 3DS</span></b></a>
+					<ul class="children" style="display: none;">
+         
+<li><a href="https://www.hacktendo.net/A9LH"><i class="material-icons" style="color:orange" >description</i><b id="ncero"><span style="color: #777777;">A9LH a B9S</b></a></li>
+ <li><a href="https://www.hacktendo.net/desbrickear3ds"><i class="material-icons" style="color:orange" >description</i><b id="ncero"><span style="color: #777777;">Desbrickear 3DS</span></b></a></li>
+ <li><a href="https://www.hacktendo.net/bannerbomb3"><i class="material-icons" style="color:orange" >description</i><b id="ncero"><span style="color: #777777;">Exploit BannerBomb</span></b></a></li>
+ <li><a href="https://www.hacktendo.net/ntrboothax"><i class="material-icons" style="color:orange" >description</i><b id="ncero"><span style="color: #777777;">Exploit NtrBootHax</span></b></a></li>
+ <li><a href="https://www.hacktendo.net/rosalina"><i class="material-icons" style="color:orange" >description</i><b id="ncero"><span style="color: #777777;">Guía Rosalina</span></b></a></li>
+<li><a href="https://www.hacktendo.net/vcc"><i class="material-icons" style="color:orange" >description</i><b id="ncero"><span style="color: #777777;">Guía VCC</span></b></a></li>
+  <li><a href="https://www.hacktendo.net/3dskit"><i class="material-icons" style="color:orange" >description</i><b id="ncero"><span style="color: #777777;">Nintendo 3DS Kit</span></b></a></li>
+ 
+			</ul>
+   	 </li> 
+	
+	   
+	   
+
+		<li class="submenu" id="zali">
+			
+					<a href="#"> <i class="material-icons" style="color:blue">videogame_asset</i><b id="nn"><span style="color: #565656;">Nintendo Switch</span></b></a>
+					<ul class="children" style="display: none;">
+         
+<li><a href="https://www.hacktendo.net/rcm"><i class="material-icons" style="color:orange" >description</i><b id="ncero"><span style="color: #777777;">Acceder RCM</span></b></a></li>
+ <li><a href="https://www.hacktendo.net/choidujournx"><i class="material-icons" style="color:orange" >description</i><b id="ncero"><span style="color: #777777;">Actualizar Offline</span></b></a></li>
+ <li><a href="https://www.hacktendo.net/android"><i class="material-icons" style="color:orange" >description</i><b id="ncero"><span style="color: #777777;">Android en Switch</span></b></a></li>
+ <li><a href="https://www.hacktendo.net/nand"><i class="material-icons" style="color:orange" >description</i><b id="ncero"><span style="color: #777777;">Backup de la NAND</span></b></a></li>
+ <li><a href="https://www.hacktendo.net/atmosphere"><i class="material-icons" style="color:orange" >description</i><b id="ncero"><span style="color: #777777;">Ejecutar CFW</span></b></a></li>
+ <li><a href="https://www.hacktendo.net/flog"><i class="material-icons" style="color:orange" >description</i><b id="ncero"><span style="color: #777777;">Ejecutar Flog</span></b></a></li>
+			</ul>
+   	 </li> 
+ 	
+	   
+     	
+		<li class="submenu" id="magenta"  >
+			
+					<a href="#"><i class="material-icons" style="color:blue">videogame_asset</i><b id="nn"><span style="color: #565656;">Nintendo WiiU</span></b></a>
+					<ul class="children" style="display: none;">
+     <li><a href="https://www.hacktendo.net/mocha"><i class="material-icons" style="color:orange" >description</i><b id="nsetenta"><span style="color: #777777;">Ejecutar MochaCFW</span></b></a></li>
+        <li><a href="https://www.hacktendo.net/wiivc"><i class="material-icons"  style="color:orange" >description</i><b id="nochenta"><span style="color: #777777;">Guía WiiVC Injector</span></b></a></li>
+        <li><a href="https://www.hacktendo.net/wiiu"><i class="material-icons" style="color:orange" >description</i><b id="nnoventa"><span style="color: #777777;">Historia WiiU</span></b></a></li>
+       <li><a href="https://www.hacktendo.net/haxcbhc"><i class="material-icons" style="color:orange"  >description</i><b id="ncien"><span style="color: #777777;">Haxchi+CBHC</span></b></a></li>     
+            </ul>
+   		 </li> 
+
+	   
+		<li class="submenu" id="fuchsia">
+			
+					<a href="#"><i class="material-icons" style="color:blue">videogame_asset</i><b id="nn"><span style="color: #565656;">Nintendo DSi</span></b></a>
+					<ul class="children" style="display: none;">
+          <li><a href="https://www.hacktendo.net/Bye-UnLaunch"><i class="material-icons" style="color:orange">description</i><b id="ndoscientos"><span style="color: #777777;">Borrar UnLaunch</span></b></a></li>
+	  <li><a href="https://www.hacktendo.net/twlmenu"><i class="material-icons" style="color:orange">description</i><b id="ddoscientos"><span style="color: #777777;">TwiLightMenu++</span></b></a></li>
+        <li><a href="https://www.hacktendo.net/hiyaflipnote"><i class="material-icons" style="color:orange">description</i><b id="ntrescientos"><span style="color: #777777;">HiyaCFW (FlipNote)</span></b></a></li>
+        <li><a href="https://www.hacktendo.net/hiyacamera"><i class="material-icons" style="color:orange">description</i><b id="ncuatrocientos"><span style="color: #777777;">HiyaCFW (Camera)</span></b></a></li>
+           </ul>
+   		 </li> 
+		
+		  
+		<li class="submenu" id="sailfish">
+			
+					<a href="#"><i class="material-icons" style="color:blue">videogame_asset</i><b id="nn"><span style="color: #565656;">Nintendo Wii Mini</span></b></a>
+					<ul class="children" style="display: none;">
+         
+			 <li><a href="https://www.hacktendo.net/bluebomb"><i class="material-icons" style="color:orange">description</i><b id="nquinientos"><span style="color: #777777;">Ejecutar BlueBomb</span></b></a></li>
    
-   
-      </ul>
-    </li> 
-      
+			</ul>
+    </li>		
+	
+
+        </li>
+
     </ul>
   
+  </li>
 			
 	  <div class="android-bi-together-section mdl-typography--text-center">
 	 <div class="logo-font android-slogan">Bienvenido a HackTendo.</div>	
@@ -637,11 +651,12 @@ var element = document.getElementsByClassName("w3-white");
 			   <br>	
 		    <a href="https://t.me/HackTendoNet" target="whatever"><img border="0" src="images/telegram.png"  style=max-width:100%     alt=""></a>	
 
-		    <a href="https://www.hacktendo.net/m4r10" target="whatever"><img border="0" src="pages/decompilation/sm64.png" style=max-width:100%    alt=""></a>
-		   
+		    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ivanthenintendogamer@gmail.com&su=Iv%C3%A1n&body=&bcc=" target="whatever"><img border="0" src="images/gmail.png" style=max-width:100%    alt=""></a>	
+	
 		  
 		  <br> <br>
 		  	 </div> 
+		 <br> <br>
   <div class="wave wave1"></div>	
   <div class="wave wave2"></div>	
   <div class="wave wave3"></div>	
@@ -948,7 +963,34 @@ Your browser does not support the audio element.
 <script>
   $('body').materialScrollTop(); 
 </script>
+	</script>    
 	    
+	    
+	    	    <script>
+	  $(document).ready(main);
+ 
+var contador = 0;
+ 
+function main () {
+	$('.menu_bar').click(function(){
+		if (contador == 1) {
+			$('nav').animate({
+				left: '0'
+			});
+			contador = 0;
+		} else {
+			contador = 1;
+			$('nav').animate({
+				left: '-100%'
+			});
+		}
+	});
+ 
+	$('.submenu').click(function(){
+		$(this).children('.children').slideToggle();
+	});
+}
+</script>    
   </body>
 					  
 		
