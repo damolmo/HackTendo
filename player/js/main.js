@@ -12,7 +12,7 @@ $(document).ready(function () {
 
   var tl = new TimelineMax();
     tl.to('.player__discImg', 12, {
-       
+        rotation: '360deg',
         repeat: 1,
         ease: Power0.easeNone
     }, '-=0.2');
