@@ -66,7 +66,7 @@ $('.player__next').click(function () {
             $('.player').removeClass('play');
             audioElement.pause();
             TweenMax.to('.player__albumImg', 0.8, {
-                scale: 3,
+                scale: 1.2,
                 ease: Power0.easeNone
             })
             tl.pause();
@@ -75,7 +75,7 @@ $('.player__next').click(function () {
 $('.player').addClass('play');
             audioElement.play();
             TweenMax.to('.player__albumImg', 0.8, {
-                scale: 1.1,
+                scale: 1.5,
                 ease: Power0.easeNone
             })
             tl.resume();
@@ -90,7 +90,7 @@ $('.player').addClass('play');
             $('.player').removeClass('play');
             audioElement.pause();
             TweenMax.to('.player__albumImg', 0.8, {
-                scale: 3,
+                scale: 1.2,
                 ease: Power0.easeNone
             })
             tl.pause();
@@ -98,7 +98,7 @@ $('.player').addClass('play');
             $('.player').addClass('play');
             audioElement.play();
             TweenMax.to('.player__albumImg', 0.8, {
-                scale: 1.1,
+                scale: 1.5,
                 ease: Power0.easeNone
             })
             tl.resume();
@@ -110,7 +110,7 @@ $('.player').addClass('play');
             $('.player').removeClass('play');
             audioElement.pause();
             TweenMax.to('.player__albumImg', 0.8, {
-                scale: 3,
+                scale: 1.2,
                 ease: Power0.easeNone
             })
             tl.pause();
@@ -118,7 +118,7 @@ $('.player').addClass('play');
             $('.player').addClass('play');
             audioElement.play();
             TweenMax.to('.player__albumImg', 0.8, {
-                scale: 1.1,
+                scale: 1.5,
                 ease: Power0.easeNone
             })
             tl.resume();
@@ -132,7 +132,7 @@ $('.player').addClass('play');
             $('.player').removeClass('play');
             audioElement.pause();
             TweenMax.to('.player__albumImg', 0.8, {
-                scale: 3,
+                scale: 1.2,
                 ease: Power0.easeNone
             })
             tl.pause();
@@ -140,7 +140,7 @@ $('.player').addClass('play');
             $('.player').addClass('play');
             audioElement.play();
             TweenMax.to('.player__albumImg', 0.8, {
-                scale: 1.1,
+                scale: 1.5,
                 ease: Power0.easeNone
             })
             tl.resume();
