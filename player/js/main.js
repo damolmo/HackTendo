@@ -4,6 +4,7 @@ $(document).ready(function () {
 
     var tl = new TimelineMax();
     tl.to('.player__albumImg', 12, {
+        rotation: '360deg',
         repeat: 1,
         ease: Power0.easeNone
     }, '-=0.2');
@@ -74,7 +75,7 @@ $('.player__next').click(function () {
 $('.player').addClass('play');
             audioElement.play();
             TweenMax.to('.player__albumImg', 0.8, {
-                scale: 1.1,
+                scale: 0.8,
                 ease: Power0.easeNone
             })
             tl.resume();
@@ -97,7 +98,7 @@ $('.player').addClass('play');
             $('.player').addClass('play');
             audioElement.play();
             TweenMax.to('.player__albumImg', 0.8, {
-                scale: 1.1,
+                scale: 0.8,
                 ease: Power0.easeNone
             })
             tl.resume();
@@ -117,7 +118,7 @@ $('.player').addClass('play');
             $('.player').addClass('play');
             audioElement.play();
             TweenMax.to('.player__albumImg', 0.8, {
-                scale: 1.1,
+                scale: 0.8,
                 ease: Power0.easeNone
             })
             tl.resume();
@@ -139,7 +140,7 @@ $('.player').addClass('play');
             $('.player').addClass('play');
             audioElement.play();
             TweenMax.to('.player__albumImg', 0.8, {
-                scale: 1.1,
+                scale: 0.8,
                 ease: Power0.easeNone
             })
             tl.resume();
