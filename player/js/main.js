@@ -69,9 +69,9 @@ $(document).ready(function () {
     });
 
     $('.player__prev').click(function () {
-        if ($('.player .player__albumImg.active-song').is(':first-child')) {
+        if ($('.player .player__albumImg.active-song').is(':last-child')) {
             $('.player__albumImg.active-song').removeClass('active-song');
-            $('.player .player__albumImg:last-child').addClass('active-song');
+            $('.player .player__albumImg:first-child').addClass('active-song');
             audioElement.addEventListener("timeupdate", function () {
                 var duration = this.duration;
                 var currentTime = this.currentTime;
@@ -79,7 +79,7 @@ $(document).ready(function () {
                 playhead.style.width = percentage + '%';
             });
         } else {
-            $('.player__albumImg.active-song').removeClass('active-song').prev().addClass('active-song');
+            $('.player__albumImg.active-song').removeClass('active-song').next().addClass('active-song');
             audioElement.addEventListener("timeupdate", function () {
                 var duration = this.duration;
                 var currentTime = this.currentTime;
