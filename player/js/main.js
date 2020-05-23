@@ -10,100 +10,6 @@ $(document).ready(function () {
     }, '-=0.2');
     tl.pause();
 
-    
-    $('.player__next').click(function () {	
-
-        if ($('.player').hasClass('play')) {	
-
-            $('.player').removeClass('play');	
-
-            audioElement.pause();	
-
-            TweenMax.to('.player__albumImg', 0.2, {	
-
-                scale: 1,	
-
-                ease: Power0.easeNone	
-
-            })	
-
-            tl.pause();	
-
-        } else {	
-
-            $('.player').addClass('play');	
-
-            audioElement.play();	
-
-            TweenMax.to('.player__albumImg', 0.2, {	
-
-                scale: 1.1,	
-
-                ease: Power0.easeNone	
-
-            })	
-
-            tl.resume();	
-
-        }	
-
-    });
-
-    $('.player__next').click(function () {
-
-        if ($('.player').hasClass('play')) {
-
-            $('.player').removeClass('play');
-
-            audioElement.pause();
-
-            TweenMax.to('.player__albumImg', 0.2, {
-
-                scale: 1,
-
-                ease: Power0.easeNone
-
-            })
-
-            tl.pause();
-
-        } else {
-
-            $('.player').addClass('play');
-
-            audioElement.play();
-
-            TweenMax.to('.player__albumImg', 0.2, {
-
-                scale: 1.1,
-
-                ease: Power0.easeNone
-
-            })
-
-            tl.resume();
-
-        }
-        
-        
-                             
-                            
-
-            });
-
-        }
-
-        updateInfo();
-
-        audioElement.setAttribute('src', $('.active-song').attr('data-src'));
-
-        audioElement.play(); 
-                             
-                             })
-
-    });
-    
-    
     $('.player__next').click(function () {
 
 
@@ -145,10 +51,49 @@ if ($('.player .player__albumImg.active-song').is(':last-child')) {
     }
     updateInfo();
 
+    $('.player__next').click(function () {
+        if ($('.player').hasClass('play')) {
+            $('.player').removeClass('play');
+            audioElement.pause();
+            TweenMax.to('.player__albumImg', 0.2, {
+                scale: 1,
+                ease: Power0.easeNone
+            })
+            tl.pause();
+        } else {
+            $('.player').addClass('play');
+            audioElement.play();
+            TweenMax.to('.player__albumImg', 0.2, {
+                scale: 1.1,
+                ease: Power0.easeNone
+            })
+            tl.resume();
+        }
+
+    });
 
 
     
+     $('.player__next').click(function () {
+        if ($('.player').hasClass('play')) {
+            $('.player').removeClass('play');
+            audioElement.pause();
+            TweenMax.to('.player__albumImg', 0.2, {
+                scale: 1,
+                ease: Power0.easeNone
+            })
+            tl.pause();
+        } else {
+            $('.player').addClass('play');
+            audioElement.play();
+            TweenMax.to('.player__albumImg', 0.2, {
+                scale: 1.1,
+                ease: Power0.easeNone
+            })
+            tl.resume();
+        }
 
+    });
 
     $('.player__pause').click(function () {
          if ($('.player .player__albumImg.active-song').is(':last-child')) {
