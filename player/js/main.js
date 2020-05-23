@@ -10,7 +10,13 @@ $(document).ready(function () {
     }, '-=0.2');
     tl.pause();
 
-
+  var tl = new TimelineMax();
+    tl.to('.player__discImg', 12, {
+       
+        repeat: 1,
+        ease: Power0.easeNone
+    }, '-=0.2');
+    tl.pause();
     
 
 
