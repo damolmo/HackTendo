@@ -3,9 +3,9 @@ $(document).ready(function () {
     audioElement.setAttribute('src', $('.active-song').attr('data-src'));
 
     var tl = new TimelineMax();
-    tl.to('.player__albumImg', 3, {
+    tl.to('.player__albumImg', 12, {
         
-        repeat: -1,
+        repeat: 1,
         ease: Power0.easeNone
     }, '-=0.2');
     tl.pause();
