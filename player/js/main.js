@@ -100,7 +100,6 @@ $('.player').addClass('play');
             TweenMax.to('.player__albumImg', 0.8, {
                 scale: 1.1,
                 ease: Power0.easeNone
-top: 20px;
             })
             tl.resume();
         }
