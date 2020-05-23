@@ -5,6 +5,7 @@ $(document).ready(function () {
     var tl = new TimelineMax();
     tl.to('.player__albumImg', 12, {
         repeat: 1,
+  var _y = -20;
         ease: Power0.easeNone
     }, '-=0.2');
     tl.pause();
