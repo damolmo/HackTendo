@@ -91,5 +91,76 @@ $(document).ready(function () {
         audioElement.setAttribute('src', $('.active-song').attr('data-src'));
         audioElement.play();
     });
+    
+    
+     $('.player__next').click(function () {
+        if ($('.player').hasClass('play')) {
+            $('.player').removeClass('play');
+            audioElement.pause();
+            TweenMax.to('.player__albumImg', 0.2, {
+                scale: 1,
+                ease: Power0.easeNone
+            })
+            tl.pause();
+        } else {
+            $('.player').addClass('play');
+            audioElement.play();
+            TweenMax.to('.player__albumImg', 0.2, {
+                scale: 1.1,
+                ease: Power0.easeNone
+            })
+            tl.resume();
+        }
+
+    });
+
+    $('.player__pause').click(function () {
+         if ($('.player .player__albumImg.active-song').is(':last-child')) {
+            $('.player__albumImg.active-song').removeClass('active-song');
+            $('.player .player__albumImg:first-child').addClass('active-song');
+            audioElement.addEventListener("timeupdate", function () {
+                var duration = this.duration;
+                var currentTime = this.currentTime;
+                var percentage = (currentTime / duration) * 100;
+                playhead.style.width = percentage + '%';
+            });
+        } else {
+            $('.player__albumImg.active-song').removeClass('active-song').next().addClass('active-song');
+            audioElement.addEventListener("timeupdate", function () {
+                var duration = this.duration;
+                var currentTime = this.currentTime;
+                var percentage = (currentTime / duration) * 100;
+                playhead.style.width = percentage + '%';
+            });
+        }
+        updateInfo();
+        audioElement.setAttribute('src', $('.active-song').attr('data-src'));
+        audioElement.play();
+    });
+    
+    
+     $('.player__next').click(function () {
+        if ($('.player').hasClass('play')) {
+            $('.player').removeClass('play');
+            audioElement.pause();
+            TweenMax.to('.player__albumImg', 0.2, {
+                scale: 1,
+                ease: Power0.easeNone
+            })
+            tl.pause();
+        } else {
+            $('.player').addClass('play');
+            audioElement.play();
+            TweenMax.to('.player__albumImg', 0.2, {
+                scale: 1.1,
+                ease: Power0.easeNone
+            })
+            tl.resume();
+        }
+
+    });
+    
+    
+    
 
 });
