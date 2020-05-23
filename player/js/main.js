@@ -4,6 +4,7 @@ $(document).ready(function () {
 
     var tl = new TimelineMax();
     tl.to('.player__albumImg', 12, {
+position: relative;
          top: -20px;
         repeat: 1,
         ease: Power0.easeNone
