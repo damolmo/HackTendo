@@ -62,7 +62,17 @@ if ($('.player .player__albumImg.active-song').is(':last-child')) {
 
     
 $('.player__next').click(function () {
-        if $('.player').addClass('play');
+        if ($('.player').hasClass('play')) {
+            $('.player').removeClass('play');
+            audioElement.pause();
+            TweenMax.to('.player__albumImg', 0.2, {
+                scale: 1,
+                ease: Power0.easeNone
+            })
+            tl.pause();
+        } else {
+
+$('.player').addClass('play');
             audioElement.play();
             TweenMax.to('.player__albumImg', 0.2, {
                 scale: 1.1,
