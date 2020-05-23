@@ -4,7 +4,7 @@ $(document).ready(function () {
 
     var tl = new TimelineMax();
     tl.to('.player__albumImg', 12, {
-       
+        rotation: '180deg',
         repeat: 1,
         ease: Power0.easeNone
     }, '-=0.2');
