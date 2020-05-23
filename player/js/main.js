@@ -66,7 +66,7 @@ $('.player__next').click(function () {
             $('.player').removeClass('play');
             audioElement.pause();
             TweenMax.to('.player__albumImg', 0.8, {
-                scale: 1,
+                scale: 3,
                 ease: Power0.easeNone
             })
             tl.pause();
@@ -90,7 +90,7 @@ $('.player').addClass('play');
             $('.player').removeClass('play');
             audioElement.pause();
             TweenMax.to('.player__albumImg', 0.8, {
-                scale: 1,
+                scale: 3,
                 ease: Power0.easeNone
             })
             tl.pause();
@@ -110,7 +110,7 @@ $('.player').addClass('play');
             $('.player').removeClass('play');
             audioElement.pause();
             TweenMax.to('.player__albumImg', 0.8, {
-                scale: 1,
+                scale: 3,
                 ease: Power0.easeNone
             })
             tl.pause();
@@ -132,7 +132,7 @@ $('.player').addClass('play');
             $('.player').removeClass('play');
             audioElement.pause();
             TweenMax.to('.player__albumImg', 0.8, {
-                scale: 1,
+                scale: 3,
                 ease: Power0.easeNone
             })
             tl.pause();
