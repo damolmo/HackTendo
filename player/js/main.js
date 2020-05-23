@@ -10,7 +10,7 @@ $(document).ready(function () {
     }, '-=0.2');
     tl.pause();
 
-    $('.player__play').click(function () {
+    $('.player__next').click(function () {
 
 
 if ($('.player .player__albumImg.active-song').is(':last-child')) {
