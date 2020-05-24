@@ -31,16 +31,8 @@ $('.player__play').click(function () {
                 ease: Power0.easeNone
             })
             tl.pause();
-        } else {
-            ($('.player').hasClass('play')) {
-            $('.player').removeClass('play');
-            audioElement.pause();
-            TweenMax.to('.player__albumImg', 0.8, {
-                scale: 1,
-                ease: Power0.easeNone
-            })
-            tl.pause();
-        }
+      tl.resume()
+        
 
     });
 
