@@ -81,28 +81,28 @@ section .wave1.wave1{
  z-index: 1000px;
  opacity: 1;
 animation-delay: -5s;
- bottom: 200px;
+ bottom: 170px;
 }
 section .wave2.wave2{
  animation: animate 4s linear infinite;
  z-index: 1000px;
  opacity: 1;
 animation-delay: -5s;
- bottom: 160px;
+ bottom: 150px;
 }
 section .wave3.wave3{
  animation: animate 8s linear infinite;
  z-index: 1000px;
  opacity: 1;
 animation-delay: -5s;
- bottom: 120px;
+ bottom: 130px;
 }
 section .wave4.wave4{
  animation: animate 2s linear infinite;
  z-index: 1000px;
  opacity: 1;
 animation-delay: -5s;
- bottom: 80px;
+ bottom: 120px;
 }
 
 section .wave5.wave5{
@@ -110,7 +110,7 @@ section .wave5.wave5{
  z-index: 1000px;
  opacity: 1;
 animation-delay: -5s;
- bottom: 40px;
+ bottom: 100px;
 }
 
 section .wave6.wave6{
