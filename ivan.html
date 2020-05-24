@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="en">
+	
   <head>
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.2/plyr.css"/>
     <link rel="stylesheet" type="text/css" href="wavesivan.css">
     <link rel="stylesheet" href="https://cdn.plyr.io/3.5.10/plyr.css"/>
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -892,7 +894,7 @@ var element = document.getElementsByClassName("w3-white");
           <div class="logo-font android-sub-slogan">Esta es una página muy gay con algunos proyectos y algo de música.</div>	
   <br>	
 	
-			 
+			<div class="js-player" data-plyr-embed-id="DyA64VLVfds" data-plyr-provider="youtube"></div> 
 		      
     
         </div>
@@ -1013,9 +1015,11 @@ function main () {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="player/js/main.js"></script>
+<script src="https://cdn.plyr.io/3.6.2/plyr.js"></script>
     
-    
-	    
+<script>//<![CDATA[
+const players = Array.from(document.querySelectorAll('.js-player')).map(player => new Plyr(player));
+//]]></script>  
 	  
   </body>	
 				  
