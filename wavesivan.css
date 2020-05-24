@@ -77,48 +77,48 @@ section .wave6{
 
 
 section .wave1.wave1{
- animation: animate 30s linear infinite;
+ animation: animate 2s linear infinite;
  z-index: 1000px;
  opacity: 1;
-animation-delay: 0s;
- bottom: 120px;
+animation-delay: -5s;
+ bottom: 200px;
 }
 section .wave2.wave2{
- animation: animate 30s linear infinite;
+ animation: animate 4s linear infinite;
  z-index: 1000px;
  opacity: 1;
-animation-delay: 0s;
- bottom: 100px;
+animation-delay: -5s;
+ bottom: 160px;
 }
 section .wave3.wave3{
- animation: animate 30s linear infinite;
+ animation: animate 8s linear infinite;
  z-index: 1000px;
  opacity: 1;
-animation-delay: 0s;
- bottom: 80px;
+animation-delay: -5s;
+ bottom: 120px;
 }
 section .wave4.wave4{
- animation: animate 30s linear infinite;
+ animation: animate 12s linear infinite;
  z-index: 1000px;
  opacity: 1;
-animation-delay: 0s;
- bottom: 60px;
+animation-delay: -5s;
+ bottom: 80px;
 }
 
 section .wave5.wave5{
-  animation: animate 30s linear infinite;
+  animation: animate 16s linear infinite;
  z-index: 1000px;
  opacity: 1;
-animation-delay: 0s;
+animation-delay: -5s;
  bottom: 40px;
 }
 
 section .wave6.wave6{
- animation: animate 30s linear infinite;
+ animation: animate 20s linear infinite;
  z-index: 1000px;
  opacity: 1;
-animation-delay: 0s;
- bottom: 20px;
+animation-delay: -5s;
+ bottom: 0px;
 }
 
 @keyframes animate{
