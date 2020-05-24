@@ -26,19 +26,20 @@ $('.player__play').click(function () {
         if ($('.player').hasClass('play')) {
             $('.player').removeClass('play');
             audioElement.pause();
-            TweenMax.to('.player__albumImg', 0.2, {
+            TweenMax.to('.player__albumImg', 0.8, {
                 scale: 1,
                 ease: Power0.easeNone
             })
             tl.pause();
         } else {
-            $('.player').addClass('play');
-            audioElement.play();
-            TweenMax.to('.player__albumImg', 0.2, {
-                scale: 1.1,
+            ($('.player').hasClass('play')) {
+            $('.player').removeClass('play');
+            audioElement.pause();
+            TweenMax.to('.player__albumImg', 0.8, {
+                scale: 1,
                 ease: Power0.easeNone
             })
-            tl.resume();
+            tl.pause();
         }
 
     });
