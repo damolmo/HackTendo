@@ -1,0 +1,27 @@
+#note {
+    padding-left: 300px;
+    padding-top: 20px;
+}
+
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #4fc3f7 !important;
+    box-shadow: 0 1px 0 0 #4fc3f7 !important;
+}
+
+.input-field textarea:focus {
+    border-bottom: 1px solid #4fc3f7 !important;
+    box-shadow: 0 1px 0 0 #4fc3f7 !important;
+}
+
+.delete-item {
+    cursor: pointer;
+}
+
+.note-title {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.modal-content {
+    margin-bottom: -30px;
+}
