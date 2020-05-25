@@ -81,7 +81,6 @@ section .wave1.wave1{
  z-index: 1000px;
  opacity: 1;
 animation-delay: -5s;
- top:140px;
  bottom: 150px;
 }
 section .wave2.wave2{
