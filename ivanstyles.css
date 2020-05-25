@@ -174,7 +174,7 @@ background-color: #000000;
 
 .android-be-together-section {
   position: relative;
-  height: 800px;
+  height: auto;
   width: auto;
   background-color: #ffffff;
   background: url('images/slide01.jpg') center 30% no-repeat;
