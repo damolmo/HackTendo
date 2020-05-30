@@ -283,9 +283,9 @@ font-family: 'Open Sans', ;
 
 .android-tv {
   display: inline-block;
-  width: 380px;
-  margin-right: 100px;
-margin-left: 30px;
+  width: 450px;
+  margin-right: 10px;
+margin-left: 10px;
 }
 
   .android-tv .android-screen-image {
