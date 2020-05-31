@@ -86,6 +86,31 @@ font-color: white;
   background-color: black;
   color: white;
 	}
+	    
+	    
+	.cuborosa {
+  background-color: #9d2ba0;
+  color: white;
+	}    
+	    
+	.cuboverde {
+  background-color: #46a048;
+  color: white;
+	}     
+	    
+	    .cuboazul {
+  background-color: #202b76;
+  color: white;
+	} 
+	    
+	    .cuboamarillo {
+  background-color: #e7ec37;
+  color: white;
+	} 
+	    
+	    
+	    
+	    
  .dark-waves {
 background: #000000;   
 
@@ -468,6 +493,33 @@ color: white;
 
   </head>
   <body>
+	  
+	 <script>
+function verde() {
+   var element = document.body;
+   element.classList.toggle("cuboverde");  
+	     </script>
+	  
+	   <script>
+function azul() {
+   var element = document.body;
+   element.classList.toggle("cuboazul");  
+	     </script>
+	  
+	  
+	   <script>
+function rosa() {
+   var element = document.body;
+   element.classList.toggle("cuborosa");  
+	     </script>
+	  
+	   <script>
+function ama() {
+   var element = document.body;
+   element.classList.toggle("cuboamarillo");  
+	     </script>
+	  
+	  
     <script>
 function myFunction() {
    var element = document.body;
@@ -970,19 +1022,19 @@ var element = document.getElementsByClassName("w3-white");
 		 <div class="android-screens">
 					   <div class="android-wear android-screen">
               <a class="android-image-link" href="#">
-                <img class="android-screen-image" src="cubor.png">
+                <img onclick="rosa()" img class="android-screen-image" src="cubor.png">
               </a>
               <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href=""></a>
             </div>    
             <div class="android-wear android-screen">
               <a class="android-image-link" href="#">
-                <img class="android-screen-image" src="cubov.png">
+               <img onclick="verde()" img class="android-screen-image" src="cubov.png">
               </a>
               <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href=""></a>
             </div>
 	    <div class="android-wear android-screen">
               <a class="android-image-link" href="#">
-                <img class="android-screen-image" src="cuboa.png">
+               <img onclick="azul()" img class="android-screen-image" src="cuboa.png">
               </a>
               <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href=""></a>
             </div>
@@ -991,7 +1043,7 @@ var element = document.getElementsByClassName("w3-white");
 		
 	    <div class="android-wear android-screen">
               <a class="android-image-link" href="#">
-                <img class="android-screen-image" src="cuboam.png">
+                <img onclick="ama()" img class="android-screen-image" src="cuboam.png">
               </a>
               <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href=""></a>
             </div>												 
