@@ -63,7 +63,24 @@ font-color: white;
   animation: text2;
 font-color: white;
 }
-.text_1, .text_2 {
+.text_3 {
+  animation: text2;
+font-color: white;
+}
+.text_4 {
+  animation: text2;
+font-color: white;
+}
+.text_5 {
+  animation: text2;
+font-color: white;
+}
+
+.text_6 {
+  animation: text2;
+font-color: white;
+}
+.text_1, .text_2, .text_3, .text_4, .text_5, .text_6, {
   overflow: hidden;
   white-space: nowrap;
   display: inline-block;
@@ -72,7 +89,7 @@ font-color: white;
   animation-timing-function: steps(25, end);
   animation-iteration-count: infinite;
 }
-.text_1::after, .text_2::after {
+.text_1::after, .text_2::after, text_3::after, text_4::after, text_5::after, text_6::after {
   content: "|";
   position: absolute;
   right: 0;
@@ -102,8 +119,49 @@ font-color: white;
 
   }
 }
+@keyframes text3 {
+  0%, 50%, 100% {
+    width: 0;
+  }
+  10%, 40% {
+    width: 8em;
+font-color: white;
+
+  }
+}
+
+@keyframes text4 {
+  0%, 50%, 100% {
+    width: 0;
+  }
+  10%, 40% {
+    width: 8em;
+font-color: white;
+
+  }
+}
 
 
+@keyframes text5 {
+  0%, 50%, 100% {
+    width: 0;
+  }
+  10%, 40% {
+    width: 8em;
+font-color: white;
+
+  }
+
+@keyframes text6 {
+  0%, 50%, 100% {
+    width: 0;
+  }
+  10%, 40% {
+    width: 8em;
+font-color: white;
+
+  }
+}
 .dark-mode {
   background-color: black;
   color: white;
