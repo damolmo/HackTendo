@@ -6,7 +6,7 @@ section{
  position: relative;
  width: 100%;
  height: 100vh;
- background:  	#9932CC
+ background: #9932CC;
  overflow: hidden;
 }
 section .wave{
