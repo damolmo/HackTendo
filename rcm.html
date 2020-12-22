@@ -72,11 +72,25 @@ color: #FFFFFF;
 background-color: #000000;   
 color: #FFFFFF;
 }    	     
+	  
 	    
-			.soli {
+	.chocolate {
+background-color: #000000;   
+color: #FFFFFF;
+}    	         
+	    
+	    
+	    
+			.bionic {
 background-color: #000000;   
 color: #FFFFFF;
 }    	     
+			.soli {
+background-color: #000000;   
+color: #FFFFFF;
+}    
+	    
+  
 	    
 	    
 	.google {
@@ -424,6 +438,12 @@ function myFunction() {
 	  var element = document.getElementById("sailfish");
   element.classList.toggle("sailfish");
 	
+	  var element = document.getElementById("bionic");
+  element.classList.toggle("bionic");
+	
+	var element = document.getElementById("chocolate");
+  element.classList.toggle("chocolate");
+	
 	  var element = document.getElementById("n3ds");
   element.classList.toggle("n3ds");
 	  var element = document.getElementById("switch");
@@ -522,54 +542,34 @@ var element = document.getElementsByClassName("w3-white");
     </a>
 
       <ul class="sidenav" id="menu-side">
-      <li>   
-	     <a href="https://www.hacktendo.net/m4r10"><img src="start.gif" style=max-width:100% alt=""> </a>
-		 <br/>
-        <div class="user-view">
-          <div class="background">
-          <img src="pages/decompilation/mar.gif"  style=max-width:100% alt=""></a>
-          </div>
-          
-          </a>
-          <a href="">
-<br/>
-		  <br />
-		 <br />
-		  <br />  
-            <span class="name black-text">HackTendo.net</span>
-          </a>
-          <a href="">
-
-            <span class="email black-text">Comunidad de hacking hispana</span>
-          </a>
-		 
-		
-        </div>
-      </li>
-       <div class="divider"></div>
-
+      <li id="bionic">   
+	
+<br />
+	<br />
+	    <br />
+	      <br />
       <li id="home"> 
         <a href="https://www.hacktendo.net/index.html">
             <i class="material-icons md-light" style="color: red"><b id="me">home</b></i>
          <b><span style="color: #565656;">Inicio</span></b>
         </a>
-      </li>
+      
 			
 	    	 
 		<li class="submenu" id="google">
 			
-					<a href="#"> <i class="material-icons"  style="color:green" >android</i><b id="soli"><span style="color: #565656;">Google</span></b></a>
+					<a href="#"> <i class="material-icons"  style="color:green">android</i><b id="soli"><span style="color: #575757;">Google</span></b></a>
 					<ul class="children" style="display: none;">
          
 <li><a href="https://www.hacktendo.net/chromeos"><i class="material-icons" style="color:orange" >description</i><b id="zircon"><span style="color: #777777;">ChromeOS</span></b></a></li>
-			</ul>
+		</ul>
    	 </li> 
 	  
 
 
  	<li class="submenu" id="android">
 			
-					<a href="#"> <i class="material-icons" style="color:blue">videogame_asset</i><b id="nn"><span style="color: #565656;">Nintendo 3DS</span></b></a>
+					<a href="#"> <i class="material-icons" style="color:blue">videogame_asset</i><b id="nn"><span style="color: #575757;">Nintendo 3DS</span></b></a>
 					<ul class="children" style="display: none;">
          
 <li><a href="https://www.hacktendo.net/A9LH"><i class="material-icons" style="color:orange" >description</i><b id="ncero"><span style="color: #777777;">A9LH a B9S</b></a></li>
@@ -588,15 +588,17 @@ var element = document.getElementsByClassName("w3-white");
 
 		<li class="submenu" id="zali">
 			
-					<a href="#"> <i class="material-icons" style="color:blue">videogame_asset</i><b id="nn"><span style="color: #565656;">Nintendo Switch</span></b></a>
+					<a href="#"> <i class="material-icons" style="color:blue">videogame_asset</i><b id="nn"><span style="color: #575757;">Nintendo Switch</span></b></a>
 					<ul class="children" style="display: none;">
          
 <li><a href="https://www.hacktendo.net/rcm"><i class="material-icons" style="color:orange" >description</i><b id="ncero"><span style="color: #777777;">Acceder RCM</span></b></a></li>
- <li><a href="https://www.hacktendo.net/choidujournx"><i class="material-icons" style="color:orange" >description</i><b id="ncero"><span style="color: #777777;">Actualizar Offline</span></b></a></li>
+ <li><a href="https://www.hacktendo.net/daybreak"><i class="material-icons" style="color:orange" >description</i><b id="ncero"><span style="color: #777777;">Actualizar Offline</span></b></a></li>
  <li><a href="https://www.hacktendo.net/android"><i class="material-icons" style="color:orange" >description</i><b id="ncero"><span style="color: #777777;">Android en Switch</span></b></a></li>
  <li><a href="https://www.hacktendo.net/nand"><i class="material-icons" style="color:orange" >description</i><b id="ncero"><span style="color: #777777;">Backup de la NAND</span></b></a></li>
  <li><a href="https://www.hacktendo.net/atmosphere"><i class="material-icons" style="color:orange" >description</i><b id="ncero"><span style="color: #777777;">Ejecutar CFW</span></b></a></li>
  <li><a href="https://www.hacktendo.net/flog"><i class="material-icons" style="color:orange" >description</i><b id="ncero"><span style="color: #777777;">Ejecutar Flog</span></b></a></li>
+			 <li><a href="https://www.hacktendo.net/SXChips"><i class="material-icons" style="color:orange" >description</i><b id="ncero"><span style="color: #777777;">TX SX Chips</span></b></a></li>
+
 			</ul>
    	 </li> 
  	
@@ -604,7 +606,7 @@ var element = document.getElementsByClassName("w3-white");
      	
 		<li class="submenu" id="magenta"  >
 			
-					<a href="#"><i class="material-icons" style="color:blue">videogame_asset</i><b id="nn"><span style="color: #565656;">Nintendo WiiU</span></b></a>
+					<a href="#"><i class="material-icons" style="color:blue">videogame_asset</i><b id="nn"><span style="color: #575757;">Nintendo WiiU</span></b></a>
 					<ul class="children" style="display: none;">
      <li><a href="https://www.hacktendo.net/mocha"><i class="material-icons" style="color:orange" >description</i><b id="nsetenta"><span style="color: #777777;">Ejecutar MochaCFW</span></b></a></li>
         <li><a href="https://www.hacktendo.net/wiivc"><i class="material-icons"  style="color:orange" >description</i><b id="nochenta"><span style="color: #777777;">Guía WiiVC Injector</span></b></a></li>
@@ -616,7 +618,7 @@ var element = document.getElementsByClassName("w3-white");
 	   
 		<li class="submenu" id="fuchsia">
 			
-					<a href="#"><i class="material-icons" style="color:blue">videogame_asset</i><b id="nn"><span style="color: #565656;">Nintendo DSi</span></b></a>
+					<a href="#"><i class="material-icons" style="color:blue">videogame_asset</i><b id="nn"><span style="color: #575757;">Nintendo DSi</span></b></a>
 					<ul class="children" style="display: none;">
           <li><a href="https://www.hacktendo.net/Bye-UnLaunch"><i class="material-icons" style="color:orange">description</i><b id="ndoscientos"><span style="color: #777777;">Borrar UnLaunch</span></b></a></li>
 	  <li><a href="https://www.hacktendo.net/twlmenu"><i class="material-icons" style="color:orange">description</i><b id="ddoscientos"><span style="color: #777777;">TwiLightMenu++</span></b></a></li>
@@ -628,31 +630,37 @@ var element = document.getElementsByClassName("w3-white");
 		  
 		<li class="submenu" id="sailfish">
 			
-					<a href="#"><i class="material-icons" style="color:blue">videogame_asset</i><b id="nn"><span style="color: #565656;">Nintendo Wii Mini</span></b></a>
+					<a href="#"><i class="material-icons" style="color:blue">videogame_asset</i><b id="nn"><span style="color: #575757;">Nintendo Wii Mini</span></b></a>
 					<ul class="children" style="display: none;">
          
 			 <li><a href="https://www.hacktendo.net/bluebomb"><i class="material-icons" style="color:orange">description</i><b id="nquinientos"><span style="color: #777777;">Ejecutar BlueBomb</span></b></a></li>
-   
+  
 			</ul>
     </li>		
-	
-
+	   <li id="chocolate"> 
+	<br />
+	      <br />
+	  <br />
+	      <br />
+	      <br />
+	      <br />     
+  
         </li>
 
     </ul>
-  
-  </li>
-			
+ </li>
+	</li>	
+	     <br />	
 	  <div class="android-bi-together-section mdl-typography--text-center">
 	 <div class="logo-font android-slogan">Bienvenido a HackTendo.</div>	
           <div class="logo-font android-sub-slogan">Una página sobre la Scene de consolas de Nintendo.</div>	
-  <br>	
+ 	
 			   <br> 	
 			   <br>	
-		    <a href="https://t.me/HackTendoNet" target="whatever"><img border="0" src="images/telegram.png"  style=max-width:100%     alt=""></a>	
+		       <a href="https://t.me/HackTendoNet" target="whatever"><img border="0" src="images/telegram.png"  style=max-width:100%     alt=""></a>	
 
-		    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ivanthenintendogamer@gmail.com&su=Iv%C3%A1n&body=&bcc=" target="whatever"><img border="0" src="images/gmail.png" style=max-width:100%    alt=""></a>	
-	
+		    <a href="https://github.com/daviiid99" target="whatever"><img border="0" src="github.png"  style=max-width:100%     alt=""></a>	
+
 		  
 		  <br> <br>
 		  	 </div> 
@@ -1002,13 +1010,8 @@ s.setAttribute('data-timestamp', +new Date());
       </div>
     </div>
    
-    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-	              <audio autoplay>
-  <source src="music.mp3" type="audio/mpeg" loop="on">
-Your browser does not support the audio element.
-</audio>               
-
- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js">
+     <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js">
   </script>
 
   <script>
@@ -1043,8 +1046,7 @@ Your browser does not support the audio element.
 <!-- Initialize material-scrolltop (minimal) -->
 <script>
   $('body').materialScrollTop(); 
-</script>
-	</script>    
+</script>    
 	    
 	    
 	    	    <script>
@@ -1071,10 +1073,10 @@ function main () {
 		$(this).children('.children').slideToggle();
 	});
 }
-</script>    
-  </body>
-					  
-		
-        		  
-	
-</html>
+</script>
+	  
+	    
+	  
+  </body>	
+				  
+</html> 
