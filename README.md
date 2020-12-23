@@ -17,6 +17,8 @@ This site is designed with Google ™ Material Design and the source code is ava
 
 <br/>
 <br/>
+<br/>
+
 <b>Guides&Tutorials</b>
 
 ```
@@ -26,7 +28,9 @@ Nintendo WiiU
 Nintendo DSi
 Nintendo Wii Mini
 ```
+
 <br/>
+
 <b>Downloads&Packages</b>
 <br/>
 
