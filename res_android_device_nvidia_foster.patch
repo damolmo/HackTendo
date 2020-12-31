@@ -1,0 +1,7 @@
+diff --git a/board-info.txt b/board-info.txt
+index e474bb1..ef7dcaa 100644
+--- a/board-info.txt
++++ b/board-info.txt
+@@ -1 +1 @@
+-require version-bootloader=32.00.2019.50-t210-4770dc8f|32.00.2019.50-t210-2264b7d0|24.00.2015.42-t210-39c6cadc|2020.04-00022-gdb8327930e
++require version-bootloader=32.00.2019.50-t210-4770dc8f|32.00.2019.50-t210-2264b7d0|24.00.2015.42-t210-39c6cadc|2020.04-03752-gf3c99a2288
