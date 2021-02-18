@@ -4,107 +4,18 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="style.css" />
-  <link href="favicon.png" rel="icon"  type="image/x-icon" />
-  <title>Switch Payload Loader v1.5.2</title>
-
-  <script src="./i18n/en-US.js"></script>
-  <script src="./i18n/it-IT.js"></script>
-  <script src="./i18n/pt-BR.js"></script>
-  <script src="./i18n/de-DE.js"></script>
-  <script src="./i18n/es-MX.js"></script>
-  <script src="./i18n/pl-PL.js"></script>
-  <script src="./i18n/zh-CN.js"></script>
-  <script src="./i18n/zh-TW.js"></script>
-  <script src="./i18n/ru-RU.js"></script>
-  <script src="./i18n/fr-FR.js"></script>
-  <script src="./i18n/du-NL.js"></script>
   <script src="./i18n.js"></script>
 
   <!-- JQuery: needed for some Bootstrap Components -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-  <!-- Bootstrap 3 framework -->
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
 </head>
 
 <body class="container-fluid" id="pageBody">
-  <div class="row" id="title">
-    <h1 id="pageTitle">Nintendo Switch Payload Loader</h1>
-    <h4 id="pageSubtitle">Fusee Launcher ported to JavaScript using WebUSB.</h4>
-  </div>
-
-  <div class="row margin-top-md">
-    <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
-      <div class="btn-group" role="group" aria-label="...">
-        <a class="btn btn-info" href="#" onclick="setPageLanguage('en-US')">English</a>
-        <a class="btn btn-info" href="#" onclick="setPageLanguage('it-IT')">Italiano</a>
-        <a class="btn btn-info" href="#" onclick="setPageLanguage('pt-BR')">Português</a>
-        <a class="btn btn-info" href="#" onclick="setPageLanguage('de-DE')">Deutsch</a>
-        <a class="btn btn-info" href="#" onclick="setPageLanguage('es-MX')">Español</a>
-        <a class="btn btn-info" href="#" onclick="setPageLanguage('pl-PL')">Polski</a>
-        <a class="btn btn-info" href="#" onclick="setPageLanguage('zh-CN')">简体中文</a>
-        <a class="btn btn-info" href="#" onclick="setPageLanguage('zh-TW')">繁体中文</a>
-        <a class="btn btn-info" href="#" onclick="setPageLanguage('ru-RU')">Русский</a>
-        <a class="btn btn-info" href="#" onclick="setPageLanguage('fr-FR')">French</a>
-        <a class="btn btn-info" href="#" onclick="setPageLanguage('du-NL')">Nederlands</a>
-      </div>
-    </div>
-  </div>
 
 
   <div class="row margin-top-md" id="infodiv">
     <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
 
-      <div class="alert alert-danger" role="alert">
-        <p id="dangerDanger">This is moderately tested. Although no issues have been discovered, we're not responsible if anything goes wrong!</p>
-      </div>
-
-      <div class="alert alert-warning alert-dismissible" role="alert">
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <p id="warningWindows">This may or may not work on Windows due to a limitation in the Chrome implementation of WebUSB (and probably other reasons!). In our testing, it will sometimes work so give it a shot, but be wary.</p>
-      </div>
-
-      <div class="alert alert-warning alert-dismissible" role="alert">
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <p id="warningBrowser">This does ONLY work on chromium-based browsers (Brave, Chrome, etc.), as they are the only ones with a working WEBCFW implementation.</p>
-      </div>
-
-      <div class="alert alert-warning alert-dismissible" role="alert">
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <p id="warningLinux">On Linux, you might get an 'Access Denied' or 'No Compatible Device' error on the Connect dialog! If you do, you can try creating a file at <code>/etc/udev/rules.d/50-switch.rules</code>With the following contents:<br><code>SUBSYSTEM=="usb", ATTR{idVendor}=="0955", MODE="0664", GROUP="plugdev"</code> and afterwards add yourself to the plugdev group by typing <code>sudo usermod -a -G plugdev YOUR_NAME</code></p>
-      </div>
-
-      <div class="alert alert-warning alert-dismissible" role="alert">
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <p id="warningTested">This has been tested and appears to work on Linux, OSX, Android (unrooted) and Chromebooks. Your mileage may vary.</p>
-      </div>
-
-      <div class="alert alert-info" role="alert">
-        <p><strong id="labelInstructions">Instructions:</strong></p>
-        <ul>
-          <li id="liRCM">Put the Switch in RCM, and connect it to your device.</li>
-          <li id="liSelect">Select either the example payload, or upload one.</li>
-          <li id="liPress">Press 'Deliver Payload!'</li>
-          <li id="liAPX">On the consent screen that appears, select 'APX' and hit 'Connect'.</li>
-          <li id="liLaunch">If all goes well, the payload will launch!</li>
-        </ul>
-      </div>
-
-      <div class="alert alert-info" role="alert">
-        <p>Switch Hacking Guide: <strong><a href="https://guide.teamatlasnx.com">CLICK HERE</a></strong></p>
-      </div>
-
-      <div class="alert alert-info" role="alert">
-        <p id="labelContribute">If you would like to help adding another translation or updating/adding a payload, check <a href="https://github.com/AtlasNX/web-cfw-loader/blob/master/CONTRIBUTING.md">this</a>.</p>
-      </div>
-    </div>
-  </div>
 
   <div class="row">
     <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
@@ -166,14 +77,5 @@
   <script src="./payloads/fusee_ams.js"></script>
   <script src="./main.js"></script>
 </body>
-
-<div class="row margin-top-md" id="page-footer">
-  <div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
-      <div id="disclaimer">
-          <p id="disclaimer1">Source can be found on <a href="https://github.com/lordfriky/web-cfw-loader" target="_blank">GitHub</a> (or by hitting view source, there is no backend!).</p>
-          <p id="disclaimer2">© <a href="https://twitter.com/lord_friky" target="_blank">Lord Friky</a> 2020</p>
-        </div>
-  </div>
-</div>
 
 </html>
