@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-@media only screen and (max-device-width: 768px) {
+@media only screen and (max-device-width: 360px) {
   #title h1 {
     font-size: 5vw;
   }
@@ -17,7 +17,7 @@
 
 body {
   margin-top: 0px;
-  margin-left: 0px;
+  margin-left: auto;
   margin-right: auto;
   font-family: 'Open Sans', sans-serif;
 }
