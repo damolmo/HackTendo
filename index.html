@@ -770,44 +770,15 @@ var element = document.getElementsByClassName("w3-white");
        <div class="mdl-typography--display-1-color-contrast">   
 <i class="material-icons" style="color:green">attach_file</i>  
 <b>Lanzador Payloads</span></h2></b></div>
-  <form id="mainForm">
-          <div class="row">
-            <div class="col-xs-6">
-              <select class="pull-right"    id="payloadSelect" onchange="onSelectChange()">
-                <option value="Hekate" id="optionHekate" >Hekate</option>
-                <option value="Atmosphere" id="optionFuseePrimary" >Atmosphère</option>
-                <option value="uploaded"    id="optionUpload"   >Subir payload...</option>
-              </select>
-            </div>
-
-          <div class="row" id="uploadContainer" style="display: none">
-            <div class="col-xs-12">
-              <input style="float: right" type="file" id="payloadUpload" accept=".bin"/>
-            </div>
-          </div>
-	 </div>	
-        </form>
-      <!doctype html>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="style.css" />
-  <script src="./i18n.js"></script>
-
-  <!-- JQuery: needed for some Bootstrap Components -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-</head>
-
 <body class="container-fluid" id="pageBody">
 
 
       
-
-       
-            <button class="btn btn-primary btn-lg btn-block" id="optionFuseePrimary" id="goButton">Enviar Atmosphere</button>
-             <button class="btn btn-primary btn-lg btn-block" id="optionHekate" id="goButton">Enviar Hekate</button>
-
+<select class="pull-right"    id="payloadSelect" onchange="onSelectChange()">
+       <option value="Hekate" id="optionHekate" >Hekate</option>
+<option value="Atmosphere" id="optionFuseePrimary" >Atmosphère</option>
+<button class="btn btn-primary btn-lg btn-block" id="goButton">Enviar</button>
+</select>
     </div>
   </div>
 
