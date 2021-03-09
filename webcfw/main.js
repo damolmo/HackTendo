@@ -181,7 +181,7 @@ document.getElementById("goButton").addEventListener("click", async () => {
     logOutput(payloadToLog);
     console.log(document.getElementById("payloadUpload").files[0]);
     return;
-  }
+  } 
 
   logOutput(`<span style='color:blue'>Preparando la subida de ${payloadType}...</span>`);
   launchPayload(payload);
