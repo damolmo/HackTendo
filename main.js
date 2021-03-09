@@ -98,7 +98,7 @@ let device;
 
 async function launchPayload(payload) {
   await device.open();
-  logOutput(`Connected to ${device.manufacturerName} ${device.productName}`);
+  logOutput(`Conectado a ${device.manufacturerName} ${device.productName}`);
 
   if (device.configuration === null) {
     await device.selectConfiguration(1);
@@ -110,16 +110,16 @@ async function launchPayload(payload) {
   logOutput(`Device ID: ${bufferToHex(deviceID.data)}`);
 
   const rcmPayload = createRCMPayload(intermezzo, payload);
-  logOutput("Sending payload...");
+  logOutput("Enviando payload...");
   const writeCount = await write(device, rcmPayload);
-  logOutput("Payload sent!");
+  logOutput("Payload enviado!");
 
   if (writeCount % 2 !== 1) {
-    logOutput("Switching to higher buffer...");
+    logOutput("Aumentando tamaño del buffer...");
     await device.transferOut(1, new ArrayBuffer(0x1000));
   }
 
-  logOutput("Trigging vulnerability...");
+  logOutput("Explotando vulnerabilidad...");
   const vulnerabilityLength = 0x7000;
   const smash = await device.controlTransferIn({
     requestType: 'standard',
@@ -139,12 +139,12 @@ document.getElementById("goButton").addEventListener("click", async () => {
 
   if(!debugCheckbox.checked) {
 
-  logOutput("Requesting access to device...");
+  logOutput("Solicitando acceso al dispositivo...");
   try {
     device = await navigator.usb.requestDevice({ filters: [{ vendorId: 0x0955 }] });
   } catch (error) {
     console.log(error);
-    logOutput("Failed to get a device. Did you chose one?");
+    logOutput("Error al detectar el dispositivo. Lo has elegido?");
     return;
   }
   }
@@ -162,16 +162,16 @@ document.getElementById("goButton").addEventListener("click", async () => {
       alert("You need to upload a file, to use an uploaded file.");
       return;
     }
-    logOutput("Using uploaded payload \"" + file.name + "\"");
+    logOutput("Enviando el payload \"" + file.name + "\"");
     payload = new Uint8Array(await readFileAsArrayBuffer(file));
 
   } else {
-    logOutput("<span style='color:red'>You're trying to load a payload type that doesn't exist.</span>");
+    logOutput("<span style='color:red'>El payload que has selecciona no es valido.</span>");
     return;
   }
 
   if(debugCheckbox.checked) {
-    logOutput("Logging payload bytes...");
+    logOutput("Cargando bytes del payload...");
 
     var payloadToLog = "";
     for (var i = 0; i < payload.length; i++) {
@@ -181,9 +181,9 @@ document.getElementById("goButton").addEventListener("click", async () => {
     logOutput(payloadToLog);
     console.log(document.getElementById("payloadUpload").files[0]);
     return;
-  }
+  } 
 
-  logOutput(`<span style='color:blue'>Preparing to launch ${payloadType}...</span>`);
+  logOutput(`<span style='color:blue'>Preparando la subida de ${payloadType}...</span>`);
   launchPayload(payload);
 });
 
