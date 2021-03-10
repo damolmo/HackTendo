@@ -764,14 +764,15 @@ var element = document.getElementsByClassName("w3-white");
 <br/>
 <br/>
 
-       <form id="mainForm">
-	     
-              <select class="pull-center"    id="payloadSelect" onchange="onSelectChange()">
-		      <br/>
+      <form id="mainForm">
+
+              <select class="pull-right"    id="payloadSelect" onchange="onSelectChange()">
                 <option value="uploaded"    id="optionUpload"   >Upload payload</option>
               </select>
 
               <input style="float: center" type="file" id="payloadUpload" accept=".bin"/>
+	      <br/>
+              <input class="pull-center" type="checkbox" name="shouldDebug" id="shouldDebug">
         </form>
           
   </div>
