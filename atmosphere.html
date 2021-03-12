@@ -754,22 +754,18 @@ Más información <b><a href="https://www.hacktendo.net/rcm"><span style="color:
 <br/>
 
 <div style="text-align: center;">
-<span style="font-size: medium;"><b><span style="color: yellow;"></span><span style="color: blue;"> </span>Webapp de Fusée Gelée</b></span></div>
+<span style="font-size: medium;"><b><span style="color: yellow;">Webapp de Fusée Gelée</b></span></div>
 </div>
 <div style="text-align: center;">
 <b>Selecciona el archivo payload deseado de los enlaces inferiores y haz uso de esta webapp de fusée Gelée para subirlo y enviarlo a la consola </b></div><br/>
 (Ten en cuenta que solo funciona en navegadores webs basados en Chromium como Google Chrome o Microsoft Edge)</div>
 <form id="mainForm">
-	     
               <select class="pull-right"    id="payloadSelect" onchange="onSelectChange()">
                 <option value="uploaded"    id="optionUpload"   >Upload payload</option>
               </select>
-
               <input style="float: right" type="file" id="payloadUpload" accept=".bin"/>
               <input class="pull-right" type="checkbox" name="shouldDebug" id="shouldDebug">
         </form>
-          
-  </div>
         <button class="btn btn-primary btn-lg btn-block" id="goButton">Lanzar Payload</button>   
         <div id="output"></div>
         <button class="btn btn-primary btn-lg btn-block" id="clearlogsbutton" onclick="clearLog();">Limpiar Logs</button><br/>
