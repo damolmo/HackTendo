@@ -33,7 +33,6 @@ a img{
 }
 
 .android-search-box .mdl-textfield__input {
-  color: rgba(10,9,9,1);
 }
 
 .android-header .mdl-menu__container {
@@ -178,7 +177,6 @@ background-color: #000000;
 .logo-font {
 font-family: 'Open Sans', ;
   line-height: 1;
-  color: #767777;
   font-weight: 700;
 }
 
@@ -203,7 +201,6 @@ font-family: 'Open Sans', ;
 
   .android-create-character a {
     text-decoration: none;
-    color: #767777;
     font-weight: 300;
   }
 
@@ -311,7 +308,6 @@ font-family: 'Open Sans', ;
   bottom: 0;
   width: 100%;
   text-align: center;
-  background-color: #37474f;
 }
 
 .android-wear-band-text {
@@ -328,7 +324,6 @@ font-family: 'Open Sans', ;
 
 .android-link {
   text-decoration: none;
-  color: #8bc34a !important;
 }
 
   .android-link:hover {
@@ -342,7 +337,6 @@ font-family: 'Open Sans', ;
 
 .android-alt-link {
   text-decoration: none;
-  color: #64ffda !important;
   font-size: 16px;
 }
 
