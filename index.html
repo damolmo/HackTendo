@@ -886,6 +886,15 @@ function main () {
 	});
 }
 </script>
+<script>
+function myFunction() {
+  var x = document.getElementById("credits");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
 	  
 	    
 	  
@@ -893,9 +902,9 @@ function main () {
 <br/>
 <br/>
 <br/>
-<button type="button" onclick="if (this.parentNode.nextSibling.childNodes[0].style.display != '') { this.parentNode.nextSibling.childNodes[0].style.display = ''; } else { this.parentNode.nextSibling.childNodes[0].style.display = 'none';}" />
+<button type="button" onclick="myFunction()">
 ©Creditos<br/>
-<div class="spoiler" style="display: none;">
+<div id="credits" style="display: none;">
 <div style="text-align: center;">
 <a href="https://github.com/LumaTeam">LumaTeam/ </a> 
 <a href="https://github.com/d0k3/GodMode9">GodMode9/ </a>
