@@ -25,12 +25,10 @@ a img{
 }
 
 ::-moz-selection {
-  background-color: #6ab344;
   color: #000000;
 }
 
 ::selection {
-  background-color: #6ab344;
   color: #000000;
 }
 
