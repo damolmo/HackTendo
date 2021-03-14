@@ -338,7 +338,6 @@ font-family: 'Open Sans', ;
 }
 
   .android-link:hover {
-    color: #7cb342 !important;
   }
 
   .android-link .material-icons {
@@ -354,7 +353,6 @@ font-family: 'Open Sans', ;
 }
 
   .android-alt-link:hover {
-    color: #00bfa5 !important;
   }
 
   .android-alt-link .material-icons {
