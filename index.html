@@ -804,7 +804,6 @@ var element = document.getElementsByClassName("w3-white");
    <p></p>
  </div> 
 	<br/><br/>
-	<b>©️HackTendo 2017-2021<b/ 
 
           </footer>
        
@@ -896,11 +895,30 @@ function ShowC() {
   }
 }
 </script>
+
+<script>
+function ShowH() {
+  var x = document.getElementById("history");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
 	  
 </body>
 <br/>
 <br/>
 <br/>
+<div id="history" style="display:none">
+<div style="text-align: center;">
+<br/>
+2017-2021 | Diseñada con Google™ Material Designado por <a href="https://github.com/daviiid99">David</a>
+<br/>
+Todo el contenido de esta pagina es educativo y no apoya el uso de piratería ni la distribución de material con copyright
+</div></div>
+<button onclick="ShowH()">©️HackTendo</button>
 <button onclick="ShowC()">©Creditos</button>
 <br/>
 <div id="credits" style="display:none">
