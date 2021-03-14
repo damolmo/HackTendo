@@ -76,11 +76,9 @@ a img{
 
   .android-header .mdl-layout__drawer-button {
     background: transparent;
-    color: #767777;
   }
 
   .android-header .mdl-navigation__link {
-    color: #757575;
     font-weight: 700;
     font-size: 14px;
   }
@@ -155,7 +153,6 @@ background-color: #000000;
   }
 
   .android-drawer span.mdl-navigation__link.mdl-navigation__link {
-    color: #8bc34a;
   }
 
   .android-drawer .mdl-layout-title {
