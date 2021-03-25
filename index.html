@@ -807,18 +807,14 @@ var element = document.getElementsByClassName("w3-white");
 <br/>
 <p>Estado: <span class="status-field">Sin conexión</span></p>
 <input type="file" style="float: center" name="flash-file" class="flash-file" />
+<input type="text" name="command" placeholder="fastboot flash" class="command-input" />
+<input type="text" name="flash-partition" placeholder="system" class="flash-partition" />
 <br/>
 <button class="btn btn-primary btn-lg btn-block connect-button">Selecciona dispositivo</button>	
 
 <div>
 <br/>
-<input type="text" name="command" class="command-input" />
 <input type="submit" class="btn btn-primary btn-lg btn-block" value="Flashear comando" />
-<input
-type="text"
-name="flash-partition"
-class="flash-partition"
-/>
 <input type="submit" class="btn btn-primary btn-lg btn-block" value="Flashear partición" />
 </div>
 
