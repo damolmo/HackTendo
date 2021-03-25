@@ -1,4 +1,4 @@
-import * as common from "../lib/common.js";
+import * as common from "lib/common.js";
 
 const DB_NAME = "BlobStore";
 const DB_VERSION = 1;
