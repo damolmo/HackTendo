@@ -799,6 +799,47 @@ var element = document.getElementsByClassName("w3-white");
                   <img src="logo3.png"><b><a href="https://github.com/daviiid99/HackTendo/raw/master/payloads/hekate.bin">hekate</a></b>
                   <img src="logo4.png"><b><a href="https://github.com/daviiid99/HackTendo/raw/master/payloads/fusee.bin">Fusée Gelée</a></b>
 <br/>
+
+       <div class="mdl-typography--display-1-color-contrast">   
+<i class="material-icons-outlined" style="color:green">android</i>  
+<b>Fastboot WebApp</span></h2></b>
+
+<p>Status: <span class="status-field">Sin conexión</span></p>
+<button class="connect-button">Selecciona dispositivo</button>
+<br />
+<form class="command-form">
+<label for="command">Escribir comando</label>
+<input type="text" name="command" class="command-input" />
+<input type="submit" value="Enviar" />
+</form>
+<p>Result:</p>
+<pre class="result-field"></pre>
+
+¡<br />
+<form class="flash-form">
+<label for="flash-file">Flashear imagen:</label>
+<input type="file" name="flash-file" class="flash-file" />
+<br />
+<label for="flash-partition">Escribe partición:</label>
+<input
+type="text"
+name="flash-partition"
+class="flash-partition"
+/>
+<input type="submit" value="Flashear" />
+</form>
+<br />
+<p>Progreso: <span class="factory-status-field"></span></p>
+<progress class="factory-progress-bar" max="1" value="0"></progress>
+<button class="reconnect-button" style="display: none;"><h3>Reconectar dispositivo</h3></button>
+<br />
+
+
+
+<script src="fastboot/dist/fastboot.mjs" type="module"></script>
+<script src="fastboot/demo/download.js" type="module"></script>
+<script src="fastboot/demo/ui.js" type="module"></script>
+<br/>
 <br/>
 <br/>
 
