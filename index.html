@@ -816,11 +816,14 @@ var element = document.getElementsByClassName("w3-white");
 <input type="text" name="flash-partition" placeholder="Escribe una partición: system" style="text-align: center;" class="flash-partition" />
 <br/>
 <button class="btn btn-primary btn-lg btn-block" id="connect-button">Selecciona dispositivo</button>	
-<div>
 <input type="submit" class="btn btn-primary btn-lg btn-block" value="Flashear comando" />
+	
 <input type="submit" class="btn btn-primary btn-lg btn-block" value="Flashear partición" />
-</div>
-
+ 
+<div>
+            <p>Status: <span class="status-field">Not connected</span></p>
+            <button class="connect-button">Connect device</button>
+        </div>
 <br />
 <script src="fastboot/dist/fastboot.mjs" type="module"></script>
 <script src="fastboot/demo/download.js" type="module"></script>
