@@ -811,17 +811,16 @@ var element = document.getElementsByClassName("w3-white");
 <br/>
 <br/>
 <p>Estado: <span class="status-field">Sin conexión</span></p>
-<form class="flash-form">
-<form class="command-form">	 
+	 
 <input type="file" class="center-block" name="flash-file" class="flash-file" /> <form class="command-form">
-<input type="text" name="command" placeholder="Escribe un comando: fastboot reboot fastboot" style="text-align: center;" class="command-input" />
-<input type="text" name="flash-partition" placeholder="Escribe una partición: system" style="text-align: center;" class="flash-partition" />
 <br/>
-<button class="connect-button btn btn-primary btn-lg btn-block">Selecciona dispositivo</button>		
-<input type="submit" class="btn btn-primary btn-lg btn-block" value="Flashear comando" />	
-<input type="submit" class="btn btn-primary btn-lg btn-block" value="Flashear partición" />
-</form>
-</form>
+<button class="connect-button btn btn-primary btn-lg btn-block">Selecciona dispositivo</button>
+<form class="command-form">
+<input type="text" name="command" placeholder="Escribe un comando: fastboot reboot fastboot" style="text-align: center;" class="command-input" />
+<input type="submit" class="btn btn-primary btn-lg btn-block" value="Flashear comando" /></form>
+<form class="flash-form">
+<input type="text" name="flash-partition" placeholder="Escribe una partición: system" style="text-align: center;" class="flash-partition" />
+<input type="submit" class="btn btn-primary btn-lg btn-block" value="Flashear partición" /></form>
 <br />
 <head>
 <script src="fastboot.mjs" type="module"></script>
