@@ -51,8 +51,81 @@ background: #000000;
  .menu-side {
 background-color: #000000;   
 font-color: white;
-}    	    
-	
+}    	
+	    
+	    
+.text_1 {
+  animation: text1;
+font-color: white;
+}
+.text_2 {
+  animation: text2;
+font-color: white;
+}
+	    
+.text_3 {
+  animation: text2;
+font-color: white;
+}
+    
+.text_4 {
+  animation: text2;
+font-color: white;
+}
+	    
+	    
+.text_5 {
+  animation: text2;
+font-color: white;
+}
+	    
+.text_6 {
+  animation: text2;
+font-color: white;
+}	    
+	    
+	    
+.text_1, .text_2 {
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  position: relative;
+  animation-duration: 10s;
+  animation-timing-function: steps(25, end);
+  animation-iteration-count: infinite;
+}
+.text_1::after, .text_2::after, text_3::after, text_4::after, text_5::after, text_6::after {
+  content: "|";
+  position: absolute;
+  right: 0;
+  animation: caret infinite;
+  animation-duration: 3s;
+  animation-timing-function: steps(1, end);
+}
+
+
+@keyframes text2 {
+  0%, 50%, 100% {
+    width: 0;
+  }
+  
+  60%, 90% {
+    width: 11em;
+font-color: white;
+  }
+}
+@keyframes text1 {
+  0%, 50%, 100% {
+    width: 0;
+  }
+  10%, 40% {
+    width: 8em;
+font-color: white;
+
+  }
+}	    
+	    
+	 	
 	.home {
 background-color: #000000;   
 color: #FFFFFF;
@@ -719,7 +792,7 @@ var element = document.getElementsByClassName("w3-white");
 	     <br />	
 	  <div class="android-bi-together-section mdl-typography--text-center">
 	 <div class="logo-font android-slogan">Bienvenido a HackTendo.</div>	
-          <div class="logo-font android-sub-slogan">Una página sobre la Scene de consolas de Nintendo.</div>	
+          <div class="logo-font android-sub-slogan">Una página sobre la Scene de consolas de Nintendo <span class="text_1" style="color: #ffffff">3DS</span><span class="text_2" style="color: #ffffff">NX</span><span class="text_3" style="color: #ffffff">WiiU</span><span class="text_4" style="color: #ffffff">DSi</span><span class="text_5" style="color: #ffffff">Wii Mini</span><span class="text_6" style="color: #ffffff">...</span></div>.</div>	
  	
 			   <br> 	
 			   <br>	
