@@ -561,10 +561,13 @@ var element = document.getElementsByClassName("w3-white");
   element.classList.toggle("w3-white")
 	var element = document.getElementsByClassName("submenu");
   element.classList.toggle("submenu")
-
-
-	
-	
+	else
+		{
+	 if (document.getElementById("imgClickAndChange").src == "images/light.png") 
+        {
+            document.getElementById("imgClickAndChange").src = "images/dark.png";
+		}
+   }
 }
 </script>
 	
@@ -576,21 +579,8 @@ var element = document.getElementsByClassName("w3-white");
       <ul class="sidenav" id="menu-side">
       <li id="bionic">   
 	<br />
-<img onclick="myFunction() changeImage()" id="imgClickAndChange" src="images/light.png" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect pull-right"></a>  
+<img onclick="myFunction()" id="imgClickAndChange" src="images/light.png" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect pull-right"></a>  
   
-<script language="javascript">
-    function changeImage() {
-
-        if (document.getElementById("imgClickAndChange").src == "images/light.png") 
-        {
-            document.getElementById("imgClickAndChange").src = "images/dark.png";
-        }
-        else 
-        {
-            document.getElementById("imgClickAndChange").src = "images/light.png";
-        }
-    }
-</script>
 <br />
 	    <br />
 	      <br />
