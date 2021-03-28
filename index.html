@@ -570,16 +570,28 @@ var element = document.getElementsByClassName("w3-white");
 	
          <section id="dark-waves">
        <a href="#" class="sidenav-trigger" data-target="menu-side">
-      <i class="material-icons-outlined"  style="font-size: 50px">menu</i>
+      <i class="material-icons-outlined" style="font-size: 50px">menu</i>
     </a>
 
       <ul class="sidenav" id="menu-side">
       <li id="bionic">   
 	
-<br />
-	
-<img onclick="myFunction()" img src="images/dark.png" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect pull-left margin-left:5px; "></a>
+<img onclick="myFunction() changeImage()" id="imgClickAndChange" img src="images/dark.png" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect pull-right margin-right:5px;"></a>
   
+<script language="javascript">
+    function changeImage() {
+
+        if (document.getElementById("imgClickAndChange").src == "images/dark.png") 
+        {
+            document.getElementById("imgClickAndChange").src = "images/light.png";
+        }
+        else 
+        {
+            document.getElementById("imgClickAndChange").src = "images/dark.png";
+        }
+    }
+</script>
+<br />
 <br />
 	    <br />
 	      <br />
