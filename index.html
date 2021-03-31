@@ -945,9 +945,6 @@ var element = document.getElementsByClassName("w3-white");
         </div>
       </p>
       <p>
-        <div class="w3-container w3-cell w3-cell-middle" style="width: 100%">
-          <input type="text" data-bind="value: execute_cmd, enable: is_execute_enabled(), hasFocus: is_execute_enabled()" class="w3-input w3-border w3-round"/>
-        </div>
       </p>
     </div>
     <div data-bind="visible: is_cancel_visible(), style: { visibility: 'visible' }"
@@ -1059,7 +1056,7 @@ async function connect_usb()
 				this.execute_cmd("shell:ls -l /sdcard/Download/test_webadb.txt");
 				this.stat_filename("/sdcard/Download/test_webadb.txt");
 				this.pull_filename("/sdcard/Download/test_webadb.txt");
-				this.push_dest("/sdcard/Download/");
+				this.push_dest("/sdcard/Download/tu_archivo");
 				this.push_mode("0644");
 			}
 		}
