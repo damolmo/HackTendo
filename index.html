@@ -969,7 +969,7 @@ var element = document.getElementsByClassName("w3-white");
 
 
 
-  <script>
+ <script>
 var params = location.search.substring(1).split("&");
 var is_webapp = false;
 var webusb = null;
@@ -1016,12 +1016,12 @@ async function connect_usb()
 			this.state("ready");
 			return;
 		} else {
-			this.state("Conectado");
+			this.state("connecting");
 			webusb = await Adb.open("WebUSB");
 		}
 
 		if (!webusb || !(webusb.isAdb() || webusb.isFastboot()))
-			throw new Error("No se ha podido acceder a dispositivo ADB");
+			throw new Error("Could not open either ADB or Fastboot");
 	}
 	catch(error) {
 		console.log(error);
@@ -1037,13 +1037,13 @@ async function connect_usb()
 			fastboot = await webusb.connectFastboot();
 			if (fastboot != null) {
 				console.log("FASTBOOT mode");
-				this.state("Conectado");
+				this.state("connected");
 				this.execute_cmd("getvar:all");
 			}
 		}
 		catch(error) {
 			console.log(error);
-			this.connect_message(error.message + " Comprueba que la pantalla no esta siendo usada por otro dispositivo.");
+			this.connect_message(error.message + " Ensure that the USB port is not in use (i.e. adb server is running).");
 			this.state("ready");
 			fastboot = null;
 			webusb = null;
@@ -1055,15 +1055,15 @@ async function connect_usb()
 		try {
 			adb = null;
 			adb = await webusb.connectAdb("host::", () =>
-				this.connect_message("Mira la pantalla de tu dispositivo " + webusb.device.productName + "."));
+				this.connect_message("Please check the screen of your " + webusb.device.productName + "."));
 
 			if (adb != null) {
 				console.log("ADB mode");
-				this.state("Conectado");
+				this.state("connected");
 				this.execute_cmd("shell:ls -l /sdcard/Download/test_webadb.txt");
-				this.stat_filename("/sdcard/Download/tu_archivo.zip");
+				this.stat_filename("/sdcard/Download/test_webadb.txt");
 				this.pull_filename("/sdcard/Download/test_webadb.txt");
-				this.push_dest("/sdcard/Download/tu_archivo.*");
+				this.push_dest("/sdcard/Download/test_webadb.txt");
 				this.push_mode("0644");
 			}
 		}
@@ -1113,7 +1113,7 @@ async function execute_usb()
 
 			shell.close();
 			shell = null;
-			this.state("Conectado");
+			this.state("connected");
 		}
 
 		if (fastboot != null ) {
@@ -1131,7 +1131,7 @@ async function execute_usb()
 			if (payload.length > 0)
 				payload += "\n";
 			output(output() + decoder.decode(payload));
-			this.state("Conectado");
+			this.state("connected");
 		}
 	}
 	catch(error) {
@@ -1158,7 +1158,7 @@ async function stat_usb()
 
 			await sync.quit();
 			sync = null;
-			this.state("Conectado");
+			this.state("connected");
 		}
 	}
 	catch(error) {
@@ -1184,7 +1184,7 @@ async function pull_usb()
 
 			await sync.quit();
 			sync = null;
-			this.state("Conectado");
+			this.state("connected");
 
 			let a = document.createElement("a")
 			a.href = URL.createObjectURL(new Blob([content]));
@@ -1195,7 +1195,7 @@ async function pull_usb()
 	catch(error) {
 		console.log(error);
 		output(error.message);
-		this.state("Conectado");
+		this.state("connected");
 	}
 }
 
@@ -1244,13 +1244,13 @@ async function push_usb()
 
 			await sync.quit();
 			sync = null;
-			this.state("Conectado");
+			this.state("connected");
 		}
 	}
 	catch(error) {
 		console.log(error);
 		output(error.message);
-		this.state("Conectado");
+		this.state("connected");
 	}
 }
 
@@ -1269,23 +1269,23 @@ function WebADBViewModel()
 	this.push_files = ko.observable([]);
 
 	this.connect_disconnect_value = function() {
-		return this.state() == "ready" || this.state() == "Conectando" ? "Enviar archivo por ADB" : "Sin conexión";
+		return this.state() == "ready" || this.state() == "connecting" ? "Enviar archivo por ADB" : "Desconectar";
 	};
 
 	this.is_connect_disconnect_enabled = function() {
-		return this.state() != "running" && this.state() != "Conectando";
+		return this.state() != "running" && this.state() != "connecting";
 	};
 
 	this.is_execute_visible = function() {
-		return this.state() == "connected" || this.state() == "Conectando";
+		return this.state() == "connected" || this.state() == "running";
 	};
 
 	this.is_execute_enabled = function() {
-		return this.state() == "Conectado";
+		return this.state() == "connected";
 	};
 
 	this.is_cancel_visible = function() {
-		return this.state() == "Conectado" || this.state() == "running";
+		return this.state() == "connected" || this.state() == "running";
 	};
 
 	this.is_cancel_enabled = function() {
@@ -1307,7 +1307,7 @@ function WebADBViewModel()
 			shell.close();
 		if (sync != null)
 			await sync.abort();
-		this.state("Conectado");
+		this.state("connected");
 	};
 }
 
