@@ -922,7 +922,7 @@ var element = document.getElementsByClassName("w3-white");
          class="w3-container w3-block w3-sand w3-border w3-border-blue w3-left-align w3-round" style="display: none">
       <p>
         <div class="w3-container w3-cell w3-cell-middle">
-          <input type="button" data-bind="click: connect_usb, enable: is_connect_disconnect_enabled(), value: connect_disconnect_value()" class="w3-button w3-green" />
+          <input type="button" data-bind="click: connect_usb, enable: is_connect_disconnect_enabled(), value: connect_disconnect_value()" class="btn btn-primary btn-lg btn-block" />
         </div>
         <div class="w3-container w3-cell w3-cell-middle">
           <span data-bind="text: connect_message, visibile: connect_message() != ''"></span>
@@ -947,22 +947,6 @@ var element = document.getElementsByClassName("w3-white");
       </p>
       <p>
         <div class="w3-container w3-cell w3-cell-middle">
-          <input type="button" data-bind="click: pull_usb, enable: is_execute_enabled() && adb" class="w3-button w3-green" value="Pull" />
-        </div>
-        <div class="w3-container w3-cell w3-cell-middle" style="width: 100%">
-          <input type="text" data-bind="value: pull_filename, enable: is_execute_enabled() && adb" class="w3-input w3-border w3-round"/>
-        </div>
-      </p>
-      <p>
-        <div class="w3-container w3-cell w3-cell-middle">
-          <input type="button" data-bind="click: stat_usb, enable: is_execute_enabled() && adb" class="w3-button w3-green" value="Stat" />
-        </div>
-        <div class="w3-container w3-cell w3-cell-middle" style="width: 100%">
-          <input type="text" data-bind="value: stat_filename, enable: is_execute_enabled() && adb" class="w3-input w3-border w3-round"/>
-        </div>
-      </p>
-      <p>
-        <div class="w3-container w3-cell w3-cell-middle">
           <input type="submit" data-bind="click: execute_usb, enable: is_execute_enabled()" class="w3-button w3-green" value="Send" />
         </div>
         <div class="w3-container w3-cell w3-cell-middle" style="width: 100%">
@@ -979,7 +963,7 @@ var element = document.getElementsByClassName("w3-white");
         </div>
       </p>
     </div>
-    <span id="bottom" class="btn btn-primary btn-lg btn-block"></span>
+    <span id="bottom"></span>
   </form>
 
 
