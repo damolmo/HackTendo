@@ -1216,7 +1216,7 @@ function xfer_stats(start_time, done, total, output)
 
 	let out = "";
 	out += Math.round(100 * done / total) + "% (";
-	out += Math.round(done / 1024) + " KiB in ~" + delta + " secs at avg " + average + " KiB/s, cur " + instant + " KiB/s)";
+	out += Math.round(done / 1024) + " KiB en ~" + delta + " segundos)";
 	output(out);
 }
 
