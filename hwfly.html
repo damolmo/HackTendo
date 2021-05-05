@@ -1,0 +1,917 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="waves.css">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.5.10/plyr.css"/>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Página sobre Nintendo.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>HackTendo</title>
+ <link rel="shortcut icon" type="image/png" href="favicon.png">	  
+<script src="/fastboot/demo/download.js" type="module"></script>
+<script src="/fastboot/demo/ui.js" type="module"></script>
+<script src="/fastboot/dist/fastboot.mjs" type="module"></script>
+	  
+    <style>
+	
+.center-block {
+  margin: auto;
+  display: block;
+}
+	    
+body {
+
+  background-color: white;
+  color: black;
+
+}
+ android-header {
+
+  background-color: white;
+  color: black;
+
+}  
+
+.buttonFooter {
+background-color: #3072AB;
+color: white;
+border: 10px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+	}
+ .dark-waves {
+background: #000000;   
+
+}    
+
+ .menu-side {
+background-color: #000000;   
+font-color: white;
+}    	    
+	
+	.home {
+background-color: #000000;   
+color: #FFFFFF;
+	font-color: #FFFFFF;	
+}    	        
+	    
+.android {
+background-color: #000000;   
+color: #FFFFFF;
+}  
+	    
+	.zali {
+background-color: #000000;   
+color: #FFFFFF;
+}     
+	    
+	.magenta {
+background-color: #000000;   
+color: #FFFFFF;
+}         
+	    
+	    
+	.archivado {
+background-color: #000000;   
+color: #FFFFFF;
+}        	    
+	    
+	 .fuchsia {
+background-color: #000000;   
+color: #FFFFFF;
+}        
+	    
+	.sailfish {
+background-color: #000000;   
+color: #FFFFFF;
+}         
+	    
+			.zircon {
+background-color: #000000;   
+color: #FFFFFF;
+}    	     
+	  
+	    
+	.chocolate {
+background-color: #000000;   
+color: #FFFFFF;
+}    	         
+	    
+	    
+	    
+			.bionic {
+background-color: #000000;   
+color: #FFFFFF;
+}    	     
+			.soli {
+background-color: #000000;   
+color: #FFFFFF;
+}    
+	    
+  
+	    
+	    
+	.google {
+background-color: #000000;   
+font-color: white;
+}
+	    
+	.wave1 {
+background-color: #000000;   
+font-color: white;
+}    	 
+	    
+		.wave2 {
+background-color: #000000;   
+font-color: white;
+}      
+	
+	.wave3 {
+background-color: #000000;   
+font-color: white;
+}  	    
+	    
+	    
+	    
+		.wave4 {
+background-color: #000000;   
+font-color: white;
+}      
+
+	.n3ds {
+background-color: #000000;   
+color: #FFFFFF;
+}    	  
+	    
+	    
+.switch {
+background-color: #000000;   
+color: #FFFFFF;
+}    
+	    
+.nwiiu {
+background-color: #000000;   
+color: #FFFFFF;
+}    
+	    
+	.ndsi {
+background-color: #000000;   
+color: #FFFFFF;
+}  
+	    
+	.nwiimini {
+background-color: #000000;   
+color: #FFFFFF;
+}    	    
+	    
+		.hhome {
+background-color: #000000;   
+color: #FFFFFF;
+}    	    
+	    
+	  	.aandroid {
+background-color: #000000;   
+color: #FFFFFF;
+}    	  
+	    
+	    
+	 	.nn3ds {
+background-color: #000000;   
+color: #FFFFFF;
+}    	   
+	    
+	   	.nuno {
+background-color: #000000;   
+color: #FFFFFF;
+} 			
+		.ndos {
+background-color: #000000;   
+color: #FFFFFF;		
+   		
+}    
+		.ntres {
+background-color: #000000;   
+color: #FFFFFF;
+}    	  
+	    
+		.ncuatro {
+background-color: #000000;   
+color: #FFFFFF;
+}    	    
+		.ncinco {
+background-color: #000000;   
+color: #FFFFFF;
+}    	    
+	    
+	  	.nseis {
+background-color: #000000;   
+color: #FFFFFF;
+}    
+	    
+		.nsiete {
+background-color: #000000;   
+color: #FFFFFF;
+}    	    
+
+
+
+
+. ncero {
+background-color: #000000;   
+color: #FFFFFF;
+} 			
+		.nocho {
+background-color: #000000;   
+color: #FFFFFF;		
+   		
+}    
+		.nnueve {
+background-color: #000000;   
+color: #FFFFFF;
+}    	  
+	    
+		.ndiez {
+background-color: #000000;   
+color: #FFFFFF;
+}    	    
+		.nveinte {
+background-color: #000000;   
+color: #FFFFFF;
+}    	    
+	    
+   
+	    
+		.ncuarenta {
+background-color: #000000;   
+color: #FFFFFF;
+}    	    
+
+.ncincuenta {
+background-color: #000000;   
+color: #FFFFFF;
+} 			
+  
+		.nsetenta {
+background-color: #000000;   
+color: #FFFFFF;
+}    	  
+	    
+		.nochenta {
+background-color: #000000;   
+color: #FFFFFF;
+}    	    
+		.nnoventa {
+background-color: #000000;   
+color: #FFFFFF;
+}    	    
+	    
+	  	.ncien {
+background-color: #000000;   
+color: #FFFFFF;
+}    
+	    
+		.ndoscientos {
+background-color: #000000;   
+color: #FFFFFF;
+}    	
+	    
+			.ddoscientos {
+background-color: #000000;   
+color: #FFFFFF;
+}    	     
+
+.ntrescientos {
+background-color: #000000;   
+color: #FFFFFF;
+} 			
+		.ncuatrocientos {
+background-color: #000000;   
+color: #FFFFFF;		
+   		
+}    
+		.nquinientos {
+background-color: #000000;   
+color: #FFFFFF;
+}    	  
+	    
+		.ncero {
+background-color: #000000;   
+color: #FFFFFF;
+}    	    
+
+.nn {
+background-color: #000000;   
+color: #FFFFFF;
+}    	    
+
+.nnn {
+background-color: #000000;   
+color: #FFFFFF;
+} 			
+		.nnnn {
+background-color: #000000;   
+color: #FFFFFF;		
+   		
+}    
+		.nnnnn {
+background-color: #000000;   
+color: #FFFFFF;
+}    	  
+	    
+		  	
+	    
+.menu-side.divider {   
+color: #000000;
+background-color: #000000;   
+}    	  
+
+	
+
+.ome {   
+color: white;
+
+}    	
+       
+	    
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(MaterialIcons/MaterialIcons-Regular.codepoints) format('codepoints'),
+    url(MaterialIcons/MaterialIcons-Regular.ttf) format('truetype');
+		   		    
+}	    
+	    
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}  
+
+
+</style>
+    
+    
+    <!-- Page styles -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+ <link rel="stylesheet" type="text/css" href="style.css" />
+ <!-- https://material.io/resources/icons/?style=outline -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:700,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">
+    <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="disqus.css">
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style>
+	     
+	  
+	  <style>
+		  
+		.collapsible-header {
+      background: transparent;
+      background-color: transparent;
+	 
+    }	
+		  
+		.header {
+      background: transparent;
+      background-color: transparent;
+	 color: transparent 
+    }
+		  
+		.sidenav-trigger {	
+  	
+		color: white;	
+			
+   	 
+		   }	  
+    </style>
+	   
+	  
+	<!-- Material ScrollTop stylesheet -->
+<link rel="stylesheet" href="dist/material-scrolltop.css" />
+
+<!-- material-scrolltop plugin -->
+<script src="dist/material-scrolltop.js"></script>  
+
+  </head>
+  <body>
+    <script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+	  var element = document.getElementById("dark-waves");
+  element.classList.toggle("dark-waves");
+		  var element = document.getElementById("menu-side");
+  element.classList.toggle("menu-side");
+	
+	
+	  var element = document.getElementById("home");
+  element.classList.toggle("home");
+	
+	  var element = document.getElementById("google");
+  element.classList.toggle("google");
+	
+	  var element = document.getElementById("x86");
+  element.classList.toggle("google");
+	
+	  var element = document.getElementById("archivado");
+  element.classList.toggle("google");
+	
+	  var element = document.getElementById("android");
+  element.classList.toggle("android");
+	
+	  var element = document.getElementById("zali");
+  element.classList.toggle("zali");
+	
+	  var element = document.getElementById("magenta");
+  element.classList.toggle("magenta");
+	
+	  var element = document.getElementById("fuchsia");
+  element.classList.toggle("fuchsia");
+	
+	  var element = document.getElementById("sailfish");
+  element.classList.toggle("sailfish");
+	
+	  var element = document.getElementById("bionic");
+  element.classList.toggle("bionic");
+	
+	var element = document.getElementById("chocolate");
+  element.classList.toggle("chocolate");
+	
+	  var element = document.getElementById("n3ds");
+  element.classList.toggle("n3ds");
+	  var element = document.getElementById("switch");
+  element.classList.toggle("nswitch");
+	
+	  var element = document.getElementById("nwiiu");
+  element.classList.toggle("nwiiu");
+	  var element = document.getElementById("ndsi");
+  element.classList.toggle("ndsi");
+	  var element = document.getElementById("nwiimini");
+  element.classList.toggle("nwiimini");
+	
+	
+	 var element = document.getElementById("hhome");
+  element.classList.toggle("hhome");
+	 var element = document.getElementById("aandroid");
+  element.classList.toggle("aandroid");
+	 var element = document.getElementById("nn3ds");
+  element.classList.toggle("nn3ds");
+	 var element = document.getElementById("nuno");
+  element.classList.toggle("nuno");
+	 var element = document.getElementById("ndos");
+  element.classList.toggle("ndos");
+	 var element = document.getElementById("ntres");
+  element.classList.toggle("ntres");
+	 var element = document.getElementById("ncuatro");
+  element.classList.toggle("ncuatro");
+	 var element = document.getElementById("ncinco");
+  element.classList.toggle("ncinco");
+	 var element = document.getElementById("nseis");
+  element.classList.toggle("nseis");
+	 var element = document.getElementById("nsiete");
+  element.classList.toggle("nsiete");
+var element = document.getElementById("ncero");
+  element.classList.toggle("ncero");
+
+	 var element = document.getElementById("nocho");
+  element.classList.toggle("nocho");
+	 var element = document.getElementById("nnueve");
+  element.classList.toggle("nnueve");
+	 var element = document.getElementById("ndiez");
+  element.classList.toggle("ndiez");
+	 var element = document.getElementById("nveinte");
+  element.classList.toggle("nveinte");
+	 var element = document.getElementById("ncuarenta");
+  element.classList.toggle("ncuarenta");
+	 var element = document.getElementById("ncincuenta");
+  element.classList.toggle("ncincuenta");
+
+
+	 var element = document.getElementById("nsetenta");
+  element.classList.toggle("nsetenta");
+	 var element = document.getElementById("nochenta");
+  element.classList.toggle("nochenta");
+	 var element = document.getElementById("nnoventa");
+  element.classList.toggle("nnoventa");
+	 var element = document.getElementById("ncien");
+  element.classList.toggle("ncien");
+	 var element = document.getElementById("ndoscientos");
+  element.classList.toggle("ndoscientos");
+	 var element = document.getElementById("ddoscientos");
+  element.classList.toggle("ddoscientos");
+	 var element = document.getElementById("ntrescientos");
+  element.classList.toggle("ntrescientos");
+	 var element = document.getElementById("ncuatrocientos");
+  element.classList.toggle("ncuatrocientos");
+	 var element = document.getElementById("nquinientos");
+  element.classList.toggle("nquinientos");
+
+	var element = document.getElementById("nn");
+  element.classList.toggle("nn");
+	 var element = document.getElementById("nnn");
+  element.classList.toggle("nnn");
+	 var element = document.getElementById("nnnn");
+  element.classList.toggle("nnnn");
+	 var element = document.getElementById("nnnnn");
+  element.classList.toggle("nnnnn");
+
+var element = document.getElementsByClassName("hr.solid");
+  element.classList.toggle("divider2")
+
+var element = document.getElementsByClassName("w3-white");
+  element.classList.toggle("w3-white")
+	var element = document.getElementsByClassName("submenu");
+  element.classList.toggle("submenu")
+
+
+	
+	
+}
+</script>
+	
+         <section id="dark-waves">
+       <a href="#" class="sidenav-trigger" data-target="menu-side">
+      <i class="material-icons-outlined"  style="font-size: 50px">menu</i>
+    </a>
+
+      <ul class="sidenav" id="menu-side">
+      <li id="bionic">   
+	
+<br />
+	<br />
+	    <br />
+	      <br />
+      <li id="home"> 
+        <a href="https://www.hacktendo.net/index.html">
+            <i class="material-icons md-light" style="color: red"><b id="me">home</b></i>
+         <b><span style="color: #565656;">Inicio</span></b>
+        </a>
+      
+			
+	      <li class="submenu" id="archivado">
+			
+					<a href="#"> <i class="material-icons-outlined"  style="color:blue">book</i><b id="soli"><span style="color: #575757;">Archivo</span></b></a>
+					<ul class="children" style="display: none;">
+<li><a href="https://www.hacktendo.net/android"><i class="material-icons-outlined" style="color:orange" >description</i><b id="zircon"><span style="color: #777777;">Android Oreo Switch</span></b></a></li>
+<li><a href="https://www.hacktendo.net/bannerbomb3"><i class="material-icons-outlined" style="color:orange" >description</i><b id="zircon"><span style="color: #777777;">BannerBomb3</span></b></a></li>
+<li><a href="https://www.hacktendo.net/capturadora"><i class="material-icons-outlined" style="color:orange" >description</i><b id="zircon"><span style="color: #777777;">Capturadora SW</span></b></a></li>
+<li><a href="https://www.hacktendo.net/News_Atmosphere"><i class="material-icons-outlined" style="color:orange" >description</i><b id="zircon"><span style="color: #777777;">Noticia: Atmosphère</span></b></a></li>
+<li><a href="https://www.hacktendo.net/News_Darkumbra"><i class="material-icons-outlined" style="color:orange" >description</i><b id="zircon"><span style="color: #777777;">Noticia: Darkumbra</span></b></a></li>
+<li><a href="https://www.hacktendo.net/News_SXCORELITE"><i class="material-icons-outlined" style="color:orange" >description</i><b id="zircon"><span style="color: #777777;">Noticia: SX Chips 1</span></b></a></li>
+<li><a href="https://www.hacktendo.net/SXCL"><i class="material-icons-outlined" style="color:orange" >description</i><b id="zircon"><span style="color: #777777;">Noticia: SX Chips 2</span></b></a></li>
+<li><a href="https://www.hacktendo.net/Switch920"><i class="material-icons-outlined" style="color:orange" >description</i><b id="zircon"><span style="color: #777777;">Noticia: SW FW 9.2</span></b></a></li>
+<li><a href="https://www.hacktendo.net/Switch1000"><i class="material-icons-outlined" style="color:orange" >description</i><b id="zircon"><span style="color: #777777;">Noticia: SW FW 10.0</span></b></a></li>
+<li><a href="https://www.hacktendo.net/no_way"><i class="material-icons-outlined" style="color:orange" >description</i><b id="zircon"><span style="color: #777777;">SM64 OpenGL Web</span></b></a></li>
+
+			
+						
+			</ul>
+   	 </li> 
+	      
+	      
+	      
+	    	 
+		<li class="submenu" id="google">
+			
+					<a href="#"> <i class="material-icons-outlined"  style="color:green">android</i><b id="soli"><span style="color: #575757;">Google</span></b></a>
+					<ul class="children" style="display: none;">
+<li><a href="https://github.com/daviiid99/K-Touch_i9"><i class="material-icons-outlined" style="color:orange" >description</i><b id="zircon"><span style="color: #777777;">K-TOUCH i9</span></b></a></li>
+
+			</ul>
+   	 </li> 
+	      
+	      
+	      <li class="submenu" id="x86">
+			
+					<a href="#"> <i class="material-icons-outlined"  style="color:grey">devices</i><b id="soli"><span style="color: #575757;">PC</span></b></a>
+					<ul class="children" style="display: none;">
+<li><a href="https://www.hacktendo.net/chromeos"><i class="material-icons-outlined" style="color:orange" >laptop_chromebook</i><b id="K-TOUCH i9"><span style="color: #777777;">ChromeOS X64</span></b></a></li>
+<li><a href="https://github.com/daviiid99/fuchsiaOS-Builds"><i class="material-icons-outlined" style="color:purple" >laptop_chromebook</i><b id="zircon"><span style="color: #777777;">FuchsiaOS X64</span></b></a></li>
+<li><a href="https://github.com/daviiid99/Acer-Aspire-E5-571G"><i class="material-icons-outlined" style="color:grey" >laptop_mac</i><b id="zircon"><span style="color: #777777;">macOS X64 Broadwell</span></b></a></li>
+<li><a href="https://github.com/daviiid99/Windows-10X-Builds"><i class="material-icons-outlined" style="color:blue" >laptop_windows</i><b id="zircon"><span style="color: #777777;">Windows 10X X64</span></b></a></li>
+			</ul>
+   	 </li> 
+	      
+	      
+	      
+ 	<li class="submenu" id="android">
+			
+					<a href="#"> <i class="material-icons-outlined" style="color:blue">videogame_asset</i><b id="nn"><span style="color: #575757;">Nintendo 3DS</span></b></a>
+					<ul class="children" style="display: none;">
+         
+<li><a href="https://www.hacktendo.net/A9LH"><i class="material-icons-outlined" style="color:orange" >description</i><b id="ncero"><span style="color: #777777;">A9LH a B9S</b></a></li>
+ <li><a href="https://www.hacktendo.net/desbrickear3ds"><i class="material-icons-outlined" style="color:orange" >description</i><b id="ncero"><span style="color: #777777;">Desbrickear 3DS</span></b></a></li>
+ <li><a href="https://www.hacktendo.net/bannerbomb3"><i class="material-icons-outlined" style="color:orange" >description</i><b id="ncero"><span style="color: #777777;">Exploit BannerBomb</span></b></a></li>
+ <li><a href="https://www.hacktendo.net/ntrboothax"><i class="material-icons-outlined" style="color:orange" >description</i><b id="ncero"><span style="color: #777777;">Exploit NtrBootHax</span></b></a></li>
+ <li><a href="https://www.hacktendo.net/rosalina"><i class="material-icons-outlined" style="color:orange" >description</i><b id="ncero"><span style="color: #777777;">Guía Rosalina</span></b></a></li>
+<li><a href="https://www.hacktendo.net/vcc"><i class="material-icons-outlined" style="color:orange" >description</i><b id="ncero"><span style="color: #777777;">Guía VCC</span></b></a></li>
+  <li><a href="https://github.com/daviiid99/Nintendo-3DS-Kit"><i class="material-icons-outlined" style="color:orange" >description</i><b id="ncero"><span style="color: #777777;">Nintendo 3DS Kit</span></b></a></li>
+ 
+			</ul>
+   	 </li> 
+	
+	   
+	   
+
+		<li class="submenu" id="zali">
+			
+					<a href="#"> <i class="material-icons-outlined" style="color:blue">videogame_asset</i><b id="nn"><span style="color: #575757;">Nintendo Switch</span></b></a>
+					<ul class="children" style="display: none;">
+         
+<li><a href="https://www.hacktendo.net/rcm"><i class="material-icons-outlined" style="color:orange" >description</i><b id="ncero"><span style="color: #777777;">Acceder RCM</span></b></a></li>
+ <li><a href="https://www.hacktendo.net/daybreak"><i class="material-icons-outlined" style="color:orange" >description</i><b id="ncero"><span style="color: #777777;">Actualizar Offline</span></b></a></li>
+ <li><a href="https://github.com/daviiid99/Lineageos-17.1-T210-Switch"><i class="material-icons-outlined" style="color:orange" >description</i><b id="ncero"><span style="color: #777777;">Android en Switch</span></b></a></li>
+ <li><a href="https://www.hacktendo.net/nand"><i class="material-icons-outlined" style="color:orange" >description</i><b id="ncero"><span style="color: #777777;">Backup de la NAND</span></b></a></li>
+ <li><a href="https://www.hacktendo.net/atmosphere"><i class="material-icons-outlined" style="color:orange" >description</i><b id="ncero"><span style="color: #777777;">Ejecutar CFW</span></b></a></li>
+ <li><a href="https://www.hacktendo.net/flog"><i class="material-icons-outlined" style="color:orange" >description</i><b id="ncero"><span style="color: #777777;">Ejecutar Flog</span></b></a></li>
+			 <li><a href="https://www.hacktendo.net/SXChips"><i class="material-icons-outlined" style="color:orange" >description</i><b id="ncero"><span style="color: #777777;">TX SX Chips</span></b></a></li>
+
+			</ul>
+   	 </li> 
+ 	
+	   
+     	
+		<li class="submenu" id="magenta"  >
+			
+					<a href="#"><i class="material-icons-outlined" style="color:blue">videogame_asset</i><b id="nn"><span style="color: #575757;">Nintendo WiiU</span></b></a>
+					<ul class="children" style="display: none;">
+     <li><a href="https://www.hacktendo.net/mocha"><i class="material-icons-outlined" style="color:orange" >description</i><b id="nsetenta"><span style="color: #777777;">Ejecutar MochaCFW</span></b></a></li>
+        <li><a href="https://www.hacktendo.net/wiivc"><i class="material-icons-outlined"  style="color:orange" >description</i><b id="nochenta"><span style="color: #777777;">Guía WiiVC Injector</span></b></a></li>
+        <li><a href="https://www.hacktendo.net/wiiu"><i class="material-icons-outlined" style="color:orange" >description</i><b id="nnoventa"><span style="color: #777777;">Historia WiiU</span></b></a></li>
+       <li><a href="https://www.hacktendo.net/haxcbhc"><i class="material-icons-outlined" style="color:orange"  >description</i><b id="ncien"><span style="color: #777777;">Haxchi+CBHC</span></b></a></li>     
+            </ul>
+   		 </li> 
+
+	   
+		<li class="submenu" id="fuchsia">
+			
+					<a href="#"><i class="material-icons-outlined" style="color:blue">videogame_asset</i><b id="nn"><span style="color: #575757;">Nintendo DSi</span></b></a>
+					<ul class="children" style="display: none;">
+          <li><a href="https://www.hacktendo.net/Bye-UnLaunch"><i class="material-icons-outlined" style="color:orange">description</i><b id="ndoscientos"><span style="color: #777777;">Borrar UnLaunch</span></b></a></li>
+	  <li><a href="https://www.hacktendo.net/twlmenu"><i class="material-icons-outlined" style="color:orange">description</i><b id="ddoscientos"><span style="color: #777777;">TwiLightMenu++</span></b></a></li>
+        <li><a href="https://www.hacktendo.net/hiyaflipnote"><i class="material-icons-outlined" style="color:orange">description</i><b id="ntrescientos"><span style="color: #777777;">HiyaCFW (FlipNote)</span></b></a></li>
+        <li><a href="https://www.hacktendo.net/hiyacamera"><i class="material-icons-outlined" style="color:orange">description</i><b id="ncuatrocientos"><span style="color: #777777;">HiyaCFW (Camera)</span></b></a></li>
+           </ul>
+   		 </li> 
+		
+		  
+		<li class="submenu" id="sailfish">
+			
+					<a href="#"><i class="material-icons-outlined" style="color:blue">videogame_asset</i><b id="nn"><span style="color: #575757;">Nintendo Wii Mini</span></b></a>
+					<ul class="children" style="display: none;">
+         
+			 <li><a href="https://www.hacktendo.net/bluebomb"><i class="material-icons-outlined" style="color:orange">description</i><b id="nquinientos"><span style="color: #777777;">Ejecutar BlueBomb</span></b></a></li>
+  
+			</ul>
+    </li>		
+	   <li id="chocolate"> 
+	<br />
+	      <br />
+	  <br />
+	      <br />
+	      <br />
+	      <br />     
+  
+        </li>
+
+    </ul>
+ </li>
+	</li>	
+	     <br />	
+	  <div class="android-bi-together-section mdl-typography--text-center">
+	 <div class="logo-font android-slogan">Bienvenido a HackTendo.</div>	
+          <div class="logo-font android-sub-slogan">Una página sobre la Scene de consolas de Nintendo.</div>	
+ 	
+			   <br> 	
+			   <br>	
+		 <a href="https://github.com/daviiid99" target="whatever"><img border="0" src="github.png"  style=max-width:100%     alt=""></a>
+		  <br/>
+	          <a href="https://paypal.me/daviiid99" target="whatever"><img border="0" src="paypal.png"  style=max-width:100%     alt=""></a>
+	
+		  
+		  <br> <br> <br/>
+	  	 </div> 
+		 <br> <br>
+  <div class="wave wave1"></div>	
+  <div class="wave wave2"></div>	
+  <div class="wave wave3"></div>	
+  <div class="wave wave4"></div>
+ </section> 
+          <a href="#screens">
+            
+            </button>
+          </a>
+        </div>
+		  
+		  
+		
+		     </div>
+        <div class="android-more-section">
+		<div style="text-align: center;">
+           <div class="android-section-title mdl-typography--display-1-color-contrast">Indicios en Taobao apuntan a nuevo chip</div>
+
+<div class="separator" style="clear: both; text-align: center;">
+<img border="0" data-original-height="442" data-original-width="952" src="sx2.jpg " style=max-width:100%  /></div>
+<div style="text-align: center;">
+<b>Un nuevo modchip para Nintendo Switch parece haber sido listado en Taobao según reportes de varios foros chinos y GBATemp, entre otros. </b></div>
+<img src="HWFLYr.jpg"
+     
+Este nuevo modchip, a diferencia de los del difunto <b>Team Xecuter</b>, contaría con soporte únicamente para las Nintendo Switch producidas solo a partir de 2019,
+<br/>
+Siendo estas las denominadas <b>Mariko<b/>, que a su vez incluye a <b>Nintendo Switch estándar y Nintendo Switch Lite (sin concretar aún soporte para esta)  </b>
+Por lo que las Erista, por primera vez, dejarían de estar fuera de soporte por parte de un chip chino, aunque es comprehensible dado que hay múltiples alternativas para ejecutar un CFW en ellas,
+salvo para aquellos que posean una iPatched.
+          
+<b> Según los datos que han trascendido, este modchip contaría con las siguientes versiones:
+HWFLY "estándar", sin interfaz de masterización FPGA y MCU, a unos 130 euros
+HWFLY PRO, con interfaz de masterización FPGA y MCU, a unos 170 euros
+<img src="HWFLYrender.jpg"
+
+Cómo usuario de Taobao y Idlefish he comprobado la existencoa de stock y actualmente parece estar agotado desde cualquier vendedor, a la espera de que
+desembarque en tiendas online que vendan fuera de china cómo ALibaba y ALiexpress.
+<br/>
+  
+En conclusión, estaríamos ante unos nuevos modchip que habrían usado probablemente la vulneración del hardware del chip del Team Xecuter, para dumpear el firmware y <br/>
+producir nuevos chips open-source que podrían ejecutar atmosphere, prescindiendo de ejecutar software cómo SXOS que solo sirve para ejecutar software ilegal y no firmado.
+
+       
+           
+           
+     
+
+<br />
+<br />
+<b><br /></b>
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+</div>
+            
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://https-ivanillo-github-io-android.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<script id="dsq-count-scr" src="//https-ivanillo-github-io-android.disqus.com/count.js" async></script>
+
+
+              
+      
+      </div>
+    </div>
+   
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	              <audio autoplay>
+  <source src="music.mp3" type="audio/mpeg" loop="on">
+Your browser does not support the audio element.
+</audio>               
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js">
+  </script>
+
+  <script>
+
+    document.addEventListener('DOMContentLoaded', function () {
+      var elems = document.querySelectorAll('.slider');
+      var instances = M.Slider.init(elems, {
+      });
+
+      var elems = document.querySelectorAll('.materialboxed');
+      var instances = M.Materialbox.init(elems);
+
+      var elems = document.querySelectorAll('.sidenav');
+      var instances = M.Sidenav.init(elems);
+
+    });
+
+  </script> 	
+		  <img onclick="myFunction()" img src="images/dark.png" id="view-source" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect"></a>
+  
+
+	         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	    
+	    
+	    
+	   <!-- Material button -->
+    <button class="material-scrolltop" type="button"></button>
+
+    <!-- Include js plugin -->
+    <script src="./dist/material-scrolltop.js"></script>
+
+<!-- Initialize material-scrolltop (minimal) -->
+<script>
+  $('body').materialScrollTop(); 
+</script>
+	</script>    
+	    
+	    
+	    	    <script>
+	  $(document).ready(main);
+ 
+var contador = 0;
+ 
+function main () {
+	$('.menu_bar').click(function(){
+		if (contador == 1) {
+			$('nav').animate({
+				left: '0'
+			});
+			contador = 0;
+		} else {
+			contador = 1;
+			$('nav').animate({
+				left: '-100%'
+			});
+		}
+	});
+ 
+	$('.submenu').click(function(){
+		$(this).children('.children').slideToggle();
+	});
+}
+</script>    
+  </body>
+					  
+		
+        		  
+	
+</html>
