@@ -748,35 +748,43 @@ var element = document.getElementsByClassName("w3-white");
         <div class="android-more-section">
            <div class="android-section-title mdl-typography--display-1-color-contrast">[GUÍA] Bluubomb: Exploit bluetooth primario</div>
 <br />
+<div style="text-align: center;">
+	<b>Bluubomb</b> es un exploit primario que hace uso de una vulnerabilidad de la consola WiiU para tener acceso al kernel y ejecutar código con todos los privilegios.
+	<br/>
+	Puedes leer toda la documentación sobre dicho exploit <a href="https://github.com/GaryOderNichts/bluubomb/blob/master/WRITEUP.md">Aquí</a>
+	<br/>		
+	
+	A continuación, puedes leer las instrucciones para ejecutar dicho exploit, en caso de que quieras probar en tu consola:
+	<br/>
 <img border="0" data-original-height="889" data-original-width="1580" src="bluubomb.png" style="max-width: 100%; text-align: center;" /></div>
 
 <div style="text-align: center;">
   <blockquote>
-  #Descarga las últimas dependencias en tu entorno linux
+<b>#Descarga las últimas dependencias en tu entorno linux</b>
 sudo apt upgrade&&install build-essential libbluetooth-dev libglib2.0-dev libdbus-1-dev
 
-#Clona el repositorio del emulador de Wii Remote
+<b>#Clona el repositorio del emulador de Wii Remote</b>
 mkdir -p bluubomb&&cd bluubomb
 git clone https://github.com/rnconrad/WiimoteEmulator.git
 
-#Compila BlueZ
+<b>#Compila BlueZ</b>
 source ./build-custom.sh
 
-#Deten el servicio bluetooth que se está ejecutando en tu pc
+<b>#Deten el servicio bluetooth que se está ejecutando en segundo plano tu pc</b>
 sudo systemctl disable --now bluetooth
 
-#Ejecuta el binario de BlueZ que has compilado
+<b>#Ejecuta el binario de BlueZ que has compilado</b>
 sudo ./bluez-4.101/dist/sbin/bluetoothd -d -n
 
-#Obten los últimos binarios de mi repositorio de GitHub
+<b>#Obten los últimos binarios de mi repositorio de GitHub</b>
 wget https://github.com/daviiid99/HackTendo/releases/download/WIIU/bluubomb_latest.zip
 unzip bluubomb_latest.zip
 cd bluubomb_latest
 
-#Haz ejecutable el binario de bluubomb
+<b>#Haz ejecutable el binario de bluubomb</b>
 sudo chmod +x bluubomb
 
-#Ejecuta uno de los siguientes comandos según el kernel que desees
+<b>#Ejecuta uno de los siguientes comandos según el kernel que desees</b>
 sudo ./bluubomb arm_kernel_fw_launcher.bin
 sudo ./bluubomb arm_kernel_loadfile.bin
 sudo ./bluubomb arm_kernel_region_free.bin
